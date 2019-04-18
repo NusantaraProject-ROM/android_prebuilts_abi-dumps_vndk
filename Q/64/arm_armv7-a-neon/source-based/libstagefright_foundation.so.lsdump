@@ -1528,6 +1528,9 @@
    "name" : "_ZN7android24MEDIA_MIMETYPE_AUDIO_RAWE"
   },
   {
+   "name" : "_ZN7android24MEDIA_MIMETYPE_AUDIO_WMAE"
+  },
+  {
    "name" : "_ZN7android24MEDIA_MIMETYPE_TEXT_3GPPE"
   },
   {
@@ -1636,6 +1639,9 @@
    "name" : "_ZN7android29MEDIA_MIMETYPE_AUDIO_EAC3_JOCE"
   },
   {
+   "name" : "_ZN7android29MEDIA_MIMETYPE_AUDIO_MS_ADPCME"
+  },
+  {
    "name" : "_ZN7android29MEDIA_MIMETYPE_CONTAINER_HEIFE"
   },
   {
@@ -1676,6 +1682,9 @@
   },
   {
    "name" : "_ZN7android33MEDIA_MIMETYPE_VIDEO_DOLBY_VISIONE"
+  },
+  {
+   "name" : "_ZN7android34MEDIA_MIMETYPE_AUDIO_DVI_IMA_ADPCME"
   },
   {
    "name" : "_ZN7android34MEDIA_MIMETYPE_AUDIO_MPEG_LAYER_IIE"
@@ -9733,6 +9742,12 @@
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/MediaDefs.h"
   },
   {
+   "linker_set_key" : "_ZN7android24MEDIA_MIMETYPE_AUDIO_WMAE",
+   "name" : "android::MEDIA_MIMETYPE_AUDIO_WMA",
+   "referenced_type" : "type-114",
+   "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/MediaDefs.h"
+  },
+  {
    "linker_set_key" : "_ZN7android24MEDIA_MIMETYPE_TEXT_3GPPE",
    "name" : "android::MEDIA_MIMETYPE_TEXT_3GPP",
    "referenced_type" : "type-114",
@@ -9949,6 +9964,12 @@
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/MediaDefs.h"
   },
   {
+   "linker_set_key" : "_ZN7android29MEDIA_MIMETYPE_AUDIO_MS_ADPCME",
+   "name" : "android::MEDIA_MIMETYPE_AUDIO_MS_ADPCM",
+   "referenced_type" : "type-114",
+   "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/MediaDefs.h"
+  },
+  {
    "linker_set_key" : "_ZN7android29MEDIA_MIMETYPE_CONTAINER_HEIFE",
    "name" : "android::MEDIA_MIMETYPE_CONTAINER_HEIF",
    "referenced_type" : "type-114",
@@ -10029,6 +10050,12 @@
   {
    "linker_set_key" : "_ZN7android33MEDIA_MIMETYPE_VIDEO_DOLBY_VISIONE",
    "name" : "android::MEDIA_MIMETYPE_VIDEO_DOLBY_VISION",
+   "referenced_type" : "type-114",
+   "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/MediaDefs.h"
+  },
+  {
+   "linker_set_key" : "_ZN7android34MEDIA_MIMETYPE_AUDIO_DVI_IMA_ADPCME",
+   "name" : "android::MEDIA_MIMETYPE_AUDIO_DVI_IMA_ADPCM",
    "referenced_type" : "type-114",
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/MediaDefs.h"
   },
