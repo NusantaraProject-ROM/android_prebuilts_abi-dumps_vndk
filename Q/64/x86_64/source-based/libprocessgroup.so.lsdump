@@ -8,8 +8,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "bool",
    "name" : "bool",
-   "referenced_type" : "type-7",
-   "self_type" : "type-7",
+   "referenced_type" : "type-5",
+   "self_type" : "type-5",
    "size" : 1
   },
   {
@@ -26,18 +26,9 @@
    "is_integral" : true,
    "linker_set_key" : "int",
    "name" : "int",
-   "referenced_type" : "type-14",
-   "self_type" : "type-14",
+   "referenced_type" : "type-12",
+   "self_type" : "type-12",
    "size" : 4
-  },
-  {
-   "alignment" : 8,
-   "is_integral" : true,
-   "linker_set_key" : "long",
-   "name" : "long",
-   "referenced_type" : "type-5",
-   "self_type" : "type-5",
-   "size" : 8
   },
   {
    "alignment" : 4,
@@ -48,12 +39,6 @@
    "referenced_type" : "type-4",
    "self_type" : "type-4",
    "size" : 4
-  },
-  {
-   "linker_set_key" : "void",
-   "name" : "void",
-   "referenced_type" : "type-6",
-   "self_type" : "type-6"
   }
  ],
  "elf_functions" :
@@ -74,7 +59,31 @@
    "name" : "SetTaskProfiles"
   },
   {
-   "name" : "UsePerAppMemcg"
+   "name" : "_Z14UsePerAppMemcgv"
+  },
+  {
+   "name" : "_Z16killProcessGroupjii"
+  },
+  {
+   "name" : "_Z18createProcessGroupjib"
+  },
+  {
+   "name" : "_Z20killProcessGroupOncejii"
+  },
+  {
+   "name" : "_Z20setProcessGroupLimitjil"
+  },
+  {
+   "name" : "_Z22removeAllProcessGroupsv"
+  },
+  {
+   "name" : "_Z24setProcessGroupSoftLimitjil"
+  },
+  {
+   "name" : "_Z25setProcessGroupSwappinessjii"
+  },
+  {
+   "name" : "_ZN11TaskProfile21EnableResourceCachingEv"
   },
   {
    "name" : "_ZN12TaskProfiles11GetInstanceEv"
@@ -93,6 +102,9 @@
   },
   {
    "name" : "_ZN15SetCgroupAction18IsAppDependentPathERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN15SetCgroupAction21EnableResourceCachingEv"
   },
   {
    "name" : "_ZN15SetCgroupActionC1ERK16CgroupControllerRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE"
@@ -582,34 +594,13 @@
    "name" : "cpusets_enabled"
   },
   {
-   "name" : "createProcessGroup"
-  },
-  {
    "name" : "get_sched_policy"
   },
   {
    "name" : "get_sched_policy_name"
   },
   {
-   "name" : "killProcessGroup"
-  },
-  {
-   "name" : "killProcessGroupOnce"
-  },
-  {
-   "name" : "removeAllProcessGroups"
-  },
-  {
    "name" : "schedboost_enabled"
-  },
-  {
-   "name" : "setProcessGroupLimit"
-  },
-  {
-   "name" : "setProcessGroupSoftLimit"
-  },
-  {
-   "name" : "setProcessGroupSwappiness"
   },
   {
    "name" : "set_cpuset_policy"
@@ -786,11 +777,11 @@
    ],
    "linker_set_key" : "SchedPolicy",
    "name" : "SchedPolicy",
-   "referenced_type" : "type-13",
-   "self_type" : "type-13",
+   "referenced_type" : "type-11",
+   "self_type" : "type-11",
    "size" : 4,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/sched_policy.h",
-   "underlying_type" : "type-14",
+   "underlying_type" : "type-12",
    "unique_id" : "SchedPolicy"
   }
  ],
@@ -803,13 +794,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-9"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-5",
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   },
   {
@@ -818,16 +809,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-14"
+     "referenced_type" : "type-12"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-9"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-5",
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   },
   {
@@ -836,13 +827,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-10"
+     "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-11"
+     "referenced_type" : "type-9"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-5",
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   },
   {
@@ -854,13 +845,17 @@
      "referenced_type" : "type-4"
     },
     {
-     "referenced_type" : "type-14"
+     "referenced_type" : "type-12"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-17"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "type-5"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-5",
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   },
   {
@@ -869,45 +864,24 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-14"
+     "referenced_type" : "type-12"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-17"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "type-5"
     }
    ],
-   "return_type" : "type-7",
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
-  },
-  {
-   "function_name" : "UsePerAppMemcg",
-   "linker_set_key" : "UsePerAppMemcg",
-   "return_type" : "type-7",
+   "return_type" : "type-5",
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   },
   {
    "function_name" : "cpusets_enabled",
    "linker_set_key" : "cpusets_enabled",
-   "return_type" : "type-7",
+   "return_type" : "type-5",
    "source_file" : "/system/core/libprocessgroup/include/processgroup/sched_policy.h"
-  },
-  {
-   "function_name" : "createProcessGroup",
-   "linker_set_key" : "createProcessGroup",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-4"
-    },
-    {
-     "referenced_type" : "type-14"
-    },
-    {
-     "default_arg" : true,
-     "referenced_type" : "type-7"
-    }
-   ],
-   "return_type" : "type-14",
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   },
   {
    "function_name" : "get_sched_policy",
@@ -915,13 +889,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-14"
+     "referenced_type" : "type-12"
     },
     {
-     "referenced_type" : "type-15"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-14",
+   "return_type" : "type-12",
    "source_file" : "/system/core/libprocessgroup/include/processgroup/sched_policy.h"
   },
   {
@@ -930,113 +904,17 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     }
    ],
    "return_type" : "type-1",
    "source_file" : "/system/core/libprocessgroup/include/processgroup/sched_policy.h"
   },
   {
-   "function_name" : "killProcessGroup",
-   "linker_set_key" : "killProcessGroup",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-4"
-    },
-    {
-     "referenced_type" : "type-14"
-    },
-    {
-     "referenced_type" : "type-14"
-    }
-   ],
-   "return_type" : "type-14",
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
-  },
-  {
-   "function_name" : "killProcessGroupOnce",
-   "linker_set_key" : "killProcessGroupOnce",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-4"
-    },
-    {
-     "referenced_type" : "type-14"
-    },
-    {
-     "referenced_type" : "type-14"
-    }
-   ],
-   "return_type" : "type-14",
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
-  },
-  {
-   "function_name" : "removeAllProcessGroups",
-   "linker_set_key" : "removeAllProcessGroups",
-   "return_type" : "type-6",
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
-  },
-  {
    "function_name" : "schedboost_enabled",
    "linker_set_key" : "schedboost_enabled",
-   "return_type" : "type-7",
+   "return_type" : "type-5",
    "source_file" : "/system/core/libprocessgroup/include/processgroup/sched_policy.h"
-  },
-  {
-   "function_name" : "setProcessGroupLimit",
-   "linker_set_key" : "setProcessGroupLimit",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-4"
-    },
-    {
-     "referenced_type" : "type-14"
-    },
-    {
-     "referenced_type" : "type-5"
-    }
-   ],
-   "return_type" : "type-7",
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
-  },
-  {
-   "function_name" : "setProcessGroupSoftLimit",
-   "linker_set_key" : "setProcessGroupSoftLimit",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-4"
-    },
-    {
-     "referenced_type" : "type-14"
-    },
-    {
-     "referenced_type" : "type-5"
-    }
-   ],
-   "return_type" : "type-7",
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
-  },
-  {
-   "function_name" : "setProcessGroupSwappiness",
-   "linker_set_key" : "setProcessGroupSwappiness",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-4"
-    },
-    {
-     "referenced_type" : "type-14"
-    },
-    {
-     "referenced_type" : "type-14"
-    }
-   ],
-   "return_type" : "type-7",
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   },
   {
    "function_name" : "set_cpuset_policy",
@@ -1044,13 +922,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-14"
+     "referenced_type" : "type-12"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     }
    ],
-   "return_type" : "type-14",
+   "return_type" : "type-12",
    "source_file" : "/system/core/libprocessgroup/include/processgroup/sched_policy.h"
   },
   {
@@ -1059,13 +937,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-14"
+     "referenced_type" : "type-12"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     }
    ],
-   "return_type" : "type-14",
+   "return_type" : "type-12",
    "source_file" : "/system/core/libprocessgroup/include/processgroup/sched_policy.h"
   }
  ],
@@ -1076,8 +954,8 @@
    "alignment" : 8,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-8",
-   "self_type" : "type-10",
+   "referenced_type" : "type-6",
+   "self_type" : "type-8",
    "size" : 8,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   },
@@ -1085,8 +963,8 @@
    "alignment" : 8,
    "linker_set_key" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > &",
    "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > &",
-   "referenced_type" : "type-17",
-   "self_type" : "type-19",
+   "referenced_type" : "type-15",
+   "self_type" : "type-17",
    "size" : 8,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   }
@@ -1097,8 +975,8 @@
    "alignment" : 8,
    "linker_set_key" : "SchedPolicy *",
    "name" : "SchedPolicy *",
-   "referenced_type" : "type-13",
-   "self_type" : "type-15",
+   "referenced_type" : "type-11",
+   "self_type" : "type-13",
    "size" : 8,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/sched_policy.h"
   },
@@ -1115,8 +993,8 @@
    "alignment" : 8,
    "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
    "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-12",
-   "self_type" : "type-11",
+   "referenced_type" : "type-10",
+   "self_type" : "type-9",
    "size" : 8,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   }
@@ -1139,7 +1017,7 @@
    "linker_set_key" : "const char *const",
    "name" : "const char *const",
    "referenced_type" : "type-1",
-   "self_type" : "type-16",
+   "self_type" : "type-14",
    "size" : 8,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   },
@@ -1148,8 +1026,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-9",
-   "self_type" : "type-8",
+   "referenced_type" : "type-7",
+   "self_type" : "type-6",
    "size" : 24,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   },
@@ -1158,8 +1036,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >",
    "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >",
-   "referenced_type" : "type-18",
-   "self_type" : "type-17",
+   "referenced_type" : "type-16",
+   "self_type" : "type-15",
    "size" : 24,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   }
