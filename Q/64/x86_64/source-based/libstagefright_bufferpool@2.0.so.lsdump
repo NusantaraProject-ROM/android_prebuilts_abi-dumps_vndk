@@ -192,11 +192,19 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZN7android8hardware12MQDescriptorINS0_5media10bufferpool4V2_019BufferStatusMessageELNS0_8MQFlavorE1EEC2EmP13native_handlemb"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZN7android8hardware12MQDescriptorINS0_5media10bufferpool4V2_019BufferStatusMessageELNS0_8MQFlavorE1EEaSERKS7_"
   },
   {
    "binding" : "weak",
    "name" : "_ZN7android8hardware12MQDescriptorINS0_5media10bufferpool4V2_025BufferInvalidationMessageELNS0_8MQFlavorE2EEC2ERKNSt3__16vectorINS0_17GrantorDescriptorENS8_9allocatorISA_EEEEP13native_handlem"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZN7android8hardware12MQDescriptorINS0_5media10bufferpool4V2_025BufferInvalidationMessageELNS0_8MQFlavorE2EEC2EmP13native_handlemb"
   },
   {
    "binding" : "weak",
@@ -209,10 +217,6 @@
   {
    "binding" : "weak",
    "name" : "_ZN7android8hardware12MessageQueueINS0_5media10bufferpool4V2_019BufferStatusMessageELNS0_8MQFlavorE1EE15mapGrantorDescrEj"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZN7android8hardware12MessageQueueINS0_5media10bufferpool4V2_019BufferStatusMessageELNS0_8MQFlavorE1EE17unmapGrantorDescrEPvj"
   },
   {
    "binding" : "weak",
@@ -241,10 +245,6 @@
   {
    "binding" : "weak",
    "name" : "_ZN7android8hardware12MessageQueueINS0_5media10bufferpool4V2_025BufferInvalidationMessageELNS0_8MQFlavorE2EE15mapGrantorDescrEj"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZN7android8hardware12MessageQueueINS0_5media10bufferpool4V2_025BufferInvalidationMessageELNS0_8MQFlavorE2EE17unmapGrantorDescrEPvj"
   },
   {
    "binding" : "weak",
@@ -1006,7 +1006,34 @@
    "name" : "_ZTv0_n24_N7android8hardware5media10bufferpool4V2_014implementation8ObserverD1Ev"
   },
   {
+   "name" : "__cmptf2"
+  },
+  {
+   "name" : "__eqtf2"
+  },
+  {
+   "name" : "__floatditf"
+  },
+  {
+   "name" : "__getf2"
+  },
+  {
+   "name" : "__gttf2"
+  },
+  {
+   "name" : "__letf2"
+  },
+  {
+   "name" : "__lttf2"
+  },
+  {
    "name" : "__multf3"
+  },
+  {
+   "name" : "__netf2"
+  },
+  {
+   "name" : "__unordtf2"
   }
  ],
  "elf_objects" :
@@ -1706,6 +1733,32 @@
    "source_file" : "/system/libhidl/base/include/hidl/MQDescriptor.h"
   },
   {
+   "function_name" : "android::hardware::MQDescriptor<android::hardware::media::bufferpool::V2_0::BufferStatusMessage, android::hardware::kSynchronizedReadWrite>::MQDescriptor",
+   "linker_set_key" : "_ZN7android8hardware12MQDescriptorINS0_5media10bufferpool4V2_019BufferStatusMessageELNS0_8MQFlavorE1EEC2EmP13native_handlemb",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "type-270"
+    },
+    {
+     "referenced_type" : "type-17"
+    },
+    {
+     "referenced_type" : "type-36"
+    },
+    {
+     "referenced_type" : "type-17"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "type-88"
+    }
+   ],
+   "return_type" : "type-70",
+   "source_file" : "/system/libhidl/base/include/hidl/MQDescriptor.h"
+  },
+  {
    "function_name" : "android::hardware::MQDescriptor<android::hardware::media::bufferpool::V2_0::BufferStatusMessage, android::hardware::kSynchronizedReadWrite>::operator=",
    "linker_set_key" : "_ZN7android8hardware12MQDescriptorINS0_5media10bufferpool4V2_019BufferStatusMessageELNS0_8MQFlavorE1EEaSERKS7_",
    "parameters" :
@@ -1738,6 +1791,32 @@
     },
     {
      "referenced_type" : "type-17"
+    }
+   ],
+   "return_type" : "type-70",
+   "source_file" : "/system/libhidl/base/include/hidl/MQDescriptor.h"
+  },
+  {
+   "function_name" : "android::hardware::MQDescriptor<android::hardware::media::bufferpool::V2_0::BufferInvalidationMessage, android::hardware::kUnsynchronizedWrite>::MQDescriptor",
+   "linker_set_key" : "_ZN7android8hardware12MQDescriptorINS0_5media10bufferpool4V2_025BufferInvalidationMessageELNS0_8MQFlavorE2EEC2EmP13native_handlemb",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "type-279"
+    },
+    {
+     "referenced_type" : "type-17"
+    },
+    {
+     "referenced_type" : "type-36"
+    },
+    {
+     "referenced_type" : "type-17"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "type-88"
     }
    ],
    "return_type" : "type-70",
@@ -1791,26 +1870,6 @@
     }
    ],
    "return_type" : "type-69",
-   "source_file" : "/system/libfmq/include/fmq/MessageQueue.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "android::hardware::MessageQueue<android::hardware::media::bufferpool::V2_0::BufferStatusMessage, android::hardware::kSynchronizedReadWrite>::unmapGrantorDescr",
-   "linker_set_key" : "_ZN7android8hardware12MessageQueueINS0_5media10bufferpool4V2_019BufferStatusMessageELNS0_8MQFlavorE1EE17unmapGrantorDescrEPvj",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "type-446"
-    },
-    {
-     "referenced_type" : "type-69"
-    },
-    {
-     "referenced_type" : "type-16"
-    }
-   ],
-   "return_type" : "type-70",
    "source_file" : "/system/libfmq/include/fmq/MessageQueue.h"
   },
   {
@@ -1936,26 +1995,6 @@
     }
    ],
    "return_type" : "type-69",
-   "source_file" : "/system/libfmq/include/fmq/MessageQueue.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "android::hardware::MessageQueue<android::hardware::media::bufferpool::V2_0::BufferInvalidationMessage, android::hardware::kUnsynchronizedWrite>::unmapGrantorDescr",
-   "linker_set_key" : "_ZN7android8hardware12MessageQueueINS0_5media10bufferpool4V2_025BufferInvalidationMessageELNS0_8MQFlavorE2EE17unmapGrantorDescrEPvj",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "type-447"
-    },
-    {
-     "referenced_type" : "type-69"
-    },
-    {
-     "referenced_type" : "type-16"
-    }
-   ],
-   "return_type" : "type-70",
    "source_file" : "/system/libfmq/include/fmq/MessageQueue.h"
   },
   {
@@ -7078,8 +7117,8 @@
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "android::hardware::details::hidl_pointer<GrantorDescriptor>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
-   "name" : "android::hardware::details::hidl_pointer<GrantorDescriptor>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
+   "linker_set_key" : "android::hardware::details::hidl_pointer<GrantorDescriptor>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
+   "name" : "android::hardware::details::hidl_pointer<GrantorDescriptor>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
    "record_kind" : "union",
    "referenced_type" : "type-13",
    "self_type" : "type-13",
@@ -7138,8 +7177,8 @@
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "android::hardware::details::hidl_pointer<const char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
-   "name" : "android::hardware::details::hidl_pointer<const char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
+   "linker_set_key" : "android::hardware::details::hidl_pointer<const char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
+   "name" : "android::hardware::details::hidl_pointer<const char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
    "record_kind" : "union",
    "referenced_type" : "type-230",
    "self_type" : "type-230",
@@ -7180,8 +7219,8 @@
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "android::hardware::details::hidl_pointer<const native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
-   "name" : "android::hardware::details::hidl_pointer<const native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
+   "linker_set_key" : "android::hardware::details::hidl_pointer<const native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
+   "name" : "android::hardware::details::hidl_pointer<const native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
    "record_kind" : "union",
    "referenced_type" : "type-225",
    "self_type" : "type-225",
@@ -7222,8 +7261,8 @@
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "android::hardware::details::hidl_pointer<native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
-   "name" : "android::hardware::details::hidl_pointer<native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
+   "linker_set_key" : "android::hardware::details::hidl_pointer<native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
+   "name" : "android::hardware::details::hidl_pointer<native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
    "record_kind" : "union",
    "referenced_type" : "type-266",
    "self_type" : "type-266",
