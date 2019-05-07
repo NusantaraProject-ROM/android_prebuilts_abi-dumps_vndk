@@ -523,9 +523,6 @@
    "name" : "_ZN7android11BufferQueue21ProxyConsumerListener16onFrameAvailableERKNS_10BufferItemE"
   },
   {
-   "name" : "_ZN7android11BufferQueue21ProxyConsumerListener17onBufferAllocatedERKNS_10BufferItemE"
-  },
-  {
    "name" : "_ZN7android11BufferQueue21ProxyConsumerListener17onBuffersReleasedEv"
   },
   {
@@ -47476,9 +47473,6 @@
      "mangled_component_name" : "_ZN7android16ConsumerListener15onFrameReplacedERKNS_10BufferItemE"
     },
     {
-     "mangled_component_name" : "_ZN7android16ConsumerListener17onBufferAllocatedERKNS_10BufferItemE"
-    },
-    {
      "is_pure" : true,
      "mangled_component_name" : "_ZN7android16ConsumerListener17onBuffersReleasedEv"
     },
@@ -48872,9 +48866,6 @@
     },
     {
      "mangled_component_name" : "_ZN7android16ConsumerListener15onFrameReplacedERKNS_10BufferItemE"
-    },
-    {
-     "mangled_component_name" : "_ZN7android16ConsumerListener17onBufferAllocatedERKNS_10BufferItemE"
     },
     {
      "is_pure" : true,
@@ -55039,9 +55030,6 @@
      "mangled_component_name" : "_ZN7android16ConsumerListener15onFrameReplacedERKNS_10BufferItemE"
     },
     {
-     "mangled_component_name" : "_ZN7android16ConsumerListener17onBufferAllocatedERKNS_10BufferItemE"
-    },
-    {
      "is_pure" : true,
      "mangled_component_name" : "_ZN7android16ConsumerListener17onBuffersReleasedEv"
     },
@@ -56329,9 +56317,6 @@
     },
     {
      "mangled_component_name" : "_ZN7android16ConsumerListener15onFrameReplacedERKNS_10BufferItemE"
-    },
-    {
-     "mangled_component_name" : "_ZN7android16ConsumerListener17onBufferAllocatedERKNS_10BufferItemE"
     },
     {
      "is_pure" : true,
@@ -60621,8 +60606,8 @@
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "android::hardware::details::hidl_pointer<FrameEventsDelta>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
-   "name" : "android::hardware::details::hidl_pointer<FrameEventsDelta>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
+   "linker_set_key" : "android::hardware::details::hidl_pointer<FrameEventsDelta>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
+   "name" : "android::hardware::details::hidl_pointer<FrameEventsDelta>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
    "record_kind" : "union",
    "referenced_type" : "type-358",
    "self_type" : "type-358",
@@ -60645,8 +60630,8 @@
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "android::hardware::details::hidl_pointer<GrantorDescriptor>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
-   "name" : "android::hardware::details::hidl_pointer<GrantorDescriptor>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
+   "linker_set_key" : "android::hardware::details::hidl_pointer<GrantorDescriptor>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
+   "name" : "android::hardware::details::hidl_pointer<GrantorDescriptor>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
    "record_kind" : "union",
    "referenced_type" : "type-351",
    "self_type" : "type-351",
@@ -60669,8 +60654,8 @@
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "android::hardware::details::hidl_pointer<Rect>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
-   "name" : "android::hardware::details::hidl_pointer<Rect>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
+   "linker_set_key" : "android::hardware::details::hidl_pointer<Rect>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
+   "name" : "android::hardware::details::hidl_pointer<Rect>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
    "record_kind" : "union",
    "referenced_type" : "type-374",
    "self_type" : "type-374",
@@ -60783,8 +60768,8 @@
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "android::hardware::details::hidl_pointer<const char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
-   "name" : "android::hardware::details::hidl_pointer<const char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
+   "linker_set_key" : "android::hardware::details::hidl_pointer<const char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
+   "name" : "android::hardware::details::hidl_pointer<const char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
    "record_kind" : "union",
    "referenced_type" : "type-349",
    "self_type" : "type-349",
@@ -60825,8 +60810,8 @@
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "android::hardware::details::hidl_pointer<const native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
-   "name" : "android::hardware::details::hidl_pointer<const native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
+   "linker_set_key" : "android::hardware::details::hidl_pointer<const native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
+   "name" : "android::hardware::details::hidl_pointer<const native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
    "record_kind" : "union",
    "referenced_type" : "type-341",
    "self_type" : "type-341",
@@ -60849,8 +60834,8 @@
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "android::hardware::details::hidl_pointer<hidl_array<int, 4> >::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
-   "name" : "android::hardware::details::hidl_pointer<hidl_array<int, 4> >::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
+   "linker_set_key" : "android::hardware::details::hidl_pointer<hidl_array<int, 4> >::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
+   "name" : "android::hardware::details::hidl_pointer<hidl_array<int, 4> >::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
    "record_kind" : "union",
    "referenced_type" : "type-383",
    "self_type" : "type-383",
@@ -60891,8 +60876,8 @@
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "android::hardware::details::hidl_pointer<native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
-   "name" : "android::hardware::details::hidl_pointer<native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
+   "linker_set_key" : "android::hardware::details::hidl_pointer<native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
+   "name" : "android::hardware::details::hidl_pointer<native_handle>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
    "record_kind" : "union",
    "referenced_type" : "type-355",
    "self_type" : "type-355",
@@ -60933,8 +60918,8 @@
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "android::hardware::details::hidl_pointer<unsigned char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
-   "name" : "android::hardware::details::hidl_pointer<unsigned char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:110:5) at system/libhidl/base/include/hidl/HidlInternal.h:110:5",
+   "linker_set_key" : "android::hardware::details::hidl_pointer<unsigned char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
+   "name" : "android::hardware::details::hidl_pointer<unsigned char>::(anonymous union at system/libhidl/base/include/hidl/HidlInternal.h:111:5) at system/libhidl/base/include/hidl/HidlInternal.h:111:5",
    "record_kind" : "union",
    "referenced_type" : "type-392",
    "self_type" : "type-392",
