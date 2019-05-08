@@ -718,6 +718,15 @@
    "name" : "ARGBUnattenuateRow_SSE2"
   },
   {
+   "name" : "Android420ToABGR"
+  },
+  {
+   "name" : "Android420ToARGB"
+  },
+  {
+   "name" : "Android420ToARGBMatrix"
+  },
+  {
    "name" : "Android420ToI420"
   },
   {
@@ -1306,6 +1315,9 @@
    "name" : "MirrorUVRow_SSSE3"
   },
   {
+   "name" : "NV12ToABGR"
+  },
+  {
    "name" : "NV12ToARGB"
   },
   {
@@ -1346,6 +1358,9 @@
   },
   {
    "name" : "NV12ToRGB565Row_SSSE3"
+  },
+  {
+   "name" : "NV21ToABGR"
   },
   {
    "name" : "NV21ToARGB"
@@ -2083,6 +2098,60 @@
    "name" : "YUY2ToYRow_SSE2"
   },
   {
+   "name" : "_Unwind_Backtrace"
+  },
+  {
+   "name" : "_Unwind_DeleteException"
+  },
+  {
+   "name" : "_Unwind_FindEnclosingFunction"
+  },
+  {
+   "name" : "_Unwind_Find_FDE"
+  },
+  {
+   "name" : "_Unwind_ForcedUnwind"
+  },
+  {
+   "name" : "_Unwind_GetCFA"
+  },
+  {
+   "name" : "_Unwind_GetDataRelBase"
+  },
+  {
+   "name" : "_Unwind_GetGR"
+  },
+  {
+   "name" : "_Unwind_GetIP"
+  },
+  {
+   "name" : "_Unwind_GetIPInfo"
+  },
+  {
+   "name" : "_Unwind_GetLanguageSpecificData"
+  },
+  {
+   "name" : "_Unwind_GetRegionStart"
+  },
+  {
+   "name" : "_Unwind_GetTextRelBase"
+  },
+  {
+   "name" : "_Unwind_RaiseException"
+  },
+  {
+   "name" : "_Unwind_Resume"
+  },
+  {
+   "name" : "_Unwind_Resume_or_Rethrow"
+  },
+  {
+   "name" : "_Unwind_SetGR"
+  },
+  {
+   "name" : "_Unwind_SetIP"
+  },
+  {
    "name" : "_ZN6libyuv11init_sourceEP22jpeg_decompress_struct"
   },
   {
@@ -2185,7 +2254,37 @@
    "name" : "_ZN6libyuv17fill_input_bufferEP22jpeg_decompress_struct"
   },
   {
+   "name" : "__deregister_frame"
+  },
+  {
+   "name" : "__deregister_frame_info"
+  },
+  {
+   "name" : "__deregister_frame_info_bases"
+  },
+  {
    "name" : "__divdi3"
+  },
+  {
+   "name" : "__frame_state_for"
+  },
+  {
+   "name" : "__register_frame"
+  },
+  {
+   "name" : "__register_frame_info"
+  },
+  {
+   "name" : "__register_frame_info_bases"
+  },
+  {
+   "name" : "__register_frame_info_table"
+  },
+  {
+   "name" : "__register_frame_info_table_bases"
+  },
+  {
+   "name" : "__register_frame_table"
   }
  ],
  "elf_objects" :
@@ -7075,6 +7174,90 @@
    ],
    "return_type" : "type-40",
    "source_file" : "/external/libyuv/files/include/libyuv/row.h"
+  },
+  {
+   "function_name" : "libyuv::Android420ToABGR",
+   "linker_set_key" : "Android420ToABGR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-7"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-7"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-7"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-16"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-3"
+    }
+   ],
+   "return_type" : "type-3",
+   "source_file" : "/external/libyuv/files/include/libyuv/convert_argb.h"
+  },
+  {
+   "function_name" : "libyuv::Android420ToARGB",
+   "linker_set_key" : "Android420ToARGB",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-7"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-7"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-7"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-16"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-3"
+    }
+   ],
+   "return_type" : "type-3",
+   "source_file" : "/external/libyuv/files/include/libyuv/convert_argb.h"
   },
   {
    "function_name" : "libyuv::Android420ToI420",
@@ -12843,6 +13026,39 @@
    "source_file" : "/external/libyuv/files/include/libyuv/row.h"
   },
   {
+   "function_name" : "libyuv::NV12ToABGR",
+   "linker_set_key" : "NV12ToABGR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-7"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-7"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-16"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-3"
+    }
+   ],
+   "return_type" : "type-3",
+   "source_file" : "/external/libyuv/files/include/libyuv/convert_argb.h"
+  },
+  {
    "function_name" : "libyuv::NV12ToARGB",
    "linker_set_key" : "NV12ToARGB",
    "parameters" :
@@ -13240,6 +13456,39 @@
    ],
    "return_type" : "type-40",
    "source_file" : "/external/libyuv/files/include/libyuv/row.h"
+  },
+  {
+   "function_name" : "libyuv::NV21ToABGR",
+   "linker_set_key" : "NV21ToABGR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-7"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-7"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-16"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-3"
+    }
+   ],
+   "return_type" : "type-3",
+   "source_file" : "/external/libyuv/files/include/libyuv/convert_argb.h"
   },
   {
    "function_name" : "libyuv::NV21ToARGB",
