@@ -15,20 +15,11 @@
   {
    "alignment" : 1,
    "is_integral" : true,
-   "is_unsigned" : true,
    "linker_set_key" : "char",
    "name" : "char",
    "referenced_type" : "type-3",
    "self_type" : "type-3",
    "size" : 1
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "double",
-   "name" : "double",
-   "referenced_type" : "type-14",
-   "self_type" : "type-14",
-   "size" : 8
   },
   {
    "alignment" : 4,
@@ -42,93 +33,12 @@
   {
    "alignment" : 4,
    "is_integral" : true,
-   "linker_set_key" : "long",
-   "name" : "long",
-   "referenced_type" : "type-23",
-   "self_type" : "type-23",
-   "size" : 4
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "long double",
-   "name" : "long double",
-   "referenced_type" : "type-21",
-   "self_type" : "type-21",
-   "size" : 8
-  },
-  {
-   "alignment" : 8,
-   "is_integral" : true,
-   "linker_set_key" : "long long",
-   "name" : "long long",
-   "referenced_type" : "type-18",
-   "self_type" : "type-18",
-   "size" : 8
-  },
-  {
-   "alignment" : 2,
-   "is_integral" : true,
-   "linker_set_key" : "short",
-   "name" : "short",
-   "referenced_type" : "type-20",
-   "self_type" : "type-20",
-   "size" : 2
-  },
-  {
-   "alignment" : 1,
-   "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "unsigned char",
-   "name" : "unsigned char",
-   "referenced_type" : "type-16",
-   "self_type" : "type-16",
-   "size" : 1
-  },
-  {
-   "alignment" : 4,
-   "is_integral" : true,
    "is_unsigned" : true,
    "linker_set_key" : "unsigned int",
    "name" : "unsigned int",
    "referenced_type" : "type-4",
    "self_type" : "type-4",
    "size" : 4
-  },
-  {
-   "alignment" : 4,
-   "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "unsigned long",
-   "name" : "unsigned long",
-   "referenced_type" : "type-19",
-   "self_type" : "type-19",
-   "size" : 4
-  },
-  {
-   "alignment" : 8,
-   "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "unsigned long long",
-   "name" : "unsigned long long",
-   "referenced_type" : "type-22",
-   "self_type" : "type-22",
-   "size" : 8
-  },
-  {
-   "alignment" : 2,
-   "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "unsigned short",
-   "name" : "unsigned short",
-   "referenced_type" : "type-17",
-   "self_type" : "type-17",
-   "size" : 2
-  },
-  {
-   "linker_set_key" : "void",
-   "name" : "void",
-   "referenced_type" : "type-15",
-   "self_type" : "type-15"
   }
  ],
  "elf_functions" :
@@ -161,13 +71,13 @@
    "name" : "_Z20killProcessGroupOncejii"
   },
   {
-   "name" : "_Z20setProcessGroupLimitjix"
+   "name" : "_Z20setProcessGroupLimitjil"
   },
   {
    "name" : "_Z22removeAllProcessGroupsv"
   },
   {
-   "name" : "_Z24setProcessGroupSoftLimitjix"
+   "name" : "_Z24setProcessGroupSoftLimitjil"
   },
   {
    "name" : "_Z25setProcessGroupSwappinessjii"
@@ -410,11 +320,11 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNKSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrI11TaskProfileNS_14default_deleteIS9_EEEEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE4findIS7_EENS_21__tree_const_iteratorISD_PNS_11__tree_nodeISD_PvEEiEERKT_"
+   "name" : "_ZNKSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrI11TaskProfileNS_14default_deleteIS9_EEEEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE4findIS7_EENS_21__tree_const_iteratorISD_PNS_11__tree_nodeISD_PvEElEERKT_"
   },
   {
    "binding" : "weak",
-   "name" : "_ZNKSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrI16ProfileAttributeNS_14default_deleteIS9_EEEEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE4findIS7_EENS_21__tree_const_iteratorISD_PNS_11__tree_nodeISD_PvEEiEERKT_"
+   "name" : "_ZNKSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrI16ProfileAttributeNS_14default_deleteIS9_EEEEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE4findIS7_EENS_21__tree_const_iteratorISD_PNS_11__tree_nodeISD_PvEElEERKT_"
   },
   {
    "binding" : "weak",
@@ -454,10 +364,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE19__parse_QUOTED_CHARIPKcEET_S7_S7_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE20__parse_ORD_CHAR_EREIPKcEET_S7_S7_"
   },
   {
@@ -487,10 +393,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_QUOTED_CHAR_EREIPKcEET_S7_S7_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_character_classIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE"
   },
   {
    "binding" : "weak",
@@ -570,10 +472,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__114regex_iteratorINS_11__wrap_iterIPKcEEcNS_12regex_traitsIcEEEC2ES4_S4_RKNS_11basic_regexIcS6_EENS_15regex_constants15match_flag_typeE"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__114regex_iteratorINS_11__wrap_iterIPKcEEcNS_12regex_traitsIcEEEppEv"
   },
   {
@@ -602,15 +500,11 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_j"
+   "name" : "_ZNSt3__124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m"
   },
   {
    "binding" : "weak",
    "name" : "_ZNSt3__127__tree_balance_after_insertIPNS_16__tree_node_baseIPvEEEEvT_S5_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE10push_frontEOS2_"
   },
   {
    "binding" : "weak",
@@ -630,7 +524,7 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrI16ProfileAttributeNS_14default_deleteIS9_EEEEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE4findIS7_EENS_15__tree_iteratorISD_PNS_11__tree_nodeISD_PvEEiEERKT_"
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrI16ProfileAttributeNS_14default_deleteIS9_EEEEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE4findIS7_EENS_15__tree_iteratorISD_PNS_11__tree_nodeISD_PvEElEERKT_"
   },
   {
    "binding" : "weak",
@@ -662,11 +556,11 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16vectorINS_4pairIjPKcEENS_9allocatorIS4_EEE6assignIPS4_EENS_9enable_ifIXaasr21__is_forward_iteratorIT_EE5valuesr16is_constructibleIS4_NS_15iterator_traitsISB_E9referenceEEE5valueEvE4typeESB_SB_"
+   "name" : "_ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE6assignIPS4_EENS_9enable_ifIXaasr21__is_forward_iteratorIT_EE5valuesr16is_constructibleIS4_NS_15iterator_traitsISB_E9referenceEEE5valueEvE4typeESB_SB_"
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16vectorINS_4pairIjPKcEENS_9allocatorIS4_EEE8__appendEj"
+   "name" : "_ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE8__appendEm"
   },
   {
    "binding" : "weak",
@@ -674,11 +568,11 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16vectorINS_9sub_matchINS_11__wrap_iterIPKcEEEENS_9allocatorIS6_EEE8__appendEj"
+   "name" : "_ZNSt3__16vectorINS_9sub_matchINS_11__wrap_iterIPKcEEEENS_9allocatorIS6_EEE8__appendEm"
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE6assignEjRKS4_"
+   "name" : "_ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE6assignEmRKS4_"
   },
   {
    "binding" : "weak",
@@ -686,7 +580,7 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE8__appendEjRKS4_"
+   "name" : "_ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE8__appendEmRKS4_"
   },
   {
    "binding" : "weak",
@@ -695,66 +589,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorIcNS_9allocatorIcEEE21__push_back_slow_pathIcEEvOT_"
-  },
-  {
-   "name" : "__aeabi_ldivmod"
-  },
-  {
-   "name" : "__aeabi_memclr"
-  },
-  {
-   "name" : "__aeabi_memclr4"
-  },
-  {
-   "name" : "__aeabi_memclr8"
-  },
-  {
-   "name" : "__aeabi_memcpy"
-  },
-  {
-   "name" : "__aeabi_memcpy4"
-  },
-  {
-   "name" : "__aeabi_memcpy8"
-  },
-  {
-   "name" : "__aeabi_memmove"
-  },
-  {
-   "name" : "__aeabi_memmove4"
-  },
-  {
-   "name" : "__aeabi_memmove8"
-  },
-  {
-   "name" : "__aeabi_memset"
-  },
-  {
-   "name" : "__aeabi_memset4"
-  },
-  {
-   "name" : "__aeabi_memset8"
-  },
-  {
-   "name" : "__aeabi_uidiv"
-  },
-  {
-   "name" : "__aeabi_uidivmod"
-  },
-  {
-   "name" : "__divdi3"
-  },
-  {
-   "name" : "__divmoddi4"
-  },
-  {
-   "name" : "__udivmoddi4"
-  },
-  {
-   "name" : "__udivmodsi4"
-  },
-  {
-   "name" : "__udivsi3"
   },
   {
    "name" : "cpusets_enabled"
@@ -1014,7 +848,7 @@
      "referenced_type" : "type-12"
     },
     {
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-17"
     },
     {
      "default_arg" : true,
@@ -1033,7 +867,7 @@
      "referenced_type" : "type-12"
     },
     {
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-17"
     },
     {
      "default_arg" : true,
@@ -1117,78 +951,51 @@
  "lvalue_reference_types" :
  [
   {
-   "alignment" : 4,
-   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-27",
-   "self_type" : "type-30",
-   "size" : 4,
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
-  },
-  {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "referenced_type" : "type-6",
    "self_type" : "type-8",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > &",
    "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > &",
-   "referenced_type" : "type-24",
-   "self_type" : "type-26",
-   "size" : 4,
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > &",
-   "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > &",
-   "referenced_type" : "type-33",
-   "self_type" : "type-35",
-   "size" : 4,
+   "referenced_type" : "type-15",
+   "self_type" : "type-17",
+   "size" : 8,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   }
  ],
  "pointer_types" :
  [
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "SchedPolicy *",
    "name" : "SchedPolicy *",
    "referenced_type" : "type-11",
    "self_type" : "type-13",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/sched_policy.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "const char *",
    "name" : "const char *",
    "referenced_type" : "type-2",
    "self_type" : "type-1",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
    "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
    "referenced_type" : "type-10",
    "self_type" : "type-9",
-   "size" : 4,
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-32",
-   "self_type" : "type-31",
-   "size" : 4,
+   "size" : 8,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   }
  ],
@@ -1205,53 +1012,33 @@
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "const char *const",
    "name" : "const char *const",
    "referenced_type" : "type-1",
-   "self_type" : "type-29",
-   "size" : 4,
+   "self_type" : "type-14",
+   "size" : 8,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   },
   {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-28",
-   "self_type" : "type-27",
-   "size" : 12,
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
-  },
-  {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "referenced_type" : "type-7",
    "self_type" : "type-6",
-   "size" : 12,
+   "size" : 24,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >",
    "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >",
-   "referenced_type" : "type-25",
-   "self_type" : "type-24",
-   "size" : 12,
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >",
-   "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >",
-   "referenced_type" : "type-34",
-   "self_type" : "type-33",
-   "size" : 12,
+   "referenced_type" : "type-16",
+   "self_type" : "type-15",
+   "size" : 24,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   }
  ],
