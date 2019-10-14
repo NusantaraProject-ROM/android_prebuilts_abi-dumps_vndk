@@ -15,20 +15,11 @@
   {
    "alignment" : 1,
    "is_integral" : true,
-   "is_unsigned" : true,
    "linker_set_key" : "char",
    "name" : "char",
    "referenced_type" : "type-3",
    "self_type" : "type-3",
    "size" : 1
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "double",
-   "name" : "double",
-   "referenced_type" : "type-14",
-   "self_type" : "type-14",
-   "size" : 8
   },
   {
    "alignment" : 4,
@@ -42,93 +33,12 @@
   {
    "alignment" : 4,
    "is_integral" : true,
-   "linker_set_key" : "long",
-   "name" : "long",
-   "referenced_type" : "type-23",
-   "self_type" : "type-23",
-   "size" : 4
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "long double",
-   "name" : "long double",
-   "referenced_type" : "type-21",
-   "self_type" : "type-21",
-   "size" : 8
-  },
-  {
-   "alignment" : 8,
-   "is_integral" : true,
-   "linker_set_key" : "long long",
-   "name" : "long long",
-   "referenced_type" : "type-18",
-   "self_type" : "type-18",
-   "size" : 8
-  },
-  {
-   "alignment" : 2,
-   "is_integral" : true,
-   "linker_set_key" : "short",
-   "name" : "short",
-   "referenced_type" : "type-20",
-   "self_type" : "type-20",
-   "size" : 2
-  },
-  {
-   "alignment" : 1,
-   "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "unsigned char",
-   "name" : "unsigned char",
-   "referenced_type" : "type-16",
-   "self_type" : "type-16",
-   "size" : 1
-  },
-  {
-   "alignment" : 4,
-   "is_integral" : true,
    "is_unsigned" : true,
    "linker_set_key" : "unsigned int",
    "name" : "unsigned int",
    "referenced_type" : "type-4",
    "self_type" : "type-4",
    "size" : 4
-  },
-  {
-   "alignment" : 4,
-   "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "unsigned long",
-   "name" : "unsigned long",
-   "referenced_type" : "type-19",
-   "self_type" : "type-19",
-   "size" : 4
-  },
-  {
-   "alignment" : 8,
-   "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "unsigned long long",
-   "name" : "unsigned long long",
-   "referenced_type" : "type-22",
-   "self_type" : "type-22",
-   "size" : 8
-  },
-  {
-   "alignment" : 2,
-   "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "unsigned short",
-   "name" : "unsigned short",
-   "referenced_type" : "type-17",
-   "self_type" : "type-17",
-   "size" : 2
-  },
-  {
-   "linker_set_key" : "void",
-   "name" : "void",
-   "referenced_type" : "type-15",
-   "self_type" : "type-15"
   }
  ],
  "elf_functions" :
@@ -697,64 +607,7 @@
    "name" : "_ZNSt3__16vectorIcNS_9allocatorIcEEE21__push_back_slow_pathIcEEvOT_"
   },
   {
-   "name" : "__aeabi_ldivmod"
-  },
-  {
-   "name" : "__aeabi_memclr"
-  },
-  {
-   "name" : "__aeabi_memclr4"
-  },
-  {
-   "name" : "__aeabi_memclr8"
-  },
-  {
-   "name" : "__aeabi_memcpy"
-  },
-  {
-   "name" : "__aeabi_memcpy4"
-  },
-  {
-   "name" : "__aeabi_memcpy8"
-  },
-  {
-   "name" : "__aeabi_memmove"
-  },
-  {
-   "name" : "__aeabi_memmove4"
-  },
-  {
-   "name" : "__aeabi_memmove8"
-  },
-  {
-   "name" : "__aeabi_memset"
-  },
-  {
-   "name" : "__aeabi_memset4"
-  },
-  {
-   "name" : "__aeabi_memset8"
-  },
-  {
-   "name" : "__aeabi_uidiv"
-  },
-  {
-   "name" : "__aeabi_uidivmod"
-  },
-  {
    "name" : "__divdi3"
-  },
-  {
-   "name" : "__divmoddi4"
-  },
-  {
-   "name" : "__udivmoddi4"
-  },
-  {
-   "name" : "__udivmodsi4"
-  },
-  {
-   "name" : "__udivsi3"
   },
   {
    "name" : "cpusets_enabled"
@@ -1014,7 +867,7 @@
      "referenced_type" : "type-12"
     },
     {
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-17"
     },
     {
      "default_arg" : true,
@@ -1033,7 +886,7 @@
      "referenced_type" : "type-12"
     },
     {
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-17"
     },
     {
      "default_arg" : true,
@@ -1120,15 +973,6 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-27",
-   "self_type" : "type-30",
-   "size" : 4,
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "referenced_type" : "type-6",
    "self_type" : "type-8",
    "size" : 4,
@@ -1138,17 +982,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > &",
    "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > &",
-   "referenced_type" : "type-24",
-   "self_type" : "type-26",
-   "size" : 4,
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > &",
-   "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > &",
-   "referenced_type" : "type-33",
-   "self_type" : "type-35",
+   "referenced_type" : "type-15",
+   "self_type" : "type-17",
    "size" : 4,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   }
@@ -1181,15 +1016,6 @@
    "self_type" : "type-9",
    "size" : 4,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-32",
-   "self_type" : "type-31",
-   "size" : 4,
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   }
  ],
  "qualified_types" :
@@ -1210,18 +1036,8 @@
    "linker_set_key" : "const char *const",
    "name" : "const char *const",
    "referenced_type" : "type-1",
-   "self_type" : "type-29",
+   "self_type" : "type-14",
    "size" : 4,
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-28",
-   "self_type" : "type-27",
-   "size" : 12,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   },
   {
@@ -1239,18 +1055,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >",
    "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >",
-   "referenced_type" : "type-25",
-   "self_type" : "type-24",
-   "size" : 12,
-   "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >",
-   "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >",
-   "referenced_type" : "type-34",
-   "self_type" : "type-33",
+   "referenced_type" : "type-16",
+   "self_type" : "type-15",
    "size" : 12,
    "source_file" : "/system/core/libprocessgroup/include/processgroup/processgroup.h"
   }
