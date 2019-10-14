@@ -1,0 +1,3551 @@
+{
+ "array_types" : [],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "char",
+   "name" : "char",
+   "referenced_type" : "type-3",
+   "self_type" : "type-3",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "float",
+   "name" : "float",
+   "referenced_type" : "type-61",
+   "self_type" : "type-61",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "int",
+   "name" : "int",
+   "referenced_type" : "type-11",
+   "self_type" : "type-11",
+   "size" : 4
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "linker_set_key" : "short",
+   "name" : "short",
+   "referenced_type" : "type-68",
+   "self_type" : "type-68",
+   "size" : 2
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "unsigned char",
+   "name" : "unsigned char",
+   "referenced_type" : "type-64",
+   "self_type" : "type-64",
+   "size" : 1
+  },
+  {
+   "linker_set_key" : "void",
+   "name" : "void",
+   "referenced_type" : "type-60",
+   "self_type" : "type-60"
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "_celt_autocorr"
+  },
+  {
+   "name" : "_celt_lpc"
+  },
+  {
+   "name" : "alg_quant"
+  },
+  {
+   "name" : "alg_unquant"
+  },
+  {
+   "name" : "amp2Log2"
+  },
+  {
+   "name" : "anti_collapse"
+  },
+  {
+   "name" : "bitexact_cos"
+  },
+  {
+   "name" : "bitexact_log2tan"
+  },
+  {
+   "name" : "celt_cos_norm"
+  },
+  {
+   "name" : "celt_decode_with_ec"
+  },
+  {
+   "name" : "celt_decoder_get_size"
+  },
+  {
+   "name" : "celt_decoder_init"
+  },
+  {
+   "name" : "celt_encode_with_ec"
+  },
+  {
+   "name" : "celt_encoder_get_size"
+  },
+  {
+   "name" : "celt_encoder_init"
+  },
+  {
+   "name" : "celt_fatal"
+  },
+  {
+   "name" : "celt_fir_c"
+  },
+  {
+   "name" : "celt_fir_sse4_1"
+  },
+  {
+   "name" : "celt_iir"
+  },
+  {
+   "name" : "celt_inner_prod_sse2"
+  },
+  {
+   "name" : "celt_inner_prod_sse4_1"
+  },
+  {
+   "name" : "celt_lcg_rand"
+  },
+  {
+   "name" : "celt_pitch_xcorr_c"
+  },
+  {
+   "name" : "celt_preemphasis"
+  },
+  {
+   "name" : "celt_rcp"
+  },
+  {
+   "name" : "celt_rsqrt_norm"
+  },
+  {
+   "name" : "celt_sqrt"
+  },
+  {
+   "name" : "check_control_input"
+  },
+  {
+   "name" : "clt_compute_allocation"
+  },
+  {
+   "name" : "clt_mdct_backward_c"
+  },
+  {
+   "name" : "clt_mdct_forward_c"
+  },
+  {
+   "name" : "comb_filter"
+  },
+  {
+   "name" : "compute_band_energies"
+  },
+  {
+   "name" : "compute_dense"
+  },
+  {
+   "name" : "compute_gru"
+  },
+  {
+   "name" : "compute_stereo_width"
+  },
+  {
+   "name" : "decode_pulses"
+  },
+  {
+   "name" : "denormalise_bands"
+  },
+  {
+   "name" : "downmix_float"
+  },
+  {
+   "name" : "downmix_int"
+  },
+  {
+   "name" : "ec_dec_bit_logp"
+  },
+  {
+   "name" : "ec_dec_bits"
+  },
+  {
+   "name" : "ec_dec_icdf"
+  },
+  {
+   "name" : "ec_dec_init"
+  },
+  {
+   "name" : "ec_dec_uint"
+  },
+  {
+   "name" : "ec_dec_update"
+  },
+  {
+   "name" : "ec_decode"
+  },
+  {
+   "name" : "ec_decode_bin"
+  },
+  {
+   "name" : "ec_enc_bit_logp"
+  },
+  {
+   "name" : "ec_enc_bits"
+  },
+  {
+   "name" : "ec_enc_done"
+  },
+  {
+   "name" : "ec_enc_icdf"
+  },
+  {
+   "name" : "ec_enc_init"
+  },
+  {
+   "name" : "ec_enc_patch_initial_bits"
+  },
+  {
+   "name" : "ec_enc_shrink"
+  },
+  {
+   "name" : "ec_enc_uint"
+  },
+  {
+   "name" : "ec_encode"
+  },
+  {
+   "name" : "ec_encode_bin"
+  },
+  {
+   "name" : "ec_laplace_decode"
+  },
+  {
+   "name" : "ec_laplace_encode"
+  },
+  {
+   "name" : "ec_tell_frac"
+  },
+  {
+   "name" : "encode_pulses"
+  },
+  {
+   "name" : "encode_size"
+  },
+  {
+   "name" : "exp_rotation"
+  },
+  {
+   "name" : "frac_div32"
+  },
+  {
+   "name" : "frame_size_select"
+  },
+  {
+   "name" : "get_left_channel"
+  },
+  {
+   "name" : "get_mono_channel"
+  },
+  {
+   "name" : "get_right_channel"
+  },
+  {
+   "name" : "haar1"
+  },
+  {
+   "name" : "hysteresis_decision"
+  },
+  {
+   "name" : "init_caps"
+  },
+  {
+   "name" : "isqrt32"
+  },
+  {
+   "name" : "mapping_matrix_get_data"
+  },
+  {
+   "name" : "mapping_matrix_get_size"
+  },
+  {
+   "name" : "mapping_matrix_init"
+  },
+  {
+   "name" : "mapping_matrix_multiply_channel_in_float"
+  },
+  {
+   "name" : "mapping_matrix_multiply_channel_in_short"
+  },
+  {
+   "name" : "mapping_matrix_multiply_channel_out_float"
+  },
+  {
+   "name" : "mapping_matrix_multiply_channel_out_short"
+  },
+  {
+   "name" : "normalise_bands"
+  },
+  {
+   "name" : "op_pvq_search_c"
+  },
+  {
+   "name" : "opus_custom_decoder_ctl"
+  },
+  {
+   "name" : "opus_custom_encoder_ctl"
+  },
+  {
+   "name" : "opus_custom_mode_create"
+  },
+  {
+   "name" : "opus_decode"
+  },
+  {
+   "name" : "opus_decode_float"
+  },
+  {
+   "name" : "opus_decode_native"
+  },
+  {
+   "name" : "opus_decoder_create"
+  },
+  {
+   "name" : "opus_decoder_ctl"
+  },
+  {
+   "name" : "opus_decoder_destroy"
+  },
+  {
+   "name" : "opus_decoder_get_nb_samples"
+  },
+  {
+   "name" : "opus_decoder_get_size"
+  },
+  {
+   "name" : "opus_decoder_init"
+  },
+  {
+   "name" : "opus_encode"
+  },
+  {
+   "name" : "opus_encode_float"
+  },
+  {
+   "name" : "opus_encode_native"
+  },
+  {
+   "name" : "opus_encoder_create"
+  },
+  {
+   "name" : "opus_encoder_ctl"
+  },
+  {
+   "name" : "opus_encoder_destroy"
+  },
+  {
+   "name" : "opus_encoder_get_size"
+  },
+  {
+   "name" : "opus_encoder_init"
+  },
+  {
+   "name" : "opus_fft_c"
+  },
+  {
+   "name" : "opus_fft_impl"
+  },
+  {
+   "name" : "opus_get_version_string"
+  },
+  {
+   "name" : "opus_ifft_c"
+  },
+  {
+   "name" : "opus_multistream_decode"
+  },
+  {
+   "name" : "opus_multistream_decode_float"
+  },
+  {
+   "name" : "opus_multistream_decode_native"
+  },
+  {
+   "name" : "opus_multistream_decoder_create"
+  },
+  {
+   "name" : "opus_multistream_decoder_ctl"
+  },
+  {
+   "name" : "opus_multistream_decoder_ctl_va_list"
+  },
+  {
+   "name" : "opus_multistream_decoder_destroy"
+  },
+  {
+   "name" : "opus_multistream_decoder_get_size"
+  },
+  {
+   "name" : "opus_multistream_decoder_init"
+  },
+  {
+   "name" : "opus_multistream_encode"
+  },
+  {
+   "name" : "opus_multistream_encode_float"
+  },
+  {
+   "name" : "opus_multistream_encode_native"
+  },
+  {
+   "name" : "opus_multistream_encoder_create"
+  },
+  {
+   "name" : "opus_multistream_encoder_ctl"
+  },
+  {
+   "name" : "opus_multistream_encoder_ctl_va_list"
+  },
+  {
+   "name" : "opus_multistream_encoder_destroy"
+  },
+  {
+   "name" : "opus_multistream_encoder_get_size"
+  },
+  {
+   "name" : "opus_multistream_encoder_init"
+  },
+  {
+   "name" : "opus_multistream_packet_pad"
+  },
+  {
+   "name" : "opus_multistream_packet_unpad"
+  },
+  {
+   "name" : "opus_multistream_surround_encoder_create"
+  },
+  {
+   "name" : "opus_multistream_surround_encoder_get_size"
+  },
+  {
+   "name" : "opus_multistream_surround_encoder_init"
+  },
+  {
+   "name" : "opus_packet_get_bandwidth"
+  },
+  {
+   "name" : "opus_packet_get_nb_channels"
+  },
+  {
+   "name" : "opus_packet_get_nb_frames"
+  },
+  {
+   "name" : "opus_packet_get_nb_samples"
+  },
+  {
+   "name" : "opus_packet_get_samples_per_frame"
+  },
+  {
+   "name" : "opus_packet_pad"
+  },
+  {
+   "name" : "opus_packet_parse"
+  },
+  {
+   "name" : "opus_packet_parse_impl"
+  },
+  {
+   "name" : "opus_packet_unpad"
+  },
+  {
+   "name" : "opus_pcm_soft_clip"
+  },
+  {
+   "name" : "opus_projection_ambisonics_encoder_create"
+  },
+  {
+   "name" : "opus_projection_ambisonics_encoder_get_size"
+  },
+  {
+   "name" : "opus_projection_ambisonics_encoder_init"
+  },
+  {
+   "name" : "opus_projection_decode"
+  },
+  {
+   "name" : "opus_projection_decode_float"
+  },
+  {
+   "name" : "opus_projection_decoder_create"
+  },
+  {
+   "name" : "opus_projection_decoder_ctl"
+  },
+  {
+   "name" : "opus_projection_decoder_destroy"
+  },
+  {
+   "name" : "opus_projection_decoder_get_size"
+  },
+  {
+   "name" : "opus_projection_decoder_init"
+  },
+  {
+   "name" : "opus_projection_encode"
+  },
+  {
+   "name" : "opus_projection_encode_float"
+  },
+  {
+   "name" : "opus_projection_encoder_ctl"
+  },
+  {
+   "name" : "opus_projection_encoder_destroy"
+  },
+  {
+   "name" : "opus_repacketizer_cat"
+  },
+  {
+   "name" : "opus_repacketizer_create"
+  },
+  {
+   "name" : "opus_repacketizer_destroy"
+  },
+  {
+   "name" : "opus_repacketizer_get_nb_frames"
+  },
+  {
+   "name" : "opus_repacketizer_get_size"
+  },
+  {
+   "name" : "opus_repacketizer_init"
+  },
+  {
+   "name" : "opus_repacketizer_out"
+  },
+  {
+   "name" : "opus_repacketizer_out_range"
+  },
+  {
+   "name" : "opus_repacketizer_out_range_impl"
+  },
+  {
+   "name" : "opus_strerror"
+  },
+  {
+   "name" : "pitch_downsample"
+  },
+  {
+   "name" : "pitch_search"
+  },
+  {
+   "name" : "quant_all_bands"
+  },
+  {
+   "name" : "quant_coarse_energy"
+  },
+  {
+   "name" : "quant_energy_finalise"
+  },
+  {
+   "name" : "quant_fine_energy"
+  },
+  {
+   "name" : "remove_doubling"
+  },
+  {
+   "name" : "renormalise_vector"
+  },
+  {
+   "name" : "resampling_factor"
+  },
+  {
+   "name" : "run_analysis"
+  },
+  {
+   "name" : "silk_A2NLSF"
+  },
+  {
+   "name" : "silk_CNG"
+  },
+  {
+   "name" : "silk_CNG_Reset"
+  },
+  {
+   "name" : "silk_Decode"
+  },
+  {
+   "name" : "silk_Encode"
+  },
+  {
+   "name" : "silk_Get_Decoder_Size"
+  },
+  {
+   "name" : "silk_Get_Encoder_Size"
+  },
+  {
+   "name" : "silk_HP_variable_cutoff"
+  },
+  {
+   "name" : "silk_InitDecoder"
+  },
+  {
+   "name" : "silk_InitEncoder"
+  },
+  {
+   "name" : "silk_LPC_analysis_filter"
+  },
+  {
+   "name" : "silk_LPC_fit"
+  },
+  {
+   "name" : "silk_LPC_inverse_pred_gain_c"
+  },
+  {
+   "name" : "silk_LP_variable_cutoff"
+  },
+  {
+   "name" : "silk_LTP_analysis_filter_FIX"
+  },
+  {
+   "name" : "silk_LTP_scale_ctrl_FIX"
+  },
+  {
+   "name" : "silk_NLSF2A"
+  },
+  {
+   "name" : "silk_NLSF_VQ"
+  },
+  {
+   "name" : "silk_NLSF_VQ_weights_laroia"
+  },
+  {
+   "name" : "silk_NLSF_decode"
+  },
+  {
+   "name" : "silk_NLSF_del_dec_quant"
+  },
+  {
+   "name" : "silk_NLSF_encode"
+  },
+  {
+   "name" : "silk_NLSF_stabilize"
+  },
+  {
+   "name" : "silk_NLSF_unpack"
+  },
+  {
+   "name" : "silk_NSQ_c"
+  },
+  {
+   "name" : "silk_NSQ_del_dec_c"
+  },
+  {
+   "name" : "silk_NSQ_del_dec_sse4_1"
+  },
+  {
+   "name" : "silk_NSQ_sse4_1"
+  },
+  {
+   "name" : "silk_PLC"
+  },
+  {
+   "name" : "silk_PLC_Reset"
+  },
+  {
+   "name" : "silk_PLC_glue_frames"
+  },
+  {
+   "name" : "silk_VAD_GetNoiseLevels"
+  },
+  {
+   "name" : "silk_VAD_GetSA_Q8_c"
+  },
+  {
+   "name" : "silk_VAD_GetSA_Q8_sse4_1"
+  },
+  {
+   "name" : "silk_VAD_Init"
+  },
+  {
+   "name" : "silk_VQ_WMat_EC_c"
+  },
+  {
+   "name" : "silk_VQ_WMat_EC_sse4_1"
+  },
+  {
+   "name" : "silk_ana_filt_bank_1"
+  },
+  {
+   "name" : "silk_apply_sine_window"
+  },
+  {
+   "name" : "silk_autocorr"
+  },
+  {
+   "name" : "silk_biquad_alt_stride1"
+  },
+  {
+   "name" : "silk_biquad_alt_stride2_c"
+  },
+  {
+   "name" : "silk_burg_modified_c"
+  },
+  {
+   "name" : "silk_burg_modified_sse4_1"
+  },
+  {
+   "name" : "silk_bwexpander"
+  },
+  {
+   "name" : "silk_bwexpander_32"
+  },
+  {
+   "name" : "silk_control_SNR"
+  },
+  {
+   "name" : "silk_control_audio_bandwidth"
+  },
+  {
+   "name" : "silk_control_encoder"
+  },
+  {
+   "name" : "silk_corrMatrix_FIX"
+  },
+  {
+   "name" : "silk_corrVector_FIX"
+  },
+  {
+   "name" : "silk_decode_core"
+  },
+  {
+   "name" : "silk_decode_frame"
+  },
+  {
+   "name" : "silk_decode_indices"
+  },
+  {
+   "name" : "silk_decode_parameters"
+  },
+  {
+   "name" : "silk_decode_pitch"
+  },
+  {
+   "name" : "silk_decode_pulses"
+  },
+  {
+   "name" : "silk_decode_signs"
+  },
+  {
+   "name" : "silk_decoder_set_fs"
+  },
+  {
+   "name" : "silk_encode_do_VAD_FIX"
+  },
+  {
+   "name" : "silk_encode_frame_FIX"
+  },
+  {
+   "name" : "silk_encode_indices"
+  },
+  {
+   "name" : "silk_encode_pulses"
+  },
+  {
+   "name" : "silk_encode_signs"
+  },
+  {
+   "name" : "silk_find_LPC_FIX"
+  },
+  {
+   "name" : "silk_find_LTP_FIX"
+  },
+  {
+   "name" : "silk_find_pitch_lags_FIX"
+  },
+  {
+   "name" : "silk_find_pred_coefs_FIX"
+  },
+  {
+   "name" : "silk_gains_ID"
+  },
+  {
+   "name" : "silk_gains_dequant"
+  },
+  {
+   "name" : "silk_gains_quant"
+  },
+  {
+   "name" : "silk_init_decoder"
+  },
+  {
+   "name" : "silk_init_encoder"
+  },
+  {
+   "name" : "silk_inner_prod16_aligned_64_c"
+  },
+  {
+   "name" : "silk_inner_prod16_aligned_64_sse4_1"
+  },
+  {
+   "name" : "silk_inner_prod_aligned"
+  },
+  {
+   "name" : "silk_inner_prod_aligned_scale"
+  },
+  {
+   "name" : "silk_insertion_sort_decreasing_int16"
+  },
+  {
+   "name" : "silk_insertion_sort_increasing"
+  },
+  {
+   "name" : "silk_insertion_sort_increasing_all_values_int16"
+  },
+  {
+   "name" : "silk_interpolate"
+  },
+  {
+   "name" : "silk_k2a"
+  },
+  {
+   "name" : "silk_k2a_Q16"
+  },
+  {
+   "name" : "silk_lin2log"
+  },
+  {
+   "name" : "silk_log2lin"
+  },
+  {
+   "name" : "silk_noise_shape_analysis_FIX"
+  },
+  {
+   "name" : "silk_noise_shape_quantizer"
+  },
+  {
+   "name" : "silk_pitch_analysis_core"
+  },
+  {
+   "name" : "silk_process_NLSFs"
+  },
+  {
+   "name" : "silk_process_gains_FIX"
+  },
+  {
+   "name" : "silk_quant_LTP_gains"
+  },
+  {
+   "name" : "silk_regularize_correlations_FIX"
+  },
+  {
+   "name" : "silk_resampler"
+  },
+  {
+   "name" : "silk_resampler_down2"
+  },
+  {
+   "name" : "silk_resampler_down2_3"
+  },
+  {
+   "name" : "silk_resampler_init"
+  },
+  {
+   "name" : "silk_resampler_private_AR2"
+  },
+  {
+   "name" : "silk_resampler_private_IIR_FIR"
+  },
+  {
+   "name" : "silk_resampler_private_down_FIR"
+  },
+  {
+   "name" : "silk_resampler_private_up2_HQ"
+  },
+  {
+   "name" : "silk_resampler_private_up2_HQ_wrapper"
+  },
+  {
+   "name" : "silk_residual_energy16_covar_FIX"
+  },
+  {
+   "name" : "silk_residual_energy_FIX"
+  },
+  {
+   "name" : "silk_scale_copy_vector16"
+  },
+  {
+   "name" : "silk_scale_vector32_Q26_lshift_18"
+  },
+  {
+   "name" : "silk_schur"
+  },
+  {
+   "name" : "silk_schur64"
+  },
+  {
+   "name" : "silk_shell_decoder"
+  },
+  {
+   "name" : "silk_shell_encoder"
+  },
+  {
+   "name" : "silk_sigm_Q15"
+  },
+  {
+   "name" : "silk_stereo_LR_to_MS"
+  },
+  {
+   "name" : "silk_stereo_MS_to_LR"
+  },
+  {
+   "name" : "silk_stereo_decode_mid_only"
+  },
+  {
+   "name" : "silk_stereo_decode_pred"
+  },
+  {
+   "name" : "silk_stereo_encode_mid_only"
+  },
+  {
+   "name" : "silk_stereo_encode_pred"
+  },
+  {
+   "name" : "silk_stereo_find_predictor"
+  },
+  {
+   "name" : "silk_stereo_quant_pred"
+  },
+  {
+   "name" : "silk_sum_sqr_shift"
+  },
+  {
+   "name" : "silk_warped_autocorrelation_FIX_c"
+  },
+  {
+   "name" : "spreading_decision"
+  },
+  {
+   "name" : "stereo_itheta"
+  },
+  {
+   "name" : "surround_analysis"
+  },
+  {
+   "name" : "tonality_analysis_init"
+  },
+  {
+   "name" : "tonality_analysis_reset"
+  },
+  {
+   "name" : "tonality_get_info"
+  },
+  {
+   "name" : "unquant_coarse_energy"
+  },
+  {
+   "name" : "unquant_energy_finalise"
+  },
+  {
+   "name" : "unquant_fine_energy"
+  },
+  {
+   "name" : "validate_celt_decoder"
+  },
+  {
+   "name" : "validate_layout"
+  },
+  {
+   "name" : "xcorr_kernel_sse4_1"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "name" : "eMeans"
+  },
+  {
+   "name" : "layer0"
+  },
+  {
+   "name" : "layer1"
+  },
+  {
+   "name" : "layer2"
+  },
+  {
+   "name" : "mapping_matrix_foa_demixing"
+  },
+  {
+   "name" : "mapping_matrix_foa_demixing_data"
+  },
+  {
+   "name" : "mapping_matrix_foa_mixing"
+  },
+  {
+   "name" : "mapping_matrix_foa_mixing_data"
+  },
+  {
+   "name" : "mapping_matrix_soa_demixing"
+  },
+  {
+   "name" : "mapping_matrix_soa_demixing_data"
+  },
+  {
+   "name" : "mapping_matrix_soa_mixing"
+  },
+  {
+   "name" : "mapping_matrix_soa_mixing_data"
+  },
+  {
+   "name" : "mapping_matrix_toa_demixing"
+  },
+  {
+   "name" : "mapping_matrix_toa_demixing_data"
+  },
+  {
+   "name" : "mapping_matrix_toa_mixing"
+  },
+  {
+   "name" : "mapping_matrix_toa_mixing_data"
+  },
+  {
+   "name" : "silk_CB_lags_stage2"
+  },
+  {
+   "name" : "silk_CB_lags_stage2_10_ms"
+  },
+  {
+   "name" : "silk_CB_lags_stage3"
+  },
+  {
+   "name" : "silk_CB_lags_stage3_10_ms"
+  },
+  {
+   "name" : "silk_LBRR_flags_iCDF_ptr"
+  },
+  {
+   "name" : "silk_LSFCosTab_FIX_Q12"
+  },
+  {
+   "name" : "silk_LTPScales_table_Q14"
+  },
+  {
+   "name" : "silk_LTP_gain_BITS_Q5_ptrs"
+  },
+  {
+   "name" : "silk_LTP_gain_iCDF_ptrs"
+  },
+  {
+   "name" : "silk_LTP_per_index_iCDF"
+  },
+  {
+   "name" : "silk_LTP_vq_gain_ptrs_Q7"
+  },
+  {
+   "name" : "silk_LTP_vq_ptrs_Q7"
+  },
+  {
+   "name" : "silk_LTP_vq_sizes"
+  },
+  {
+   "name" : "silk_LTPscale_iCDF"
+  },
+  {
+   "name" : "silk_Lag_range_stage3"
+  },
+  {
+   "name" : "silk_Lag_range_stage3_10_ms"
+  },
+  {
+   "name" : "silk_NLSF_CB_NB_MB"
+  },
+  {
+   "name" : "silk_NLSF_CB_WB"
+  },
+  {
+   "name" : "silk_NLSF_EXT_iCDF"
+  },
+  {
+   "name" : "silk_NLSF_interpolation_factor_iCDF"
+  },
+  {
+   "name" : "silk_Quantization_Offsets_Q10"
+  },
+  {
+   "name" : "silk_Resampler_1_2_COEFS"
+  },
+  {
+   "name" : "silk_Resampler_1_3_COEFS"
+  },
+  {
+   "name" : "silk_Resampler_1_4_COEFS"
+  },
+  {
+   "name" : "silk_Resampler_1_6_COEFS"
+  },
+  {
+   "name" : "silk_Resampler_2_3_COEFS"
+  },
+  {
+   "name" : "silk_Resampler_2_3_COEFS_LQ"
+  },
+  {
+   "name" : "silk_Resampler_3_4_COEFS"
+  },
+  {
+   "name" : "silk_Transition_LP_A_Q28"
+  },
+  {
+   "name" : "silk_Transition_LP_B_Q28"
+  },
+  {
+   "name" : "silk_delta_gain_iCDF"
+  },
+  {
+   "name" : "silk_gain_iCDF"
+  },
+  {
+   "name" : "silk_lsb_iCDF"
+  },
+  {
+   "name" : "silk_max_pulses_table"
+  },
+  {
+   "name" : "silk_nb_cbk_searchs_stage3"
+  },
+  {
+   "name" : "silk_pitch_contour_10_ms_NB_iCDF"
+  },
+  {
+   "name" : "silk_pitch_contour_10_ms_iCDF"
+  },
+  {
+   "name" : "silk_pitch_contour_NB_iCDF"
+  },
+  {
+   "name" : "silk_pitch_contour_iCDF"
+  },
+  {
+   "name" : "silk_pitch_delta_iCDF"
+  },
+  {
+   "name" : "silk_pitch_lag_iCDF"
+  },
+  {
+   "name" : "silk_pulses_per_block_BITS_Q5"
+  },
+  {
+   "name" : "silk_pulses_per_block_iCDF"
+  },
+  {
+   "name" : "silk_rate_levels_BITS_Q5"
+  },
+  {
+   "name" : "silk_rate_levels_iCDF"
+  },
+  {
+   "name" : "silk_resampler_frac_FIR_12"
+  },
+  {
+   "name" : "silk_shell_code_table0"
+  },
+  {
+   "name" : "silk_shell_code_table1"
+  },
+  {
+   "name" : "silk_shell_code_table2"
+  },
+  {
+   "name" : "silk_shell_code_table3"
+  },
+  {
+   "name" : "silk_shell_code_table_offsets"
+  },
+  {
+   "name" : "silk_sign_iCDF"
+  },
+  {
+   "name" : "silk_stereo_only_code_mid_iCDF"
+  },
+  {
+   "name" : "silk_stereo_pred_joint_iCDF"
+  },
+  {
+   "name" : "silk_stereo_pred_quant_Q13"
+  },
+  {
+   "name" : "silk_type_offset_VAD_iCDF"
+  },
+  {
+   "name" : "silk_type_offset_no_VAD_iCDF"
+  },
+  {
+   "name" : "silk_uniform3_iCDF"
+  },
+  {
+   "name" : "silk_uniform4_iCDF"
+  },
+  {
+   "name" : "silk_uniform5_iCDF"
+  },
+  {
+   "name" : "silk_uniform6_iCDF"
+  },
+  {
+   "name" : "silk_uniform8_iCDF"
+  },
+  {
+   "name" : "tf_select_table"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" :
+ [
+  {
+   "function_name" : "opus_custom_decoder_ctl",
+   "linker_set_key" : "opus_custom_decoder_ctl",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-54"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "function_name" : "opus_custom_encoder_ctl",
+   "linker_set_key" : "opus_custom_encoder_ctl",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-36"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "function_name" : "opus_custom_mode_create",
+   "linker_set_key" : "opus_custom_mode_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-10"
+    }
+   ],
+   "return_type" : "type-8",
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "function_name" : "opus_decode",
+   "linker_set_key" : "opus_decode",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-73"
+    },
+    {
+     "referenced_type" : "type-65"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-69"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_decode_float",
+   "linker_set_key" : "opus_decode_float",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-73"
+    },
+    {
+     "referenced_type" : "type-65"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-62"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_decoder_create",
+   "linker_set_key" : "opus_decoder_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-10"
+    }
+   ],
+   "return_type" : "type-73",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_decoder_ctl",
+   "linker_set_key" : "opus_decoder_ctl",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-73"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_decoder_destroy",
+   "linker_set_key" : "opus_decoder_destroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-73"
+    }
+   ],
+   "return_type" : "type-60",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_decoder_get_nb_samples",
+   "linker_set_key" : "opus_decoder_get_nb_samples",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-72"
+    },
+    {
+     "referenced_type" : "type-65"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_decoder_get_size",
+   "linker_set_key" : "opus_decoder_get_size",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_decoder_init",
+   "linker_set_key" : "opus_decoder_init",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-73"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_encode",
+   "linker_set_key" : "opus_encode",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-77"
+    },
+    {
+     "referenced_type" : "type-80"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_encode_float",
+   "linker_set_key" : "opus_encode_float",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-77"
+    },
+    {
+     "referenced_type" : "type-76"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_encoder_create",
+   "linker_set_key" : "opus_encoder_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-10"
+    }
+   ],
+   "return_type" : "type-77",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_encoder_ctl",
+   "linker_set_key" : "opus_encoder_ctl",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-77"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_encoder_destroy",
+   "linker_set_key" : "opus_encoder_destroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-77"
+    }
+   ],
+   "return_type" : "type-60",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_encoder_get_size",
+   "linker_set_key" : "opus_encoder_get_size",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_encoder_init",
+   "linker_set_key" : "opus_encoder_init",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-77"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_get_version_string",
+   "linker_set_key" : "opus_get_version_string",
+   "return_type" : "type-1",
+   "source_file" : "/external/libopus/include/opus_defines.h"
+  },
+  {
+   "function_name" : "opus_multistream_decode",
+   "linker_set_key" : "opus_multistream_decode",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-85"
+    },
+    {
+     "referenced_type" : "type-65"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-69"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_multistream_decode_float",
+   "linker_set_key" : "opus_multistream_decode_float",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-85"
+    },
+    {
+     "referenced_type" : "type-65"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-62"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_multistream_decoder_create",
+   "linker_set_key" : "opus_multistream_decoder_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-65"
+    },
+    {
+     "referenced_type" : "type-10"
+    }
+   ],
+   "return_type" : "type-85",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_multistream_decoder_ctl",
+   "linker_set_key" : "opus_multistream_decoder_ctl",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-85"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_multistream_decoder_destroy",
+   "linker_set_key" : "opus_multistream_decoder_destroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-85"
+    }
+   ],
+   "return_type" : "type-60",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_multistream_decoder_get_size",
+   "linker_set_key" : "opus_multistream_decoder_get_size",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_multistream_decoder_init",
+   "linker_set_key" : "opus_multistream_decoder_init",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-85"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-65"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_multistream_encode",
+   "linker_set_key" : "opus_multistream_encode",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-81"
+    },
+    {
+     "referenced_type" : "type-80"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_multistream_encode_float",
+   "linker_set_key" : "opus_multistream_encode_float",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-81"
+    },
+    {
+     "referenced_type" : "type-76"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_multistream_encoder_create",
+   "linker_set_key" : "opus_multistream_encoder_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-65"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-10"
+    }
+   ],
+   "return_type" : "type-81",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_multistream_encoder_ctl",
+   "linker_set_key" : "opus_multistream_encoder_ctl",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-81"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_multistream_encoder_destroy",
+   "linker_set_key" : "opus_multistream_encoder_destroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-81"
+    }
+   ],
+   "return_type" : "type-60",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_multistream_encoder_get_size",
+   "linker_set_key" : "opus_multistream_encoder_get_size",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_multistream_encoder_init",
+   "linker_set_key" : "opus_multistream_encoder_init",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-81"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-65"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_multistream_packet_pad",
+   "linker_set_key" : "opus_multistream_packet_pad",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_multistream_packet_unpad",
+   "linker_set_key" : "opus_multistream_packet_unpad",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_multistream_surround_encoder_create",
+   "linker_set_key" : "opus_multistream_surround_encoder_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-10"
+    },
+    {
+     "referenced_type" : "type-10"
+    },
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-10"
+    }
+   ],
+   "return_type" : "type-81",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_multistream_surround_encoder_get_size",
+   "linker_set_key" : "opus_multistream_surround_encoder_get_size",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_multistream_surround_encoder_init",
+   "linker_set_key" : "opus_multistream_surround_encoder_init",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-81"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-10"
+    },
+    {
+     "referenced_type" : "type-10"
+    },
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "function_name" : "opus_packet_get_bandwidth",
+   "linker_set_key" : "opus_packet_get_bandwidth",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-65"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_packet_get_nb_channels",
+   "linker_set_key" : "opus_packet_get_nb_channels",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-65"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_packet_get_nb_frames",
+   "linker_set_key" : "opus_packet_get_nb_frames",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-65"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_packet_get_nb_samples",
+   "linker_set_key" : "opus_packet_get_nb_samples",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-65"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_packet_get_samples_per_frame",
+   "linker_set_key" : "opus_packet_get_samples_per_frame",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-65"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_packet_pad",
+   "linker_set_key" : "opus_packet_pad",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_packet_parse",
+   "linker_set_key" : "opus_packet_parse",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-65"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-67"
+    },
+    {
+     "referenced_type" : "type-69"
+    },
+    {
+     "referenced_type" : "type-10"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_packet_unpad",
+   "linker_set_key" : "opus_packet_unpad",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_pcm_soft_clip",
+   "linker_set_key" : "opus_pcm_soft_clip",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-62"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-62"
+    }
+   ],
+   "return_type" : "type-60",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_projection_ambisonics_encoder_create",
+   "linker_set_key" : "opus_projection_ambisonics_encoder_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-10"
+    },
+    {
+     "referenced_type" : "type-10"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-10"
+    }
+   ],
+   "return_type" : "type-87",
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "function_name" : "opus_projection_ambisonics_encoder_get_size",
+   "linker_set_key" : "opus_projection_ambisonics_encoder_get_size",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "function_name" : "opus_projection_ambisonics_encoder_init",
+   "linker_set_key" : "opus_projection_ambisonics_encoder_init",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-87"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-10"
+    },
+    {
+     "referenced_type" : "type-10"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "function_name" : "opus_projection_decode",
+   "linker_set_key" : "opus_projection_decode",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-128"
+    },
+    {
+     "referenced_type" : "type-65"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-69"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "function_name" : "opus_projection_decode_float",
+   "linker_set_key" : "opus_projection_decode_float",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-128"
+    },
+    {
+     "referenced_type" : "type-65"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-62"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "function_name" : "opus_projection_decoder_create",
+   "linker_set_key" : "opus_projection_decoder_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-10"
+    }
+   ],
+   "return_type" : "type-128",
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "function_name" : "opus_projection_decoder_ctl",
+   "linker_set_key" : "opus_projection_decoder_ctl",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-128"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "function_name" : "opus_projection_decoder_destroy",
+   "linker_set_key" : "opus_projection_decoder_destroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-128"
+    }
+   ],
+   "return_type" : "type-60",
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "function_name" : "opus_projection_decoder_get_size",
+   "linker_set_key" : "opus_projection_decoder_get_size",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "function_name" : "opus_projection_decoder_init",
+   "linker_set_key" : "opus_projection_decoder_init",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-128"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "function_name" : "opus_projection_encode",
+   "linker_set_key" : "opus_projection_encode",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-87"
+    },
+    {
+     "referenced_type" : "type-80"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "function_name" : "opus_projection_encode_float",
+   "linker_set_key" : "opus_projection_encode_float",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-87"
+    },
+    {
+     "referenced_type" : "type-76"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "function_name" : "opus_projection_encoder_ctl",
+   "linker_set_key" : "opus_projection_encoder_ctl",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-87"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "function_name" : "opus_projection_encoder_destroy",
+   "linker_set_key" : "opus_projection_encoder_destroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-87"
+    }
+   ],
+   "return_type" : "type-60",
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "function_name" : "opus_repacketizer_cat",
+   "linker_set_key" : "opus_repacketizer_cat",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-130"
+    },
+    {
+     "referenced_type" : "type-65"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_repacketizer_create",
+   "linker_set_key" : "opus_repacketizer_create",
+   "return_type" : "type-130",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_repacketizer_destroy",
+   "linker_set_key" : "opus_repacketizer_destroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-130"
+    }
+   ],
+   "return_type" : "type-60",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_repacketizer_get_nb_frames",
+   "linker_set_key" : "opus_repacketizer_get_nb_frames",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-130"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_repacketizer_get_size",
+   "linker_set_key" : "opus_repacketizer_get_size",
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_repacketizer_init",
+   "linker_set_key" : "opus_repacketizer_init",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-130"
+    }
+   ],
+   "return_type" : "type-130",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_repacketizer_out",
+   "linker_set_key" : "opus_repacketizer_out",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-130"
+    },
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_repacketizer_out_range",
+   "linker_set_key" : "opus_repacketizer_out_range",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-130"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-66"
+    },
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-11",
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "function_name" : "opus_strerror",
+   "linker_set_key" : "opus_strerror",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    }
+   ],
+   "return_type" : "type-1",
+   "source_file" : "/external/libopus/include/opus_defines.h"
+  }
+ ],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-127",
+   "self_type" : "type-126",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-139",
+   "self_type" : "type-138",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-145",
+   "self_type" : "type-144",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-15",
+   "self_type" : "type-14",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-151",
+   "self_type" : "type-150",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-157",
+   "self_type" : "type-156",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-163",
+   "self_type" : "type-162",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-171",
+   "self_type" : "type-170",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-200",
+   "self_type" : "type-199",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-21",
+   "self_type" : "type-20",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-212",
+   "self_type" : "type-211",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-241",
+   "self_type" : "type-240",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-27",
+   "self_type" : "type-26",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-33",
+   "self_type" : "type-32",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-41",
+   "self_type" : "type-40",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-47",
+   "self_type" : "type-46",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-53",
+   "self_type" : "type-52",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-55",
+   "self_type" : "type-54",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-7",
+   "self_type" : "type-6",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-90",
+   "self_type" : "type-89",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomDecoder *",
+   "name" : "OpusCustomDecoder *",
+   "referenced_type" : "type-98",
+   "self_type" : "type-97",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-119",
+   "self_type" : "type-118",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-13",
+   "self_type" : "type-12",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-137",
+   "self_type" : "type-136",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-143",
+   "self_type" : "type-142",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-149",
+   "self_type" : "type-148",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-155",
+   "self_type" : "type-154",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-161",
+   "self_type" : "type-160",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-169",
+   "self_type" : "type-168",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-19",
+   "self_type" : "type-18",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-192",
+   "self_type" : "type-191",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-210",
+   "self_type" : "type-209",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-233",
+   "self_type" : "type-232",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-25",
+   "self_type" : "type-24",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-31",
+   "self_type" : "type-30",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-37",
+   "self_type" : "type-36",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-39",
+   "self_type" : "type-38",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-45",
+   "self_type" : "type-44",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-5",
+   "self_type" : "type-4",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-51",
+   "self_type" : "type-50",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-84",
+   "self_type" : "type-83",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomEncoder *",
+   "name" : "OpusCustomEncoder *",
+   "referenced_type" : "type-96",
+   "self_type" : "type-95",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-100",
+   "self_type" : "type-99",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-133",
+   "self_type" : "type-132",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-141",
+   "self_type" : "type-140",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-147",
+   "self_type" : "type-146",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-153",
+   "self_type" : "type-152",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-159",
+   "self_type" : "type-158",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-165",
+   "self_type" : "type-164",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-17",
+   "self_type" : "type-16",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-173",
+   "self_type" : "type-172",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-206",
+   "self_type" : "type-205",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-214",
+   "self_type" : "type-213",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-23",
+   "self_type" : "type-22",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-247",
+   "self_type" : "type-246",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-29",
+   "self_type" : "type-28",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-35",
+   "self_type" : "type-34",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-43",
+   "self_type" : "type-42",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-49",
+   "self_type" : "type-48",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-57",
+   "self_type" : "type-56",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-9",
+   "self_type" : "type-8",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusCustomMode *",
+   "name" : "OpusCustomMode *",
+   "referenced_type" : "type-92",
+   "self_type" : "type-91",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusDecoder *",
+   "name" : "OpusDecoder *",
+   "referenced_type" : "type-111",
+   "self_type" : "type-110",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusDecoder *",
+   "name" : "OpusDecoder *",
+   "referenced_type" : "type-184",
+   "self_type" : "type-183",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusDecoder *",
+   "name" : "OpusDecoder *",
+   "referenced_type" : "type-225",
+   "self_type" : "type-224",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusDecoder *",
+   "name" : "OpusDecoder *",
+   "referenced_type" : "type-74",
+   "self_type" : "type-73",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusEncoder *",
+   "name" : "OpusEncoder *",
+   "referenced_type" : "type-115",
+   "self_type" : "type-114",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusEncoder *",
+   "name" : "OpusEncoder *",
+   "referenced_type" : "type-188",
+   "self_type" : "type-187",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusEncoder *",
+   "name" : "OpusEncoder *",
+   "referenced_type" : "type-229",
+   "self_type" : "type-228",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusEncoder *",
+   "name" : "OpusEncoder *",
+   "referenced_type" : "type-78",
+   "self_type" : "type-77",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusMSDecoder *",
+   "name" : "OpusMSDecoder *",
+   "referenced_type" : "type-123",
+   "self_type" : "type-122",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusMSDecoder *",
+   "name" : "OpusMSDecoder *",
+   "referenced_type" : "type-196",
+   "self_type" : "type-195",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusMSDecoder *",
+   "name" : "OpusMSDecoder *",
+   "referenced_type" : "type-237",
+   "self_type" : "type-236",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusMSDecoder *",
+   "name" : "OpusMSDecoder *",
+   "referenced_type" : "type-86",
+   "self_type" : "type-85",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusMSEncoder *",
+   "name" : "OpusMSEncoder *",
+   "referenced_type" : "type-121",
+   "self_type" : "type-120",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusMSEncoder *",
+   "name" : "OpusMSEncoder *",
+   "referenced_type" : "type-194",
+   "self_type" : "type-193",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusMSEncoder *",
+   "name" : "OpusMSEncoder *",
+   "referenced_type" : "type-235",
+   "self_type" : "type-234",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusMSEncoder *",
+   "name" : "OpusMSEncoder *",
+   "referenced_type" : "type-82",
+   "self_type" : "type-81",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_multistream.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusProjectionDecoder *",
+   "name" : "OpusProjectionDecoder *",
+   "referenced_type" : "type-129",
+   "self_type" : "type-128",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusProjectionDecoder *",
+   "name" : "OpusProjectionDecoder *",
+   "referenced_type" : "type-202",
+   "self_type" : "type-201",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusProjectionDecoder *",
+   "name" : "OpusProjectionDecoder *",
+   "referenced_type" : "type-243",
+   "self_type" : "type-242",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusProjectionEncoder *",
+   "name" : "OpusProjectionEncoder *",
+   "referenced_type" : "type-125",
+   "self_type" : "type-124",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusProjectionEncoder *",
+   "name" : "OpusProjectionEncoder *",
+   "referenced_type" : "type-198",
+   "self_type" : "type-197",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusProjectionEncoder *",
+   "name" : "OpusProjectionEncoder *",
+   "referenced_type" : "type-239",
+   "self_type" : "type-238",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusProjectionEncoder *",
+   "name" : "OpusProjectionEncoder *",
+   "referenced_type" : "type-88",
+   "self_type" : "type-87",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_projection.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusRepacketizer *",
+   "name" : "OpusRepacketizer *",
+   "referenced_type" : "type-131",
+   "self_type" : "type-130",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusRepacketizer *",
+   "name" : "OpusRepacketizer *",
+   "referenced_type" : "type-204",
+   "self_type" : "type-203",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "OpusRepacketizer *",
+   "name" : "OpusRepacketizer *",
+   "referenced_type" : "type-245",
+   "self_type" : "type-244",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const OpusDecoder *",
+   "name" : "const OpusDecoder *",
+   "referenced_type" : "type-107",
+   "self_type" : "type-109",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const OpusDecoder *",
+   "name" : "const OpusDecoder *",
+   "referenced_type" : "type-180",
+   "self_type" : "type-182",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const OpusDecoder *",
+   "name" : "const OpusDecoder *",
+   "referenced_type" : "type-221",
+   "self_type" : "type-223",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const OpusDecoder *",
+   "name" : "const OpusDecoder *",
+   "referenced_type" : "type-70",
+   "self_type" : "type-72",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const char *",
+   "name" : "const char *",
+   "referenced_type" : "type-2",
+   "self_type" : "type-1",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_defines.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const float *",
+   "name" : "const float *",
+   "referenced_type" : "type-75",
+   "self_type" : "type-76",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const short *",
+   "name" : "const short *",
+   "referenced_type" : "type-79",
+   "self_type" : "type-80",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const unsigned char *",
+   "name" : "const unsigned char *",
+   "referenced_type" : "type-63",
+   "self_type" : "type-65",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const unsigned char **",
+   "name" : "const unsigned char **",
+   "referenced_type" : "type-65",
+   "self_type" : "type-67",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "float *",
+   "name" : "float *",
+   "referenced_type" : "type-61",
+   "self_type" : "type-62",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "int *",
+   "name" : "int *",
+   "referenced_type" : "type-11",
+   "self_type" : "type-10",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus_custom.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "short *",
+   "name" : "short *",
+   "referenced_type" : "type-68",
+   "self_type" : "type-69",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "unsigned char *",
+   "name" : "unsigned char *",
+   "referenced_type" : "type-64",
+   "self_type" : "type-66",
+   "size" : 8,
+   "source_file" : "/external/libopus/include/opus.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const OpusDecoder",
+   "name" : "const OpusDecoder",
+   "referenced_type" : "type-108",
+   "self_type" : "type-107",
+   "size" : 80,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const OpusDecoder",
+   "name" : "const OpusDecoder",
+   "referenced_type" : "type-181",
+   "self_type" : "type-180",
+   "size" : 80,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const OpusDecoder",
+   "name" : "const OpusDecoder",
+   "referenced_type" : "type-222",
+   "self_type" : "type-221",
+   "size" : 80,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const OpusDecoder",
+   "name" : "const OpusDecoder",
+   "referenced_type" : "type-71",
+   "self_type" : "type-70",
+   "size" : 80,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "const char",
+   "name" : "const char",
+   "referenced_type" : "type-3",
+   "self_type" : "type-2",
+   "size" : 1,
+   "source_file" : "/external/libopus/include/opus_defines.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const float",
+   "name" : "const float",
+   "referenced_type" : "type-61",
+   "self_type" : "type-75",
+   "size" : 4,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 2,
+   "is_const" : true,
+   "linker_set_key" : "const short",
+   "name" : "const short",
+   "referenced_type" : "type-68",
+   "self_type" : "type-79",
+   "size" : 2,
+   "source_file" : "/external/libopus/include/opus.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "const unsigned char",
+   "name" : "const unsigned char",
+   "referenced_type" : "type-64",
+   "self_type" : "type-63",
+   "size" : 1,
+   "source_file" : "/external/libopus/include/opus.h"
+  }
+ ],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}
