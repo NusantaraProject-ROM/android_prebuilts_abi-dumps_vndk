@@ -1,25 +1,5 @@
 {
- "array_types" :
- [
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const char *[4]",
-   "name" : "const char *[4]",
-   "referenced_type" : "type-20",
-   "self_type" : "type-19",
-   "size" : 32,
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "std::__1::pair<std::__1::basic_string<char>, android::MediaCodecsXmlParser::CodecProperties> [2048]",
-   "name" : "std::__1::pair<std::__1::basic_string<char>, android::MediaCodecsXmlParser::CodecProperties> [2048]",
-   "referenced_type" : "type-12",
-   "self_type" : "type-11",
-   "size" : 278528,
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  }
- ],
+ "array_types" : [],
  "builtin_types" :
  [
   {
@@ -28,8 +8,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "bool",
    "name" : "bool",
-   "referenced_type" : "type-5",
-   "self_type" : "type-5",
+   "referenced_type" : "type-8",
+   "self_type" : "type-8",
    "size" : 1
   },
   {
@@ -38,8 +18,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "char",
    "name" : "char",
-   "referenced_type" : "type-22",
-   "self_type" : "type-22",
+   "referenced_type" : "type-38",
+   "self_type" : "type-38",
    "size" : 1
   },
   {
@@ -47,18 +27,8 @@
    "is_integral" : true,
    "linker_set_key" : "int",
    "name" : "int",
-   "referenced_type" : "type-2",
-   "self_type" : "type-2",
-   "size" : 4
-  },
-  {
-   "alignment" : 4,
-   "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "unsigned int",
-   "name" : "unsigned int",
-   "referenced_type" : "type-4",
-   "self_type" : "type-4",
+   "referenced_type" : "type-21",
+   "self_type" : "type-21",
    "size" : 4
   },
   {
@@ -67,66 +37,111 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long",
    "name" : "unsigned long",
-   "referenced_type" : "type-14",
-   "self_type" : "type-14",
+   "referenced_type" : "type-23",
+   "self_type" : "type-23",
    "size" : 8
   },
   {
    "linker_set_key" : "void",
    "name" : "void",
-   "referenced_type" : "type-25",
-   "self_type" : "type-25"
+   "referenced_type" : "type-40",
+   "self_type" : "type-40"
   }
  ],
  "elf_functions" :
  [
   {
-   "name" : "_ZN7android20MediaCodecsXmlParser10addFeatureEPPKc"
+   "name" : "_ZN7android20MediaCodecsXmlParser12parseXmlPathERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE"
   },
   {
-   "name" : "_ZN7android20MediaCodecsXmlParser12parseXMLFileEPKc"
+   "name" : "_ZN7android20MediaCodecsXmlParser25parseXmlFilesInSearchDirsERKNSt3__16vectorINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS6_IS8_EEEESC_"
   },
   {
-   "name" : "_ZN7android20MediaCodecsXmlParser14includeXMLFileEPPKc"
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl12parseXmlPathERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
   },
   {
-   "name" : "_ZN7android20MediaCodecsXmlParser17endElementHandlerEPKc"
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl25parseXmlFilesInSearchDirsERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEESD_"
   },
   {
-   "name" : "_ZN7android20MediaCodecsXmlParser19startElementHandlerEPKcPS2_"
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl4Data9addGlobalENSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEES9_b"
   },
   {
-   "name" : "_ZN7android20MediaCodecsXmlParser20parseTopLevelXMLFileEPKcb"
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl5State12enterIncludeERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE"
   },
   {
-   "name" : "_ZN7android20MediaCodecsXmlParser21addTypeFromAttributesEPPKcb"
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl5State15enterMediaCodecEbPKcS4_b"
   },
   {
-   "name" : "_ZN7android20MediaCodecsXmlParser24EndElementHandlerWrapperEPvPKc"
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl5State9addDetailERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESB_"
   },
   {
-   "name" : "_ZN7android20MediaCodecsXmlParser24addSettingFromAttributesEPPKc"
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl5State9enterTypeEPKcb"
   },
   {
-   "name" : "_ZN7android20MediaCodecsXmlParser26StartElementHandlerWrapperEPvPKcPS3_"
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl5StateC1EPNS1_4DataE"
   },
   {
-   "name" : "_ZN7android20MediaCodecsXmlParser27addMediaCodecFromAttributesEbPPKc"
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl5StateC2EPNS1_4DataE"
   },
   {
-   "name" : "_ZN7android20MediaCodecsXmlParser8addAliasEPPKc"
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser10addFeatureEPPKc"
   },
   {
-   "name" : "_ZN7android20MediaCodecsXmlParser8addLimitEPPKc"
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser10addSettingEPPKcS4_"
   },
   {
-   "name" : "_ZN7android20MediaCodecsXmlParser8addQuirkEPPKcS2_"
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser12parseXmlFileEv"
   },
   {
-   "name" : "_ZN7android20MediaCodecsXmlParserC1EPKPKcS2_S2_S2_"
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser12updateStatusEi"
   },
   {
-   "name" : "_ZN7android20MediaCodecsXmlParserC2EPKPKcS2_S2_S2_"
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser13limitVariantsEPPKc"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser14includeXmlFileEPPKc"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser15enterMediaCodecEPPKcb"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser16updateMediaCodecEPKcRKNSt3__13setINS5_12basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEENS5_4lessISC_EENSA_ISC_EEEESI_S4_"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser17endElementHandlerEPKc"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser19startElementHandlerEPKcPS4_"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser24EndElementHandlerWrapperEPvPKc"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser26StartElementHandlerWrapperEPvPKcPS5_"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser8addAliasEPPKc"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser8addLimitEPPKc"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser8addQuirkEPPKcS4_"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6Parser9enterTypeEPPKc"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6ParserC1EPNS1_5StateENSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParser4Impl6ParserC2EPNS1_5StateENSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParserC1Ev"
+  },
+  {
+   "name" : "_ZN7android20MediaCodecsXmlParserC2Ev"
   },
   {
    "name" : "_ZN7android20MediaCodecsXmlParserD1Ev"
@@ -141,23 +156,55 @@
    "name" : "_ZNK7android20MediaCodecsXmlParser11getCodecMapEv"
   },
   {
-   "name" : "_ZNK7android20MediaCodecsXmlParser15generateRoleMapEv"
-  },
-  {
    "name" : "_ZNK7android20MediaCodecsXmlParser15getCommonPrefixEv"
   },
   {
    "name" : "_ZNK7android20MediaCodecsXmlParser16getParsingStatusEv"
   },
   {
-   "name" : "_ZNK7android20MediaCodecsXmlParser20generateCommonPrefixEv"
+   "name" : "_ZNK7android20MediaCodecsXmlParser22getServiceAttributeMapEv"
   },
   {
-   "name" : "_ZNK7android20MediaCodecsXmlParser22getServiceAttributeMapEv"
+   "name" : "_ZNK7android20MediaCodecsXmlParser4Impl10getRoleMapEv"
+  },
+  {
+   "name" : "_ZNK7android20MediaCodecsXmlParser4Impl15generateRoleMapEv"
+  },
+  {
+   "name" : "_ZNK7android20MediaCodecsXmlParser4Impl15getCommonPrefixEv"
+  },
+  {
+   "name" : "_ZNK7android20MediaCodecsXmlParser4Impl20generateCommonPrefixEv"
+  },
+  {
+   "name" : "_ZNK7android20MediaCodecsXmlParser4Impl5State21lastNonIncludeSectionEv"
+  },
+  {
+   "name" : "_ZNK7android20MediaCodecsXmlParser4Impl6Parser12logAnyErrorsERKNS1_6ResultE"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNKSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE14__count_uniqueIS6_EEmRKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__113__tree_removeIPNS_16__tree_node_baseIPvEEEEvT_S5_"
   },
   {
    "binding" : "weak",
    "name" : "_ZNSt3__113__vector_baseINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEED2Ev"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN7android20MediaCodecsXmlParser4ImplENS_14default_deleteIS3_EENS_9allocatorIS3_EEE16__on_zero_sharedEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__120__shared_ptr_pointerIPN7android20MediaCodecsXmlParser4ImplENS_14default_deleteIS3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m"
   },
   {
    "binding" : "weak",
@@ -225,6 +272,10 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSJ_IJEEEEEENS_4pairINS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE4findIS7_EENS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEERKT_"
   },
   {
@@ -245,11 +296,47 @@
   },
   {
    "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE12__find_equalIS6_EERPNS_16__tree_node_baseIPvEENS_21__tree_const_iteratorIS6_PNS_11__tree_nodeIS6_SD_EElEERPNS_15__tree_end_nodeISF_EESG_RKT_"
+  },
+  {
+   "binding" : "weak",
    "name" : "_ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE12__find_equalIS6_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISF_EERKT_"
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE21__emplace_unique_implIJPKcEEENS_4pairINS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEEDpOT_"
+   "name" : "_ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE14__assign_multiINS_21__tree_const_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEEEvT_SI_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE15__emplace_multiIJRKS6_EEENS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE21__emplace_unique_implIJRA20_KcEEENS_4pairINS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE21__emplace_unique_implIJRPKclEEENS_4pairINS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEEDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE25__emplace_unique_key_argsIS6_JRKS6_EEENS_4pairINS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE25__emplace_unique_key_argsIS6_JRS6_EEENS_4pairINS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE30__emplace_hint_unique_key_argsIS6_JRKS6_EEENS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEENS_21__tree_const_iteratorIS6_SI_lEERKT_DpOT0_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE4findIS6_EENS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEERKT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE5eraseENS_21__tree_const_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEE"
   },
   {
    "binding" : "weak",
@@ -257,11 +344,47 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16vectorIN7android20MediaCodecsXmlParser7SectionENS_9allocatorIS3_EEE21__push_back_slow_pathIRKS3_EEvOT_"
+   "name" : "_ZNSt3__16vectorIN7android20MediaCodecsXmlParser4Impl5State12CodecAndTypeENS_9allocatorIS5_EEE21__push_back_slow_pathIS5_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android20MediaCodecsXmlParser4Impl5State12CodecAndTypeENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJS5_EEEvDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android20MediaCodecsXmlParser4Impl5State12CodecAndTypeENS_9allocatorIS5_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android20MediaCodecsXmlParser4Impl7SectionENS_9allocatorIS4_EEE21__push_back_slow_pathIRKS4_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android20MediaCodecsXmlParser4Impl7SectionENS_9allocatorIS4_EEE24__emplace_back_slow_pathIJS4_EEEvDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorIN7android20MediaCodecsXmlParser4Impl7SectionENS_9allocatorIS4_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJRKS6_EEEvDpOT_"
   },
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJRPKcEEEvDpOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE8__appendEm"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_3setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS7_EENS5_IS7_EEEENS5_ISB_EEE21__push_back_slow_pathIRKSB_EEvOT_"
+  },
+  {
+   "binding" : "weak",
+   "name" : "_ZNSt3__16vectorINS_3setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS7_EENS5_IS7_EEEENS5_ISB_EEE8__appendEm"
   },
   {
    "binding" : "weak",
@@ -280,389 +403,78 @@
  [
   {
    "binding" : "weak",
-   "name" : "_ZN7android20MediaCodecsXmlParser17defaultSearchDirsE"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZN7android20MediaCodecsXmlParser18defaultMainXmlNameE"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZN7android20MediaCodecsXmlParser25defaultPerformanceXmlNameE"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZN7android20MediaCodecsXmlParser30defaultProfilingResultsXmlPathE"
-  }
- ],
- "enum_types" :
- [
+  },
   {
-   "access" : "private",
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::MediaCodecsXmlParser::SECTION_TOPLEVEL"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "android::MediaCodecsXmlParser::SECTION_SETTINGS"
-    },
-    {
-     "enum_field_value" : 2,
-     "name" : "android::MediaCodecsXmlParser::SECTION_DECODERS"
-    },
-    {
-     "enum_field_value" : 3,
-     "name" : "android::MediaCodecsXmlParser::SECTION_DECODER"
-    },
-    {
-     "enum_field_value" : 4,
-     "name" : "android::MediaCodecsXmlParser::SECTION_DECODER_TYPE"
-    },
-    {
-     "enum_field_value" : 5,
-     "name" : "android::MediaCodecsXmlParser::SECTION_ENCODERS"
-    },
-    {
-     "enum_field_value" : 6,
-     "name" : "android::MediaCodecsXmlParser::SECTION_ENCODER"
-    },
-    {
-     "enum_field_value" : 7,
-     "name" : "android::MediaCodecsXmlParser::SECTION_ENCODER_TYPE"
-    },
-    {
-     "enum_field_value" : 8,
-     "name" : "android::MediaCodecsXmlParser::SECTION_INCLUDE"
-    }
-   ],
-   "linker_set_key" : "android::MediaCodecsXmlParser::Section",
-   "name" : "android::MediaCodecsXmlParser::Section",
-   "referenced_type" : "type-3",
-   "self_type" : "type-3",
-   "size" : 4,
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h",
-   "underlying_type" : "type-4",
-   "unique_id" : "_ZTSN7android20MediaCodecsXmlParser7SectionE"
+   "binding" : "weak",
+   "name" : "_ZTVNSt3__120__shared_ptr_pointerIPN7android20MediaCodecsXmlParser4ImplENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE"
   }
  ],
+ "enum_types" : [],
  "function_types" : [],
  "functions" :
  [
   {
-   "access" : "private",
-   "function_name" : "android::MediaCodecsXmlParser::addFeature",
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser10addFeatureEPPKc",
+   "function_name" : "android::MediaCodecsXmlParser::parseXmlPath",
+   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser12parseXmlPathERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE",
    "parameters" :
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-26"
+     "referenced_type" : "type-41"
     },
     {
-     "referenced_type" : "type-51"
+     "referenced_type" : "type-35"
     }
    ],
-   "return_type" : "type-2",
+   "return_type" : "type-21",
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
   {
-   "access" : "private",
-   "function_name" : "android::MediaCodecsXmlParser::parseXMLFile",
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser12parseXMLFileEPKc",
+   "function_name" : "android::MediaCodecsXmlParser::parseXmlFilesInSearchDirs",
+   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser25parseXmlFilesInSearchDirsERKNSt3__16vectorINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS6_IS8_EEEESC_",
    "parameters" :
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-26"
-    },
-    {
-     "referenced_type" : "type-20"
-    }
-   ],
-   "return_type" : "type-25",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "android::MediaCodecsXmlParser::includeXMLFile",
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser14includeXMLFileEPPKc",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "type-26"
-    },
-    {
-     "referenced_type" : "type-51"
-    }
-   ],
-   "return_type" : "type-2",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "android::MediaCodecsXmlParser::endElementHandler",
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser17endElementHandlerEPKc",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "type-26"
-    },
-    {
-     "referenced_type" : "type-20"
-    }
-   ],
-   "return_type" : "type-25",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "android::MediaCodecsXmlParser::startElementHandler",
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser19startElementHandlerEPKcPS2_",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "type-26"
-    },
-    {
-     "referenced_type" : "type-20"
-    },
-    {
-     "referenced_type" : "type-51"
-    }
-   ],
-   "return_type" : "type-25",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "android::MediaCodecsXmlParser::parseTopLevelXMLFile",
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser20parseTopLevelXMLFileEPKcb",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "type-26"
-    },
-    {
-     "referenced_type" : "type-20"
+     "referenced_type" : "type-41"
     },
     {
      "default_arg" : true,
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-32"
+    },
+    {
+     "default_arg" : true,
+     "referenced_type" : "type-32"
     }
    ],
-   "return_type" : "type-5",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "android::MediaCodecsXmlParser::addTypeFromAttributes",
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser21addTypeFromAttributesEPPKcb",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "type-26"
-    },
-    {
-     "referenced_type" : "type-51"
-    },
-    {
-     "referenced_type" : "type-5"
-    }
-   ],
-   "return_type" : "type-2",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "android::MediaCodecsXmlParser::EndElementHandlerWrapper",
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser24EndElementHandlerWrapperEPvPKc",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-50"
-    },
-    {
-     "referenced_type" : "type-20"
-    }
-   ],
-   "return_type" : "type-25",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "android::MediaCodecsXmlParser::addSettingFromAttributes",
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser24addSettingFromAttributesEPPKc",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "type-26"
-    },
-    {
-     "referenced_type" : "type-51"
-    }
-   ],
-   "return_type" : "type-2",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "android::MediaCodecsXmlParser::StartElementHandlerWrapper",
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser26StartElementHandlerWrapperEPvPKcPS3_",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-50"
-    },
-    {
-     "referenced_type" : "type-20"
-    },
-    {
-     "referenced_type" : "type-51"
-    }
-   ],
-   "return_type" : "type-25",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "android::MediaCodecsXmlParser::addMediaCodecFromAttributes",
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser27addMediaCodecFromAttributesEbPPKc",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "type-26"
-    },
-    {
-     "referenced_type" : "type-5"
-    },
-    {
-     "referenced_type" : "type-51"
-    }
-   ],
-   "return_type" : "type-2",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "android::MediaCodecsXmlParser::addAlias",
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser8addAliasEPPKc",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "type-26"
-    },
-    {
-     "referenced_type" : "type-51"
-    }
-   ],
-   "return_type" : "type-2",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "android::MediaCodecsXmlParser::addLimit",
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser8addLimitEPPKc",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "type-26"
-    },
-    {
-     "referenced_type" : "type-51"
-    }
-   ],
-   "return_type" : "type-2",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "android::MediaCodecsXmlParser::addQuirk",
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser8addQuirkEPPKcS2_",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "type-26"
-    },
-    {
-     "referenced_type" : "type-51"
-    },
-    {
-     "referenced_type" : "type-20"
-    }
-   ],
-   "return_type" : "type-2",
+   "return_type" : "type-21",
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
   {
    "function_name" : "android::MediaCodecsXmlParser::MediaCodecsXmlParser",
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParserC1EPKPKcS2_S2_S2_",
+   "linker_set_key" : "_ZN7android20MediaCodecsXmlParserC1Ev",
    "parameters" :
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-26"
-    },
-    {
-     "default_arg" : true,
-     "referenced_type" : "type-27"
-    },
-    {
-     "default_arg" : true,
-     "referenced_type" : "type-20"
-    },
-    {
-     "default_arg" : true,
-     "referenced_type" : "type-20"
-    },
-    {
-     "default_arg" : true,
-     "referenced_type" : "type-20"
+     "referenced_type" : "type-41"
     }
    ],
-   "return_type" : "type-25",
+   "return_type" : "type-40",
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
   {
    "function_name" : "android::MediaCodecsXmlParser::MediaCodecsXmlParser",
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParserC2EPKPKcS2_S2_S2_",
+   "linker_set_key" : "_ZN7android20MediaCodecsXmlParserC2Ev",
    "parameters" :
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-26"
-    },
-    {
-     "default_arg" : true,
-     "referenced_type" : "type-27"
-    },
-    {
-     "default_arg" : true,
-     "referenced_type" : "type-20"
-    },
-    {
-     "default_arg" : true,
-     "referenced_type" : "type-20"
-    },
-    {
-     "default_arg" : true,
-     "referenced_type" : "type-20"
+     "referenced_type" : "type-41"
     }
    ],
-   "return_type" : "type-25",
+   "return_type" : "type-40",
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
   {
@@ -672,10 +484,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-26"
+     "referenced_type" : "type-41"
     }
    ],
-   "return_type" : "type-25",
+   "return_type" : "type-40",
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
   {
@@ -685,10 +497,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-26"
+     "referenced_type" : "type-41"
     }
    ],
-   "return_type" : "type-25",
+   "return_type" : "type-40",
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
   {
@@ -698,10 +510,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-14"
     }
    ],
-   "return_type" : "type-47",
+   "return_type" : "type-18",
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
   {
@@ -711,24 +523,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-14"
     }
    ],
-   "return_type" : "type-44",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "android::MediaCodecsXmlParser::generateRoleMap",
-   "linker_set_key" : "_ZNK7android20MediaCodecsXmlParser15generateRoleMapEv",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "type-43"
-    }
-   ],
-   "return_type" : "type-25",
+   "return_type" : "type-15",
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
   {
@@ -738,10 +536,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-14"
     }
    ],
-   "return_type" : "type-20",
+   "return_type" : "type-36",
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
   {
@@ -751,24 +549,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-14"
     }
    ],
-   "return_type" : "type-2",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "access" : "private",
-   "function_name" : "android::MediaCodecsXmlParser::generateCommonPrefix",
-   "linker_set_key" : "_ZNK7android20MediaCodecsXmlParser20generateCommonPrefixEv",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "type-43"
-    }
-   ],
-   "return_type" : "type-25",
+   "return_type" : "type-21",
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
   {
@@ -778,37 +562,19 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-14"
     }
    ],
-   "return_type" : "type-39",
+   "return_type" : "type-10",
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   }
  ],
  "global_vars" :
  [
   {
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser17defaultSearchDirsE",
-   "name" : "android::MediaCodecsXmlParser::defaultSearchDirs",
-   "referenced_type" : "type-23",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser18defaultMainXmlNameE",
-   "name" : "android::MediaCodecsXmlParser::defaultMainXmlName",
-   "referenced_type" : "type-24",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "linker_set_key" : "_ZN7android20MediaCodecsXmlParser25defaultPerformanceXmlNameE",
-   "name" : "android::MediaCodecsXmlParser::defaultPerformanceXmlName",
-   "referenced_type" : "type-24",
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
    "linker_set_key" : "_ZN7android20MediaCodecsXmlParser30defaultProfilingResultsXmlPathE",
    "name" : "android::MediaCodecsXmlParser::defaultProfilingResultsXmlPath",
-   "referenced_type" : "type-24",
+   "referenced_type" : "type-39",
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   }
  ],
@@ -816,10 +582,19 @@
  [
   {
    "alignment" : 8,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
+   "referenced_type" : "type-33",
+   "self_type" : "type-35",
+   "size" : 8,
+   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "const std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, android::MediaCodecsXmlParser::CodecProperties, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, android::MediaCodecsXmlParser::CodecProperties> > > &",
    "name" : "const std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, android::MediaCodecsXmlParser::CodecProperties, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, android::MediaCodecsXmlParser::CodecProperties> > > &",
-   "referenced_type" : "type-45",
-   "self_type" : "type-44",
+   "referenced_type" : "type-16",
+   "self_type" : "type-15",
    "size" : 8,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
@@ -827,8 +602,8 @@
    "alignment" : 8,
    "linker_set_key" : "const std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, android::MediaCodecsXmlParser::RoleProperties, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, android::MediaCodecsXmlParser::RoleProperties> > > &",
    "name" : "const std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, android::MediaCodecsXmlParser::RoleProperties, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, android::MediaCodecsXmlParser::RoleProperties> > > &",
-   "referenced_type" : "type-48",
-   "self_type" : "type-47",
+   "referenced_type" : "type-19",
+   "self_type" : "type-18",
    "size" : 8,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
@@ -836,8 +611,17 @@
    "alignment" : 8,
    "linker_set_key" : "const std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > &",
    "name" : "const std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > &",
-   "referenced_type" : "type-40",
-   "self_type" : "type-39",
+   "referenced_type" : "type-11",
+   "self_type" : "type-10",
+   "size" : 8,
+   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > &",
+   "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > &",
+   "referenced_type" : "type-30",
+   "self_type" : "type-32",
    "size" : 8,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   }
@@ -849,7 +633,7 @@
    "linker_set_key" : "android::MediaCodecsXmlParser *",
    "name" : "android::MediaCodecsXmlParser *",
    "referenced_type" : "type-1",
-   "self_type" : "type-26",
+   "self_type" : "type-41",
    "size" : 8,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
@@ -857,8 +641,8 @@
    "alignment" : 8,
    "linker_set_key" : "const android::MediaCodecsXmlParser *",
    "name" : "const android::MediaCodecsXmlParser *",
-   "referenced_type" : "type-42",
-   "self_type" : "type-43",
+   "referenced_type" : "type-13",
+   "self_type" : "type-14",
    "size" : 8,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
@@ -866,35 +650,8 @@
    "alignment" : 8,
    "linker_set_key" : "const char *",
    "name" : "const char *",
-   "referenced_type" : "type-21",
-   "self_type" : "type-20",
-   "size" : 8,
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const char **",
-   "name" : "const char **",
-   "referenced_type" : "type-20",
-   "self_type" : "type-51",
-   "size" : 8,
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const char *const *",
-   "name" : "const char *const *",
-   "referenced_type" : "type-24",
-   "self_type" : "type-27",
-   "size" : 8,
-   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "void *",
-   "name" : "void *",
-   "referenced_type" : "type-25",
-   "self_type" : "type-50",
+   "referenced_type" : "type-37",
+   "self_type" : "type-36",
    "size" : 8,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   }
@@ -907,8 +664,8 @@
    "linker_set_key" : "const android::MediaCodecsXmlParser",
    "name" : "const android::MediaCodecsXmlParser",
    "referenced_type" : "type-1",
-   "self_type" : "type-42",
-   "size" : 278760,
+   "self_type" : "type-13",
+   "size" : 16,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
   {
@@ -916,8 +673,8 @@
    "is_const" : true,
    "linker_set_key" : "const char",
    "name" : "const char",
-   "referenced_type" : "type-22",
-   "self_type" : "type-21",
+   "referenced_type" : "type-38",
+   "self_type" : "type-37",
    "size" : 1,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
@@ -926,19 +683,19 @@
    "is_const" : true,
    "linker_set_key" : "const char *const",
    "name" : "const char *const",
-   "referenced_type" : "type-20",
-   "self_type" : "type-24",
+   "referenced_type" : "type-36",
+   "self_type" : "type-39",
    "size" : 8,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
   {
    "alignment" : 8,
    "is_const" : true,
-   "linker_set_key" : "const char *const[4]",
-   "name" : "const char *const[4]",
-   "referenced_type" : "type-19",
-   "self_type" : "type-23",
-   "size" : 32,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "referenced_type" : "type-34",
+   "self_type" : "type-33",
+   "size" : 24,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
   {
@@ -946,8 +703,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, android::MediaCodecsXmlParser::CodecProperties, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, android::MediaCodecsXmlParser::CodecProperties> > >",
    "name" : "const std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, android::MediaCodecsXmlParser::CodecProperties, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, android::MediaCodecsXmlParser::CodecProperties> > >",
-   "referenced_type" : "type-46",
-   "self_type" : "type-45",
+   "referenced_type" : "type-17",
+   "self_type" : "type-16",
    "size" : 24,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
@@ -956,8 +713,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, android::MediaCodecsXmlParser::RoleProperties, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, android::MediaCodecsXmlParser::RoleProperties> > >",
    "name" : "const std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, android::MediaCodecsXmlParser::RoleProperties, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, android::MediaCodecsXmlParser::RoleProperties> > >",
-   "referenced_type" : "type-49",
-   "self_type" : "type-48",
+   "referenced_type" : "type-20",
+   "self_type" : "type-19",
    "size" : 24,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   },
@@ -966,8 +723,18 @@
    "is_const" : true,
    "linker_set_key" : "const std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >",
    "name" : "const std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >",
-   "referenced_type" : "type-41",
-   "self_type" : "type-40",
+   "referenced_type" : "type-12",
+   "self_type" : "type-11",
+   "size" : 24,
+   "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >",
+   "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >",
+   "referenced_type" : "type-31",
+   "self_type" : "type-30",
    "size" : 24,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h"
   }
@@ -980,92 +747,8 @@
    [
     {
      "access" : "private",
-     "field_name" : "mParsingStatus",
+     "field_name" : "mImpl",
      "referenced_type" : "type-2"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mCurrentSection",
-     "field_offset" : 32,
-     "referenced_type" : "type-3"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mUpdate",
-     "field_offset" : 64,
-     "referenced_type" : "type-5"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mSectionStack",
-     "field_offset" : 128,
-     "referenced_type" : "type-6"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mHrefBase",
-     "field_offset" : 320,
-     "referenced_type" : "type-7"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mServiceAttributeMap",
-     "field_offset" : 512,
-     "referenced_type" : "type-8"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mCurrentName",
-     "field_offset" : 704,
-     "referenced_type" : "type-9"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mCodecSet",
-     "field_offset" : 896,
-     "referenced_type" : "type-10"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mCodecListTemp",
-     "field_offset" : 1088,
-     "referenced_type" : "type-11"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mCodecMap",
-     "field_offset" : 2229312,
-     "referenced_type" : "type-13"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mCodecCounter",
-     "field_offset" : 2229504,
-     "referenced_type" : "type-14"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mCurrentCodec",
-     "field_offset" : 2229568,
-     "referenced_type" : "type-15"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mCurrentType",
-     "field_offset" : 2229632,
-     "referenced_type" : "type-16"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mRoleMap",
-     "field_offset" : 2229696,
-     "referenced_type" : "type-17"
-    },
-    {
-     "access" : "private",
-     "field_name" : "mCommonPrefix",
-     "field_offset" : 2229888,
-     "referenced_type" : "type-18"
     }
    ],
    "linker_set_key" : "android::MediaCodecsXmlParser",
@@ -1073,7 +756,7 @@
    "record_kind" : "class",
    "referenced_type" : "type-1",
    "self_type" : "type-1",
-   "size" : 278760,
+   "size" : 16,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h",
    "unique_id" : "_ZTSN7android20MediaCodecsXmlParserE"
   },
@@ -1083,39 +766,49 @@
    [
     {
      "field_name" : "isEncoder",
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-8"
     },
     {
      "field_name" : "order",
      "field_offset" : 64,
-     "referenced_type" : "type-14"
+     "referenced_type" : "type-23"
     },
     {
      "field_name" : "quirkSet",
      "field_offset" : 128,
-     "referenced_type" : "type-29"
+     "referenced_type" : "type-24"
+    },
+    {
+     "field_name" : "domainSet",
+     "field_offset" : 320,
+     "referenced_type" : "type-25"
+    },
+    {
+     "field_name" : "variantSet",
+     "field_offset" : 512,
+     "referenced_type" : "type-26"
     },
     {
      "field_name" : "typeMap",
-     "field_offset" : 320,
-     "referenced_type" : "type-30"
+     "field_offset" : 704,
+     "referenced_type" : "type-27"
     },
     {
      "field_name" : "aliases",
-     "field_offset" : 512,
-     "referenced_type" : "type-31"
+     "field_offset" : 896,
+     "referenced_type" : "type-28"
     },
     {
      "field_name" : "rank",
-     "field_offset" : 704,
-     "referenced_type" : "type-32"
+     "field_offset" : 1088,
+     "referenced_type" : "type-29"
     }
    ],
    "linker_set_key" : "android::MediaCodecsXmlParser::CodecProperties",
    "name" : "android::MediaCodecsXmlParser::CodecProperties",
-   "referenced_type" : "type-28",
-   "self_type" : "type-28",
-   "size" : 112,
+   "referenced_type" : "type-22",
+   "self_type" : "type-22",
+   "size" : 160,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h",
    "unique_id" : "_ZTSN7android20MediaCodecsXmlParser15CodecPropertiesE"
   },
@@ -1125,18 +818,18 @@
    [
     {
      "field_name" : "name",
-     "referenced_type" : "type-34"
+     "referenced_type" : "type-4"
     },
     {
      "field_name" : "attributeList",
      "field_offset" : 192,
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-5"
     }
    ],
    "linker_set_key" : "android::MediaCodecsXmlParser::NodeInfo",
    "name" : "android::MediaCodecsXmlParser::NodeInfo",
-   "referenced_type" : "type-33",
-   "self_type" : "type-33",
+   "referenced_type" : "type-3",
+   "self_type" : "type-3",
    "size" : 48,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h",
    "unique_id" : "_ZTSN7android20MediaCodecsXmlParser8NodeInfoE"
@@ -1147,23 +840,23 @@
    [
     {
      "field_name" : "type",
-     "referenced_type" : "type-37"
+     "referenced_type" : "type-7"
     },
     {
      "field_name" : "isEncoder",
      "field_offset" : 192,
-     "referenced_type" : "type-5"
+     "referenced_type" : "type-8"
     },
     {
      "field_name" : "nodeList",
      "field_offset" : 256,
-     "referenced_type" : "type-38"
+     "referenced_type" : "type-9"
     }
    ],
    "linker_set_key" : "android::MediaCodecsXmlParser::RoleProperties",
    "name" : "android::MediaCodecsXmlParser::RoleProperties",
-   "referenced_type" : "type-36",
-   "self_type" : "type-36",
+   "referenced_type" : "type-6",
+   "self_type" : "type-6",
    "size" : 56,
    "source_file" : "/frameworks/av/media/libstagefright/xmlparser/include/media/stagefright/xmlparser/MediaCodecsXmlParser.h",
    "unique_id" : "_ZTSN7android20MediaCodecsXmlParser14RolePropertiesE"
