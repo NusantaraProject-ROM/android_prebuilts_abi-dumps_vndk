@@ -5,8 +5,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__Subframe [8]",
    "name" : "FLAC__Subframe [8]",
-   "referenced_type" : "type-78",
-   "self_type" : "type-112",
+   "referenced_type" : "type-105",
+   "self_type" : "type-104",
    "size" : 2336,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -14,8 +14,8 @@
    "alignment" : 1,
    "linker_set_key" : "char [129]",
    "name" : "char [129]",
-   "referenced_type" : "type-32",
-   "self_type" : "type-31",
+   "referenced_type" : "type-21",
+   "self_type" : "type-20",
    "size" : 129,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -23,24 +23,24 @@
    "alignment" : 1,
    "linker_set_key" : "char [13]",
    "name" : "char [13]",
-   "referenced_type" : "type-32",
-   "self_type" : "type-36",
+   "referenced_type" : "type-21",
+   "self_type" : "type-25",
    "size" : 13,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "const char *[]",
    "name" : "const char *[]",
-   "referenced_type" : "type-41",
-   "self_type" : "type-155",
+   "referenced_type" : "type-30",
+   "self_type" : "type-151",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "alignment" : 4,
    "linker_set_key" : "const int *[8]",
    "name" : "const int *[8]",
-   "referenced_type" : "type-18",
-   "self_type" : "type-163",
+   "referenced_type" : "type-65",
+   "self_type" : "type-159",
    "size" : 32,
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
@@ -49,7 +49,7 @@
    "linker_set_key" : "int [32]",
    "name" : "int [32]",
    "referenced_type" : "type-1",
-   "self_type" : "type-50",
+   "self_type" : "type-108",
    "size" : 128,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -58,7 +58,7 @@
    "linker_set_key" : "int [4]",
    "name" : "int [4]",
    "referenced_type" : "type-1",
-   "self_type" : "type-28",
+   "self_type" : "type-76",
    "size" : 16,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -66,8 +66,8 @@
    "alignment" : 1,
    "linker_set_key" : "unsigned char [16]",
    "name" : "unsigned char [16]",
-   "referenced_type" : "type-35",
-   "self_type" : "type-66",
+   "referenced_type" : "type-24",
+   "self_type" : "type-55",
    "size" : 16,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -75,8 +75,8 @@
    "alignment" : 1,
    "linker_set_key" : "unsigned char [4]",
    "name" : "unsigned char [4]",
-   "referenced_type" : "type-35",
-   "self_type" : "type-69",
+   "referenced_type" : "type-24",
+   "self_type" : "type-58",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h"
   }
@@ -89,8 +89,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "bool",
    "name" : "bool",
-   "referenced_type" : "type-162",
-   "self_type" : "type-162",
+   "referenced_type" : "type-158",
+   "self_type" : "type-158",
    "size" : 1
   },
   {
@@ -98,24 +98,24 @@
    "is_integral" : true,
    "linker_set_key" : "char",
    "name" : "char",
-   "referenced_type" : "type-32",
-   "self_type" : "type-32",
+   "referenced_type" : "type-21",
+   "self_type" : "type-21",
    "size" : 1
   },
   {
    "alignment" : 4,
    "linker_set_key" : "double",
    "name" : "double",
-   "referenced_type" : "type-306",
-   "self_type" : "type-306",
+   "referenced_type" : "type-309",
+   "self_type" : "type-309",
    "size" : 8
   },
   {
    "alignment" : 4,
    "linker_set_key" : "float",
    "name" : "float",
-   "referenced_type" : "type-220",
-   "self_type" : "type-220",
+   "referenced_type" : "type-216",
+   "self_type" : "type-216",
    "size" : 4
   },
   {
@@ -132,8 +132,8 @@
    "is_integral" : true,
    "linker_set_key" : "long",
    "name" : "long",
-   "referenced_type" : "type-88",
-   "self_type" : "type-88",
+   "referenced_type" : "type-79",
+   "self_type" : "type-79",
    "size" : 4
   },
   {
@@ -141,8 +141,8 @@
    "is_integral" : true,
    "linker_set_key" : "long long",
    "name" : "long long",
-   "referenced_type" : "type-219",
-   "self_type" : "type-219",
+   "referenced_type" : "type-215",
+   "self_type" : "type-215",
    "size" : 8
   },
   {
@@ -159,8 +159,8 @@
    "is_integral" : true,
    "linker_set_key" : "signed char",
    "name" : "signed char",
-   "referenced_type" : "type-305",
-   "self_type" : "type-305",
+   "referenced_type" : "type-308",
+   "self_type" : "type-308",
    "size" : 1
   },
   {
@@ -169,8 +169,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned char",
    "name" : "unsigned char",
-   "referenced_type" : "type-35",
-   "self_type" : "type-35",
+   "referenced_type" : "type-24",
+   "self_type" : "type-24",
    "size" : 1
   },
   {
@@ -189,8 +189,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long long",
    "name" : "unsigned long long",
-   "referenced_type" : "type-24",
-   "self_type" : "type-24",
+   "referenced_type" : "type-15",
+   "self_type" : "type-15",
    "size" : 8
   },
   {
@@ -199,15 +199,15 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned short",
    "name" : "unsigned short",
-   "referenced_type" : "type-114",
-   "self_type" : "type-114",
+   "referenced_type" : "type-110",
+   "self_type" : "type-110",
    "size" : 2
   },
   {
    "linker_set_key" : "void",
    "name" : "void",
-   "referenced_type" : "type-52",
-   "self_type" : "type-52"
+   "referenced_type" : "type-41",
+   "self_type" : "type-41"
   }
  ],
  "elf_functions" :
@@ -871,8 +871,8 @@
    ],
    "linker_set_key" : "FLAC__ChannelAssignment",
    "name" : "FLAC__ChannelAssignment",
-   "referenced_type" : "type-83",
-   "self_type" : "type-83",
+   "referenced_type" : "type-101",
+   "self_type" : "type-101",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "underlying_type" : "type-3",
@@ -915,8 +915,8 @@
    ],
    "linker_set_key" : "FLAC__FrameNumberType",
    "name" : "FLAC__FrameNumberType",
-   "referenced_type" : "type-89",
-   "self_type" : "type-89",
+   "referenced_type" : "type-102",
+   "self_type" : "type-102",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "underlying_type" : "type-3",
@@ -965,8 +965,8 @@
    ],
    "linker_set_key" : "FLAC__MetadataType",
    "name" : "FLAC__MetadataType",
-   "referenced_type" : "type-63",
-   "self_type" : "type-63",
+   "referenced_type" : "type-52",
+   "self_type" : "type-52",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "underlying_type" : "type-3",
@@ -995,8 +995,8 @@
    ],
    "linker_set_key" : "FLAC__StreamDecoderErrorStatus",
    "name" : "FLAC__StreamDecoderErrorStatus",
-   "referenced_type" : "type-77",
-   "self_type" : "type-77",
+   "referenced_type" : "type-69",
+   "self_type" : "type-69",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h",
    "underlying_type" : "type-3",
@@ -1033,8 +1033,8 @@
    ],
    "linker_set_key" : "FLAC__StreamDecoderInitStatus",
    "name" : "FLAC__StreamDecoderInitStatus",
-   "referenced_type" : "type-159",
-   "self_type" : "type-159",
+   "referenced_type" : "type-155",
+   "self_type" : "type-155",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h",
    "underlying_type" : "type-3",
@@ -1059,8 +1059,8 @@
    ],
    "linker_set_key" : "FLAC__StreamDecoderLengthStatus",
    "name" : "FLAC__StreamDecoderLengthStatus",
-   "referenced_type" : "type-101",
-   "self_type" : "type-101",
+   "referenced_type" : "type-91",
+   "self_type" : "type-91",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h",
    "underlying_type" : "type-3",
@@ -1085,8 +1085,8 @@
    ],
    "linker_set_key" : "FLAC__StreamDecoderReadStatus",
    "name" : "FLAC__StreamDecoderReadStatus",
-   "referenced_type" : "type-92",
-   "self_type" : "type-92",
+   "referenced_type" : "type-82",
+   "self_type" : "type-82",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h",
    "underlying_type" : "type-3",
@@ -1111,8 +1111,8 @@
    ],
    "linker_set_key" : "FLAC__StreamDecoderSeekStatus",
    "name" : "FLAC__StreamDecoderSeekStatus",
-   "referenced_type" : "type-95",
-   "self_type" : "type-95",
+   "referenced_type" : "type-85",
+   "self_type" : "type-85",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h",
    "underlying_type" : "type-3",
@@ -1165,8 +1165,8 @@
    ],
    "linker_set_key" : "FLAC__StreamDecoderState",
    "name" : "FLAC__StreamDecoderState",
-   "referenced_type" : "type-158",
-   "self_type" : "type-158",
+   "referenced_type" : "type-154",
+   "self_type" : "type-154",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h",
    "underlying_type" : "type-3",
@@ -1191,8 +1191,8 @@
    ],
    "linker_set_key" : "FLAC__StreamDecoderTellStatus",
    "name" : "FLAC__StreamDecoderTellStatus",
-   "referenced_type" : "type-98",
-   "self_type" : "type-98",
+   "referenced_type" : "type-88",
+   "self_type" : "type-88",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h",
    "underlying_type" : "type-3",
@@ -1213,8 +1213,8 @@
    ],
    "linker_set_key" : "FLAC__StreamDecoderWriteStatus",
    "name" : "FLAC__StreamDecoderWriteStatus",
-   "referenced_type" : "type-108",
-   "self_type" : "type-108",
+   "referenced_type" : "type-96",
+   "self_type" : "type-96",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h",
    "underlying_type" : "type-3",
@@ -1283,8 +1283,8 @@
    ],
    "linker_set_key" : "FLAC__StreamEncoderInitStatus",
    "name" : "FLAC__StreamEncoderInitStatus",
-   "referenced_type" : "type-150",
-   "self_type" : "type-150",
+   "referenced_type" : "type-146",
+   "self_type" : "type-146",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h",
    "underlying_type" : "type-3",
@@ -1313,8 +1313,8 @@
    ],
    "linker_set_key" : "FLAC__StreamEncoderReadStatus",
    "name" : "FLAC__StreamEncoderReadStatus",
-   "referenced_type" : "type-139",
-   "self_type" : "type-139",
+   "referenced_type" : "type-135",
+   "self_type" : "type-135",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h",
    "underlying_type" : "type-3",
@@ -1339,8 +1339,8 @@
    ],
    "linker_set_key" : "FLAC__StreamEncoderSeekStatus",
    "name" : "FLAC__StreamEncoderSeekStatus",
-   "referenced_type" : "type-131",
-   "self_type" : "type-131",
+   "referenced_type" : "type-127",
+   "self_type" : "type-127",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h",
    "underlying_type" : "type-3",
@@ -1389,8 +1389,8 @@
    ],
    "linker_set_key" : "FLAC__StreamEncoderState",
    "name" : "FLAC__StreamEncoderState",
-   "referenced_type" : "type-149",
-   "self_type" : "type-149",
+   "referenced_type" : "type-145",
+   "self_type" : "type-145",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h",
    "underlying_type" : "type-3",
@@ -1415,8 +1415,8 @@
    ],
    "linker_set_key" : "FLAC__StreamEncoderTellStatus",
    "name" : "FLAC__StreamEncoderTellStatus",
-   "referenced_type" : "type-134",
-   "self_type" : "type-134",
+   "referenced_type" : "type-130",
+   "self_type" : "type-130",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h",
    "underlying_type" : "type-3",
@@ -1437,8 +1437,8 @@
    ],
    "linker_set_key" : "FLAC__StreamEncoderWriteStatus",
    "name" : "FLAC__StreamEncoderWriteStatus",
-   "referenced_type" : "type-120",
-   "self_type" : "type-120",
+   "referenced_type" : "type-116",
+   "self_type" : "type-116",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h",
    "underlying_type" : "type-3",
@@ -1539,8 +1539,8 @@
    ],
    "linker_set_key" : "FLAC__StreamMetadata_Picture_Type",
    "name" : "FLAC__StreamMetadata_Picture_Type",
-   "referenced_type" : "type-45",
-   "self_type" : "type-45",
+   "referenced_type" : "type-34",
+   "self_type" : "type-34",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "underlying_type" : "type-3",
@@ -1569,8 +1569,8 @@
    ],
    "linker_set_key" : "FLAC__SubframeType",
    "name" : "FLAC__SubframeType",
-   "referenced_type" : "type-15",
-   "self_type" : "type-15",
+   "referenced_type" : "type-38",
+   "self_type" : "type-38",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "underlying_type" : "type-3",
@@ -1586,18 +1586,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-90"
+     "referenced_type" : "type-80"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "referenced_type" : "type-100",
-   "return_type" : "type-101",
-   "self_type" : "type-100",
+   "referenced_type" : "type-90",
+   "return_type" : "type-91",
+   "self_type" : "type-90",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -1607,21 +1607,21 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-47"
+     "referenced_type" : "type-36"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "referenced_type" : "type-91",
-   "return_type" : "type-92",
-   "self_type" : "type-91",
+   "referenced_type" : "type-81",
+   "return_type" : "type-82",
+   "self_type" : "type-81",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -1631,18 +1631,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-15"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "referenced_type" : "type-94",
-   "return_type" : "type-95",
-   "self_type" : "type-94",
+   "referenced_type" : "type-84",
+   "return_type" : "type-85",
+   "self_type" : "type-84",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -1652,18 +1652,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-90"
+     "referenced_type" : "type-80"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "referenced_type" : "type-97",
-   "return_type" : "type-98",
-   "self_type" : "type-97",
+   "referenced_type" : "type-87",
+   "return_type" : "type-88",
+   "self_type" : "type-87",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -1673,21 +1673,21 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-109"
+     "referenced_type" : "type-97"
     },
     {
-     "referenced_type" : "type-115"
+     "referenced_type" : "type-111"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "referenced_type" : "type-107",
-   "return_type" : "type-108",
-   "self_type" : "type-107",
+   "referenced_type" : "type-95",
+   "return_type" : "type-96",
+   "self_type" : "type-95",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -1697,21 +1697,21 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-121"
+     "referenced_type" : "type-117"
     },
     {
-     "referenced_type" : "type-47"
+     "referenced_type" : "type-36"
     },
     {
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "referenced_type" : "type-138",
-   "return_type" : "type-139",
-   "self_type" : "type-138",
+   "referenced_type" : "type-134",
+   "return_type" : "type-135",
+   "self_type" : "type-134",
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
   {
@@ -1721,18 +1721,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-121"
+     "referenced_type" : "type-117"
     },
     {
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-15"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "referenced_type" : "type-130",
-   "return_type" : "type-131",
-   "self_type" : "type-130",
+   "referenced_type" : "type-126",
+   "return_type" : "type-127",
+   "self_type" : "type-126",
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
   {
@@ -1742,18 +1742,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-121"
+     "referenced_type" : "type-117"
     },
     {
-     "referenced_type" : "type-90"
+     "referenced_type" : "type-80"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "referenced_type" : "type-133",
-   "return_type" : "type-134",
-   "self_type" : "type-133",
+   "referenced_type" : "type-129",
+   "return_type" : "type-130",
+   "self_type" : "type-129",
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
   {
@@ -1763,13 +1763,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-121"
+     "referenced_type" : "type-117"
     },
     {
-     "referenced_type" : "type-128"
-    },
-    {
-     "referenced_type" : "type-3"
+     "referenced_type" : "type-124"
     },
     {
      "referenced_type" : "type-3"
@@ -1778,12 +1775,15 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-63"
     }
    ],
-   "referenced_type" : "type-119",
-   "return_type" : "type-120",
-   "self_type" : "type-119",
+   "referenced_type" : "type-115",
+   "return_type" : "type-116",
+   "self_type" : "type-115",
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
   {
@@ -1793,15 +1793,15 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "referenced_type" : "type-105",
+   "referenced_type" : "type-93",
    "return_type" : "type-1",
-   "self_type" : "type-105",
+   "self_type" : "type-93",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -1811,18 +1811,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-77"
+     "referenced_type" : "type-69"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "referenced_type" : "type-76",
-   "return_type" : "type-52",
-   "self_type" : "type-76",
+   "referenced_type" : "type-68",
+   "return_type" : "type-41",
+   "self_type" : "type-68",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -1832,18 +1832,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-60"
+     "referenced_type" : "type-49"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "referenced_type" : "type-51",
-   "return_type" : "type-52",
-   "self_type" : "type-51",
+   "referenced_type" : "type-40",
+   "return_type" : "type-41",
+   "self_type" : "type-40",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -1853,18 +1853,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-121"
+     "referenced_type" : "type-117"
     },
     {
-     "referenced_type" : "type-60"
+     "referenced_type" : "type-49"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "referenced_type" : "type-136",
-   "return_type" : "type-52",
-   "self_type" : "type-136",
+   "referenced_type" : "type-132",
+   "return_type" : "type-41",
+   "self_type" : "type-132",
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
   {
@@ -1874,27 +1874,27 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-121"
+     "referenced_type" : "type-117"
     },
     {
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-15"
     },
     {
-     "referenced_type" : "type-24"
-    },
-    {
-     "referenced_type" : "type-3"
+     "referenced_type" : "type-15"
     },
     {
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-3"
+    },
+    {
+     "referenced_type" : "type-63"
     }
    ],
-   "referenced_type" : "type-143",
-   "return_type" : "type-52",
-   "self_type" : "type-143",
+   "referenced_type" : "type-139",
+   "return_type" : "type-41",
+   "self_type" : "type-139",
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   }
  ],
@@ -1921,13 +1921,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-28"
     },
     {
      "referenced_type" : "type-1"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-29"
     }
    ],
    "return_type" : "type-1",
@@ -1939,10 +1939,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-48"
+     "referenced_type" : "type-37"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-29"
     }
    ],
    "return_type" : "type-1",
@@ -1978,7 +1978,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-25"
+     "referenced_type" : "type-16"
     }
    ],
    "return_type" : "type-1",
@@ -1990,7 +1990,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-26"
+     "referenced_type" : "type-17"
     }
    ],
    "return_type" : "type-3",
@@ -2002,7 +2002,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-128"
+     "referenced_type" : "type-124"
     },
     {
      "referenced_type" : "type-3"
@@ -2017,7 +2017,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-30"
     }
    ],
    "return_type" : "type-1",
@@ -2029,7 +2029,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-128"
+     "referenced_type" : "type-124"
     },
     {
      "referenced_type" : "type-3"
@@ -2044,10 +2044,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     }
    ],
-   "return_type" : "type-52",
+   "return_type" : "type-41",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -2056,7 +2056,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     }
    ],
    "return_type" : "type-1",
@@ -2068,7 +2068,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     }
    ],
    "return_type" : "type-1",
@@ -2080,7 +2080,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     }
    ],
    "return_type" : "type-3",
@@ -2092,7 +2092,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     }
    ],
    "return_type" : "type-3",
@@ -2104,10 +2104,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     }
    ],
-   "return_type" : "type-83",
+   "return_type" : "type-101",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -2116,7 +2116,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     }
    ],
    "return_type" : "type-3",
@@ -2128,10 +2128,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-90"
+     "referenced_type" : "type-80"
     }
    ],
    "return_type" : "type-1",
@@ -2143,7 +2143,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     }
    ],
    "return_type" : "type-1",
@@ -2155,10 +2155,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     }
    ],
-   "return_type" : "type-41",
+   "return_type" : "type-30",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -2167,7 +2167,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     }
    ],
    "return_type" : "type-3",
@@ -2179,10 +2179,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     }
    ],
-   "return_type" : "type-158",
+   "return_type" : "type-154",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -2191,10 +2191,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-42"
     }
    ],
-   "return_type" : "type-24",
+   "return_type" : "type-15",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -2203,25 +2203,25 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     },
     {
-     "referenced_type" : "type-81"
+     "referenced_type" : "type-71"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-113"
     },
     {
-     "referenced_type" : "type-75"
+     "referenced_type" : "type-67"
     },
     {
-     "referenced_type" : "type-80"
+     "referenced_type" : "type-70"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "return_type" : "type-159",
+   "return_type" : "type-155",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -2230,25 +2230,25 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     },
     {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-30"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-113"
     },
     {
-     "referenced_type" : "type-75"
+     "referenced_type" : "type-67"
     },
     {
-     "referenced_type" : "type-80"
+     "referenced_type" : "type-70"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "return_type" : "type-159",
+   "return_type" : "type-155",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -2257,25 +2257,25 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     },
     {
-     "referenced_type" : "type-81"
+     "referenced_type" : "type-71"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-113"
     },
     {
-     "referenced_type" : "type-75"
+     "referenced_type" : "type-67"
     },
     {
-     "referenced_type" : "type-80"
+     "referenced_type" : "type-70"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "return_type" : "type-159",
+   "return_type" : "type-155",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -2284,25 +2284,25 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     },
     {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-30"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-113"
     },
     {
-     "referenced_type" : "type-75"
+     "referenced_type" : "type-67"
     },
     {
-     "referenced_type" : "type-80"
+     "referenced_type" : "type-70"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "return_type" : "type-159",
+   "return_type" : "type-155",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -2311,37 +2311,37 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     },
     {
-     "referenced_type" : "type-93"
+     "referenced_type" : "type-83"
     },
     {
-     "referenced_type" : "type-96"
+     "referenced_type" : "type-86"
     },
     {
-     "referenced_type" : "type-99"
+     "referenced_type" : "type-89"
     },
     {
-     "referenced_type" : "type-104"
+     "referenced_type" : "type-92"
     },
     {
-     "referenced_type" : "type-106"
+     "referenced_type" : "type-94"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-113"
     },
     {
-     "referenced_type" : "type-75"
+     "referenced_type" : "type-67"
     },
     {
-     "referenced_type" : "type-80"
+     "referenced_type" : "type-70"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "return_type" : "type-159",
+   "return_type" : "type-155",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -2350,43 +2350,43 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     },
     {
-     "referenced_type" : "type-93"
+     "referenced_type" : "type-83"
     },
     {
-     "referenced_type" : "type-96"
+     "referenced_type" : "type-86"
     },
     {
-     "referenced_type" : "type-99"
+     "referenced_type" : "type-89"
     },
     {
-     "referenced_type" : "type-104"
+     "referenced_type" : "type-92"
     },
     {
-     "referenced_type" : "type-106"
+     "referenced_type" : "type-94"
     },
     {
-     "referenced_type" : "type-117"
+     "referenced_type" : "type-113"
     },
     {
-     "referenced_type" : "type-75"
+     "referenced_type" : "type-67"
     },
     {
-     "referenced_type" : "type-80"
+     "referenced_type" : "type-70"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     }
    ],
-   "return_type" : "type-159",
+   "return_type" : "type-155",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
    "function_name" : "FLAC__stream_decoder_new",
    "linker_set_key" : "FLAC__stream_decoder_new",
-   "return_type" : "type-161",
+   "return_type" : "type-157",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
@@ -2395,7 +2395,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     }
    ],
    "return_type" : "type-1",
@@ -2407,7 +2407,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     }
    ],
    "return_type" : "type-1",
@@ -2419,7 +2419,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     }
    ],
    "return_type" : "type-1",
@@ -2431,7 +2431,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     }
    ],
    "return_type" : "type-1",
@@ -2443,10 +2443,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     },
     {
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-15"
     }
    ],
    "return_type" : "type-1",
@@ -2458,7 +2458,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     },
     {
      "referenced_type" : "type-1"
@@ -2473,10 +2473,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     },
     {
-     "referenced_type" : "type-63"
+     "referenced_type" : "type-52"
     }
    ],
    "return_type" : "type-1",
@@ -2488,7 +2488,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     }
    ],
    "return_type" : "type-1",
@@ -2500,10 +2500,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     },
     {
-     "referenced_type" : "type-128"
+     "referenced_type" : "type-124"
     }
    ],
    "return_type" : "type-1",
@@ -2515,10 +2515,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     },
     {
-     "referenced_type" : "type-63"
+     "referenced_type" : "type-52"
     }
    ],
    "return_type" : "type-1",
@@ -2530,7 +2530,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     }
    ],
    "return_type" : "type-1",
@@ -2542,10 +2542,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     },
     {
-     "referenced_type" : "type-128"
+     "referenced_type" : "type-124"
     }
    ],
    "return_type" : "type-1",
@@ -2557,10 +2557,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     },
     {
-     "referenced_type" : "type-88"
+     "referenced_type" : "type-79"
     }
    ],
    "return_type" : "type-1",
@@ -2572,7 +2572,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     }
    ],
    "return_type" : "type-1",
@@ -2586,16 +2586,16 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-165"
+     "referenced_type" : "type-161"
     },
     {
-     "referenced_type" : "type-47"
+     "referenced_type" : "type-36"
     },
     {
      "referenced_type" : "type-2"
     }
    ],
-   "return_type" : "type-92",
+   "return_type" : "type-82",
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
   {
@@ -2606,13 +2606,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-165"
+     "referenced_type" : "type-161"
     },
     {
-     "referenced_type" : "type-77"
+     "referenced_type" : "type-69"
     }
    ],
-   "return_type" : "type-52",
+   "return_type" : "type-41",
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
   {
@@ -2622,10 +2622,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-165"
+     "referenced_type" : "type-161"
     },
     {
-     "referenced_type" : "type-128"
+     "referenced_type" : "type-124"
     },
     {
      "referenced_type" : "type-3"
@@ -2642,16 +2642,16 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-165"
+     "referenced_type" : "type-161"
     },
     {
-     "referenced_type" : "type-109"
+     "referenced_type" : "type-97"
     },
     {
-     "referenced_type" : "type-115"
+     "referenced_type" : "type-111"
     }
    ],
-   "return_type" : "type-108",
+   "return_type" : "type-96",
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
   {
@@ -2661,23 +2661,23 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-165"
+     "referenced_type" : "type-161"
     },
     {
-     "referenced_type" : "type-128"
+     "referenced_type" : "type-124"
     },
     {
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-74"
+     "referenced_type" : "type-63"
     },
     {
      "referenced_type" : "type-2"
     },
     {
      "default_arg" : true,
-     "referenced_type" : "type-162"
+     "referenced_type" : "type-158"
     }
    ],
    "return_type" : "type-1",
@@ -2691,10 +2691,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-165"
+     "referenced_type" : "type-161"
     },
     {
-     "referenced_type" : "type-128"
+     "referenced_type" : "type-124"
     },
     {
      "referenced_type" : "type-3"
@@ -2711,13 +2711,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-165"
+     "referenced_type" : "type-161"
     },
     {
-     "referenced_type" : "type-60"
+     "referenced_type" : "type-49"
     }
    ],
-   "return_type" : "type-52",
+   "return_type" : "type-41",
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
   {
@@ -2728,7 +2728,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-165"
+     "referenced_type" : "type-161"
     }
    ],
    "return_type" : "type-1",
@@ -2741,16 +2741,16 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-165"
+     "referenced_type" : "type-161"
     }
    ],
-   "return_type" : "type-52",
+   "return_type" : "type-41",
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
   {
    "function_name" : "android::FLACDecoder::Create",
    "linker_set_key" : "_ZN7android11FLACDecoder6CreateEv",
-   "return_type" : "type-165",
+   "return_type" : "type-161",
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
   {
@@ -2761,10 +2761,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-165"
+     "referenced_type" : "type-161"
     }
    ],
-   "return_type" : "type-52",
+   "return_type" : "type-41",
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
   {
@@ -2775,10 +2775,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-165"
+     "referenced_type" : "type-161"
     }
    ],
-   "return_type" : "type-52",
+   "return_type" : "type-41",
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
   {
@@ -2788,10 +2788,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-165"
+     "referenced_type" : "type-161"
     }
    ],
-   "return_type" : "type-52",
+   "return_type" : "type-41",
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
   {
@@ -2801,10 +2801,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-165"
+     "referenced_type" : "type-161"
     }
    ],
-   "return_type" : "type-52",
+   "return_type" : "type-41",
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
   {
@@ -2814,10 +2814,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-165"
+     "referenced_type" : "type-161"
     }
    ],
-   "return_type" : "type-52",
+   "return_type" : "type-41",
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   }
  ],
@@ -2832,529 +2832,529 @@
   {
    "linker_set_key" : "FLAC__ChannelAssignmentString",
    "name" : "FLAC__ChannelAssignmentString",
-   "referenced_type" : "type-164",
+   "referenced_type" : "type-160",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2_ESCAPE_PARAMETER",
    "name" : "FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2_ESCAPE_PARAMETER",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2_PARAMETER_LEN",
    "name" : "FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE2_PARAMETER_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE_ESCAPE_PARAMETER",
    "name" : "FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE_ESCAPE_PARAMETER",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE_ORDER_LEN",
    "name" : "FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE_ORDER_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE_PARAMETER_LEN",
    "name" : "FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE_PARAMETER_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE_RAW_LEN",
    "name" : "FLAC__ENTROPY_CODING_METHOD_PARTITIONED_RICE_RAW_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__ENTROPY_CODING_METHOD_TYPE_LEN",
    "name" : "FLAC__ENTROPY_CODING_METHOD_TYPE_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__EntropyCodingMethodTypeString",
    "name" : "FLAC__EntropyCodingMethodTypeString",
-   "referenced_type" : "type-164",
+   "referenced_type" : "type-160",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__FRAME_FOOTER_CRC_LEN",
    "name" : "FLAC__FRAME_FOOTER_CRC_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__FRAME_HEADER_BITS_PER_SAMPLE_LEN",
    "name" : "FLAC__FRAME_HEADER_BITS_PER_SAMPLE_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__FRAME_HEADER_BLOCKING_STRATEGY_LEN",
    "name" : "FLAC__FRAME_HEADER_BLOCKING_STRATEGY_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__FRAME_HEADER_BLOCK_SIZE_LEN",
    "name" : "FLAC__FRAME_HEADER_BLOCK_SIZE_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__FRAME_HEADER_CHANNEL_ASSIGNMENT_LEN",
    "name" : "FLAC__FRAME_HEADER_CHANNEL_ASSIGNMENT_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__FRAME_HEADER_CRC_LEN",
    "name" : "FLAC__FRAME_HEADER_CRC_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__FRAME_HEADER_RESERVED_LEN",
    "name" : "FLAC__FRAME_HEADER_RESERVED_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__FRAME_HEADER_SAMPLE_RATE_LEN",
    "name" : "FLAC__FRAME_HEADER_SAMPLE_RATE_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__FRAME_HEADER_SYNC",
    "name" : "FLAC__FRAME_HEADER_SYNC",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__FRAME_HEADER_SYNC_LEN",
    "name" : "FLAC__FRAME_HEADER_SYNC_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__FRAME_HEADER_ZERO_PAD_LEN",
    "name" : "FLAC__FRAME_HEADER_ZERO_PAD_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__FrameNumberTypeString",
    "name" : "FLAC__FrameNumberTypeString",
-   "referenced_type" : "type-164",
+   "referenced_type" : "type-160",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__MetadataTypeString",
    "name" : "FLAC__MetadataTypeString",
-   "referenced_type" : "type-164",
+   "referenced_type" : "type-160",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_APPLICATION_ID_LEN",
    "name" : "FLAC__STREAM_METADATA_APPLICATION_ID_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_CUESHEET_INDEX_NUMBER_LEN",
    "name" : "FLAC__STREAM_METADATA_CUESHEET_INDEX_NUMBER_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_CUESHEET_INDEX_OFFSET_LEN",
    "name" : "FLAC__STREAM_METADATA_CUESHEET_INDEX_OFFSET_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_CUESHEET_INDEX_RESERVED_LEN",
    "name" : "FLAC__STREAM_METADATA_CUESHEET_INDEX_RESERVED_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_CUESHEET_IS_CD_LEN",
    "name" : "FLAC__STREAM_METADATA_CUESHEET_IS_CD_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_CUESHEET_LEAD_IN_LEN",
    "name" : "FLAC__STREAM_METADATA_CUESHEET_LEAD_IN_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_CUESHEET_MEDIA_CATALOG_NUMBER_LEN",
    "name" : "FLAC__STREAM_METADATA_CUESHEET_MEDIA_CATALOG_NUMBER_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_CUESHEET_NUM_TRACKS_LEN",
    "name" : "FLAC__STREAM_METADATA_CUESHEET_NUM_TRACKS_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_CUESHEET_RESERVED_LEN",
    "name" : "FLAC__STREAM_METADATA_CUESHEET_RESERVED_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_CUESHEET_TRACK_ISRC_LEN",
    "name" : "FLAC__STREAM_METADATA_CUESHEET_TRACK_ISRC_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_CUESHEET_TRACK_NUMBER_LEN",
    "name" : "FLAC__STREAM_METADATA_CUESHEET_TRACK_NUMBER_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_CUESHEET_TRACK_NUM_INDICES_LEN",
    "name" : "FLAC__STREAM_METADATA_CUESHEET_TRACK_NUM_INDICES_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_CUESHEET_TRACK_OFFSET_LEN",
    "name" : "FLAC__STREAM_METADATA_CUESHEET_TRACK_OFFSET_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_CUESHEET_TRACK_PRE_EMPHASIS_LEN",
    "name" : "FLAC__STREAM_METADATA_CUESHEET_TRACK_PRE_EMPHASIS_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_CUESHEET_TRACK_RESERVED_LEN",
    "name" : "FLAC__STREAM_METADATA_CUESHEET_TRACK_RESERVED_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_CUESHEET_TRACK_TYPE_LEN",
    "name" : "FLAC__STREAM_METADATA_CUESHEET_TRACK_TYPE_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_IS_LAST_LEN",
    "name" : "FLAC__STREAM_METADATA_IS_LAST_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_LENGTH_LEN",
    "name" : "FLAC__STREAM_METADATA_LENGTH_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_PICTURE_COLORS_LEN",
    "name" : "FLAC__STREAM_METADATA_PICTURE_COLORS_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_PICTURE_DATA_LENGTH_LEN",
    "name" : "FLAC__STREAM_METADATA_PICTURE_DATA_LENGTH_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_PICTURE_DEPTH_LEN",
    "name" : "FLAC__STREAM_METADATA_PICTURE_DEPTH_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_PICTURE_DESCRIPTION_LENGTH_LEN",
    "name" : "FLAC__STREAM_METADATA_PICTURE_DESCRIPTION_LENGTH_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_PICTURE_HEIGHT_LEN",
    "name" : "FLAC__STREAM_METADATA_PICTURE_HEIGHT_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_PICTURE_MIME_TYPE_LENGTH_LEN",
    "name" : "FLAC__STREAM_METADATA_PICTURE_MIME_TYPE_LENGTH_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_PICTURE_TYPE_LEN",
    "name" : "FLAC__STREAM_METADATA_PICTURE_TYPE_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_PICTURE_WIDTH_LEN",
    "name" : "FLAC__STREAM_METADATA_PICTURE_WIDTH_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_SEEKPOINT_FRAME_SAMPLES_LEN",
    "name" : "FLAC__STREAM_METADATA_SEEKPOINT_FRAME_SAMPLES_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_SEEKPOINT_PLACEHOLDER",
    "name" : "FLAC__STREAM_METADATA_SEEKPOINT_PLACEHOLDER",
-   "referenced_type" : "type-156",
+   "referenced_type" : "type-152",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_SEEKPOINT_SAMPLE_NUMBER_LEN",
    "name" : "FLAC__STREAM_METADATA_SEEKPOINT_SAMPLE_NUMBER_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_SEEKPOINT_STREAM_OFFSET_LEN",
    "name" : "FLAC__STREAM_METADATA_SEEKPOINT_STREAM_OFFSET_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_STREAMINFO_BITS_PER_SAMPLE_LEN",
    "name" : "FLAC__STREAM_METADATA_STREAMINFO_BITS_PER_SAMPLE_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_STREAMINFO_CHANNELS_LEN",
    "name" : "FLAC__STREAM_METADATA_STREAMINFO_CHANNELS_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_STREAMINFO_MAX_BLOCK_SIZE_LEN",
    "name" : "FLAC__STREAM_METADATA_STREAMINFO_MAX_BLOCK_SIZE_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_STREAMINFO_MAX_FRAME_SIZE_LEN",
    "name" : "FLAC__STREAM_METADATA_STREAMINFO_MAX_FRAME_SIZE_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_STREAMINFO_MD5SUM_LEN",
    "name" : "FLAC__STREAM_METADATA_STREAMINFO_MD5SUM_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_STREAMINFO_MIN_BLOCK_SIZE_LEN",
    "name" : "FLAC__STREAM_METADATA_STREAMINFO_MIN_BLOCK_SIZE_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_STREAMINFO_MIN_FRAME_SIZE_LEN",
    "name" : "FLAC__STREAM_METADATA_STREAMINFO_MIN_FRAME_SIZE_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_STREAMINFO_SAMPLE_RATE_LEN",
    "name" : "FLAC__STREAM_METADATA_STREAMINFO_SAMPLE_RATE_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_STREAMINFO_TOTAL_SAMPLES_LEN",
    "name" : "FLAC__STREAM_METADATA_STREAMINFO_TOTAL_SAMPLES_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_TYPE_LEN",
    "name" : "FLAC__STREAM_METADATA_TYPE_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_VORBIS_COMMENT_ENTRY_LENGTH_LEN",
    "name" : "FLAC__STREAM_METADATA_VORBIS_COMMENT_ENTRY_LENGTH_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_METADATA_VORBIS_COMMENT_NUM_COMMENTS_LEN",
    "name" : "FLAC__STREAM_METADATA_VORBIS_COMMENT_NUM_COMMENTS_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_SYNC",
    "name" : "FLAC__STREAM_SYNC",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_SYNC_LEN",
    "name" : "FLAC__STREAM_SYNC_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__STREAM_SYNC_STRING",
    "name" : "FLAC__STREAM_SYNC_STRING",
-   "referenced_type" : "type-157",
+   "referenced_type" : "type-153",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__SUBFRAME_LPC_QLP_COEFF_PRECISION_LEN",
    "name" : "FLAC__SUBFRAME_LPC_QLP_COEFF_PRECISION_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__SUBFRAME_LPC_QLP_SHIFT_LEN",
    "name" : "FLAC__SUBFRAME_LPC_QLP_SHIFT_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__SUBFRAME_TYPE_CONSTANT_BYTE_ALIGNED_MASK",
    "name" : "FLAC__SUBFRAME_TYPE_CONSTANT_BYTE_ALIGNED_MASK",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__SUBFRAME_TYPE_FIXED_BYTE_ALIGNED_MASK",
    "name" : "FLAC__SUBFRAME_TYPE_FIXED_BYTE_ALIGNED_MASK",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__SUBFRAME_TYPE_LEN",
    "name" : "FLAC__SUBFRAME_TYPE_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__SUBFRAME_TYPE_LPC_BYTE_ALIGNED_MASK",
    "name" : "FLAC__SUBFRAME_TYPE_LPC_BYTE_ALIGNED_MASK",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__SUBFRAME_TYPE_VERBATIM_BYTE_ALIGNED_MASK",
    "name" : "FLAC__SUBFRAME_TYPE_VERBATIM_BYTE_ALIGNED_MASK",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__SUBFRAME_WASTED_BITS_FLAG_LEN",
    "name" : "FLAC__SUBFRAME_WASTED_BITS_FLAG_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__SUBFRAME_ZERO_PAD_LEN",
    "name" : "FLAC__SUBFRAME_ZERO_PAD_LEN",
-   "referenced_type" : "type-168",
+   "referenced_type" : "type-164",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__StreamDecoderErrorStatusString",
    "name" : "FLAC__StreamDecoderErrorStatusString",
-   "referenced_type" : "type-164",
+   "referenced_type" : "type-160",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
    "linker_set_key" : "FLAC__StreamDecoderInitStatusString",
    "name" : "FLAC__StreamDecoderInitStatusString",
-   "referenced_type" : "type-164",
+   "referenced_type" : "type-160",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
    "linker_set_key" : "FLAC__StreamDecoderLengthStatusString",
    "name" : "FLAC__StreamDecoderLengthStatusString",
-   "referenced_type" : "type-164",
+   "referenced_type" : "type-160",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
    "linker_set_key" : "FLAC__StreamDecoderReadStatusString",
    "name" : "FLAC__StreamDecoderReadStatusString",
-   "referenced_type" : "type-164",
+   "referenced_type" : "type-160",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
    "linker_set_key" : "FLAC__StreamDecoderSeekStatusString",
    "name" : "FLAC__StreamDecoderSeekStatusString",
-   "referenced_type" : "type-164",
+   "referenced_type" : "type-160",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
    "linker_set_key" : "FLAC__StreamDecoderStateString",
    "name" : "FLAC__StreamDecoderStateString",
-   "referenced_type" : "type-164",
+   "referenced_type" : "type-160",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
    "linker_set_key" : "FLAC__StreamDecoderTellStatusString",
    "name" : "FLAC__StreamDecoderTellStatusString",
-   "referenced_type" : "type-164",
+   "referenced_type" : "type-160",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
    "linker_set_key" : "FLAC__StreamDecoderWriteStatusString",
    "name" : "FLAC__StreamDecoderWriteStatusString",
-   "referenced_type" : "type-164",
+   "referenced_type" : "type-160",
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
   {
    "linker_set_key" : "FLAC__StreamMetadata_Picture_TypeString",
    "name" : "FLAC__StreamMetadata_Picture_TypeString",
-   "referenced_type" : "type-164",
+   "referenced_type" : "type-160",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__SubframeTypeString",
    "name" : "FLAC__SubframeTypeString",
-   "referenced_type" : "type-164",
+   "referenced_type" : "type-160",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__VENDOR_STRING",
    "name" : "FLAC__VENDOR_STRING",
-   "referenced_type" : "type-41",
+   "referenced_type" : "type-30",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
    "linker_set_key" : "FLAC__VERSION_STRING",
    "name" : "FLAC__VERSION_STRING",
-   "referenced_type" : "type-41",
+   "referenced_type" : "type-30",
    "source_file" : "/external/flac/include/FLAC/format.h"
   }
  ],
@@ -3365,8 +3365,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoder *",
    "name" : "FLAC__StreamDecoder *",
-   "referenced_type" : "type-55",
-   "self_type" : "type-161",
+   "referenced_type" : "type-44",
+   "self_type" : "type-157",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
@@ -3374,8 +3374,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderLengthStatus (*)(const FLAC__StreamDecoder *, unsigned long long *, void *)",
    "name" : "FLAC__StreamDecoderLengthStatus (*)(const FLAC__StreamDecoder *, unsigned long long *, void *)",
-   "referenced_type" : "type-100",
-   "self_type" : "type-104",
+   "referenced_type" : "type-90",
+   "self_type" : "type-92",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3383,8 +3383,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderPrivate *",
    "name" : "FLAC__StreamDecoderPrivate *",
-   "referenced_type" : "type-14",
-   "self_type" : "type-13",
+   "referenced_type" : "type-144",
+   "self_type" : "type-143",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3392,8 +3392,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderPrivate *",
    "name" : "FLAC__StreamDecoderPrivate *",
-   "referenced_type" : "type-148",
-   "self_type" : "type-147",
+   "referenced_type" : "type-184",
+   "self_type" : "type-183",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3401,8 +3401,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderPrivate *",
    "name" : "FLAC__StreamDecoderPrivate *",
-   "referenced_type" : "type-188",
-   "self_type" : "type-187",
+   "referenced_type" : "type-210",
+   "self_type" : "type-209",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3410,8 +3410,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderPrivate *",
    "name" : "FLAC__StreamDecoderPrivate *",
-   "referenced_type" : "type-214",
-   "self_type" : "type-213",
+   "referenced_type" : "type-234",
+   "self_type" : "type-233",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3419,8 +3419,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderPrivate *",
    "name" : "FLAC__StreamDecoderPrivate *",
-   "referenced_type" : "type-238",
-   "self_type" : "type-237",
+   "referenced_type" : "type-256",
+   "self_type" : "type-255",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3428,8 +3428,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderPrivate *",
    "name" : "FLAC__StreamDecoderPrivate *",
-   "referenced_type" : "type-274",
-   "self_type" : "type-273",
+   "referenced_type" : "type-276",
+   "self_type" : "type-275",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3482,8 +3482,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderPrivate *",
    "name" : "FLAC__StreamDecoderPrivate *",
-   "referenced_type" : "type-59",
-   "self_type" : "type-58",
+   "referenced_type" : "type-48",
+   "self_type" : "type-47",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3491,8 +3491,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderPrivate *",
    "name" : "FLAC__StreamDecoderPrivate *",
-   "referenced_type" : "type-87",
-   "self_type" : "type-86",
+   "referenced_type" : "type-78",
+   "self_type" : "type-77",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3500,8 +3500,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderProtected *",
    "name" : "FLAC__StreamDecoderProtected *",
-   "referenced_type" : "type-12",
-   "self_type" : "type-11",
+   "referenced_type" : "type-142",
+   "self_type" : "type-141",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3509,8 +3509,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderProtected *",
    "name" : "FLAC__StreamDecoderProtected *",
-   "referenced_type" : "type-146",
-   "self_type" : "type-145",
+   "referenced_type" : "type-182",
+   "self_type" : "type-181",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3518,8 +3518,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderProtected *",
    "name" : "FLAC__StreamDecoderProtected *",
-   "referenced_type" : "type-186",
-   "self_type" : "type-185",
+   "referenced_type" : "type-208",
+   "self_type" : "type-207",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3527,8 +3527,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderProtected *",
    "name" : "FLAC__StreamDecoderProtected *",
-   "referenced_type" : "type-212",
-   "self_type" : "type-211",
+   "referenced_type" : "type-232",
+   "self_type" : "type-231",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3536,8 +3536,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderProtected *",
    "name" : "FLAC__StreamDecoderProtected *",
-   "referenced_type" : "type-236",
-   "self_type" : "type-235",
+   "referenced_type" : "type-254",
+   "self_type" : "type-253",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3545,8 +3545,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderProtected *",
    "name" : "FLAC__StreamDecoderProtected *",
-   "referenced_type" : "type-272",
-   "self_type" : "type-271",
+   "referenced_type" : "type-274",
+   "self_type" : "type-273",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3599,8 +3599,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderProtected *",
    "name" : "FLAC__StreamDecoderProtected *",
-   "referenced_type" : "type-57",
-   "self_type" : "type-56",
+   "referenced_type" : "type-46",
+   "self_type" : "type-45",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3608,8 +3608,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderProtected *",
    "name" : "FLAC__StreamDecoderProtected *",
-   "referenced_type" : "type-85",
-   "self_type" : "type-84",
+   "referenced_type" : "type-74",
+   "self_type" : "type-73",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3617,8 +3617,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderReadStatus (*)(const FLAC__StreamDecoder *, unsigned char *, unsigned int *, void *)",
    "name" : "FLAC__StreamDecoderReadStatus (*)(const FLAC__StreamDecoder *, unsigned char *, unsigned int *, void *)",
-   "referenced_type" : "type-91",
-   "self_type" : "type-93",
+   "referenced_type" : "type-81",
+   "self_type" : "type-83",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3626,8 +3626,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderSeekStatus (*)(const FLAC__StreamDecoder *, unsigned long long, void *)",
    "name" : "FLAC__StreamDecoderSeekStatus (*)(const FLAC__StreamDecoder *, unsigned long long, void *)",
-   "referenced_type" : "type-94",
-   "self_type" : "type-96",
+   "referenced_type" : "type-84",
+   "self_type" : "type-86",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3635,8 +3635,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderTellStatus (*)(const FLAC__StreamDecoder *, unsigned long long *, void *)",
    "name" : "FLAC__StreamDecoderTellStatus (*)(const FLAC__StreamDecoder *, unsigned long long *, void *)",
-   "referenced_type" : "type-97",
-   "self_type" : "type-99",
+   "referenced_type" : "type-87",
+   "self_type" : "type-89",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3644,8 +3644,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamDecoderWriteStatus (*)(const FLAC__StreamDecoder *, const FLAC__Frame *, const int *const *, void *)",
    "name" : "FLAC__StreamDecoderWriteStatus (*)(const FLAC__StreamDecoder *, const FLAC__Frame *, const int *const *, void *)",
-   "referenced_type" : "type-107",
-   "self_type" : "type-117",
+   "referenced_type" : "type-95",
+   "self_type" : "type-113",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3653,8 +3653,17 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamEncoder *",
    "name" : "FLAC__StreamEncoder *",
+   "referenced_type" : "type-119",
+   "self_type" : "type-147",
+   "size" : 4,
+   "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "FLAC__StreamEncoderPrivate *",
+   "name" : "FLAC__StreamEncoderPrivate *",
    "referenced_type" : "type-123",
-   "self_type" : "type-151",
+   "self_type" : "type-122",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -3662,8 +3671,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamEncoderPrivate *",
    "name" : "FLAC__StreamEncoderPrivate *",
-   "referenced_type" : "type-127",
-   "self_type" : "type-126",
+   "referenced_type" : "type-198",
+   "self_type" : "type-197",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -3671,17 +3680,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamEncoderPrivate *",
    "name" : "FLAC__StreamEncoderPrivate *",
-   "referenced_type" : "type-202",
-   "self_type" : "type-201",
-   "size" : 4,
-   "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "FLAC__StreamEncoderPrivate *",
-   "name" : "FLAC__StreamEncoderPrivate *",
-   "referenced_type" : "type-288",
-   "self_type" : "type-287",
+   "referenced_type" : "type-289",
+   "self_type" : "type-288",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -3698,8 +3698,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamEncoderProtected *",
    "name" : "FLAC__StreamEncoderProtected *",
-   "referenced_type" : "type-125",
-   "self_type" : "type-124",
+   "referenced_type" : "type-121",
+   "self_type" : "type-120",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -3707,8 +3707,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamEncoderProtected *",
    "name" : "FLAC__StreamEncoderProtected *",
-   "referenced_type" : "type-200",
-   "self_type" : "type-199",
+   "referenced_type" : "type-196",
+   "self_type" : "type-195",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -3716,8 +3716,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamEncoderProtected *",
    "name" : "FLAC__StreamEncoderProtected *",
-   "referenced_type" : "type-286",
-   "self_type" : "type-285",
+   "referenced_type" : "type-287",
+   "self_type" : "type-286",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -3734,8 +3734,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamEncoderReadStatus (*)(const FLAC__StreamEncoder *, unsigned char *, unsigned int *, void *)",
    "name" : "FLAC__StreamEncoderReadStatus (*)(const FLAC__StreamEncoder *, unsigned char *, unsigned int *, void *)",
-   "referenced_type" : "type-138",
-   "self_type" : "type-140",
+   "referenced_type" : "type-134",
+   "self_type" : "type-136",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -3743,8 +3743,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamEncoderSeekStatus (*)(const FLAC__StreamEncoder *, unsigned long long, void *)",
    "name" : "FLAC__StreamEncoderSeekStatus (*)(const FLAC__StreamEncoder *, unsigned long long, void *)",
-   "referenced_type" : "type-130",
-   "self_type" : "type-132",
+   "referenced_type" : "type-126",
+   "self_type" : "type-128",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -3752,8 +3752,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamEncoderTellStatus (*)(const FLAC__StreamEncoder *, unsigned long long *, void *)",
    "name" : "FLAC__StreamEncoderTellStatus (*)(const FLAC__StreamEncoder *, unsigned long long *, void *)",
-   "referenced_type" : "type-133",
-   "self_type" : "type-135",
+   "referenced_type" : "type-129",
+   "self_type" : "type-131",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -3761,8 +3761,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamEncoderWriteStatus (*)(const FLAC__StreamEncoder *, const unsigned char *, unsigned int, unsigned int, unsigned int, void *)",
    "name" : "FLAC__StreamEncoderWriteStatus (*)(const FLAC__StreamEncoder *, const unsigned char *, unsigned int, unsigned int, unsigned int, void *)",
-   "referenced_type" : "type-119",
-   "self_type" : "type-118",
+   "referenced_type" : "type-115",
+   "self_type" : "type-114",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -3770,8 +3770,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamMetadata *",
    "name" : "FLAC__StreamMetadata *",
-   "referenced_type" : "type-62",
-   "self_type" : "type-152",
+   "referenced_type" : "type-51",
+   "self_type" : "type-148",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -3779,8 +3779,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamMetadata **",
    "name" : "FLAC__StreamMetadata **",
-   "referenced_type" : "type-152",
-   "self_type" : "type-153",
+   "referenced_type" : "type-148",
+   "self_type" : "type-149",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -3788,8 +3788,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamMetadata_CueSheet_Index *",
    "name" : "FLAC__StreamMetadata_CueSheet_Index *",
-   "referenced_type" : "type-38",
-   "self_type" : "type-37",
+   "referenced_type" : "type-27",
+   "self_type" : "type-26",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -3797,15 +3797,6 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamMetadata_CueSheet_Track *",
    "name" : "FLAC__StreamMetadata_CueSheet_Track *",
-   "referenced_type" : "type-34",
-   "self_type" : "type-33",
-   "size" : 4,
-   "source_file" : "/external/flac/include/FLAC/format.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "FLAC__StreamMetadata_SeekPoint *",
-   "name" : "FLAC__StreamMetadata_SeekPoint *",
    "referenced_type" : "type-23",
    "self_type" : "type-22",
    "size" : 4,
@@ -3813,10 +3804,19 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "FLAC__StreamMetadata_SeekPoint *",
+   "name" : "FLAC__StreamMetadata_SeekPoint *",
+   "referenced_type" : "type-14",
+   "self_type" : "type-13",
+   "size" : 4,
+   "source_file" : "/external/flac/include/FLAC/format.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "FLAC__StreamMetadata_SeekTable *",
    "name" : "FLAC__StreamMetadata_SeekTable *",
-   "referenced_type" : "type-21",
-   "self_type" : "type-26",
+   "referenced_type" : "type-12",
+   "self_type" : "type-17",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -3824,8 +3824,8 @@
    "alignment" : 4,
    "linker_set_key" : "FLAC__StreamMetadata_VorbisComment_Entry *",
    "name" : "FLAC__StreamMetadata_VorbisComment_Entry *",
-   "referenced_type" : "type-71",
-   "self_type" : "type-72",
+   "referenced_type" : "type-60",
+   "self_type" : "type-61",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -3833,8 +3833,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-142",
-   "self_type" : "type-141",
+   "referenced_type" : "type-138",
+   "self_type" : "type-137",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -3842,8 +3842,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-183",
-   "self_type" : "type-182",
+   "referenced_type" : "type-179",
+   "self_type" : "type-178",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3851,8 +3851,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-209",
-   "self_type" : "type-208",
+   "referenced_type" : "type-205",
+   "self_type" : "type-204",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -3860,8 +3860,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-269",
-   "self_type" : "type-268",
+   "referenced_type" : "type-272",
+   "self_type" : "type-271",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3896,8 +3896,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-82",
-   "self_type" : "type-81",
+   "referenced_type" : "type-72",
+   "self_type" : "type-71",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3905,8 +3905,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::FLACDecoder *",
    "name" : "android::FLACDecoder *",
-   "referenced_type" : "type-160",
-   "self_type" : "type-165",
+   "referenced_type" : "type-156",
+   "self_type" : "type-161",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
@@ -3914,8 +3914,8 @@
    "alignment" : 4,
    "linker_set_key" : "char *",
    "name" : "char *",
-   "referenced_type" : "type-32",
-   "self_type" : "type-46",
+   "referenced_type" : "type-21",
+   "self_type" : "type-35",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -3932,8 +3932,8 @@
    "alignment" : 4,
    "linker_set_key" : "const FLAC__Frame *",
    "name" : "const FLAC__Frame *",
-   "referenced_type" : "type-110",
-   "self_type" : "type-109",
+   "referenced_type" : "type-98",
+   "self_type" : "type-97",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
@@ -3941,8 +3941,8 @@
    "alignment" : 4,
    "linker_set_key" : "const FLAC__StreamDecoder *",
    "name" : "const FLAC__StreamDecoder *",
-   "referenced_type" : "type-54",
-   "self_type" : "type-53",
+   "referenced_type" : "type-43",
+   "self_type" : "type-42",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -3950,8 +3950,8 @@
    "alignment" : 4,
    "linker_set_key" : "const FLAC__StreamEncoder *",
    "name" : "const FLAC__StreamEncoder *",
-   "referenced_type" : "type-122",
-   "self_type" : "type-121",
+   "referenced_type" : "type-118",
+   "self_type" : "type-117",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -3959,8 +3959,8 @@
    "alignment" : 4,
    "linker_set_key" : "const FLAC__StreamMetadata *",
    "name" : "const FLAC__StreamMetadata *",
-   "referenced_type" : "type-61",
-   "self_type" : "type-60",
+   "referenced_type" : "type-50",
+   "self_type" : "type-49",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
@@ -3968,8 +3968,8 @@
    "alignment" : 4,
    "linker_set_key" : "const FLAC__StreamMetadata_CueSheet *",
    "name" : "const FLAC__StreamMetadata_CueSheet *",
-   "referenced_type" : "type-29",
-   "self_type" : "type-39",
+   "referenced_type" : "type-18",
+   "self_type" : "type-28",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -3977,8 +3977,8 @@
    "alignment" : 4,
    "linker_set_key" : "const FLAC__StreamMetadata_Picture *",
    "name" : "const FLAC__StreamMetadata_Picture *",
-   "referenced_type" : "type-43",
-   "self_type" : "type-48",
+   "referenced_type" : "type-32",
+   "self_type" : "type-37",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -3986,8 +3986,8 @@
    "alignment" : 4,
    "linker_set_key" : "const FLAC__StreamMetadata_SeekTable *",
    "name" : "const FLAC__StreamMetadata_SeekTable *",
-   "referenced_type" : "type-20",
-   "self_type" : "type-25",
+   "referenced_type" : "type-11",
+   "self_type" : "type-16",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -3995,8 +3995,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::FLACDecoder *",
    "name" : "const android::FLACDecoder *",
-   "referenced_type" : "type-166",
-   "self_type" : "type-167",
+   "referenced_type" : "type-162",
+   "self_type" : "type-163",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
@@ -4004,8 +4004,8 @@
    "alignment" : 4,
    "linker_set_key" : "const char *",
    "name" : "const char *",
-   "referenced_type" : "type-42",
-   "self_type" : "type-41",
+   "referenced_type" : "type-31",
+   "self_type" : "type-30",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -4013,8 +4013,8 @@
    "alignment" : 4,
    "linker_set_key" : "const char **",
    "name" : "const char **",
-   "referenced_type" : "type-41",
-   "self_type" : "type-40",
+   "referenced_type" : "type-30",
+   "self_type" : "type-29",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -4022,8 +4022,8 @@
    "alignment" : 4,
    "linker_set_key" : "const int *",
    "name" : "const int *",
-   "referenced_type" : "type-19",
-   "self_type" : "type-18",
+   "referenced_type" : "type-66",
+   "self_type" : "type-65",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -4031,8 +4031,8 @@
    "alignment" : 4,
    "linker_set_key" : "const int *const *",
    "name" : "const int *const *",
-   "referenced_type" : "type-116",
-   "self_type" : "type-115",
+   "referenced_type" : "type-112",
+   "self_type" : "type-111",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
@@ -4040,8 +4040,8 @@
    "alignment" : 4,
    "linker_set_key" : "const unsigned char *",
    "name" : "const unsigned char *",
-   "referenced_type" : "type-129",
-   "self_type" : "type-128",
+   "referenced_type" : "type-125",
+   "self_type" : "type-124",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
@@ -4049,8 +4049,8 @@
    "alignment" : 4,
    "linker_set_key" : "int (*)(const FLAC__StreamDecoder *, void *)",
    "name" : "int (*)(const FLAC__StreamDecoder *, void *)",
-   "referenced_type" : "type-105",
-   "self_type" : "type-106",
+   "referenced_type" : "type-93",
+   "self_type" : "type-94",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -4059,7 +4059,7 @@
    "linker_set_key" : "int *",
    "name" : "int *",
    "referenced_type" : "type-1",
-   "self_type" : "type-154",
+   "self_type" : "type-150",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -4067,8 +4067,8 @@
    "alignment" : 4,
    "linker_set_key" : "unsigned char *",
    "name" : "unsigned char *",
-   "referenced_type" : "type-35",
-   "self_type" : "type-47",
+   "referenced_type" : "type-24",
+   "self_type" : "type-36",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -4085,8 +4085,8 @@
    "alignment" : 4,
    "linker_set_key" : "unsigned long long *",
    "name" : "unsigned long long *",
-   "referenced_type" : "type-24",
-   "self_type" : "type-90",
+   "referenced_type" : "type-15",
+   "self_type" : "type-80",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -4094,8 +4094,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(const FLAC__StreamDecoder *, FLAC__StreamDecoderErrorStatus, void *)",
    "name" : "void (*)(const FLAC__StreamDecoder *, FLAC__StreamDecoderErrorStatus, void *)",
-   "referenced_type" : "type-76",
-   "self_type" : "type-80",
+   "referenced_type" : "type-68",
+   "self_type" : "type-70",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -4103,8 +4103,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(const FLAC__StreamDecoder *, const FLAC__StreamMetadata *, void *)",
    "name" : "void (*)(const FLAC__StreamDecoder *, const FLAC__StreamMetadata *, void *)",
-   "referenced_type" : "type-51",
-   "self_type" : "type-75",
+   "referenced_type" : "type-40",
+   "self_type" : "type-67",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -4112,8 +4112,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(const FLAC__StreamEncoder *, const FLAC__StreamMetadata *, void *)",
    "name" : "void (*)(const FLAC__StreamEncoder *, const FLAC__StreamMetadata *, void *)",
-   "referenced_type" : "type-136",
-   "self_type" : "type-137",
+   "referenced_type" : "type-132",
+   "self_type" : "type-133",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -4121,8 +4121,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(const FLAC__StreamEncoder *, unsigned long long, unsigned long long, unsigned int, unsigned int, void *)",
    "name" : "void (*)(const FLAC__StreamEncoder *, unsigned long long, unsigned long long, unsigned int, unsigned int, void *)",
-   "referenced_type" : "type-143",
-   "self_type" : "type-144",
+   "referenced_type" : "type-139",
+   "self_type" : "type-140",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -4130,8 +4130,8 @@
    "alignment" : 4,
    "linker_set_key" : "void *",
    "name" : "void *",
-   "referenced_type" : "type-52",
-   "self_type" : "type-74",
+   "referenced_type" : "type-41",
+   "self_type" : "type-63",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   }
@@ -4153,8 +4153,8 @@
    "is_const" : true,
    "linker_set_key" : "const FLAC__Frame",
    "name" : "const FLAC__Frame",
-   "referenced_type" : "type-111",
-   "self_type" : "type-110",
+   "referenced_type" : "type-99",
+   "self_type" : "type-98",
    "size" : 2376,
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
@@ -4163,8 +4163,8 @@
    "is_const" : true,
    "linker_set_key" : "const FLAC__StreamDecoder",
    "name" : "const FLAC__StreamDecoder",
-   "referenced_type" : "type-55",
-   "self_type" : "type-54",
+   "referenced_type" : "type-44",
+   "self_type" : "type-43",
    "size" : 8,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h"
   },
@@ -4173,8 +4173,8 @@
    "is_const" : true,
    "linker_set_key" : "const FLAC__StreamEncoder",
    "name" : "const FLAC__StreamEncoder",
-   "referenced_type" : "type-123",
-   "self_type" : "type-122",
+   "referenced_type" : "type-119",
+   "self_type" : "type-118",
    "size" : 8,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h"
   },
@@ -4183,8 +4183,8 @@
    "is_const" : true,
    "linker_set_key" : "const FLAC__StreamMetadata",
    "name" : "const FLAC__StreamMetadata",
-   "referenced_type" : "type-62",
-   "self_type" : "type-61",
+   "referenced_type" : "type-51",
+   "self_type" : "type-50",
    "size" : 164,
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
@@ -4193,8 +4193,8 @@
    "is_const" : true,
    "linker_set_key" : "const FLAC__StreamMetadata_CueSheet",
    "name" : "const FLAC__StreamMetadata_CueSheet",
-   "referenced_type" : "type-30",
-   "self_type" : "type-29",
+   "referenced_type" : "type-19",
+   "self_type" : "type-18",
    "size" : 152,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -4203,8 +4203,8 @@
    "is_const" : true,
    "linker_set_key" : "const FLAC__StreamMetadata_Picture",
    "name" : "const FLAC__StreamMetadata_Picture",
-   "referenced_type" : "type-44",
-   "self_type" : "type-43",
+   "referenced_type" : "type-33",
+   "self_type" : "type-32",
    "size" : 36,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -4213,8 +4213,8 @@
    "is_const" : true,
    "linker_set_key" : "const FLAC__StreamMetadata_SeekTable",
    "name" : "const FLAC__StreamMetadata_SeekTable",
-   "referenced_type" : "type-21",
-   "self_type" : "type-20",
+   "referenced_type" : "type-12",
+   "self_type" : "type-11",
    "size" : 8,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -4223,8 +4223,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::FLACDecoder",
    "name" : "const android::FLACDecoder",
-   "referenced_type" : "type-160",
-   "self_type" : "type-166",
+   "referenced_type" : "type-156",
+   "self_type" : "type-162",
    "size" : 152,
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
@@ -4233,8 +4233,8 @@
    "is_const" : true,
    "linker_set_key" : "const char",
    "name" : "const char",
-   "referenced_type" : "type-32",
-   "self_type" : "type-42",
+   "referenced_type" : "type-21",
+   "self_type" : "type-31",
    "size" : 1,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -4242,8 +4242,8 @@
    "is_const" : true,
    "linker_set_key" : "const char *const[]",
    "name" : "const char *const[]",
-   "referenced_type" : "type-155",
-   "self_type" : "type-164",
+   "referenced_type" : "type-151",
+   "self_type" : "type-160",
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
   {
@@ -4252,7 +4252,7 @@
    "linker_set_key" : "const int",
    "name" : "const int",
    "referenced_type" : "type-1",
-   "self_type" : "type-19",
+   "self_type" : "type-66",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -4261,8 +4261,8 @@
    "is_const" : true,
    "linker_set_key" : "const int *const",
    "name" : "const int *const",
-   "referenced_type" : "type-18",
-   "self_type" : "type-116",
+   "referenced_type" : "type-65",
+   "self_type" : "type-112",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
@@ -4271,8 +4271,8 @@
    "is_const" : true,
    "linker_set_key" : "const unsigned char",
    "name" : "const unsigned char",
-   "referenced_type" : "type-35",
-   "self_type" : "type-129",
+   "referenced_type" : "type-24",
+   "self_type" : "type-125",
    "size" : 1,
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h"
   },
@@ -4282,7 +4282,7 @@
    "linker_set_key" : "const unsigned int",
    "name" : "const unsigned int",
    "referenced_type" : "type-3",
-   "self_type" : "type-168",
+   "self_type" : "type-164",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -4291,8 +4291,8 @@
    "is_const" : true,
    "linker_set_key" : "const unsigned long long",
    "name" : "const unsigned long long",
-   "referenced_type" : "type-24",
-   "self_type" : "type-156",
+   "referenced_type" : "type-15",
+   "self_type" : "type-152",
    "size" : 8,
    "source_file" : "/external/flac/include/FLAC/format.h"
   },
@@ -4301,8 +4301,8 @@
    "is_const" : true,
    "linker_set_key" : "unsigned char const[4]",
    "name" : "unsigned char const[4]",
-   "referenced_type" : "type-69",
-   "self_type" : "type-157",
+   "referenced_type" : "type-58",
+   "self_type" : "type-153",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h"
   }
@@ -4405,23 +4405,23 @@
    [
     {
      "field_name" : "header",
-     "referenced_type" : "type-102"
+     "referenced_type" : "type-100"
     },
     {
      "field_name" : "subframes",
      "field_offset" : 288,
-     "referenced_type" : "type-112"
+     "referenced_type" : "type-104"
     },
     {
      "field_name" : "footer",
      "field_offset" : 18976,
-     "referenced_type" : "type-113"
+     "referenced_type" : "type-109"
     }
    ],
    "linker_set_key" : "FLAC__Frame",
    "name" : "FLAC__Frame",
-   "referenced_type" : "type-111",
-   "self_type" : "type-111",
+   "referenced_type" : "type-99",
+   "self_type" : "type-99",
    "size" : 2376,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__Frame"
@@ -4432,13 +4432,13 @@
    [
     {
      "field_name" : "crc",
-     "referenced_type" : "type-114"
+     "referenced_type" : "type-110"
     }
    ],
    "linker_set_key" : "FLAC__FrameFooter",
    "name" : "FLAC__FrameFooter",
-   "referenced_type" : "type-113",
-   "self_type" : "type-113",
+   "referenced_type" : "type-109",
+   "self_type" : "type-109",
    "size" : 2,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__FrameFooter"
@@ -4464,7 +4464,7 @@
     {
      "field_name" : "channel_assignment",
      "field_offset" : 96,
-     "referenced_type" : "type-83"
+     "referenced_type" : "type-101"
     },
     {
      "field_name" : "bits_per_sample",
@@ -4474,7 +4474,7 @@
     {
      "field_name" : "number_type",
      "field_offset" : 160,
-     "referenced_type" : "type-89"
+     "referenced_type" : "type-102"
     },
     {
      "field_name" : "number",
@@ -4484,13 +4484,13 @@
     {
      "field_name" : "crc",
      "field_offset" : 256,
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-24"
     }
    ],
    "linker_set_key" : "FLAC__FrameHeader",
    "name" : "FLAC__FrameHeader",
-   "referenced_type" : "type-102",
-   "self_type" : "type-102",
+   "referenced_type" : "type-100",
+   "self_type" : "type-100",
    "size" : 36,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__FrameHeader"
@@ -4505,7 +4505,7 @@
     },
     {
      "field_name" : "sample_number",
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-15"
     }
    ],
    "is_anonymous" : true,
@@ -4524,18 +4524,18 @@
    [
     {
      "field_name" : "protected_",
-     "referenced_type" : "type-56"
+     "referenced_type" : "type-45"
     },
     {
      "field_name" : "private_",
      "field_offset" : 32,
-     "referenced_type" : "type-58"
+     "referenced_type" : "type-47"
     }
    ],
    "linker_set_key" : "FLAC__StreamDecoder",
    "name" : "FLAC__StreamDecoder",
-   "referenced_type" : "type-55",
-   "self_type" : "type-55",
+   "referenced_type" : "type-44",
+   "self_type" : "type-44",
    "size" : 8,
    "source_file" : "/external/flac/include/FLAC/stream_decoder.h",
    "unique_id" : "FLAC__StreamDecoder"
@@ -4546,18 +4546,18 @@
    [
     {
      "field_name" : "protected_",
-     "referenced_type" : "type-124"
+     "referenced_type" : "type-120"
     },
     {
      "field_name" : "private_",
      "field_offset" : 32,
-     "referenced_type" : "type-126"
+     "referenced_type" : "type-122"
     }
    ],
    "linker_set_key" : "FLAC__StreamEncoder",
    "name" : "FLAC__StreamEncoder",
-   "referenced_type" : "type-123",
-   "self_type" : "type-123",
+   "referenced_type" : "type-119",
+   "self_type" : "type-119",
    "size" : 8,
    "source_file" : "/external/flac/include/FLAC/stream_encoder.h",
    "unique_id" : "FLAC__StreamEncoder"
@@ -4568,7 +4568,7 @@
    [
     {
      "field_name" : "type",
-     "referenced_type" : "type-63"
+     "referenced_type" : "type-52"
     },
     {
      "field_name" : "is_last",
@@ -4583,13 +4583,13 @@
     {
      "field_name" : "data",
      "field_offset" : 96,
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-53"
     }
    ],
    "linker_set_key" : "FLAC__StreamMetadata",
    "name" : "FLAC__StreamMetadata",
-   "referenced_type" : "type-62",
-   "self_type" : "type-62",
+   "referenced_type" : "type-51",
+   "self_type" : "type-51",
    "size" : 164,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__StreamMetadata"
@@ -4600,43 +4600,43 @@
    [
     {
      "field_name" : "stream_info",
-     "referenced_type" : "type-65"
+     "referenced_type" : "type-54"
     },
     {
      "field_name" : "padding",
-     "referenced_type" : "type-67"
+     "referenced_type" : "type-56"
     },
     {
      "field_name" : "application",
-     "referenced_type" : "type-68"
+     "referenced_type" : "type-57"
     },
     {
      "field_name" : "seek_table",
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-12"
     },
     {
      "field_name" : "vorbis_comment",
-     "referenced_type" : "type-70"
+     "referenced_type" : "type-59"
     },
     {
      "field_name" : "cue_sheet",
-     "referenced_type" : "type-30"
+     "referenced_type" : "type-19"
     },
     {
      "field_name" : "picture",
-     "referenced_type" : "type-44"
+     "referenced_type" : "type-33"
     },
     {
      "field_name" : "unknown",
-     "referenced_type" : "type-73"
+     "referenced_type" : "type-62"
     }
    ],
    "is_anonymous" : true,
    "linker_set_key" : "FLAC__StreamMetadata::(anonymous union at external/flac/include/FLAC/format.h:846:2) at external/flac/include/FLAC/format.h:846:2",
    "name" : "FLAC__StreamMetadata::(anonymous union at external/flac/include/FLAC/format.h:846:2) at external/flac/include/FLAC/format.h:846:2",
    "record_kind" : "union",
-   "referenced_type" : "type-64",
-   "self_type" : "type-64",
+   "referenced_type" : "type-53",
+   "self_type" : "type-53",
    "size" : 152,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__StreamMetadata::(anonymous union at external/flac/include/FLAC/format.h:846:2)"
@@ -4647,18 +4647,18 @@
    [
     {
      "field_name" : "id",
-     "referenced_type" : "type-69"
+     "referenced_type" : "type-58"
     },
     {
      "field_name" : "data",
      "field_offset" : 32,
-     "referenced_type" : "type-47"
+     "referenced_type" : "type-36"
     }
    ],
    "linker_set_key" : "FLAC__StreamMetadata_Application",
    "name" : "FLAC__StreamMetadata_Application",
-   "referenced_type" : "type-68",
-   "self_type" : "type-68",
+   "referenced_type" : "type-57",
+   "self_type" : "type-57",
    "size" : 8,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__StreamMetadata_Application"
@@ -4669,12 +4669,12 @@
    [
     {
      "field_name" : "media_catalog_number",
-     "referenced_type" : "type-31"
+     "referenced_type" : "type-20"
     },
     {
      "field_name" : "lead_in",
      "field_offset" : 1056,
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-15"
     },
     {
      "field_name" : "is_cd",
@@ -4689,13 +4689,13 @@
     {
      "field_name" : "tracks",
      "field_offset" : 1184,
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-22"
     }
    ],
    "linker_set_key" : "FLAC__StreamMetadata_CueSheet",
    "name" : "FLAC__StreamMetadata_CueSheet",
-   "referenced_type" : "type-30",
-   "self_type" : "type-30",
+   "referenced_type" : "type-19",
+   "self_type" : "type-19",
    "size" : 152,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__StreamMetadata_CueSheet"
@@ -4706,18 +4706,18 @@
    [
     {
      "field_name" : "offset",
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-15"
     },
     {
      "field_name" : "number",
      "field_offset" : 64,
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-24"
     }
    ],
    "linker_set_key" : "FLAC__StreamMetadata_CueSheet_Index",
    "name" : "FLAC__StreamMetadata_CueSheet_Index",
-   "referenced_type" : "type-38",
-   "self_type" : "type-38",
+   "referenced_type" : "type-27",
+   "self_type" : "type-27",
    "size" : 12,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__StreamMetadata_CueSheet_Index"
@@ -4728,17 +4728,17 @@
    [
     {
      "field_name" : "offset",
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-15"
     },
     {
      "field_name" : "number",
      "field_offset" : 64,
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-24"
     },
     {
      "field_name" : "isrc",
      "field_offset" : 72,
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-25"
     },
     {
      "field_name" : "type",
@@ -4753,18 +4753,18 @@
     {
      "field_name" : "num_indices",
      "field_offset" : 184,
-     "referenced_type" : "type-35"
+     "referenced_type" : "type-24"
     },
     {
      "field_name" : "indices",
      "field_offset" : 192,
-     "referenced_type" : "type-37"
+     "referenced_type" : "type-26"
     }
    ],
    "linker_set_key" : "FLAC__StreamMetadata_CueSheet_Track",
    "name" : "FLAC__StreamMetadata_CueSheet_Track",
-   "referenced_type" : "type-34",
-   "self_type" : "type-34",
+   "referenced_type" : "type-23",
+   "self_type" : "type-23",
    "size" : 28,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__StreamMetadata_CueSheet_Track"
@@ -4780,8 +4780,8 @@
    ],
    "linker_set_key" : "FLAC__StreamMetadata_Padding",
    "name" : "FLAC__StreamMetadata_Padding",
-   "referenced_type" : "type-67",
-   "self_type" : "type-67",
+   "referenced_type" : "type-56",
+   "self_type" : "type-56",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__StreamMetadata_Padding"
@@ -4792,17 +4792,17 @@
    [
     {
      "field_name" : "type",
-     "referenced_type" : "type-45"
+     "referenced_type" : "type-34"
     },
     {
      "field_name" : "mime_type",
      "field_offset" : 32,
-     "referenced_type" : "type-46"
+     "referenced_type" : "type-35"
     },
     {
      "field_name" : "description",
      "field_offset" : 64,
-     "referenced_type" : "type-47"
+     "referenced_type" : "type-36"
     },
     {
      "field_name" : "width",
@@ -4832,13 +4832,13 @@
     {
      "field_name" : "data",
      "field_offset" : 256,
-     "referenced_type" : "type-47"
+     "referenced_type" : "type-36"
     }
    ],
    "linker_set_key" : "FLAC__StreamMetadata_Picture",
    "name" : "FLAC__StreamMetadata_Picture",
-   "referenced_type" : "type-44",
-   "self_type" : "type-44",
+   "referenced_type" : "type-33",
+   "self_type" : "type-33",
    "size" : 36,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__StreamMetadata_Picture"
@@ -4849,12 +4849,12 @@
    [
     {
      "field_name" : "sample_number",
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-15"
     },
     {
      "field_name" : "stream_offset",
      "field_offset" : 64,
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-15"
     },
     {
      "field_name" : "frame_samples",
@@ -4864,8 +4864,8 @@
    ],
    "linker_set_key" : "FLAC__StreamMetadata_SeekPoint",
    "name" : "FLAC__StreamMetadata_SeekPoint",
-   "referenced_type" : "type-23",
-   "self_type" : "type-23",
+   "referenced_type" : "type-14",
+   "self_type" : "type-14",
    "size" : 20,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__StreamMetadata_SeekPoint"
@@ -4881,13 +4881,13 @@
     {
      "field_name" : "points",
      "field_offset" : 32,
-     "referenced_type" : "type-22"
+     "referenced_type" : "type-13"
     }
    ],
    "linker_set_key" : "FLAC__StreamMetadata_SeekTable",
    "name" : "FLAC__StreamMetadata_SeekTable",
-   "referenced_type" : "type-21",
-   "self_type" : "type-21",
+   "referenced_type" : "type-12",
+   "self_type" : "type-12",
    "size" : 8,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__StreamMetadata_SeekTable"
@@ -4933,18 +4933,18 @@
     {
      "field_name" : "total_samples",
      "field_offset" : 224,
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-15"
     },
     {
      "field_name" : "md5sum",
      "field_offset" : 288,
-     "referenced_type" : "type-66"
+     "referenced_type" : "type-55"
     }
    ],
    "linker_set_key" : "FLAC__StreamMetadata_StreamInfo",
    "name" : "FLAC__StreamMetadata_StreamInfo",
-   "referenced_type" : "type-65",
-   "self_type" : "type-65",
+   "referenced_type" : "type-54",
+   "self_type" : "type-54",
    "size" : 52,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__StreamMetadata_StreamInfo"
@@ -4955,13 +4955,13 @@
    [
     {
      "field_name" : "data",
-     "referenced_type" : "type-47"
+     "referenced_type" : "type-36"
     }
    ],
    "linker_set_key" : "FLAC__StreamMetadata_Unknown",
    "name" : "FLAC__StreamMetadata_Unknown",
-   "referenced_type" : "type-73",
-   "self_type" : "type-73",
+   "referenced_type" : "type-62",
+   "self_type" : "type-62",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__StreamMetadata_Unknown"
@@ -4972,7 +4972,7 @@
    [
     {
      "field_name" : "vendor_string",
-     "referenced_type" : "type-71"
+     "referenced_type" : "type-60"
     },
     {
      "field_name" : "num_comments",
@@ -4982,13 +4982,13 @@
     {
      "field_name" : "comments",
      "field_offset" : 96,
-     "referenced_type" : "type-72"
+     "referenced_type" : "type-61"
     }
    ],
    "linker_set_key" : "FLAC__StreamMetadata_VorbisComment",
    "name" : "FLAC__StreamMetadata_VorbisComment",
-   "referenced_type" : "type-70",
-   "self_type" : "type-70",
+   "referenced_type" : "type-59",
+   "self_type" : "type-59",
    "size" : 16,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__StreamMetadata_VorbisComment"
@@ -5004,13 +5004,13 @@
     {
      "field_name" : "entry",
      "field_offset" : 32,
-     "referenced_type" : "type-47"
+     "referenced_type" : "type-36"
     }
    ],
    "linker_set_key" : "FLAC__StreamMetadata_VorbisComment_Entry",
    "name" : "FLAC__StreamMetadata_VorbisComment_Entry",
-   "referenced_type" : "type-71",
-   "self_type" : "type-71",
+   "referenced_type" : "type-60",
+   "self_type" : "type-60",
    "size" : 8,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__StreamMetadata_VorbisComment_Entry"
@@ -5021,12 +5021,12 @@
    [
     {
      "field_name" : "type",
-     "referenced_type" : "type-15"
+     "referenced_type" : "type-38"
     },
     {
      "field_name" : "data",
      "field_offset" : 32,
-     "referenced_type" : "type-79"
+     "referenced_type" : "type-106"
     },
     {
      "field_name" : "wasted_bits",
@@ -5036,8 +5036,8 @@
    ],
    "linker_set_key" : "FLAC__Subframe",
    "name" : "FLAC__Subframe",
-   "referenced_type" : "type-78",
-   "self_type" : "type-78",
+   "referenced_type" : "type-105",
+   "self_type" : "type-105",
    "size" : 292,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__Subframe"
@@ -5048,27 +5048,27 @@
    [
     {
      "field_name" : "constant",
-     "referenced_type" : "type-16"
+     "referenced_type" : "type-39"
     },
     {
      "field_name" : "fixed",
-     "referenced_type" : "type-27"
+     "referenced_type" : "type-75"
     },
     {
      "field_name" : "lpc",
-     "referenced_type" : "type-49"
+     "referenced_type" : "type-107"
     },
     {
      "field_name" : "verbatim",
-     "referenced_type" : "type-17"
+     "referenced_type" : "type-64"
     }
    ],
    "is_anonymous" : true,
    "linker_set_key" : "FLAC__Subframe::(anonymous union at external/flac/include/FLAC/format.h:346:2) at external/flac/include/FLAC/format.h:346:2",
    "name" : "FLAC__Subframe::(anonymous union at external/flac/include/FLAC/format.h:346:2) at external/flac/include/FLAC/format.h:346:2",
    "record_kind" : "union",
-   "referenced_type" : "type-79",
-   "self_type" : "type-79",
+   "referenced_type" : "type-106",
+   "self_type" : "type-106",
    "size" : 284,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__Subframe::(anonymous union at external/flac/include/FLAC/format.h:346:2)"
@@ -5084,8 +5084,8 @@
    ],
    "linker_set_key" : "FLAC__Subframe_Constant",
    "name" : "FLAC__Subframe_Constant",
-   "referenced_type" : "type-16",
-   "self_type" : "type-16",
+   "referenced_type" : "type-39",
+   "self_type" : "type-39",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__Subframe_Constant"
@@ -5106,18 +5106,18 @@
     {
      "field_name" : "warmup",
      "field_offset" : 128,
-     "referenced_type" : "type-28"
+     "referenced_type" : "type-76"
     },
     {
      "field_name" : "residual",
      "field_offset" : 256,
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-65"
     }
    ],
    "linker_set_key" : "FLAC__Subframe_Fixed",
    "name" : "FLAC__Subframe_Fixed",
-   "referenced_type" : "type-27",
-   "self_type" : "type-27",
+   "referenced_type" : "type-75",
+   "self_type" : "type-75",
    "size" : 36,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__Subframe_Fixed"
@@ -5148,23 +5148,23 @@
     {
      "field_name" : "qlp_coeff",
      "field_offset" : 192,
-     "referenced_type" : "type-50"
+     "referenced_type" : "type-108"
     },
     {
      "field_name" : "warmup",
      "field_offset" : 1216,
-     "referenced_type" : "type-50"
+     "referenced_type" : "type-108"
     },
     {
      "field_name" : "residual",
      "field_offset" : 2240,
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-65"
     }
    ],
    "linker_set_key" : "FLAC__Subframe_LPC",
    "name" : "FLAC__Subframe_LPC",
-   "referenced_type" : "type-49",
-   "self_type" : "type-49",
+   "referenced_type" : "type-107",
+   "self_type" : "type-107",
    "size" : 284,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__Subframe_LPC"
@@ -5175,13 +5175,13 @@
    [
     {
      "field_name" : "data",
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-65"
     }
    ],
    "linker_set_key" : "FLAC__Subframe_Verbatim",
    "name" : "FLAC__Subframe_Verbatim",
-   "referenced_type" : "type-17",
-   "self_type" : "type-17",
+   "referenced_type" : "type-64",
+   "self_type" : "type-64",
    "size" : 4,
    "source_file" : "/external/flac/include/FLAC/format.h",
    "unique_id" : "FLAC__Subframe_Verbatim"
@@ -5194,13 +5194,13 @@
      "access" : "private",
      "field_name" : "mDecoder",
      "field_offset" : 32,
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-157"
     },
     {
      "access" : "private",
      "field_name" : "mBuffer",
      "field_offset" : 64,
-     "referenced_type" : "type-47"
+     "referenced_type" : "type-36"
     },
     {
      "access" : "private",
@@ -5224,50 +5224,50 @@
      "access" : "private",
      "field_name" : "mStreamInfo",
      "field_offset" : 192,
-     "referenced_type" : "type-65"
+     "referenced_type" : "type-54"
     },
     {
      "access" : "private",
      "field_name" : "mStreamInfoValid",
      "field_offset" : 608,
-     "referenced_type" : "type-162"
+     "referenced_type" : "type-158"
     },
     {
      "access" : "private",
      "field_name" : "mWriteRequested",
      "field_offset" : 616,
-     "referenced_type" : "type-162"
+     "referenced_type" : "type-158"
     },
     {
      "access" : "private",
      "field_name" : "mWriteCompleted",
      "field_offset" : 624,
-     "referenced_type" : "type-162"
+     "referenced_type" : "type-158"
     },
     {
      "access" : "private",
      "field_name" : "mWriteHeader",
      "field_offset" : 640,
-     "referenced_type" : "type-102"
+     "referenced_type" : "type-100"
     },
     {
      "access" : "private",
      "field_name" : "mWriteBuffer",
      "field_offset" : 928,
-     "referenced_type" : "type-163"
+     "referenced_type" : "type-159"
     },
     {
      "access" : "private",
      "field_name" : "mErrorStatus",
      "field_offset" : 1184,
-     "referenced_type" : "type-77"
+     "referenced_type" : "type-69"
     }
    ],
    "linker_set_key" : "android::FLACDecoder",
    "name" : "android::FLACDecoder",
    "record_kind" : "class",
-   "referenced_type" : "type-160",
-   "self_type" : "type-160",
+   "referenced_type" : "type-156",
+   "self_type" : "type-156",
    "size" : 152,
    "source_file" : "/frameworks/av/media/libstagefright/flac/dec/FLACDecoder.h",
    "unique_id" : "_ZTSN7android11FLACDecoderE",
