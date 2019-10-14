@@ -11445,7 +11445,7 @@
    "name" : "const unwindstack::MapInfo",
    "referenced_type" : "type-78",
    "self_type" : "type-77",
-   "size" : 88,
+   "size" : 96,
    "source_file" : "/system/core/libunwindstack/include/unwindstack/Elf.h"
   },
   {
@@ -13341,9 +13341,14 @@
      "referenced_type" : "type-83"
     },
     {
+     "field_name" : "memory_backed_elf",
+     "field_offset" : 672,
+     "referenced_type" : "type-72"
+    },
+    {
      "access" : "private",
      "field_name" : "mutex_",
-     "field_offset" : 672,
+     "field_offset" : 704,
      "referenced_type" : "type-84"
     }
    ],
@@ -13351,7 +13356,7 @@
    "name" : "unwindstack::MapInfo",
    "referenced_type" : "type-78",
    "self_type" : "type-78",
-   "size" : 88,
+   "size" : 96,
    "source_file" : "/system/core/libunwindstack/include/unwindstack/MapInfo.h",
    "unique_id" : "_ZTSN11unwindstack7MapInfoE"
   },
@@ -14845,6 +14850,12 @@
      "access" : "protected",
      "field_name" : "display_build_id_",
      "field_offset" : 336,
+     "referenced_type" : "type-72"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "elf_from_memory_not_file_",
+     "field_offset" : 344,
      "referenced_type" : "type-72"
     },
     {
