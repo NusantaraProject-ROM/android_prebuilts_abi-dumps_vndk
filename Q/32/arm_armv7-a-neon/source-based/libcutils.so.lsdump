@@ -5,8 +5,8 @@
    "alignment" : 4,
    "linker_set_key" : "int [0]",
    "name" : "int [0]",
-   "referenced_type" : "type-18",
-   "self_type" : "type-21",
+   "referenced_type" : "type-10",
+   "self_type" : "type-15",
    "source_file" : "/system/core/libcutils/include/cutils/native_handle.h"
   }
  ],
@@ -18,8 +18,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "bool",
    "name" : "bool",
-   "referenced_type" : "type-15",
-   "self_type" : "type-15",
+   "referenced_type" : "type-84",
+   "self_type" : "type-84",
    "size" : 1
   },
   {
@@ -38,24 +38,24 @@
    "is_unsigned" : true,
    "linker_set_key" : "char16_t",
    "name" : "char16_t",
-   "referenced_type" : "type-32",
-   "self_type" : "type-32",
+   "referenced_type" : "type-26",
+   "self_type" : "type-26",
    "size" : 2
   },
   {
    "alignment" : 8,
    "linker_set_key" : "double",
    "name" : "double",
-   "referenced_type" : "type-90",
-   "self_type" : "type-90",
+   "referenced_type" : "type-127",
+   "self_type" : "type-127",
    "size" : 8
   },
   {
    "alignment" : 4,
    "linker_set_key" : "float",
    "name" : "float",
-   "referenced_type" : "type-57",
-   "self_type" : "type-57",
+   "referenced_type" : "type-76",
+   "self_type" : "type-76",
    "size" : 4
   },
   {
@@ -63,8 +63,8 @@
    "is_integral" : true,
    "linker_set_key" : "int",
    "name" : "int",
-   "referenced_type" : "type-18",
-   "self_type" : "type-18",
+   "referenced_type" : "type-10",
+   "self_type" : "type-10",
    "size" : 4
   },
   {
@@ -72,16 +72,16 @@
    "is_integral" : true,
    "linker_set_key" : "long",
    "name" : "long",
-   "referenced_type" : "type-95",
-   "self_type" : "type-95",
+   "referenced_type" : "type-132",
+   "self_type" : "type-132",
    "size" : 4
   },
   {
    "alignment" : 8,
    "linker_set_key" : "long double",
    "name" : "long double",
-   "referenced_type" : "type-94",
-   "self_type" : "type-94",
+   "referenced_type" : "type-131",
+   "self_type" : "type-131",
    "size" : 8
   },
   {
@@ -89,8 +89,8 @@
    "is_integral" : true,
    "linker_set_key" : "long long",
    "name" : "long long",
-   "referenced_type" : "type-8",
-   "self_type" : "type-8",
+   "referenced_type" : "type-78",
+   "self_type" : "type-78",
    "size" : 8
   },
   {
@@ -98,8 +98,8 @@
    "is_integral" : true,
    "linker_set_key" : "short",
    "name" : "short",
-   "referenced_type" : "type-93",
-   "self_type" : "type-93",
+   "referenced_type" : "type-130",
+   "self_type" : "type-130",
    "size" : 2
   },
   {
@@ -107,8 +107,8 @@
    "is_integral" : true,
    "linker_set_key" : "signed char",
    "name" : "signed char",
-   "referenced_type" : "type-7",
-   "self_type" : "type-7",
+   "referenced_type" : "type-77",
+   "self_type" : "type-77",
    "size" : 1
   },
   {
@@ -117,8 +117,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned char",
    "name" : "unsigned char",
-   "referenced_type" : "type-91",
-   "self_type" : "type-91",
+   "referenced_type" : "type-128",
+   "self_type" : "type-128",
    "size" : 1
   },
   {
@@ -137,8 +137,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long",
    "name" : "unsigned long",
-   "referenced_type" : "type-92",
-   "self_type" : "type-92",
+   "referenced_type" : "type-129",
+   "self_type" : "type-129",
    "size" : 4
   },
   {
@@ -147,8 +147,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long long",
    "name" : "unsigned long long",
-   "referenced_type" : "type-16",
-   "self_type" : "type-16",
+   "referenced_type" : "type-85",
+   "self_type" : "type-85",
    "size" : 8
   },
   {
@@ -157,8 +157,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned short",
    "name" : "unsigned short",
-   "referenced_type" : "type-40",
-   "self_type" : "type-40",
+   "referenced_type" : "type-34",
+   "self_type" : "type-34",
    "size" : 2
   },
   {
@@ -592,8 +592,8 @@
    ],
    "linker_set_key" : "IoSchedClass",
    "name" : "IoSchedClass",
-   "referenced_type" : "type-10",
-   "self_type" : "type-10",
+   "referenced_type" : "type-8",
+   "self_type" : "type-8",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/iosched_policy.h",
    "underlying_type" : "type-6",
@@ -609,15 +609,15 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     }
    ],
-   "referenced_type" : "type-44",
-   "return_type" : "type-45",
-   "self_type" : "type-44",
+   "referenced_type" : "type-38",
+   "return_type" : "type-39",
+   "self_type" : "type-38",
    "source_file" : "/system/core/libcutils/include/cutils/hashmap.h"
   },
   {
@@ -627,18 +627,18 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     }
    ],
-   "referenced_type" : "type-46",
-   "return_type" : "type-47",
-   "self_type" : "type-46",
+   "referenced_type" : "type-40",
+   "return_type" : "type-41",
+   "self_type" : "type-40",
    "source_file" : "/system/core/libcutils/include/cutils/hashmap.h"
   },
   {
@@ -648,12 +648,12 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     }
    ],
-   "referenced_type" : "type-49",
-   "return_type" : "type-18",
-   "self_type" : "type-49",
+   "referenced_type" : "type-43",
+   "return_type" : "type-10",
+   "self_type" : "type-43",
    "source_file" : "/system/core/libcutils/include/cutils/hashmap.h"
   },
   {
@@ -669,12 +669,12 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     }
    ],
-   "referenced_type" : "type-11",
+   "referenced_type" : "type-80",
    "return_type" : "type-12",
-   "self_type" : "type-11",
+   "self_type" : "type-80",
    "source_file" : "/system/core/libcutils/include/cutils/properties.h"
   },
   {
@@ -684,12 +684,12 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     }
    ],
-   "referenced_type" : "type-38",
+   "referenced_type" : "type-32",
    "return_type" : "type-12",
-   "self_type" : "type-38",
+   "self_type" : "type-32",
    "source_file" : "/system/core/libcutils/include/cutils/threads.h"
   }
  ],
@@ -704,7 +704,7 @@
      "referenced_type" : "type-3"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/android_get_control_file.h"
   },
   {
@@ -716,7 +716,7 @@
      "referenced_type" : "type-3"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h"
   },
   {
@@ -725,16 +725,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
+    },
+    {
+     "referenced_type" : "type-7"
     },
     {
      "referenced_type" : "type-9"
-    },
-    {
-     "referenced_type" : "type-17"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/iosched_policy.h"
   },
   {
@@ -746,13 +746,13 @@
      "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
      "referenced_type" : "type-3"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/android_reboot.h"
   },
   {
@@ -761,16 +761,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
-    },
-    {
      "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-8"
+    },
+    {
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/iosched_policy.h"
   },
   {
@@ -785,7 +785,7 @@
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/ashmem.h"
   },
   {
@@ -794,10 +794,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/ashmem.h"
   },
   {
@@ -812,7 +812,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
      "referenced_type" : "type-6"
@@ -821,7 +821,7 @@
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/ashmem.h"
   },
   {
@@ -830,13 +830,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/ashmem.h"
   },
   {
@@ -845,7 +845,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
      "referenced_type" : "type-6"
@@ -854,7 +854,7 @@
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/ashmem.h"
   },
   {
@@ -863,10 +863,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/ashmem.h"
   },
   {
@@ -878,7 +878,7 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
    "return_type" : "type-12",
@@ -893,7 +893,7 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
    "return_type" : "type-12",
@@ -926,7 +926,7 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "type-78"
     }
    ],
    "return_type" : "type-12",
@@ -941,7 +941,7 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
    "return_type" : "type-12",
@@ -953,7 +953,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-15"
+     "referenced_type" : "type-84"
     }
    ],
    "return_type" : "type-12",
@@ -965,7 +965,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-15"
+     "referenced_type" : "type-84"
     }
    ],
    "return_type" : "type-12",
@@ -995,10 +995,10 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/config_utils.h"
   },
   {
@@ -1037,7 +1037,7 @@
      "referenced_type" : "type-2"
     },
     {
-     "referenced_type" : "type-51"
+     "referenced_type" : "type-45"
     }
    ],
    "return_type" : "type-12",
@@ -1118,10 +1118,10 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-34"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/fs.h"
   },
   {
@@ -1133,7 +1133,7 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-34"
     },
     {
      "referenced_type" : "type-6"
@@ -1142,7 +1142,7 @@
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/fs.h"
   },
   {
@@ -1154,7 +1154,7 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-34"
     },
     {
      "referenced_type" : "type-6"
@@ -1163,7 +1163,7 @@
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/fs.h"
   },
   {
@@ -1175,7 +1175,7 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-40"
+     "referenced_type" : "type-34"
     },
     {
      "referenced_type" : "type-6"
@@ -1184,7 +1184,7 @@
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/fs.h"
   },
   {
@@ -1196,10 +1196,10 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-17"
+     "referenced_type" : "type-9"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/fs.h"
   },
   {
@@ -1211,10 +1211,10 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/fs.h"
   },
   {
@@ -1226,13 +1226,13 @@
      "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-50"
+     "referenced_type" : "type-44"
     },
     {
-     "referenced_type" : "type-43"
+     "referenced_type" : "type-37"
     }
    ],
-   "return_type" : "type-41",
+   "return_type" : "type-35",
    "source_file" : "/system/core/libcutils/include/cutils/hashmap.h"
   },
   {
@@ -1241,13 +1241,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-48"
+     "referenced_type" : "type-42"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     }
    ],
    "return_type" : "type-12",
@@ -1259,7 +1259,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-35"
     }
    ],
    "return_type" : "type-12",
@@ -1271,13 +1271,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     }
    ],
-   "return_type" : "type-13",
+   "return_type" : "type-11",
    "source_file" : "/system/core/libcutils/include/cutils/hashmap.h"
   },
   {
@@ -1286,13 +1286,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     },
     {
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/hashmap.h"
   },
   {
@@ -1301,7 +1301,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-35"
     }
    ],
    "return_type" : "type-12",
@@ -1313,16 +1313,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     }
    ],
-   "return_type" : "type-13",
+   "return_type" : "type-11",
    "source_file" : "/system/core/libcutils/include/cutils/hashmap.h"
   },
   {
@@ -1331,13 +1331,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-35"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     }
    ],
-   "return_type" : "type-13",
+   "return_type" : "type-11",
    "source_file" : "/system/core/libcutils/include/cutils/hashmap.h"
   },
   {
@@ -1346,7 +1346,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-41"
+     "referenced_type" : "type-35"
     }
    ],
    "return_type" : "type-12",
@@ -1358,7 +1358,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
    "return_type" : "type-12",
@@ -1370,7 +1370,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
      "referenced_type" : "type-3"
@@ -1385,13 +1385,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-60"
+     "referenced_type" : "type-115"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
    "return_type" : "type-12",
@@ -1406,10 +1406,10 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-13",
+   "return_type" : "type-11",
    "source_file" : "/system/core/libcutils/include/cutils/misc.h"
   },
   {
@@ -1529,10 +1529,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "type-17"
     }
    ],
-   "return_type" : "type-24",
+   "return_type" : "type-18",
    "source_file" : "/system/core/libcutils/include/cutils/native_handle.h"
   },
   {
@@ -1541,10 +1541,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-23"
+     "referenced_type" : "type-17"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/native_handle.h"
   },
   {
@@ -1553,13 +1553,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-24",
+   "return_type" : "type-18",
    "source_file" : "/system/core/libcutils/include/cutils/native_handle.h"
   },
   {
@@ -1568,10 +1568,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-24"
+     "referenced_type" : "type-18"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/native_handle.h"
   },
   {
@@ -1580,16 +1580,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-51"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-24",
+   "return_type" : "type-18",
    "source_file" : "/system/core/libcutils/include/cutils/native_handle.h"
   },
   {
@@ -1601,7 +1601,7 @@
      "referenced_type" : "type-3"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/partition_utils.h"
   },
   {
@@ -1613,13 +1613,13 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-51"
+     "referenced_type" : "type-45"
     },
     {
      "referenced_type" : "type-3"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/properties.h"
   },
   {
@@ -1631,10 +1631,10 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-7"
+     "referenced_type" : "type-77"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "type-77",
    "source_file" : "/system/core/libcutils/include/cutils/properties.h"
   },
   {
@@ -1646,10 +1646,10 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/properties.h"
   },
   {
@@ -1661,10 +1661,10 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-8"
+     "referenced_type" : "type-78"
     }
    ],
-   "return_type" : "type-8",
+   "return_type" : "type-78",
    "source_file" : "/system/core/libcutils/include/cutils/properties.h"
   },
   {
@@ -1673,13 +1673,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-14"
+     "referenced_type" : "type-83"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/properties.h"
   },
   {
@@ -1694,7 +1694,7 @@
      "referenced_type" : "type-3"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/properties.h"
   },
   {
@@ -1703,7 +1703,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-25"
+     "referenced_type" : "type-19"
     }
    ],
    "return_type" : "type-12",
@@ -1715,16 +1715,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-25"
-    },
-    {
-     "referenced_type" : "type-27"
-    },
-    {
      "referenced_type" : "type-19"
+    },
+    {
+     "referenced_type" : "type-21"
+    },
+    {
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/record_stream.h"
   },
   {
@@ -1733,13 +1733,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-25",
+   "return_type" : "type-19",
    "source_file" : "/system/core/libcutils/include/cutils/record_stream.h"
   },
   {
@@ -1748,10 +1748,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h"
   },
   {
@@ -1760,10 +1760,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h"
   },
   {
@@ -1772,13 +1772,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h"
   },
   {
@@ -1790,13 +1790,13 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h"
   },
   {
@@ -1805,19 +1805,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h"
   },
   {
@@ -1829,13 +1829,13 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h"
   },
   {
@@ -1844,16 +1844,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h"
   },
   {
@@ -1865,13 +1865,13 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h"
   },
   {
@@ -1883,19 +1883,19 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-17"
+     "referenced_type" : "type-9"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h"
   },
   {
@@ -1904,16 +1904,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-53"
+     "referenced_type" : "type-72"
     },
     {
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h"
   },
   {
@@ -1922,13 +1922,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h"
   },
   {
@@ -1937,16 +1937,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-54"
+     "referenced_type" : "type-73"
     },
     {
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-57"
+     "referenced_type" : "type-76"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/str_parms.h"
   },
   {
@@ -1955,16 +1955,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-54"
+     "referenced_type" : "type-73"
     },
     {
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/str_parms.h"
   },
   {
@@ -1973,7 +1973,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-54"
+     "referenced_type" : "type-73"
     },
     {
      "referenced_type" : "type-3"
@@ -1982,13 +1982,13 @@
      "referenced_type" : "type-3"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/str_parms.h"
   },
   {
    "function_name" : "str_parms_create",
    "linker_set_key" : "str_parms_create",
-   "return_type" : "type-54",
+   "return_type" : "type-73",
    "source_file" : "/system/core/libcutils/include/cutils/str_parms.h"
   },
   {
@@ -2000,7 +2000,7 @@
      "referenced_type" : "type-3"
     }
    ],
-   "return_type" : "type-54",
+   "return_type" : "type-73",
    "source_file" : "/system/core/libcutils/include/cutils/str_parms.h"
   },
   {
@@ -2009,7 +2009,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-54"
+     "referenced_type" : "type-73"
     },
     {
      "referenced_type" : "type-3"
@@ -2024,7 +2024,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-54"
+     "referenced_type" : "type-73"
     }
    ],
    "return_type" : "type-12",
@@ -2036,7 +2036,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-54"
+     "referenced_type" : "type-73"
     }
    ],
    "return_type" : "type-12",
@@ -2048,16 +2048,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-54"
+     "referenced_type" : "type-73"
     },
     {
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-56"
+     "referenced_type" : "type-75"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/str_parms.h"
   },
   {
@@ -2066,16 +2066,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-54"
+     "referenced_type" : "type-73"
     },
     {
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-17"
+     "referenced_type" : "type-9"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/str_parms.h"
   },
   {
@@ -2084,19 +2084,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-54"
+     "referenced_type" : "type-73"
     },
     {
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-51"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/str_parms.h"
   },
   {
@@ -2105,13 +2105,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-54"
+     "referenced_type" : "type-73"
     },
     {
      "referenced_type" : "type-3"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/str_parms.h"
   },
   {
@@ -2120,10 +2120,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-54"
+     "referenced_type" : "type-73"
     }
    ],
-   "return_type" : "type-51",
+   "return_type" : "type-45",
    "source_file" : "/system/core/libcutils/include/cutils/str_parms.h"
   },
   {
@@ -2132,16 +2132,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-34"
+     "referenced_type" : "type-28"
     },
     {
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-34",
+   "return_type" : "type-28",
    "source_file" : "/system/core/libcutils/include/cutils/jstring.h"
   },
   {
@@ -2150,19 +2150,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-34"
+     "referenced_type" : "type-28"
     },
     {
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-34",
+   "return_type" : "type-28",
    "source_file" : "/system/core/libcutils/include/cutils/jstring.h"
   },
   {
@@ -2174,10 +2174,10 @@
      "referenced_type" : "type-3"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-34",
+   "return_type" : "type-28",
    "source_file" : "/system/core/libcutils/include/cutils/jstring.h"
   },
   {
@@ -2198,16 +2198,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-51"
+     "referenced_type" : "type-45"
     },
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-27"
     },
     {
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-51",
+   "return_type" : "type-45",
    "source_file" : "/system/core/libcutils/include/cutils/jstring.h"
   },
   {
@@ -2216,13 +2216,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-27"
     },
     {
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-51",
+   "return_type" : "type-45",
    "source_file" : "/system/core/libcutils/include/cutils/jstring.h"
   },
   {
@@ -2231,7 +2231,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-33"
+     "referenced_type" : "type-27"
     },
     {
      "referenced_type" : "type-6"
@@ -2246,10 +2246,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-37"
+     "referenced_type" : "type-31"
     }
    ],
-   "return_type" : "type-13",
+   "return_type" : "type-11",
    "source_file" : "/system/core/libcutils/include/cutils/threads.h"
   },
   {
@@ -2258,13 +2258,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-37"
+     "referenced_type" : "type-31"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     },
     {
-     "referenced_type" : "type-39"
+     "referenced_type" : "type-33"
     }
    ],
    "return_type" : "type-12",
@@ -2276,16 +2276,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     },
     {
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/uevent.h"
   },
   {
@@ -2294,19 +2294,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     },
     {
      "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/uevent.h"
   },
   {
@@ -2315,22 +2315,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-13"
+     "referenced_type" : "type-11"
     },
     {
      "referenced_type" : "type-6"
     },
     {
-     "referenced_type" : "type-15"
+     "referenced_type" : "type-84"
     },
     {
-     "referenced_type" : "type-19"
+     "referenced_type" : "type-13"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/uevent.h"
   },
   {
@@ -2339,13 +2339,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
-     "referenced_type" : "type-15"
+     "referenced_type" : "type-84"
     }
    ],
-   "return_type" : "type-18",
+   "return_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/uevent.h"
   }
  ],
@@ -2354,19 +2354,19 @@
   {
    "linker_set_key" : "atrace_enabled_tags",
    "name" : "atrace_enabled_tags",
-   "referenced_type" : "type-16",
+   "referenced_type" : "type-85",
    "source_file" : "/system/core/libcutils/include/cutils/trace.h"
   },
   {
    "linker_set_key" : "atrace_is_ready",
    "name" : "atrace_is_ready",
-   "referenced_type" : "type-61",
+   "referenced_type" : "type-116",
    "source_file" : "/system/core/libcutils/include/cutils/trace.h"
   },
   {
    "linker_set_key" : "atrace_marker_fd",
    "name" : "atrace_marker_fd",
-   "referenced_type" : "type-18",
+   "referenced_type" : "type-10",
    "source_file" : "/system/core/libcutils/include/cutils/trace.h"
   }
  ],
@@ -2377,8 +2377,8 @@
    "alignment" : 4,
    "linker_set_key" : "Hashmap *",
    "name" : "Hashmap *",
-   "referenced_type" : "type-108",
-   "self_type" : "type-107",
+   "referenced_type" : "type-103",
+   "self_type" : "type-102",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/hashmap.h"
   },
@@ -2386,8 +2386,8 @@
    "alignment" : 4,
    "linker_set_key" : "Hashmap *",
    "name" : "Hashmap *",
-   "referenced_type" : "type-42",
-   "self_type" : "type-41",
+   "referenced_type" : "type-153",
+   "self_type" : "type-152",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/hashmap.h"
   },
@@ -2395,8 +2395,8 @@
    "alignment" : 4,
    "linker_set_key" : "Hashmap *",
    "name" : "Hashmap *",
-   "referenced_type" : "type-64",
-   "self_type" : "type-63",
+   "referenced_type" : "type-36",
+   "self_type" : "type-35",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/hashmap.h"
   },
@@ -2404,8 +2404,8 @@
    "alignment" : 4,
    "linker_set_key" : "Hashmap *",
    "name" : "Hashmap *",
-   "referenced_type" : "type-77",
-   "self_type" : "type-76",
+   "referenced_type" : "type-66",
+   "self_type" : "type-65",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/hashmap.h"
   },
@@ -2413,8 +2413,8 @@
    "alignment" : 4,
    "linker_set_key" : "IoSchedClass *",
    "name" : "IoSchedClass *",
-   "referenced_type" : "type-10",
-   "self_type" : "type-9",
+   "referenced_type" : "type-8",
+   "self_type" : "type-7",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/iosched_policy.h"
   },
@@ -2422,8 +2422,8 @@
    "alignment" : 4,
    "linker_set_key" : "RecordStream *",
    "name" : "RecordStream *",
-   "referenced_type" : "type-100",
-   "self_type" : "type-99",
+   "referenced_type" : "type-140",
+   "self_type" : "type-139",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/record_stream.h"
   },
@@ -2431,8 +2431,8 @@
    "alignment" : 4,
    "linker_set_key" : "RecordStream *",
    "name" : "RecordStream *",
-   "referenced_type" : "type-113",
-   "self_type" : "type-112",
+   "referenced_type" : "type-145",
+   "self_type" : "type-144",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/record_stream.h"
   },
@@ -2440,8 +2440,8 @@
    "alignment" : 4,
    "linker_set_key" : "RecordStream *",
    "name" : "RecordStream *",
-   "referenced_type" : "type-26",
-   "self_type" : "type-25",
+   "referenced_type" : "type-20",
+   "self_type" : "type-19",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/record_stream.h"
   },
@@ -2449,8 +2449,8 @@
    "alignment" : 4,
    "linker_set_key" : "RecordStream *",
    "name" : "RecordStream *",
-   "referenced_type" : "type-74",
-   "self_type" : "type-73",
+   "referenced_type" : "type-56",
+   "self_type" : "type-55",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/record_stream.h"
   },
@@ -2458,8 +2458,8 @@
    "alignment" : 4,
    "linker_set_key" : "RecordStream *",
    "name" : "RecordStream *",
-   "referenced_type" : "type-85",
-   "self_type" : "type-84",
+   "referenced_type" : "type-94",
+   "self_type" : "type-93",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/record_stream.h"
   },
@@ -2467,8 +2467,8 @@
    "alignment" : 4,
    "linker_set_key" : "bool (*)(void *, void *)",
    "name" : "bool (*)(void *, void *)",
-   "referenced_type" : "type-44",
-   "self_type" : "type-43",
+   "referenced_type" : "type-38",
+   "self_type" : "type-37",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/hashmap.h"
   },
@@ -2476,8 +2476,8 @@
    "alignment" : 4,
    "linker_set_key" : "bool (*)(void *, void *, void *)",
    "name" : "bool (*)(void *, void *, void *)",
-   "referenced_type" : "type-46",
-   "self_type" : "type-48",
+   "referenced_type" : "type-40",
+   "self_type" : "type-42",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/hashmap.h"
   },
@@ -2486,7 +2486,7 @@
    "linker_set_key" : "char *",
    "name" : "char *",
    "referenced_type" : "type-5",
-   "self_type" : "type-51",
+   "self_type" : "type-45",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/config_utils.h"
   },
@@ -2494,8 +2494,8 @@
    "alignment" : 4,
    "linker_set_key" : "char16_t *",
    "name" : "char16_t *",
-   "referenced_type" : "type-32",
-   "self_type" : "type-34",
+   "referenced_type" : "type-26",
+   "self_type" : "type-28",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/jstring.h"
   },
@@ -2521,8 +2521,8 @@
    "alignment" : 4,
    "linker_set_key" : "const char16_t *",
    "name" : "const char16_t *",
-   "referenced_type" : "type-31",
-   "self_type" : "type-33",
+   "referenced_type" : "type-25",
+   "self_type" : "type-27",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/jstring.h"
   },
@@ -2530,8 +2530,8 @@
    "alignment" : 4,
    "linker_set_key" : "const cutils_socket_buffer_t *",
    "name" : "const cutils_socket_buffer_t *",
-   "referenced_type" : "type-52",
-   "self_type" : "type-53",
+   "referenced_type" : "type-71",
+   "self_type" : "type-72",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h"
   },
@@ -2539,8 +2539,8 @@
    "alignment" : 4,
    "linker_set_key" : "const iovec *",
    "name" : "const iovec *",
-   "referenced_type" : "type-58",
-   "self_type" : "type-60",
+   "referenced_type" : "type-113",
+   "self_type" : "type-115",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/klog.h"
   },
@@ -2548,8 +2548,8 @@
    "alignment" : 4,
    "linker_set_key" : "const iovec *",
    "name" : "const iovec *",
-   "referenced_type" : "type-86",
-   "self_type" : "type-88",
+   "referenced_type" : "type-121",
+   "self_type" : "type-124",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/klog.h"
   },
@@ -2557,8 +2557,8 @@
    "alignment" : 4,
    "linker_set_key" : "const native_handle *",
    "name" : "const native_handle *",
-   "referenced_type" : "type-22",
-   "self_type" : "type-23",
+   "referenced_type" : "type-16",
+   "self_type" : "type-17",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/native_handle.h"
   },
@@ -2566,8 +2566,8 @@
    "alignment" : 4,
    "linker_set_key" : "const void *",
    "name" : "const void *",
-   "referenced_type" : "type-30",
-   "self_type" : "type-29",
+   "referenced_type" : "type-24",
+   "self_type" : "type-23",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h"
   },
@@ -2575,8 +2575,8 @@
    "alignment" : 4,
    "linker_set_key" : "float *",
    "name" : "float *",
-   "referenced_type" : "type-57",
-   "self_type" : "type-56",
+   "referenced_type" : "type-76",
+   "self_type" : "type-75",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/str_parms.h"
   },
@@ -2584,8 +2584,8 @@
    "alignment" : 4,
    "linker_set_key" : "int (*)(void *)",
    "name" : "int (*)(void *)",
-   "referenced_type" : "type-49",
-   "self_type" : "type-50",
+   "referenced_type" : "type-43",
+   "self_type" : "type-44",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/hashmap.h"
   },
@@ -2593,8 +2593,8 @@
    "alignment" : 4,
    "linker_set_key" : "int *",
    "name" : "int *",
-   "referenced_type" : "type-18",
-   "self_type" : "type-17",
+   "referenced_type" : "type-10",
+   "self_type" : "type-9",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/iosched_policy.h"
   },
@@ -2602,8 +2602,8 @@
    "alignment" : 4,
    "linker_set_key" : "native_handle *",
    "name" : "native_handle *",
-   "referenced_type" : "type-20",
-   "self_type" : "type-24",
+   "referenced_type" : "type-14",
+   "self_type" : "type-18",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/native_handle.h"
   },
@@ -2611,8 +2611,8 @@
    "alignment" : 4,
    "linker_set_key" : "str_parms *",
    "name" : "str_parms *",
-   "referenced_type" : "type-55",
-   "self_type" : "type-54",
+   "referenced_type" : "type-111",
+   "self_type" : "type-110",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/str_parms.h"
   },
@@ -2620,8 +2620,8 @@
    "alignment" : 4,
    "linker_set_key" : "str_parms *",
    "name" : "str_parms *",
-   "referenced_type" : "type-70",
-   "self_type" : "type-69",
+   "referenced_type" : "type-118",
+   "self_type" : "type-117",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/str_parms.h"
   },
@@ -2629,8 +2629,8 @@
    "alignment" : 4,
    "linker_set_key" : "str_parms *",
    "name" : "str_parms *",
-   "referenced_type" : "type-83",
-   "self_type" : "type-82",
+   "referenced_type" : "type-74",
+   "self_type" : "type-73",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/str_parms.h"
   },
@@ -2638,8 +2638,8 @@
    "alignment" : 4,
    "linker_set_key" : "thread_store_t *",
    "name" : "thread_store_t *",
-   "referenced_type" : "type-35",
-   "self_type" : "type-37",
+   "referenced_type" : "type-29",
+   "self_type" : "type-31",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/threads.h"
   },
@@ -2648,7 +2648,7 @@
    "linker_set_key" : "unsigned int *",
    "name" : "unsigned int *",
    "referenced_type" : "type-6",
-   "self_type" : "type-19",
+   "self_type" : "type-13",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/misc.h"
   },
@@ -2656,8 +2656,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(const char *, const char *, void *)",
    "name" : "void (*)(const char *, const char *, void *)",
-   "referenced_type" : "type-11",
-   "self_type" : "type-14",
+   "referenced_type" : "type-80",
+   "self_type" : "type-83",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/properties.h"
   },
@@ -2665,8 +2665,8 @@
    "alignment" : 4,
    "linker_set_key" : "void (*)(void *)",
    "name" : "void (*)(void *)",
-   "referenced_type" : "type-38",
-   "self_type" : "type-39",
+   "referenced_type" : "type-32",
+   "self_type" : "type-33",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/threads.h"
   },
@@ -2675,7 +2675,7 @@
    "linker_set_key" : "void *",
    "name" : "void *",
    "referenced_type" : "type-12",
-   "self_type" : "type-13",
+   "self_type" : "type-11",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/misc.h"
   },
@@ -2683,8 +2683,8 @@
    "alignment" : 4,
    "linker_set_key" : "void **",
    "name" : "void **",
-   "referenced_type" : "type-13",
-   "self_type" : "type-27",
+   "referenced_type" : "type-11",
+   "self_type" : "type-21",
    "size" : 4,
    "source_file" : "/system/core/libcutils/include/cutils/record_stream.h"
   }
@@ -2706,8 +2706,8 @@
    "is_const" : true,
    "linker_set_key" : "const char16_t",
    "name" : "const char16_t",
-   "referenced_type" : "type-32",
-   "self_type" : "type-31",
+   "referenced_type" : "type-26",
+   "self_type" : "type-25",
    "size" : 2,
    "source_file" : "/system/core/libcutils/include/cutils/jstring.h"
   },
@@ -2716,8 +2716,8 @@
    "is_const" : true,
    "linker_set_key" : "const cutils_socket_buffer_t",
    "name" : "const cutils_socket_buffer_t",
-   "referenced_type" : "type-28",
-   "self_type" : "type-52",
+   "referenced_type" : "type-22",
+   "self_type" : "type-71",
    "size" : 8,
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h"
   },
@@ -2726,8 +2726,8 @@
    "is_const" : true,
    "linker_set_key" : "const iovec",
    "name" : "const iovec",
-   "referenced_type" : "type-59",
-   "self_type" : "type-58",
+   "referenced_type" : "type-114",
+   "self_type" : "type-113",
    "size" : 8,
    "source_file" : "/system/core/libcutils/include/cutils/klog.h"
   },
@@ -2736,8 +2736,8 @@
    "is_const" : true,
    "linker_set_key" : "const iovec",
    "name" : "const iovec",
-   "referenced_type" : "type-87",
-   "self_type" : "type-86",
+   "referenced_type" : "type-122",
+   "self_type" : "type-121",
    "size" : 8,
    "source_file" : "/system/core/libcutils/include/cutils/klog.h"
   },
@@ -2746,8 +2746,8 @@
    "is_const" : true,
    "linker_set_key" : "const native_handle",
    "name" : "const native_handle",
-   "referenced_type" : "type-20",
-   "self_type" : "type-22",
+   "referenced_type" : "type-14",
+   "self_type" : "type-16",
    "size" : 12,
    "source_file" : "/system/core/libcutils/include/cutils/native_handle.h"
   },
@@ -2756,7 +2756,7 @@
    "linker_set_key" : "const void",
    "name" : "const void",
    "referenced_type" : "type-12",
-   "self_type" : "type-30",
+   "self_type" : "type-24",
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h"
   }
  ],
@@ -2805,7 +2805,7 @@
    [
     {
      "field_name" : "data",
-     "referenced_type" : "type-29"
+     "referenced_type" : "type-23"
     },
     {
      "field_name" : "length",
@@ -2815,8 +2815,8 @@
    ],
    "linker_set_key" : "cutils_socket_buffer_t",
    "name" : "cutils_socket_buffer_t",
-   "referenced_type" : "type-28",
-   "self_type" : "type-28",
+   "referenced_type" : "type-22",
+   "self_type" : "type-22",
    "size" : 8,
    "source_file" : "/system/core/libcutils/include/cutils/sockets.h",
    "unique_id" : "cutils_socket_buffer_t"
@@ -2827,28 +2827,28 @@
    [
     {
      "field_name" : "version",
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
      "field_name" : "numFds",
      "field_offset" : 32,
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
      "field_name" : "numInts",
      "field_offset" : 64,
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
      "field_name" : "data",
      "field_offset" : 96,
-     "referenced_type" : "type-21"
+     "referenced_type" : "type-15"
     }
    ],
    "linker_set_key" : "native_handle",
    "name" : "native_handle",
-   "referenced_type" : "type-20",
-   "self_type" : "type-20",
+   "referenced_type" : "type-14",
+   "self_type" : "type-14",
    "size" : 12,
    "source_file" : "/system/core/libcutils/include/cutils/native_handle.h",
    "unique_id" : "native_handle"
@@ -2859,23 +2859,23 @@
    [
     {
      "field_name" : "lock",
-     "referenced_type" : "type-36"
+     "referenced_type" : "type-30"
     },
     {
      "field_name" : "has_tls",
      "field_offset" : 32,
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     },
     {
      "field_name" : "tls",
      "field_offset" : 64,
-     "referenced_type" : "type-18"
+     "referenced_type" : "type-10"
     }
    ],
    "linker_set_key" : "thread_store_t",
    "name" : "thread_store_t",
-   "referenced_type" : "type-35",
-   "self_type" : "type-35",
+   "referenced_type" : "type-29",
+   "self_type" : "type-29",
    "size" : 12,
    "source_file" : "/system/core/libcutils/include/cutils/threads.h",
    "unique_id" : "thread_store_t"
