@@ -24,7 +24,7 @@
    "linker_set_key" : "android::details::TVec4<float> [4]",
    "name" : "android::details::TVec4<float> [4]",
    "referenced_type" : "type-218",
-   "self_type" : "type-2439",
+   "self_type" : "type-2429",
    "size" : 64,
    "source_file" : "/frameworks/native/libs/math/include/math/mat4.h"
   },
@@ -1179,6 +1179,9 @@
    "name" : "_ZNK7android17Gralloc3Allocator8isLoadedEv"
   },
   {
+   "name" : "_ZNK7android22GraphicBufferAllocator12getTotalSizeEv"
+  },
+  {
    "name" : "_ZNK7android22GraphicBufferAllocator4dumpERNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE"
   },
   {
@@ -2190,8 +2193,8 @@
    ],
    "linker_set_key" : "android::details::TMat44<float>::no_init",
    "name" : "android::details::TMat44<float>::no_init",
-   "referenced_type" : "type-2440",
-   "self_type" : "type-2440",
+   "referenced_type" : "type-2430",
+   "self_type" : "type-2430",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/math/include/math/mat4.h",
    "underlying_type" : "type-123",
@@ -4427,8 +4430,8 @@
    ],
    "linker_set_key" : "android::ui::Transform::orientation_flags",
    "name" : "android::ui::Transform::orientation_flags",
-   "referenced_type" : "type-2450",
-   "self_type" : "type-2450",
+   "referenced_type" : "type-2440",
+   "self_type" : "type-2440",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h",
    "underlying_type" : "type-123",
@@ -4461,8 +4464,8 @@
    ],
    "linker_set_key" : "android::ui::Transform::type_mask",
    "name" : "android::ui::Transform::type_mask",
-   "referenced_type" : "type-2451",
-   "self_type" : "type-2451",
+   "referenced_type" : "type-2441",
+   "self_type" : "type-2441",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h",
    "underlying_type" : "type-123",
@@ -7931,7 +7934,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-2459"
+     "referenced_type" : "type-2449"
     }
    ],
    "return_type" : "type-150",
@@ -8088,7 +8091,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2447"
+     "referenced_type" : "type-2437"
     },
     {
      "referenced_type" : "type-10"
@@ -8107,7 +8110,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2447"
+     "referenced_type" : "type-2437"
     },
     {
      "referenced_type" : "type-10"
@@ -8132,7 +8135,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2447"
+     "referenced_type" : "type-2437"
     },
     {
      "referenced_type" : "type-123"
@@ -8154,7 +8157,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2447"
+     "referenced_type" : "type-2437"
     }
    ],
    "return_type" : "type-150",
@@ -8193,10 +8196,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2447"
+     "referenced_type" : "type-2437"
     },
     {
-     "referenced_type" : "type-2449"
+     "referenced_type" : "type-2439"
     }
    ],
    "return_type" : "type-150",
@@ -8209,7 +8212,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2447"
+     "referenced_type" : "type-2437"
     },
     {
      "referenced_type" : "type-123"
@@ -8225,7 +8228,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2447"
+     "referenced_type" : "type-2437"
     }
    ],
    "return_type" : "type-150",
@@ -8238,10 +8241,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2447"
+     "referenced_type" : "type-2437"
     },
     {
-     "referenced_type" : "type-2449"
+     "referenced_type" : "type-2439"
     }
    ],
    "return_type" : "type-150",
@@ -8254,7 +8257,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2447"
+     "referenced_type" : "type-2437"
     },
     {
      "referenced_type" : "type-123"
@@ -8270,7 +8273,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2447"
+     "referenced_type" : "type-2437"
     }
    ],
    "return_type" : "type-150",
@@ -8283,7 +8286,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2447"
+     "referenced_type" : "type-2437"
     }
    ],
    "return_type" : "type-150",
@@ -8296,7 +8299,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2447"
+     "referenced_type" : "type-2437"
     }
    ],
    "return_type" : "type-150",
@@ -8309,13 +8312,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2447"
+     "referenced_type" : "type-2437"
     },
     {
-     "referenced_type" : "type-2449"
+     "referenced_type" : "type-2439"
     }
    ],
-   "return_type" : "type-2453",
+   "return_type" : "type-2443",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h"
   },
   {
@@ -8558,13 +8561,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
      "referenced_type" : "type-1246"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -8574,13 +8577,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -8590,10 +8593,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-103"
@@ -8602,7 +8605,7 @@
      "referenced_type" : "type-103"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -8613,7 +8616,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
      "referenced_type" : "type-1246"
@@ -8622,7 +8625,7 @@
      "referenced_type" : "type-123"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -8633,10 +8636,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-103"
@@ -8648,7 +8651,7 @@
      "referenced_type" : "type-123"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -8659,16 +8662,16 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-123"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -8678,7 +8681,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
      "referenced_type" : "type-103"
@@ -8687,7 +8690,7 @@
      "referenced_type" : "type-103"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -8697,10 +8700,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -8710,7 +8713,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
      "referenced_type" : "type-103"
@@ -8738,10 +8741,10 @@
      "referenced_type" : "type-123"
     },
     {
-     "referenced_type" : "type-2405"
+     "referenced_type" : "type-2394"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-1246"
@@ -8760,10 +8763,10 @@
      "referenced_type" : "type-123"
     },
     {
-     "referenced_type" : "type-2405"
+     "referenced_type" : "type-2394"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-1246"
@@ -8788,13 +8791,13 @@
      "referenced_type" : "type-123"
     },
     {
-     "referenced_type" : "type-2405"
+     "referenced_type" : "type-2394"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     }
    ],
    "return_type" : "type-150",
@@ -8810,13 +8813,13 @@
      "referenced_type" : "type-123"
     },
     {
-     "referenced_type" : "type-2405"
+     "referenced_type" : "type-2394"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-103"
@@ -8834,10 +8837,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     }
    ],
-   "return_type" : "type-2398",
+   "return_type" : "type-2390",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -8847,7 +8850,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
      "referenced_type" : "type-1246"
@@ -8863,7 +8866,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
      "referenced_type" : "type-103"
@@ -8882,7 +8885,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
      "referenced_type" : "type-123"
@@ -8901,7 +8904,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     }
    ],
    "return_type" : "type-150",
@@ -8914,13 +8917,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
      "referenced_type" : "type-1246"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -8930,13 +8933,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -8946,10 +8949,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-103"
@@ -8958,7 +8961,7 @@
      "referenced_type" : "type-103"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -8968,13 +8971,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
      "referenced_type" : "type-1246"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -8984,13 +8987,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -9000,10 +9003,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-103"
@@ -9012,7 +9015,7 @@
      "referenced_type" : "type-103"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -9022,13 +9025,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
      "referenced_type" : "type-1246"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -9038,13 +9041,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -9054,10 +9057,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-103"
@@ -9066,7 +9069,7 @@
      "referenced_type" : "type-103"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -9076,7 +9079,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-288"
@@ -9096,7 +9099,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
      "referenced_type" : "type-10"
@@ -9105,7 +9108,7 @@
      "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -9115,10 +9118,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-2405"
+     "referenced_type" : "type-2394"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-103"
@@ -9137,7 +9140,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-2405"
+     "referenced_type" : "type-2394"
     },
     {
      "referenced_type" : "type-103"
@@ -9156,7 +9159,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
      "referenced_type" : "type-1120"
@@ -9175,7 +9178,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
      "referenced_type" : "type-1246"
@@ -9191,10 +9194,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     }
    ],
    "return_type" : "type-150",
@@ -9207,7 +9210,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     }
    ],
    "return_type" : "type-150",
@@ -9220,7 +9223,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
      "referenced_type" : "type-1246"
@@ -9236,10 +9239,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     }
    ],
    "return_type" : "type-150",
@@ -9252,7 +9255,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     }
    ],
    "return_type" : "type-150",
@@ -9265,7 +9268,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     }
    ],
    "return_type" : "type-150",
@@ -9278,7 +9281,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     }
    ],
    "return_type" : "type-150",
@@ -9291,13 +9294,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2403"
+     "referenced_type" : "type-2392"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     }
    ],
-   "return_type" : "type-2405",
+   "return_type" : "type-2394",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -10245,6 +10248,19 @@
    "source_file" : "/frameworks/native/libs/ui/include/ui/Gralloc2.h"
   },
   {
+   "function_name" : "android::GraphicBufferAllocator::getTotalSize",
+   "linker_set_key" : "_ZNK7android22GraphicBufferAllocator12getTotalSizeEv",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "type-721"
+    }
+   ],
+   "return_type" : "type-124",
+   "source_file" : "/frameworks/native/libs/ui/include/ui/GraphicBufferAllocator.h"
+  },
+  {
    "function_name" : "android::GraphicBufferAllocator::dump",
    "linker_set_key" : "_ZNK7android22GraphicBufferAllocator4dumpERNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE",
    "parameters" :
@@ -10267,7 +10283,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     },
     {
      "referenced_type" : "type-103"
@@ -10286,7 +10302,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     }
    ],
    "return_type" : "type-6",
@@ -10299,7 +10315,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     }
    ],
    "return_type" : "type-123",
@@ -10312,7 +10328,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     }
    ],
    "return_type" : "type-10",
@@ -10325,7 +10341,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     }
    ],
    "return_type" : "type-10",
@@ -10338,7 +10354,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     }
    ],
    "return_type" : "type-10",
@@ -10351,7 +10367,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     }
    ],
    "return_type" : "type-10",
@@ -10364,7 +10380,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     },
     {
      "referenced_type" : "type-288"
@@ -10380,10 +10396,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     },
     {
-     "referenced_type" : "type-2454"
+     "referenced_type" : "type-2444"
     },
     {
      "referenced_type" : "type-288"
@@ -10400,7 +10416,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     }
    ],
    "return_type" : "type-123",
@@ -10413,7 +10429,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     }
    ],
    "return_type" : "type-123",
@@ -10426,10 +10442,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     }
    ],
-   "return_type" : "type-2445",
+   "return_type" : "type-2435",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h"
   },
   {
@@ -10439,10 +10455,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     }
    ],
-   "return_type" : "type-2438",
+   "return_type" : "type-2428",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h"
   },
   {
@@ -10452,7 +10468,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     },
     {
      "referenced_type" : "type-1246"
@@ -10472,13 +10488,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     }
    ],
-   "return_type" : "type-2398",
+   "return_type" : "type-2390",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h"
   },
   {
@@ -10488,7 +10504,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     },
     {
      "referenced_type" : "type-1051"
@@ -10504,7 +10520,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     },
     {
      "referenced_type" : "type-1055"
@@ -10520,7 +10536,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     },
     {
      "referenced_type" : "type-1279"
@@ -10536,7 +10552,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     },
     {
      "referenced_type" : "type-103"
@@ -10555,7 +10571,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     },
     {
      "referenced_type" : "type-124"
@@ -10571,13 +10587,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2452"
+     "referenced_type" : "type-2442"
     },
     {
-     "referenced_type" : "type-2449"
+     "referenced_type" : "type-2439"
     }
    ],
-   "return_type" : "type-2445",
+   "return_type" : "type-2435",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h"
   },
   {
@@ -10769,13 +10785,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
      "referenced_type" : "type-1246"
     }
    ],
-   "return_type" : "type-2402",
+   "return_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -10785,13 +10801,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     }
    ],
-   "return_type" : "type-2402",
+   "return_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -10801,10 +10817,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-103"
@@ -10813,7 +10829,7 @@
      "referenced_type" : "type-103"
     }
    ],
-   "return_type" : "type-2402",
+   "return_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -10823,7 +10839,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     }
    ],
    "return_type" : "type-124",
@@ -10836,10 +10852,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     }
    ],
    "return_type" : "type-6",
@@ -10852,7 +10868,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     }
    ],
    "return_type" : "type-1297",
@@ -10865,7 +10881,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
      "referenced_type" : "type-288"
@@ -10885,10 +10901,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
-     "referenced_type" : "type-2408"
+     "referenced_type" : "type-2397"
     },
     {
      "referenced_type" : "type-288"
@@ -10908,7 +10924,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     }
    ],
    "return_type" : "type-1297",
@@ -10921,13 +10937,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
      "referenced_type" : "type-1246"
     }
    ],
-   "return_type" : "type-2402",
+   "return_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -10937,13 +10953,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     }
    ],
-   "return_type" : "type-2402",
+   "return_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -10953,10 +10969,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-103"
@@ -10965,7 +10981,7 @@
      "referenced_type" : "type-103"
     }
    ],
-   "return_type" : "type-2402",
+   "return_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -10975,7 +10991,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
      "referenced_type" : "type-217"
@@ -10994,7 +11010,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
      "referenced_type" : "type-1283"
@@ -11010,7 +11026,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
      "referenced_type" : "type-103"
@@ -11029,10 +11045,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
-     "referenced_type" : "type-2407"
+     "referenced_type" : "type-2396"
     }
    ],
    "return_type" : "type-1297",
@@ -11045,13 +11061,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
      "referenced_type" : "type-1246"
     }
    ],
-   "return_type" : "type-2402",
+   "return_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -11061,13 +11077,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     }
    ],
-   "return_type" : "type-2402",
+   "return_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -11077,10 +11093,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-103"
@@ -11089,7 +11105,7 @@
      "referenced_type" : "type-103"
     }
    ],
-   "return_type" : "type-2402",
+   "return_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -11099,13 +11115,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
      "referenced_type" : "type-1246"
     }
    ],
-   "return_type" : "type-2402",
+   "return_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -11115,13 +11131,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     }
    ],
-   "return_type" : "type-2402",
+   "return_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -11131,10 +11147,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-103"
@@ -11143,7 +11159,7 @@
      "referenced_type" : "type-103"
     }
    ],
-   "return_type" : "type-2402",
+   "return_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -11154,7 +11170,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
      "referenced_type" : "type-1246"
@@ -11163,7 +11179,7 @@
      "referenced_type" : "type-123"
     }
    ],
-   "return_type" : "type-2402",
+   "return_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -11174,10 +11190,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-103"
@@ -11189,7 +11205,7 @@
      "referenced_type" : "type-123"
     }
    ],
-   "return_type" : "type-2402",
+   "return_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -11200,16 +11216,16 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
-     "referenced_type" : "type-2404"
+     "referenced_type" : "type-2393"
     },
     {
      "referenced_type" : "type-123"
     }
    ],
-   "return_type" : "type-2402",
+   "return_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -11219,7 +11235,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2406"
+     "referenced_type" : "type-2395"
     },
     {
      "referenced_type" : "type-103"
@@ -11228,7 +11244,7 @@
      "referenced_type" : "type-103"
     }
    ],
-   "return_type" : "type-2402",
+   "return_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -11239,7 +11255,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2390"
+     "referenced_type" : "type-2388"
     },
     {
      "referenced_type" : "type-217"
@@ -11259,7 +11275,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2390"
+     "referenced_type" : "type-2388"
     },
     {
      "referenced_type" : "type-217"
@@ -11279,7 +11295,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2390"
+     "referenced_type" : "type-2388"
     },
     {
      "referenced_type" : "type-217"
@@ -11302,7 +11318,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2390"
+     "referenced_type" : "type-2388"
     },
     {
      "referenced_type" : "type-217"
@@ -11325,7 +11341,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2390"
+     "referenced_type" : "type-2388"
     },
     {
      "referenced_type" : "type-217"
@@ -11348,7 +11364,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-2390"
+     "referenced_type" : "type-2388"
     },
     {
      "referenced_type" : "type-217"
@@ -11503,7 +11519,7 @@
   {
    "linker_set_key" : "_ZN7android6Region14INVALID_REGIONE",
    "name" : "android::Region::INVALID_REGION",
-   "referenced_type" : "type-2402",
+   "referenced_type" : "type-2389",
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
   {
@@ -11628,8 +11644,8 @@
    "alignment" : 8,
    "linker_set_key" : "android::Region &",
    "name" : "android::Region &",
-   "referenced_type" : "type-2398",
-   "self_type" : "type-2405",
+   "referenced_type" : "type-2390",
+   "self_type" : "type-2394",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
@@ -11655,8 +11671,8 @@
    "alignment" : 8,
    "linker_set_key" : "android::Vector<android::Rect> &",
    "name" : "android::Vector<android::Rect> &",
-   "referenced_type" : "type-2385",
-   "self_type" : "type-2389",
+   "referenced_type" : "type-2383",
+   "self_type" : "type-2387",
    "size" : 8,
    "source_file" : "/system/core/libutils/include/utils/Vector.h"
   },
@@ -11673,8 +11689,8 @@
    "alignment" : 8,
    "linker_set_key" : "android::details::TMat44<float> &",
    "name" : "android::details::TMat44<float> &",
-   "referenced_type" : "type-2438",
-   "self_type" : "type-2444",
+   "referenced_type" : "type-2428",
+   "self_type" : "type-2434",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/math/include/math/mat4.h"
   },
@@ -11943,8 +11959,8 @@
    "alignment" : 8,
    "linker_set_key" : "android::ui::Transform &",
    "name" : "android::ui::Transform &",
-   "referenced_type" : "type-2445",
-   "self_type" : "type-2453",
+   "referenced_type" : "type-2435",
+   "self_type" : "type-2443",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h"
   },
@@ -11981,8 +11997,8 @@
   {
    "linker_set_key" : "const <type-parameter-0-1> &",
    "name" : "const <type-parameter-0-1> &",
-   "referenced_type" : "type-2418",
-   "self_type" : "type-2420",
+   "referenced_type" : "type-2408",
+   "self_type" : "type-2410",
    "source_file" : "/frameworks/native/libs/math/include/math/TVecHelpers.h"
   },
   {
@@ -12002,8 +12018,8 @@
   {
    "linker_set_key" : "const TMat33<T> &",
    "name" : "const TMat33<T> &",
-   "referenced_type" : "type-2435",
-   "self_type" : "type-2437",
+   "referenced_type" : "type-2425",
+   "self_type" : "type-2427",
    "source_file" : "/frameworks/native/libs/math/include/math/mat3.h"
   },
   {
@@ -12161,8 +12177,8 @@
    "alignment" : 8,
    "linker_set_key" : "const android::Region &",
    "name" : "const android::Region &",
-   "referenced_type" : "type-2402",
-   "self_type" : "type-2404",
+   "referenced_type" : "type-2389",
+   "self_type" : "type-2393",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
@@ -12188,8 +12204,8 @@
    "alignment" : 8,
    "linker_set_key" : "const android::Vector<android::Rect> &",
    "name" : "const android::Vector<android::Rect> &",
-   "referenced_type" : "type-2387",
-   "self_type" : "type-2388",
+   "referenced_type" : "type-2385",
+   "self_type" : "type-2386",
    "size" : 8,
    "source_file" : "/system/core/libutils/include/utils/Vector.h"
   },
@@ -12206,8 +12222,8 @@
    "alignment" : 8,
    "linker_set_key" : "const android::details::TMat44<float> &",
    "name" : "const android::details::TMat44<float> &",
-   "referenced_type" : "type-2442",
-   "self_type" : "type-2443",
+   "referenced_type" : "type-2432",
+   "self_type" : "type-2433",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/math/include/math/mat4.h"
   },
@@ -12431,8 +12447,8 @@
    "alignment" : 8,
    "linker_set_key" : "const android::ui::Transform &",
    "name" : "const android::ui::Transform &",
-   "referenced_type" : "type-2448",
-   "self_type" : "type-2449",
+   "referenced_type" : "type-2438",
+   "self_type" : "type-2439",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h"
   },
@@ -12487,8 +12503,8 @@
   {
    "linker_set_key" : "const function<type-parameter-0-1 (type-parameter-0-1)> &",
    "name" : "const function<type-parameter-0-1 (type-parameter-0-1)> &",
-   "referenced_type" : "type-2424",
-   "self_type" : "type-2426",
+   "referenced_type" : "type-2414",
+   "self_type" : "type-2416",
    "source_file" : "/frameworks/native/libs/math/include/math/TVecHelpers.h"
   },
   {
@@ -12610,8 +12626,8 @@
   {
    "linker_set_key" : "const iter<is_const> &",
    "name" : "const iter<is_const> &",
-   "referenced_type" : "type-2483",
-   "self_type" : "type-2485",
+   "referenced_type" : "type-2473",
+   "self_type" : "type-2475",
    "source_file" : "/system/libhidl/base/include/hidl/HidlSupport.h"
   },
   {
@@ -12804,8 +12820,8 @@
    "alignment" : 8,
    "linker_set_key" : "const std::shared_ptr<android::FenceTime> &",
    "name" : "const std::shared_ptr<android::FenceTime> &",
-   "referenced_type" : "type-2673",
-   "self_type" : "type-2681",
+   "referenced_type" : "type-2663",
+   "self_type" : "type-2671",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/FenceTime.h"
   },
@@ -12948,8 +12964,8 @@
    "alignment" : 8,
    "linker_set_key" : "const std::vector<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)>, std::allocator<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)> > > &",
    "name" : "const std::vector<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)>, std::allocator<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)> > > &",
-   "referenced_type" : "type-2576",
-   "self_type" : "type-2575",
+   "referenced_type" : "type-2566",
+   "self_type" : "type-2565",
    "size" : 8,
    "source_file" : "/system/libhidl/base/include/hidl/HidlInternal.h"
   },
@@ -13119,8 +13135,8 @@
    "alignment" : 8,
    "linker_set_key" : "std::basic_ostream<char, std::char_traits<char> > &",
    "name" : "std::basic_ostream<char, std::char_traits<char> > &",
-   "referenced_type" : "type-2428",
-   "self_type" : "type-2427",
+   "referenced_type" : "type-2418",
+   "self_type" : "type-2417",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/math/include/math/TVecHelpers.h"
   },
@@ -13146,8 +13162,8 @@
    "alignment" : 8,
    "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-2409",
-   "self_type" : "type-2408",
+   "referenced_type" : "type-2398",
+   "self_type" : "type-2397",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
@@ -13155,8 +13171,8 @@
    "alignment" : 8,
    "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-2455",
-   "self_type" : "type-2454",
+   "referenced_type" : "type-2445",
+   "self_type" : "type-2444",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h"
   },
@@ -13164,8 +13180,8 @@
    "alignment" : 8,
    "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-2460",
-   "self_type" : "type-2459",
+   "referenced_type" : "type-2450",
+   "self_type" : "type-2449",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/UiConfig.h"
   },
@@ -13275,8 +13291,8 @@
    "alignment" : 8,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-2641",
-   "self_type" : "type-2640",
+   "referenced_type" : "type-2631",
+   "self_type" : "type-2630",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -13284,8 +13300,8 @@
    "alignment" : 8,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-2664",
-   "self_type" : "type-2663",
+   "referenced_type" : "type-2654",
+   "self_type" : "type-2653",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -13329,8 +13345,8 @@
    "alignment" : 8,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-2632",
-   "self_type" : "type-2631",
+   "referenced_type" : "type-2622",
+   "self_type" : "type-2621",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -13338,8 +13354,8 @@
    "alignment" : 8,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-2690",
-   "self_type" : "type-2689",
+   "referenced_type" : "type-2680",
+   "self_type" : "type-2679",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -13360,24 +13376,6 @@
    "self_type" : "type-539",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/ANativeObjectBase.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "android::CallStack *",
-   "name" : "android::CallStack *",
-   "referenced_type" : "type-2391",
-   "self_type" : "type-2392",
-   "size" : 8,
-   "source_file" : "/system/core/libutils/include/utils/CallStack.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "android::CallStack::StackDeleter *",
-   "name" : "android::CallStack::StackDeleter *",
-   "referenced_type" : "type-2395",
-   "self_type" : "type-2396",
-   "size" : 8,
-   "source_file" : "/system/core/libutils/include/utils/CallStack.h"
   },
   {
    "alignment" : 8,
@@ -13833,8 +13831,8 @@
    "alignment" : 8,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2468",
-   "self_type" : "type-2467",
+   "referenced_type" : "type-2458",
+   "self_type" : "type-2457",
    "size" : 8,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13842,8 +13840,8 @@
    "alignment" : 8,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2634",
-   "self_type" : "type-2633",
+   "referenced_type" : "type-2624",
+   "self_type" : "type-2623",
    "size" : 8,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13851,8 +13849,8 @@
    "alignment" : 8,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2660",
-   "self_type" : "type-2659",
+   "referenced_type" : "type-2650",
+   "self_type" : "type-2649",
    "size" : 8,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13932,8 +13930,8 @@
    "alignment" : 8,
    "linker_set_key" : "android::Region *",
    "name" : "android::Region *",
-   "referenced_type" : "type-2398",
-   "self_type" : "type-2403",
+   "referenced_type" : "type-2390",
+   "self_type" : "type-2392",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
@@ -13986,17 +13984,8 @@
    "alignment" : 8,
    "linker_set_key" : "android::Vector<android::Rect> *",
    "name" : "android::Vector<android::Rect> *",
-   "referenced_type" : "type-2385",
-   "self_type" : "type-2386",
-   "size" : 8,
-   "source_file" : "/system/core/libutils/include/utils/Vector.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "android::Vector<android::String8> *",
-   "name" : "android::Vector<android::String8> *",
-   "referenced_type" : "type-2381",
-   "self_type" : "type-2382",
+   "referenced_type" : "type-2383",
+   "self_type" : "type-2384",
    "size" : 8,
    "source_file" : "/system/core/libutils/include/utils/Vector.h"
   },
@@ -14040,8 +14029,8 @@
    "alignment" : 8,
    "linker_set_key" : "android::details::TMat44<float> *",
    "name" : "android::details::TMat44<float> *",
-   "referenced_type" : "type-2438",
-   "self_type" : "type-2441",
+   "referenced_type" : "type-2428",
+   "self_type" : "type-2431",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/math/include/math/mat4.h"
   },
@@ -14058,8 +14047,8 @@
    "alignment" : 8,
    "linker_set_key" : "android::details::TMatTransform<android::details::TMat44, float> *",
    "name" : "android::details::TMatTransform<android::details::TMat44, float> *",
-   "referenced_type" : "type-2432",
-   "self_type" : "type-2433",
+   "referenced_type" : "type-2422",
+   "self_type" : "type-2423",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/math/include/math/TMatHelpers.h"
   },
@@ -14877,8 +14866,8 @@
    "alignment" : 8,
    "linker_set_key" : "android::ui::Transform *",
    "name" : "android::ui::Transform *",
-   "referenced_type" : "type-2445",
-   "self_type" : "type-2447",
+   "referenced_type" : "type-2435",
+   "self_type" : "type-2437",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h"
   },
@@ -14886,8 +14875,8 @@
    "alignment" : 8,
    "linker_set_key" : "android::ui::Transform::mat33 *",
    "name" : "android::ui::Transform::mat33 *",
-   "referenced_type" : "type-2446",
-   "self_type" : "type-2458",
+   "referenced_type" : "type-2436",
+   "self_type" : "type-2448",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h"
   },
@@ -14980,15 +14969,6 @@
    "self_type" : "type-537",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/ANativeObjectBase.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const android::CallStack *",
-   "name" : "const android::CallStack *",
-   "referenced_type" : "type-2393",
-   "self_type" : "type-2394",
-   "size" : 8,
-   "source_file" : "/system/core/libutils/include/utils/CallStack.h"
   },
   {
    "alignment" : 8,
@@ -15174,8 +15154,8 @@
    "alignment" : 8,
    "linker_set_key" : "const android::Region *",
    "name" : "const android::Region *",
-   "referenced_type" : "type-2402",
-   "self_type" : "type-2406",
+   "referenced_type" : "type-2389",
+   "self_type" : "type-2395",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
@@ -15210,17 +15190,8 @@
    "alignment" : 8,
    "linker_set_key" : "const android::Vector<android::Rect> *",
    "name" : "const android::Vector<android::Rect> *",
-   "referenced_type" : "type-2387",
-   "self_type" : "type-2390",
-   "size" : 8,
-   "source_file" : "/system/core/libutils/include/utils/Vector.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "const android::Vector<android::String8> *",
-   "name" : "const android::Vector<android::String8> *",
-   "referenced_type" : "type-2383",
-   "self_type" : "type-2384",
+   "referenced_type" : "type-2385",
+   "self_type" : "type-2388",
    "size" : 8,
    "source_file" : "/system/core/libutils/include/utils/Vector.h"
   },
@@ -15732,8 +15703,8 @@
    "alignment" : 8,
    "linker_set_key" : "const android::ui::Transform *",
    "name" : "const android::ui::Transform *",
-   "referenced_type" : "type-2448",
-   "self_type" : "type-2452",
+   "referenced_type" : "type-2438",
+   "self_type" : "type-2442",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h"
   },
@@ -15741,8 +15712,8 @@
    "alignment" : 8,
    "linker_set_key" : "const android::ui::Transform::mat33 *",
    "name" : "const android::ui::Transform::mat33 *",
-   "referenced_type" : "type-2456",
-   "self_type" : "type-2457",
+   "referenced_type" : "type-2446",
+   "self_type" : "type-2447",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h"
   },
@@ -16111,7 +16082,7 @@
    "linker_set_key" : "unsigned long *",
    "name" : "unsigned long *",
    "referenced_type" : "type-124",
-   "self_type" : "type-2407",
+   "self_type" : "type-2396",
    "size" : 8,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
@@ -16366,8 +16337,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2467",
-   "self_type" : "type-2466",
+   "referenced_type" : "type-2457",
+   "self_type" : "type-2456",
    "size" : 8,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -16376,8 +16347,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2633",
-   "self_type" : "type-2635",
+   "referenced_type" : "type-2623",
+   "self_type" : "type-2625",
    "size" : 8,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -16386,8 +16357,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2659",
-   "self_type" : "type-2661",
+   "referenced_type" : "type-2649",
+   "self_type" : "type-2651",
    "size" : 8,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -16489,8 +16460,8 @@
    "is_const" : true,
    "linker_set_key" : "const <type-parameter-0-1>",
    "name" : "const <type-parameter-0-1>",
-   "referenced_type" : "type-2419",
-   "self_type" : "type-2418",
+   "referenced_type" : "type-2409",
+   "self_type" : "type-2408",
    "source_file" : "/frameworks/native/libs/math/include/math/TVecHelpers.h"
   },
   {
@@ -16539,8 +16510,8 @@
    "is_const" : true,
    "linker_set_key" : "const TMat33<T>",
    "name" : "const TMat33<T>",
-   "referenced_type" : "type-2436",
-   "self_type" : "type-2435",
+   "referenced_type" : "type-2426",
+   "self_type" : "type-2425",
    "source_file" : "/frameworks/native/libs/math/include/math/mat3.h"
   },
   {
@@ -16560,16 +16531,6 @@
    "self_type" : "type-536",
    "size" : 184,
    "source_file" : "/frameworks/native/libs/ui/include/ui/ANativeObjectBase.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "const android::CallStack",
-   "name" : "const android::CallStack",
-   "referenced_type" : "type-2391",
-   "self_type" : "type-2393",
-   "size" : 40,
-   "source_file" : "/system/core/libutils/include/utils/CallStack.h"
   },
   {
    "alignment" : 16,
@@ -16876,8 +16837,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::Region",
    "name" : "const android::Region",
-   "referenced_type" : "type-2398",
-   "self_type" : "type-2402",
+   "referenced_type" : "type-2390",
+   "self_type" : "type-2389",
    "size" : 40,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h"
   },
@@ -16916,18 +16877,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::Vector<android::Rect>",
    "name" : "const android::Vector<android::Rect>",
-   "referenced_type" : "type-2385",
-   "self_type" : "type-2387",
-   "size" : 40,
-   "source_file" : "/system/core/libutils/include/utils/Vector.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "const android::Vector<android::String8>",
-   "name" : "const android::Vector<android::String8>",
-   "referenced_type" : "type-2381",
-   "self_type" : "type-2383",
+   "referenced_type" : "type-2383",
+   "self_type" : "type-2385",
    "size" : 40,
    "source_file" : "/system/core/libutils/include/utils/Vector.h"
   },
@@ -16976,8 +16927,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::details::TMat44<float>",
    "name" : "const android::details::TMat44<float>",
-   "referenced_type" : "type-2438",
-   "self_type" : "type-2442",
+   "referenced_type" : "type-2428",
+   "self_type" : "type-2432",
    "size" : 64,
    "source_file" : "/frameworks/native/libs/math/include/math/mat4.h"
   },
@@ -17766,8 +17717,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::ui::Transform",
    "name" : "const android::ui::Transform",
-   "referenced_type" : "type-2445",
-   "self_type" : "type-2448",
+   "referenced_type" : "type-2435",
+   "self_type" : "type-2438",
    "size" : 40,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h"
   },
@@ -17776,8 +17727,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::ui::Transform::mat33",
    "name" : "const android::ui::Transform::mat33",
-   "referenced_type" : "type-2446",
-   "self_type" : "type-2456",
+   "referenced_type" : "type-2436",
+   "self_type" : "type-2446",
    "size" : 36,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h"
   },
@@ -17859,8 +17810,8 @@
    "is_const" : true,
    "linker_set_key" : "const function<type-parameter-0-1 (type-parameter-0-1)>",
    "name" : "const function<type-parameter-0-1 (type-parameter-0-1)>",
-   "referenced_type" : "type-2425",
-   "self_type" : "type-2424",
+   "referenced_type" : "type-2415",
+   "self_type" : "type-2414",
    "source_file" : "/frameworks/native/libs/math/include/math/TVecHelpers.h"
   },
   {
@@ -18009,8 +17960,8 @@
    "is_const" : true,
    "linker_set_key" : "const iter<is_const>",
    "name" : "const iter<is_const>",
-   "referenced_type" : "type-2484",
-   "self_type" : "type-2483",
+   "referenced_type" : "type-2474",
+   "self_type" : "type-2473",
    "source_file" : "/system/libhidl/base/include/hidl/HidlSupport.h"
   },
   {
@@ -18256,8 +18207,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_0::BufferUsage, 23>",
    "name" : "const std::array<android::hardware::graphics::common::V1_0::BufferUsage, 23>",
-   "referenced_type" : "type-2522",
-   "self_type" : "type-2521",
+   "referenced_type" : "type-2512",
+   "self_type" : "type-2511",
    "size" : 184,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.0/android.hardware.graphics.common@1.0_genc++_headers/gen/android/hardware/graphics/common/1.0/types.h"
   },
@@ -18446,8 +18397,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_0::ColorMode, 10>",
    "name" : "const std::array<android::hardware::graphics::common::V1_0::ColorMode, 10>",
-   "referenced_type" : "type-2528",
-   "self_type" : "type-2527",
+   "referenced_type" : "type-2518",
+   "self_type" : "type-2517",
    "size" : 40,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.0/android.hardware.graphics.common@1.0_genc++_headers/gen/android/hardware/graphics/common/1.0/types.h"
   },
@@ -18626,8 +18577,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_0::ColorTransform, 7>",
    "name" : "const std::array<android::hardware::graphics::common::V1_0::ColorTransform, 7>",
-   "referenced_type" : "type-2530",
-   "self_type" : "type-2529",
+   "referenced_type" : "type-2520",
+   "self_type" : "type-2519",
    "size" : 28,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.0/android.hardware.graphics.common@1.0_genc++_headers/gen/android/hardware/graphics/common/1.0/types.h"
   },
@@ -18806,8 +18757,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_0::Dataspace, 57>",
    "name" : "const std::array<android::hardware::graphics::common::V1_0::Dataspace, 57>",
-   "referenced_type" : "type-2526",
-   "self_type" : "type-2525",
+   "referenced_type" : "type-2516",
+   "self_type" : "type-2515",
    "size" : 228,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.0/android.hardware.graphics.common@1.0_genc++_headers/gen/android/hardware/graphics/common/1.0/types.h"
   },
@@ -18986,8 +18937,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_0::Hdr, 3>",
    "name" : "const std::array<android::hardware::graphics::common::V1_0::Hdr, 3>",
-   "referenced_type" : "type-2532",
-   "self_type" : "type-2531",
+   "referenced_type" : "type-2522",
+   "self_type" : "type-2521",
    "size" : 12,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.0/android.hardware.graphics.common@1.0_genc++_headers/gen/android/hardware/graphics/common/1.0/types.h"
   },
@@ -19156,8 +19107,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_0::PixelFormat, 20>",
    "name" : "const std::array<android::hardware::graphics::common::V1_0::PixelFormat, 20>",
-   "referenced_type" : "type-2520",
-   "self_type" : "type-2519",
+   "referenced_type" : "type-2510",
+   "self_type" : "type-2509",
    "size" : 80,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.0/android.hardware.graphics.common@1.0_genc++_headers/gen/android/hardware/graphics/common/1.0/types.h"
   },
@@ -19336,8 +19287,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_0::Transform, 5>",
    "name" : "const std::array<android::hardware::graphics::common::V1_0::Transform, 5>",
-   "referenced_type" : "type-2524",
-   "self_type" : "type-2523",
+   "referenced_type" : "type-2514",
+   "self_type" : "type-2513",
    "size" : 20,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.0/android.hardware.graphics.common@1.0_genc++_headers/gen/android/hardware/graphics/common/1.0/types.h"
   },
@@ -19526,8 +19477,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_1::BufferUsage, 25>",
    "name" : "const std::array<android::hardware::graphics::common::V1_1::BufferUsage, 25>",
-   "referenced_type" : "type-2540",
-   "self_type" : "type-2539",
+   "referenced_type" : "type-2530",
+   "self_type" : "type-2529",
    "size" : 200,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.1/android.hardware.graphics.common@1.1_genc++_headers/gen/android/hardware/graphics/common/1.1/types.h"
   },
@@ -19706,8 +19657,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_1::ColorMode, 13>",
    "name" : "const std::array<android::hardware::graphics::common::V1_1::ColorMode, 13>",
-   "referenced_type" : "type-2544",
-   "self_type" : "type-2543",
+   "referenced_type" : "type-2534",
+   "self_type" : "type-2533",
    "size" : 52,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.1/android.hardware.graphics.common@1.1_genc++_headers/gen/android/hardware/graphics/common/1.1/types.h"
   },
@@ -19886,8 +19837,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_1::Dataspace, 61>",
    "name" : "const std::array<android::hardware::graphics::common::V1_1::Dataspace, 61>",
-   "referenced_type" : "type-2542",
-   "self_type" : "type-2541",
+   "referenced_type" : "type-2532",
+   "self_type" : "type-2531",
    "size" : 244,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.1/android.hardware.graphics.common@1.1_genc++_headers/gen/android/hardware/graphics/common/1.1/types.h"
   },
@@ -20066,8 +20017,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_1::PixelFormat, 27>",
    "name" : "const std::array<android::hardware::graphics::common::V1_1::PixelFormat, 27>",
-   "referenced_type" : "type-2538",
-   "self_type" : "type-2537",
+   "referenced_type" : "type-2528",
+   "self_type" : "type-2527",
    "size" : 108,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.1/android.hardware.graphics.common@1.1_genc++_headers/gen/android/hardware/graphics/common/1.1/types.h"
   },
@@ -20246,8 +20197,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_1::RenderIntent, 4>",
    "name" : "const std::array<android::hardware::graphics::common::V1_1::RenderIntent, 4>",
-   "referenced_type" : "type-2546",
-   "self_type" : "type-2545",
+   "referenced_type" : "type-2536",
+   "self_type" : "type-2535",
    "size" : 16,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.1/android.hardware.graphics.common@1.1_genc++_headers/gen/android/hardware/graphics/common/1.1/types.h"
   },
@@ -20396,8 +20347,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_2::BufferUsage, 26>",
    "name" : "const std::array<android::hardware::graphics::common::V1_2::BufferUsage, 26>",
-   "referenced_type" : "type-2558",
-   "self_type" : "type-2557",
+   "referenced_type" : "type-2548",
+   "self_type" : "type-2547",
    "size" : 208,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.2/android.hardware.graphics.common@1.2_genc++_headers/gen/android/hardware/graphics/common/1.2/types.h"
   },
@@ -20526,8 +20477,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_2::ColorMode, 14>",
    "name" : "const std::array<android::hardware::graphics::common::V1_2::ColorMode, 14>",
-   "referenced_type" : "type-2556",
-   "self_type" : "type-2555",
+   "referenced_type" : "type-2546",
+   "self_type" : "type-2545",
    "size" : 56,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.2/android.hardware.graphics.common@1.2_genc++_headers/gen/android/hardware/graphics/common/1.2/types.h"
   },
@@ -20656,8 +20607,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_2::Dataspace, 65>",
    "name" : "const std::array<android::hardware::graphics::common::V1_2::Dataspace, 65>",
-   "referenced_type" : "type-2554",
-   "self_type" : "type-2553",
+   "referenced_type" : "type-2544",
+   "self_type" : "type-2543",
    "size" : 260,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.2/android.hardware.graphics.common@1.2_genc++_headers/gen/android/hardware/graphics/common/1.2/types.h"
   },
@@ -20786,8 +20737,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_2::Hdr, 4>",
    "name" : "const std::array<android::hardware::graphics::common::V1_2::Hdr, 4>",
-   "referenced_type" : "type-2552",
-   "self_type" : "type-2551",
+   "referenced_type" : "type-2542",
+   "self_type" : "type-2541",
    "size" : 16,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.2/android.hardware.graphics.common@1.2_genc++_headers/gen/android/hardware/graphics/common/1.2/types.h"
   },
@@ -20916,8 +20867,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::array<android::hardware::graphics::common::V1_2::PixelFormat, 28>",
    "name" : "const std::array<android::hardware::graphics::common::V1_2::PixelFormat, 28>",
-   "referenced_type" : "type-2560",
-   "self_type" : "type-2559",
+   "referenced_type" : "type-2550",
+   "self_type" : "type-2549",
    "size" : 112,
    "source_file" : "/out/soong/.intermediates/hardware/interfaces/graphics/common/1.2/android.hardware.graphics.common@1.2_genc++_headers/gen/android/hardware/graphics/common/1.2/types.h"
   },
@@ -21126,8 +21077,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::float_denorm_style",
    "name" : "const std::float_denorm_style",
-   "referenced_type" : "type-2415",
-   "self_type" : "type-2414",
+   "referenced_type" : "type-2405",
+   "self_type" : "type-2404",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/math/include/math/half.h"
   },
@@ -21166,8 +21117,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::float_round_style",
    "name" : "const std::float_round_style",
-   "referenced_type" : "type-2417",
-   "self_type" : "type-2416",
+   "referenced_type" : "type-2407",
+   "self_type" : "type-2406",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/math/include/math/half.h"
   },
@@ -21236,8 +21187,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::shared_ptr<android::FenceTime>",
    "name" : "const std::shared_ptr<android::FenceTime>",
-   "referenced_type" : "type-2674",
-   "self_type" : "type-2673",
+   "referenced_type" : "type-2664",
+   "self_type" : "type-2663",
    "size" : 16,
    "source_file" : "/frameworks/native/libs/ui/include/ui/FenceTime.h"
   },
@@ -21396,8 +21347,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::vector<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)>, std::allocator<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)> > >",
    "name" : "const std::vector<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)>, std::allocator<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *> > *)> > >",
-   "referenced_type" : "type-2577",
-   "self_type" : "type-2576",
+   "referenced_type" : "type-2567",
+   "self_type" : "type-2566",
    "size" : 24,
    "source_file" : "/system/libhidl/base/include/hidl/HidlInternal.h"
   },
@@ -21849,35 +21800,6 @@
      "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
     }
    ]
-  },
-  {
-   "alignment" : 8,
-   "fields" :
-   [
-    {
-     "access" : "private",
-     "field_name" : "mFrameLines",
-     "referenced_type" : "type-2381"
-    }
-   ],
-   "linker_set_key" : "android::CallStack",
-   "name" : "android::CallStack",
-   "record_kind" : "class",
-   "referenced_type" : "type-2391",
-   "self_type" : "type-2391",
-   "size" : 40,
-   "source_file" : "/system/core/libutils/include/utils/CallStack.h",
-   "unique_id" : "_ZTSN7android9CallStackE"
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "android::CallStack::StackDeleter",
-   "name" : "android::CallStack::StackDeleter",
-   "referenced_type" : "type-2395",
-   "self_type" : "type-2395",
-   "size" : 1,
-   "source_file" : "/system/core/libutils/include/utils/CallStack.h",
-   "unique_id" : "_ZTSN7android9CallStack12StackDeleterE"
   },
   {
    "alignment" : 16,
@@ -22818,11 +22740,11 @@
    "linker_set_key" : "android::LightFlattenable<android::Region>",
    "name" : "android::LightFlattenable<android::Region>",
    "record_kind" : "class",
-   "referenced_type" : "type-2397",
-   "self_type" : "type-2397",
+   "referenced_type" : "type-2391",
+   "self_type" : "type-2391",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/Flattenable.h",
-   "template_args" : [ "type-2398" ],
+   "template_args" : [ "type-2390" ],
    "unique_id" : "_ZTSN7android16LightFlattenableINS_6RegionEEE"
   },
   {
@@ -23199,7 +23121,7 @@
    "base_specifiers" :
    [
     {
-     "referenced_type" : "type-2397"
+     "referenced_type" : "type-2391"
     }
    ],
    "fields" :
@@ -23207,14 +23129,14 @@
     {
      "access" : "private",
      "field_name" : "mStorage",
-     "referenced_type" : "type-2385"
+     "referenced_type" : "type-2383"
     }
    ],
    "linker_set_key" : "android::Region",
    "name" : "android::Region",
    "record_kind" : "class",
-   "referenced_type" : "type-2398",
-   "self_type" : "type-2398",
+   "referenced_type" : "type-2390",
+   "self_type" : "type-2390",
    "size" : 40,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Region.h",
    "unique_id" : "_ZTSN7android6RegionE"
@@ -23645,8 +23567,8 @@
    "linker_set_key" : "android::Vector<android::Rect>",
    "name" : "android::Vector<android::Rect>",
    "record_kind" : "class",
-   "referenced_type" : "type-2385",
-   "self_type" : "type-2385",
+   "referenced_type" : "type-2383",
+   "self_type" : "type-2383",
    "size" : 40,
    "source_file" : "/system/core/libutils/include/utils/Vector.h",
    "template_args" : [ "type-1241" ],
@@ -23795,61 +23717,6 @@
     },
     {
      "mangled_component_name" : "_ZNK7android6VectorIPNS_7RefBase12weakref_typeEE16do_move_backwardEPvPKvm"
-    }
-   ]
-  },
-  {
-   "alignment" : 8,
-   "base_specifiers" :
-   [
-    {
-     "access" : "private",
-     "referenced_type" : "type-236"
-    }
-   ],
-   "linker_set_key" : "android::Vector<android::String8>",
-   "name" : "android::Vector<android::String8>",
-   "record_kind" : "class",
-   "referenced_type" : "type-2381",
-   "self_type" : "type-2381",
-   "size" : 40,
-   "source_file" : "/system/core/libutils/include/utils/Vector.h",
-   "template_args" : [ "type-287" ],
-   "unique_id" : "_ZTSN7android6VectorINS_7String8EEE",
-   "vtable_components" :
-   [
-    {
-     "kind" : "offset_to_top"
-    },
-    {
-     "kind" : "rtti",
-     "mangled_component_name" : "_ZTIN7android6VectorINS_7String8EEE"
-    },
-    {
-     "kind" : "complete_dtor_pointer",
-     "mangled_component_name" : "_ZN7android6VectorINS_7String8EED1Ev"
-    },
-    {
-     "kind" : "deleting_dtor_pointer",
-     "mangled_component_name" : "_ZN7android6VectorINS_7String8EED0Ev"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_7String8EE12do_constructEPvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_7String8EE10do_destroyEPvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_7String8EE7do_copyEPvPKvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_7String8EE8do_splatEPvPKvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_7String8EE15do_move_forwardEPvPKvm"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android6VectorINS_7String8EE16do_move_backwardEPvPKvm"
     }
    ]
   },
@@ -24226,28 +24093,28 @@
    "base_specifiers" :
    [
     {
-     "referenced_type" : "type-2422"
+     "referenced_type" : "type-2412"
     },
     {
-     "referenced_type" : "type-2423"
+     "referenced_type" : "type-2413"
+    },
+    {
+     "referenced_type" : "type-2411"
+    },
+    {
+     "referenced_type" : "type-2419"
+    },
+    {
+     "referenced_type" : "type-2420"
+    },
+    {
+     "referenced_type" : "type-2422"
     },
     {
      "referenced_type" : "type-2421"
     },
     {
-     "referenced_type" : "type-2429"
-    },
-    {
-     "referenced_type" : "type-2430"
-    },
-    {
-     "referenced_type" : "type-2432"
-    },
-    {
-     "referenced_type" : "type-2431"
-    },
-    {
-     "referenced_type" : "type-2434"
+     "referenced_type" : "type-2424"
     }
    ],
    "fields" :
@@ -24255,14 +24122,14 @@
     {
      "access" : "private",
      "field_name" : "m_value",
-     "referenced_type" : "type-2439"
+     "referenced_type" : "type-2429"
     }
    ],
    "linker_set_key" : "android::details::TMat44<float>",
    "name" : "android::details::TMat44<float>",
    "record_kind" : "class",
-   "referenced_type" : "type-2438",
-   "self_type" : "type-2438",
+   "referenced_type" : "type-2428",
+   "self_type" : "type-2428",
    "size" : 64,
    "source_file" : "/frameworks/native/libs/math/include/math/mat4.h",
    "template_args" : [ "type-10" ],
@@ -24285,8 +24152,8 @@
    "linker_set_key" : "android::details::TMatDebug<android::details::TMat44, float>",
    "name" : "android::details::TMatDebug<android::details::TMat44, float>",
    "record_kind" : "class",
-   "referenced_type" : "type-2434",
-   "self_type" : "type-2434",
+   "referenced_type" : "type-2424",
+   "self_type" : "type-2424",
    "size" : 1,
    "source_file" : "/frameworks/native/libs/math/include/math/TMatHelpers.h",
    "template_args" : [ "type-10" ],
@@ -24309,8 +24176,8 @@
    "linker_set_key" : "android::details::TMatHelpers<android::details::TMat44, float>",
    "name" : "android::details::TMatHelpers<android::details::TMat44, float>",
    "record_kind" : "class",
-   "referenced_type" : "type-2431",
-   "self_type" : "type-2431",
+   "referenced_type" : "type-2421",
+   "self_type" : "type-2421",
    "size" : 1,
    "source_file" : "/frameworks/native/libs/math/include/math/TMatHelpers.h",
    "template_args" : [ "type-10" ],
@@ -24333,8 +24200,8 @@
    "linker_set_key" : "android::details::TMatProductOperators<android::details::TMat44, float>",
    "name" : "android::details::TMatProductOperators<android::details::TMat44, float>",
    "record_kind" : "class",
-   "referenced_type" : "type-2429",
-   "self_type" : "type-2429",
+   "referenced_type" : "type-2419",
+   "self_type" : "type-2419",
    "size" : 1,
    "source_file" : "/frameworks/native/libs/math/include/math/TMatHelpers.h",
    "template_args" : [ "type-10" ],
@@ -24357,8 +24224,8 @@
    "linker_set_key" : "android::details::TMatSquareFunctions<android::details::TMat44, float>",
    "name" : "android::details::TMatSquareFunctions<android::details::TMat44, float>",
    "record_kind" : "class",
-   "referenced_type" : "type-2430",
-   "self_type" : "type-2430",
+   "referenced_type" : "type-2420",
+   "self_type" : "type-2420",
    "size" : 1,
    "source_file" : "/frameworks/native/libs/math/include/math/TMatHelpers.h",
    "template_args" : [ "type-10" ],
@@ -24381,8 +24248,8 @@
    "linker_set_key" : "android::details::TMatTransform<android::details::TMat44, float>",
    "name" : "android::details::TMatTransform<android::details::TMat44, float>",
    "record_kind" : "class",
-   "referenced_type" : "type-2432",
-   "self_type" : "type-2432",
+   "referenced_type" : "type-2422",
+   "self_type" : "type-2422",
    "size" : 1,
    "source_file" : "/frameworks/native/libs/math/include/math/TMatHelpers.h",
    "template_args" : [ "type-10" ],
@@ -25767,8 +25634,8 @@
    "linker_set_key" : "android::details::TVecAddOperators<android::details::TMat44, float>",
    "name" : "android::details::TVecAddOperators<android::details::TMat44, float>",
    "record_kind" : "class",
-   "referenced_type" : "type-2421",
-   "self_type" : "type-2421",
+   "referenced_type" : "type-2411",
+   "self_type" : "type-2411",
    "size" : 1,
    "source_file" : "/frameworks/native/libs/math/include/math/TVecHelpers.h",
    "template_args" : [ "type-10" ],
@@ -25899,8 +25766,8 @@
    "linker_set_key" : "android::details::TVecComparisonOperators<android::details::TMat44, float>",
    "name" : "android::details::TVecComparisonOperators<android::details::TMat44, float>",
    "record_kind" : "class",
-   "referenced_type" : "type-2423",
-   "self_type" : "type-2423",
+   "referenced_type" : "type-2413",
+   "self_type" : "type-2413",
    "size" : 1,
    "source_file" : "/frameworks/native/libs/math/include/math/TVecHelpers.h",
    "template_args" : [ "type-10" ],
@@ -26283,8 +26150,8 @@
    "linker_set_key" : "android::details::TVecUnaryOperators<android::details::TMat44, float>",
    "name" : "android::details::TVecUnaryOperators<android::details::TMat44, float>",
    "record_kind" : "class",
-   "referenced_type" : "type-2422",
-   "self_type" : "type-2422",
+   "referenced_type" : "type-2412",
+   "self_type" : "type-2412",
    "size" : 1,
    "source_file" : "/frameworks/native/libs/math/include/math/TVecHelpers.h",
    "template_args" : [ "type-10" ],
@@ -29117,8 +28984,8 @@
    "alignment" : 1,
    "linker_set_key" : "android::trait_pointer<android::Rect>",
    "name" : "android::trait_pointer<android::Rect>",
-   "referenced_type" : "type-2410",
-   "self_type" : "type-2410",
+   "referenced_type" : "type-2402",
+   "self_type" : "type-2402",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
    "template_args" : [ "type-1241" ],
@@ -30030,8 +29897,8 @@
    "alignment" : 1,
    "linker_set_key" : "android::traits<android::Rect>",
    "name" : "android::traits<android::Rect>",
-   "referenced_type" : "type-2411",
-   "self_type" : "type-2411",
+   "referenced_type" : "type-2403",
+   "self_type" : "type-2403",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
    "template_args" : [ "type-1241" ],
@@ -30099,7 +29966,7 @@
     {
      "access" : "private",
      "field_name" : "mMatrix",
-     "referenced_type" : "type-2446"
+     "referenced_type" : "type-2436"
     },
     {
      "access" : "private",
@@ -30111,8 +29978,8 @@
    "linker_set_key" : "android::ui::Transform",
    "name" : "android::ui::Transform",
    "record_kind" : "class",
-   "referenced_type" : "type-2445",
-   "self_type" : "type-2445",
+   "referenced_type" : "type-2435",
+   "self_type" : "type-2435",
    "size" : 40,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h",
    "unique_id" : "_ZTSN7android2ui9TransformE"
@@ -30129,8 +29996,8 @@
    ],
    "linker_set_key" : "android::ui::Transform::mat33",
    "name" : "android::ui::Transform::mat33",
-   "referenced_type" : "type-2446",
-   "self_type" : "type-2446",
+   "referenced_type" : "type-2436",
+   "self_type" : "type-2436",
    "size" : 36,
    "source_file" : "/frameworks/native/libs/ui/include/ui/Transform.h",
    "unique_id" : "_ZTSN7android2ui9Transform5mat33E"
@@ -30140,13 +30007,13 @@
    "base_specifiers" :
    [
     {
-     "referenced_type" : "type-2413"
+     "referenced_type" : "type-2382"
     }
    ],
    "linker_set_key" : "android::use_trivial_move<android::Rect>",
    "name" : "android::use_trivial_move<android::Rect>",
-   "referenced_type" : "type-2412",
-   "self_type" : "type-2412",
+   "referenced_type" : "type-2381",
+   "self_type" : "type-2381",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
    "template_args" : [ "type-1241" ],
