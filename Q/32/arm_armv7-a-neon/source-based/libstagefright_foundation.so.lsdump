@@ -74,7 +74,7 @@
    "linker_set_key" : "unsigned char [8]",
    "name" : "unsigned char [8]",
    "referenced_type" : "type-21",
-   "self_type" : "type-1734",
+   "self_type" : "type-1783",
    "size" : 8,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/OpusHeader.h"
   },
@@ -158,8 +158,8 @@
    "alignment" : 8,
    "linker_set_key" : "long double",
    "name" : "long double",
-   "referenced_type" : "type-1758",
-   "self_type" : "type-1758",
+   "referenced_type" : "type-1803",
+   "self_type" : "type-1803",
    "size" : 8
   },
   {
@@ -1528,6 +1528,9 @@
    "name" : "_ZN7android24MEDIA_MIMETYPE_AUDIO_RAWE"
   },
   {
+   "name" : "_ZN7android24MEDIA_MIMETYPE_AUDIO_WMAE"
+  },
+  {
    "name" : "_ZN7android24MEDIA_MIMETYPE_TEXT_3GPPE"
   },
   {
@@ -1636,6 +1639,9 @@
    "name" : "_ZN7android29MEDIA_MIMETYPE_AUDIO_EAC3_JOCE"
   },
   {
+   "name" : "_ZN7android29MEDIA_MIMETYPE_AUDIO_MS_ADPCME"
+  },
+  {
    "name" : "_ZN7android29MEDIA_MIMETYPE_CONTAINER_HEIFE"
   },
   {
@@ -1676,6 +1682,9 @@
   },
   {
    "name" : "_ZN7android33MEDIA_MIMETYPE_VIDEO_DOLBY_VISIONE"
+  },
+  {
+   "name" : "_ZN7android34MEDIA_MIMETYPE_AUDIO_DVI_IMA_ADPCME"
   },
   {
    "name" : "_ZN7android34MEDIA_MIMETYPE_AUDIO_MPEG_LAYER_IIE"
@@ -1887,8 +1896,8 @@
    ],
    "linker_set_key" : "android::ActionCode",
    "name" : "android::ActionCode",
-   "referenced_type" : "type-1746",
-   "self_type" : "type-1746",
+   "referenced_type" : "type-1792",
+   "self_type" : "type-1792",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaErrors.h",
    "underlying_type" : "type-4",
@@ -1913,8 +1922,8 @@
    ],
    "linker_set_key" : "android::AudioEncoding",
    "name" : "android::AudioEncoding",
-   "referenced_type" : "type-1642",
-   "self_type" : "type-1642",
+   "referenced_type" : "type-1691",
+   "self_type" : "type-1691",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/MediaDefs.h",
    "underlying_type" : "type-4",
@@ -4546,7 +4555,7 @@
      "referenced_type" : "type-807"
     },
     {
-     "referenced_type" : "type-1710"
+     "referenced_type" : "type-1760"
     }
    ],
    "return_type" : "type-22",
@@ -4718,7 +4727,7 @@
      "referenced_type" : "type-807"
     },
     {
-     "referenced_type" : "type-1655"
+     "referenced_type" : "type-1708"
     }
    ],
    "return_type" : "type-33",
@@ -4747,7 +4756,7 @@
      "referenced_type" : "type-807"
     },
     {
-     "referenced_type" : "type-1655"
+     "referenced_type" : "type-1708"
     }
    ],
    "return_type" : "type-33",
@@ -4815,7 +4824,7 @@
      "referenced_type" : "type-807"
     },
     {
-     "referenced_type" : "type-1655"
+     "referenced_type" : "type-1708"
     }
    ],
    "return_type" : "type-815",
@@ -5047,13 +5056,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-1745"
+     "referenced_type" : "type-1791"
     },
     {
      "referenced_type" : "type-889"
     },
     {
-     "referenced_type" : "type-1745"
+     "referenced_type" : "type-1791"
     },
     {
      "referenced_type" : "type-889"
@@ -5090,7 +5099,7 @@
      "referenced_type" : "type-4"
     },
     {
-     "referenced_type" : "type-1735"
+     "referenced_type" : "type-1784"
     }
    ],
    "return_type" : "type-109",
@@ -5102,7 +5111,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-1737"
+     "referenced_type" : "type-1786"
     },
     {
      "referenced_type" : "type-22"
@@ -5157,7 +5166,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1633"
+     "referenced_type" : "type-1682"
     },
     {
      "referenced_type" : "type-802"
@@ -5173,7 +5182,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1633"
+     "referenced_type" : "type-1682"
     }
    ],
    "return_type" : "type-109",
@@ -5186,10 +5195,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1633"
+     "referenced_type" : "type-1682"
     },
     {
-     "referenced_type" : "type-1634"
+     "referenced_type" : "type-1683"
     },
     {
      "default_arg" : true,
@@ -5210,7 +5219,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1633"
+     "referenced_type" : "type-1682"
     },
     {
      "referenced_type" : "type-802"
@@ -5227,7 +5236,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1633"
+     "referenced_type" : "type-1682"
     },
     {
      "referenced_type" : "type-4"
@@ -5249,7 +5258,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1633"
+     "referenced_type" : "type-1682"
     },
     {
      "default_arg" : true,
@@ -5266,7 +5275,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1633"
+     "referenced_type" : "type-1682"
     },
     {
      "referenced_type" : "type-4"
@@ -5289,7 +5298,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1633"
+     "referenced_type" : "type-1682"
     },
     {
      "default_arg" : true,
@@ -5306,7 +5315,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1633"
+     "referenced_type" : "type-1682"
     },
     {
      "referenced_type" : "type-4"
@@ -5329,7 +5338,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1633"
+     "referenced_type" : "type-1682"
     }
    ],
    "return_type" : "type-33",
@@ -5342,7 +5351,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1633"
+     "referenced_type" : "type-1682"
     }
    ],
    "return_type" : "type-33",
@@ -5355,7 +5364,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1633"
+     "referenced_type" : "type-1682"
     }
    ],
    "return_type" : "type-33",
@@ -5367,7 +5376,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-1737"
+     "referenced_type" : "type-1786"
     },
     {
      "referenced_type" : "type-22"
@@ -7735,7 +7744,7 @@
      "referenced_type" : "type-462"
     }
    ],
-   "return_type" : "type-1656",
+   "return_type" : "type-1709",
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaData.h"
   },
   {
@@ -7745,10 +7754,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1657"
+     "referenced_type" : "type-1710"
     },
     {
-     "referenced_type" : "type-1655"
+     "referenced_type" : "type-1708"
     }
    ],
    "return_type" : "type-33",
@@ -7761,10 +7770,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1657"
+     "referenced_type" : "type-1710"
     },
     {
-     "referenced_type" : "type-1653"
+     "referenced_type" : "type-1706"
     }
    ],
    "return_type" : "type-33",
@@ -7777,7 +7786,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1657"
+     "referenced_type" : "type-1710"
     }
    ],
    "return_type" : "type-33",
@@ -7790,10 +7799,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1657"
+     "referenced_type" : "type-1710"
     },
     {
-     "referenced_type" : "type-1655"
+     "referenced_type" : "type-1708"
     }
    ],
    "return_type" : "type-33",
@@ -7806,10 +7815,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1657"
+     "referenced_type" : "type-1710"
     },
     {
-     "referenced_type" : "type-1653"
+     "referenced_type" : "type-1706"
     }
    ],
    "return_type" : "type-33",
@@ -7822,7 +7831,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1657"
+     "referenced_type" : "type-1710"
     }
    ],
    "return_type" : "type-33",
@@ -7836,7 +7845,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1657"
+     "referenced_type" : "type-1710"
     }
    ],
    "return_type" : "type-33",
@@ -7850,7 +7859,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1657"
+     "referenced_type" : "type-1710"
     }
    ],
    "return_type" : "type-33",
@@ -7864,7 +7873,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1657"
+     "referenced_type" : "type-1710"
     }
    ],
    "return_type" : "type-33",
@@ -8061,13 +8070,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1706"
+     "referenced_type" : "type-1755"
     },
     {
      "referenced_type" : "type-4"
     },
     {
-     "referenced_type" : "type-1707"
+     "referenced_type" : "type-1756"
     }
    ],
    "return_type" : "type-109",
@@ -8080,7 +8089,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1706"
+     "referenced_type" : "type-1755"
     },
     {
      "referenced_type" : "type-4"
@@ -8099,7 +8108,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1706"
+     "referenced_type" : "type-1755"
     },
     {
      "referenced_type" : "type-4"
@@ -8115,7 +8124,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1706"
+     "referenced_type" : "type-1755"
     },
     {
      "referenced_type" : "type-4"
@@ -8124,7 +8133,7 @@
      "referenced_type" : "type-889"
     },
     {
-     "referenced_type" : "type-1709"
+     "referenced_type" : "type-1759"
     },
     {
      "referenced_type" : "type-889"
@@ -8140,7 +8149,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1706"
+     "referenced_type" : "type-1755"
     },
     {
      "referenced_type" : "type-4"
@@ -8168,7 +8177,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1706"
+     "referenced_type" : "type-1755"
     }
    ],
    "return_type" : "type-696",
@@ -8181,7 +8190,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1706"
+     "referenced_type" : "type-1755"
     }
    ],
    "return_type" : "type-33",
@@ -8194,7 +8203,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1706"
+     "referenced_type" : "type-1755"
     },
     {
      "referenced_type" : "type-4"
@@ -8213,7 +8222,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1706"
+     "referenced_type" : "type-1755"
     },
     {
      "referenced_type" : "type-4"
@@ -8232,7 +8241,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1706"
+     "referenced_type" : "type-1755"
     },
     {
      "referenced_type" : "type-4"
@@ -8572,7 +8581,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1692"
+     "referenced_type" : "type-1743"
     },
     {
      "referenced_type" : "type-490"
@@ -8592,7 +8601,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1692"
+     "referenced_type" : "type-1743"
     },
     {
      "referenced_type" : "type-32"
@@ -8612,7 +8621,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1692"
+     "referenced_type" : "type-1743"
     },
     {
      "referenced_type" : "type-32"
@@ -8632,7 +8641,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1692"
+     "referenced_type" : "type-1743"
     },
     {
      "referenced_type" : "type-32"
@@ -8655,7 +8664,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1692"
+     "referenced_type" : "type-1743"
     },
     {
      "referenced_type" : "type-32"
@@ -8678,7 +8687,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1692"
+     "referenced_type" : "type-1743"
     },
     {
      "referenced_type" : "type-32"
@@ -8701,7 +8710,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1692"
+     "referenced_type" : "type-1743"
     },
     {
      "referenced_type" : "type-32"
@@ -8723,7 +8732,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-1636"
+     "referenced_type" : "type-1685"
     }
    ],
    "return_type" : "type-4",
@@ -9733,6 +9742,12 @@
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/MediaDefs.h"
   },
   {
+   "linker_set_key" : "_ZN7android24MEDIA_MIMETYPE_AUDIO_WMAE",
+   "name" : "android::MEDIA_MIMETYPE_AUDIO_WMA",
+   "referenced_type" : "type-114",
+   "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/MediaDefs.h"
+  },
+  {
    "linker_set_key" : "_ZN7android24MEDIA_MIMETYPE_TEXT_3GPPE",
    "name" : "android::MEDIA_MIMETYPE_TEXT_3GPP",
    "referenced_type" : "type-114",
@@ -9949,6 +9964,12 @@
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/MediaDefs.h"
   },
   {
+   "linker_set_key" : "_ZN7android29MEDIA_MIMETYPE_AUDIO_MS_ADPCME",
+   "name" : "android::MEDIA_MIMETYPE_AUDIO_MS_ADPCM",
+   "referenced_type" : "type-114",
+   "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/MediaDefs.h"
+  },
+  {
    "linker_set_key" : "_ZN7android29MEDIA_MIMETYPE_CONTAINER_HEIFE",
    "name" : "android::MEDIA_MIMETYPE_CONTAINER_HEIF",
    "referenced_type" : "type-114",
@@ -10029,6 +10050,12 @@
   {
    "linker_set_key" : "_ZN7android33MEDIA_MIMETYPE_VIDEO_DOLBY_VISIONE",
    "name" : "android::MEDIA_MIMETYPE_VIDEO_DOLBY_VISION",
+   "referenced_type" : "type-114",
+   "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/MediaDefs.h"
+  },
+  {
+   "linker_set_key" : "_ZN7android34MEDIA_MIMETYPE_AUDIO_DVI_IMA_ADPCME",
+   "name" : "android::MEDIA_MIMETYPE_AUDIO_DVI_IMA_ADPCM",
    "referenced_type" : "type-114",
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/MediaDefs.h"
   },
@@ -10173,8 +10200,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase::typed_data &",
    "name" : "android::MetaDataBase::typed_data &",
-   "referenced_type" : "type-1703",
-   "self_type" : "type-1702",
+   "referenced_type" : "type-1752",
+   "self_type" : "type-1751",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/KeyedVector.h"
   },
@@ -10182,8 +10209,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase::typed_data &",
    "name" : "android::MetaDataBase::typed_data &",
-   "referenced_type" : "type-2379",
-   "self_type" : "type-2378",
+   "referenced_type" : "type-2364",
+   "self_type" : "type-2363",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/KeyedVector.h"
   },
@@ -10191,8 +10218,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase::typed_data &",
    "name" : "android::MetaDataBase::typed_data &",
-   "referenced_type" : "type-2967",
-   "self_type" : "type-2966",
+   "referenced_type" : "type-2954",
+   "self_type" : "type-2953",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/KeyedVector.h"
   },
@@ -10210,7 +10237,7 @@
    "linker_set_key" : "android::Parcel &",
    "name" : "android::Parcel &",
    "referenced_type" : "type-452",
-   "self_type" : "type-1710",
+   "self_type" : "type-1760",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaDataBase.h"
   },
@@ -10227,8 +10254,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::SortedVector<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> > &",
    "name" : "android::SortedVector<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> > &",
-   "referenced_type" : "type-1686",
-   "self_type" : "type-1689",
+   "referenced_type" : "type-1738",
+   "self_type" : "type-1740",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/SortedVector.h"
   },
@@ -10254,8 +10281,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::TextOutput &",
    "name" : "android::TextOutput &",
-   "referenced_type" : "type-1393",
-   "self_type" : "type-1392",
+   "referenced_type" : "type-1455",
+   "self_type" : "type-1454",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/Parcel.h"
   },
@@ -10263,8 +10290,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::TextOutput &",
    "name" : "android::TextOutput &",
-   "referenced_type" : "type-1410",
-   "self_type" : "type-1409",
+   "referenced_type" : "type-1467",
+   "self_type" : "type-1466",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/Parcel.h"
   },
@@ -10272,8 +10299,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::TextOutput &",
    "name" : "android::TextOutput &",
-   "referenced_type" : "type-1649",
-   "self_type" : "type-1648",
+   "referenced_type" : "type-1701",
+   "self_type" : "type-1700",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/Parcel.h"
   },
@@ -10281,8 +10308,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::TextOutput &",
    "name" : "android::TextOutput &",
-   "referenced_type" : "type-1696",
-   "self_type" : "type-1695",
+   "referenced_type" : "type-1745",
+   "self_type" : "type-1744",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/Parcel.h"
   },
@@ -10290,8 +10317,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::TextOutput &",
    "name" : "android::TextOutput &",
-   "referenced_type" : "type-2093",
-   "self_type" : "type-2092",
+   "referenced_type" : "type-2065",
+   "self_type" : "type-2064",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/Parcel.h"
   },
@@ -10299,8 +10326,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::TextOutput &",
    "name" : "android::TextOutput &",
-   "referenced_type" : "type-2105",
-   "self_type" : "type-2104",
+   "referenced_type" : "type-2082",
+   "self_type" : "type-2081",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/Parcel.h"
   },
@@ -10308,8 +10335,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::TextOutput &",
    "name" : "android::TextOutput &",
-   "referenced_type" : "type-2337",
-   "self_type" : "type-2336",
+   "referenced_type" : "type-2319",
+   "self_type" : "type-2318",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/Parcel.h"
   },
@@ -10317,8 +10344,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::TextOutput &",
    "name" : "android::TextOutput &",
-   "referenced_type" : "type-2374",
-   "self_type" : "type-2373",
+   "referenced_type" : "type-2359",
+   "self_type" : "type-2358",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/Parcel.h"
   },
@@ -10326,8 +10353,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::TextOutput &",
    "name" : "android::TextOutput &",
-   "referenced_type" : "type-2668",
-   "self_type" : "type-2667",
+   "referenced_type" : "type-2655",
+   "self_type" : "type-2654",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/Parcel.h"
   },
@@ -10335,8 +10362,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::TextOutput &",
    "name" : "android::TextOutput &",
-   "referenced_type" : "type-2685",
-   "self_type" : "type-2684",
+   "referenced_type" : "type-2672",
+   "self_type" : "type-2671",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/Parcel.h"
   },
@@ -10344,8 +10371,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::TextOutput &",
    "name" : "android::TextOutput &",
-   "referenced_type" : "type-2922",
-   "self_type" : "type-2921",
+   "referenced_type" : "type-2909",
+   "self_type" : "type-2908",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/Parcel.h"
   },
@@ -10353,8 +10380,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::TextOutput &",
    "name" : "android::TextOutput &",
-   "referenced_type" : "type-2962",
-   "self_type" : "type-2961",
+   "referenced_type" : "type-2949",
+   "self_type" : "type-2948",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/Parcel.h"
   },
@@ -10398,8 +10425,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> &",
    "name" : "android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> &",
-   "referenced_type" : "type-1665",
-   "self_type" : "type-1673",
+   "referenced_type" : "type-1718",
+   "self_type" : "type-1726",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h"
   },
@@ -10677,8 +10704,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::MetaData &",
    "name" : "const android::MetaData &",
-   "referenced_type" : "type-1652",
-   "self_type" : "type-1653",
+   "referenced_type" : "type-1705",
+   "self_type" : "type-1706",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaData.h"
   },
@@ -10686,8 +10713,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::MetaDataBase &",
    "name" : "const android::MetaDataBase &",
-   "referenced_type" : "type-1654",
-   "self_type" : "type-1655",
+   "referenced_type" : "type-1707",
+   "self_type" : "type-1708",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaData.h"
   },
@@ -10695,8 +10722,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::MetaDataBase::typed_data &",
    "name" : "const android::MetaDataBase::typed_data &",
-   "referenced_type" : "type-1674",
-   "self_type" : "type-1676",
+   "referenced_type" : "type-1727",
+   "self_type" : "type-1729",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h"
   },
@@ -10704,8 +10731,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::MetaDataBase::typed_data &",
    "name" : "const android::MetaDataBase::typed_data &",
-   "referenced_type" : "type-2357",
-   "self_type" : "type-2359",
+   "referenced_type" : "type-2338",
+   "self_type" : "type-2340",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h"
   },
@@ -10713,8 +10740,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::MetaDataBase::typed_data &",
    "name" : "const android::MetaDataBase::typed_data &",
-   "referenced_type" : "type-2941",
-   "self_type" : "type-2943",
+   "referenced_type" : "type-2928",
+   "self_type" : "type-2930",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h"
   },
@@ -10722,8 +10749,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::OpusHeader &",
    "name" : "const android::OpusHeader &",
-   "referenced_type" : "type-1736",
-   "self_type" : "type-1737",
+   "referenced_type" : "type-1785",
+   "self_type" : "type-1786",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/OpusHeader.h"
   },
@@ -10749,8 +10776,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::SortedVector<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> > &",
    "name" : "const android::SortedVector<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> > &",
-   "referenced_type" : "type-1690",
-   "self_type" : "type-1691",
+   "referenced_type" : "type-1741",
+   "self_type" : "type-1742",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/SortedVector.h"
   },
@@ -10803,8 +10830,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> &",
    "name" : "const android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> &",
-   "referenced_type" : "type-1664",
-   "self_type" : "type-1668",
+   "referenced_type" : "type-1717",
+   "self_type" : "type-1721",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h"
   },
@@ -11019,8 +11046,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs> &",
    "name" : "const std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs> &",
-   "referenced_type" : "type-1458",
-   "self_type" : "type-1460",
+   "referenced_type" : "type-1506",
+   "self_type" : "type-1508",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ALookup.h"
   },
@@ -11028,8 +11055,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs> &",
    "name" : "const std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs> &",
-   "referenced_type" : "type-2144",
-   "self_type" : "type-2146",
+   "referenced_type" : "type-2130",
+   "self_type" : "type-2132",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ALookup.h"
   },
@@ -11037,8 +11064,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs> &",
    "name" : "const std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs> &",
-   "referenced_type" : "type-2733",
-   "self_type" : "type-2735",
+   "referenced_type" : "type-2720",
+   "self_type" : "type-2722",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ALookup.h"
   },
@@ -11055,8 +11082,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> > &",
    "name" : "const std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> > &",
-   "referenced_type" : "type-1419",
-   "self_type" : "type-1421",
+   "referenced_type" : "type-1473",
+   "self_type" : "type-1475",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AudioPresentationInfo.h"
   },
@@ -11064,8 +11091,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> > &",
    "name" : "const std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> > &",
-   "referenced_type" : "type-2111",
-   "self_type" : "type-2113",
+   "referenced_type" : "type-2091",
+   "self_type" : "type-2093",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AudioPresentationInfo.h"
   },
@@ -11073,8 +11100,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> > &",
    "name" : "const std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> > &",
-   "referenced_type" : "type-2694",
-   "self_type" : "type-2696",
+   "referenced_type" : "type-2681",
+   "self_type" : "type-2683",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AudioPresentationInfo.h"
   },
@@ -11202,8 +11229,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
-   "referenced_type" : "type-1525",
-   "self_type" : "type-1524",
+   "referenced_type" : "type-1570",
+   "self_type" : "type-1569",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ColorUtils.h"
   },
@@ -11211,8 +11238,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
-   "referenced_type" : "type-1557",
-   "self_type" : "type-1556",
+   "referenced_type" : "type-1605",
+   "self_type" : "type-1604",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -11220,8 +11247,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
-   "referenced_type" : "type-1598",
-   "self_type" : "type-1597",
+   "referenced_type" : "type-1652",
+   "self_type" : "type-1651",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -11229,8 +11256,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
-   "referenced_type" : "type-1621",
-   "self_type" : "type-1620",
+   "referenced_type" : "type-1672",
+   "self_type" : "type-1671",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -11238,8 +11265,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
-   "referenced_type" : "type-2208",
-   "self_type" : "type-2207",
+   "referenced_type" : "type-2197",
+   "self_type" : "type-2196",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ColorUtils.h"
   },
@@ -11247,8 +11274,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
-   "referenced_type" : "type-2243",
-   "self_type" : "type-2242",
+   "referenced_type" : "type-2229",
+   "self_type" : "type-2228",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -11256,8 +11283,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
-   "referenced_type" : "type-2290",
-   "self_type" : "type-2289",
+   "referenced_type" : "type-2270",
+   "self_type" : "type-2269",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -11265,8 +11292,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
-   "referenced_type" : "type-2310",
-   "self_type" : "type-2309",
+   "referenced_type" : "type-2293",
+   "self_type" : "type-2292",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -11274,8 +11301,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
-   "referenced_type" : "type-2800",
-   "self_type" : "type-2799",
+   "referenced_type" : "type-2787",
+   "self_type" : "type-2786",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ColorUtils.h"
   },
@@ -11283,8 +11310,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
-   "referenced_type" : "type-2832",
-   "self_type" : "type-2831",
+   "referenced_type" : "type-2819",
+   "self_type" : "type-2818",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -11292,8 +11319,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
-   "referenced_type" : "type-2873",
-   "self_type" : "type-2872",
+   "referenced_type" : "type-2860",
+   "self_type" : "type-2859",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -11301,8 +11328,8 @@
    "alignment" : 4,
    "linker_set_key" : "AMediaFormat *",
    "name" : "AMediaFormat *",
-   "referenced_type" : "type-2896",
-   "self_type" : "type-2895",
+   "referenced_type" : "type-2883",
+   "self_type" : "type-2882",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -11328,8 +11355,8 @@
    "alignment" : 4,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-1370",
-   "self_type" : "type-1369",
+   "referenced_type" : "type-1433",
+   "self_type" : "type-1432",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11337,8 +11364,8 @@
    "alignment" : 4,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-1416",
-   "self_type" : "type-1415",
+   "referenced_type" : "type-1471",
+   "self_type" : "type-1470",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11346,8 +11373,8 @@
    "alignment" : 4,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-1647",
-   "self_type" : "type-1646",
+   "referenced_type" : "type-1696",
+   "self_type" : "type-1695",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11355,8 +11382,8 @@
    "alignment" : 4,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-1679",
-   "self_type" : "type-1678",
+   "referenced_type" : "type-1731",
+   "self_type" : "type-1730",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11364,8 +11391,8 @@
    "alignment" : 4,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-2071",
-   "self_type" : "type-2070",
+   "referenced_type" : "type-2042",
+   "self_type" : "type-2041",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11373,8 +11400,8 @@
    "alignment" : 4,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-2109",
-   "self_type" : "type-2108",
+   "referenced_type" : "type-2088",
+   "self_type" : "type-2087",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11382,8 +11409,8 @@
    "alignment" : 4,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-2332",
-   "self_type" : "type-2331",
+   "referenced_type" : "type-2317",
+   "self_type" : "type-2316",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11391,8 +11418,8 @@
    "alignment" : 4,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-2361",
-   "self_type" : "type-2360",
+   "referenced_type" : "type-2343",
+   "self_type" : "type-2342",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11400,8 +11427,8 @@
    "alignment" : 4,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-2645",
-   "self_type" : "type-2644",
+   "referenced_type" : "type-2632",
+   "self_type" : "type-2631",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11409,8 +11436,8 @@
    "alignment" : 4,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-2691",
-   "self_type" : "type-2690",
+   "referenced_type" : "type-2678",
+   "self_type" : "type-2677",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11418,8 +11445,8 @@
    "alignment" : 4,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-2920",
-   "self_type" : "type-2919",
+   "referenced_type" : "type-2907",
+   "self_type" : "type-2906",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11427,8 +11454,8 @@
    "alignment" : 4,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-2946",
-   "self_type" : "type-2945",
+   "referenced_type" : "type-2933",
+   "self_type" : "type-2932",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11454,8 +11481,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-1364",
-   "self_type" : "type-1363",
+   "referenced_type" : "type-1430",
+   "self_type" : "type-1429",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11463,8 +11490,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-1413",
-   "self_type" : "type-1412",
+   "referenced_type" : "type-1469",
+   "self_type" : "type-1468",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11472,8 +11499,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-1663",
-   "self_type" : "type-1662",
+   "referenced_type" : "type-1716",
+   "self_type" : "type-1715",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11481,8 +11508,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-1732",
-   "self_type" : "type-1731",
+   "referenced_type" : "type-1781",
+   "self_type" : "type-1780",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11490,8 +11517,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-2068",
-   "self_type" : "type-2067",
+   "referenced_type" : "type-2036",
+   "self_type" : "type-2035",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11499,8 +11526,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-2107",
-   "self_type" : "type-2106",
+   "referenced_type" : "type-2085",
+   "self_type" : "type-2084",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11508,8 +11535,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-2351",
-   "self_type" : "type-2350",
+   "referenced_type" : "type-2332",
+   "self_type" : "type-2331",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11517,8 +11544,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-2388",
-   "self_type" : "type-2387",
+   "referenced_type" : "type-2373",
+   "self_type" : "type-2372",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11526,8 +11553,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-2639",
-   "self_type" : "type-2638",
+   "referenced_type" : "type-2626",
+   "self_type" : "type-2625",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11535,8 +11562,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-2688",
-   "self_type" : "type-2687",
+   "referenced_type" : "type-2675",
+   "self_type" : "type-2674",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11544,8 +11571,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-2935",
-   "self_type" : "type-2934",
+   "referenced_type" : "type-2922",
+   "self_type" : "type-2921",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11553,8 +11580,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-2976",
-   "self_type" : "type-2975",
+   "referenced_type" : "type-2963",
+   "self_type" : "type-2962",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -11607,8 +11634,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ABuffer *",
    "name" : "android::ABuffer *",
-   "referenced_type" : "type-1607",
-   "self_type" : "type-1606",
+   "referenced_type" : "type-1660",
+   "self_type" : "type-1659",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -11616,8 +11643,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ABuffer *",
    "name" : "android::ABuffer *",
-   "referenced_type" : "type-1641",
-   "self_type" : "type-1640",
+   "referenced_type" : "type-1690",
+   "self_type" : "type-1689",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -11625,8 +11652,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ABuffer *",
    "name" : "android::ABuffer *",
-   "referenced_type" : "type-2298",
-   "self_type" : "type-2297",
+   "referenced_type" : "type-2279",
+   "self_type" : "type-2278",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -11634,8 +11661,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ABuffer *",
    "name" : "android::ABuffer *",
-   "referenced_type" : "type-2327",
-   "self_type" : "type-2326",
+   "referenced_type" : "type-2312",
+   "self_type" : "type-2311",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -11643,8 +11670,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ABuffer *",
    "name" : "android::ABuffer *",
-   "referenced_type" : "type-2882",
-   "self_type" : "type-2881",
+   "referenced_type" : "type-2869",
+   "self_type" : "type-2868",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -11652,8 +11679,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ABuffer *",
    "name" : "android::ABuffer *",
-   "referenced_type" : "type-2915",
-   "self_type" : "type-2914",
+   "referenced_type" : "type-2902",
+   "self_type" : "type-2901",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -11670,8 +11697,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AHandler *",
    "name" : "android::AHandler *",
-   "referenced_type" : "type-1449",
-   "self_type" : "type-1448",
+   "referenced_type" : "type-1297",
+   "self_type" : "type-1296",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -11679,8 +11706,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AHandler *",
    "name" : "android::AHandler *",
-   "referenced_type" : "type-1552",
-   "self_type" : "type-1551",
+   "referenced_type" : "type-1498",
+   "self_type" : "type-1497",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -11688,8 +11715,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AHandler *",
    "name" : "android::AHandler *",
-   "referenced_type" : "type-1603",
-   "self_type" : "type-1602",
+   "referenced_type" : "type-1600",
+   "self_type" : "type-1599",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -11697,8 +11724,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AHandler *",
    "name" : "android::AHandler *",
-   "referenced_type" : "type-1623",
-   "self_type" : "type-1622",
+   "referenced_type" : "type-1621",
+   "self_type" : "type-1620",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -11706,8 +11733,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AHandler *",
    "name" : "android::AHandler *",
-   "referenced_type" : "type-1739",
-   "self_type" : "type-1738",
+   "referenced_type" : "type-1656",
+   "self_type" : "type-1655",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -11715,8 +11742,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AHandler *",
    "name" : "android::AHandler *",
-   "referenced_type" : "type-1935",
-   "self_type" : "type-1934",
+   "referenced_type" : "type-1674",
+   "self_type" : "type-1673",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -11724,8 +11751,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AHandler *",
    "name" : "android::AHandler *",
-   "referenced_type" : "type-2136",
-   "self_type" : "type-2135",
+   "referenced_type" : "type-2121",
+   "self_type" : "type-2120",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -11733,8 +11760,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AHandler *",
    "name" : "android::AHandler *",
-   "referenced_type" : "type-2238",
-   "self_type" : "type-2237",
+   "referenced_type" : "type-2224",
+   "self_type" : "type-2223",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -11742,8 +11769,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AHandler *",
    "name" : "android::AHandler *",
-   "referenced_type" : "type-2259",
-   "self_type" : "type-2258",
+   "referenced_type" : "type-2275",
+   "self_type" : "type-2274",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -11751,8 +11778,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AHandler *",
    "name" : "android::AHandler *",
-   "referenced_type" : "type-2294",
-   "self_type" : "type-2293",
+   "referenced_type" : "type-2295",
+   "self_type" : "type-2294",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -11760,8 +11787,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AHandler *",
    "name" : "android::AHandler *",
-   "referenced_type" : "type-2312",
-   "self_type" : "type-2311",
+   "referenced_type" : "type-2379",
+   "self_type" : "type-2378",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -11769,8 +11796,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AHandler *",
    "name" : "android::AHandler *",
-   "referenced_type" : "type-2724",
-   "self_type" : "type-2723",
+   "referenced_type" : "type-2711",
+   "self_type" : "type-2710",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -11778,8 +11805,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AHandler *",
    "name" : "android::AHandler *",
-   "referenced_type" : "type-2827",
-   "self_type" : "type-2826",
+   "referenced_type" : "type-2814",
+   "self_type" : "type-2813",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -11787,8 +11814,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AHandler *",
    "name" : "android::AHandler *",
-   "referenced_type" : "type-2878",
-   "self_type" : "type-2877",
+   "referenced_type" : "type-2865",
+   "self_type" : "type-2864",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -11796,8 +11823,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AHandler *",
    "name" : "android::AHandler *",
-   "referenced_type" : "type-2898",
-   "self_type" : "type-2897",
+   "referenced_type" : "type-2885",
+   "self_type" : "type-2884",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -11805,8 +11832,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AHandler *",
    "name" : "android::AHandler *",
-   "referenced_type" : "type-2982",
-   "self_type" : "type-2981",
+   "referenced_type" : "type-2969",
+   "self_type" : "type-2968",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -11994,8 +12021,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-1330",
-   "self_type" : "type-1329",
+   "referenced_type" : "type-1302",
+   "self_type" : "type-1301",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12003,8 +12030,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-1510",
-   "self_type" : "type-1509",
+   "referenced_type" : "type-1309",
+   "self_type" : "type-1308",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12012,8 +12039,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-1583",
-   "self_type" : "type-1582",
+   "referenced_type" : "type-1319",
+   "self_type" : "type-1318",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12021,8 +12048,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-1605",
-   "self_type" : "type-1604",
+   "referenced_type" : "type-1339",
+   "self_type" : "type-1338",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12030,8 +12057,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-1639",
-   "self_type" : "type-1638",
+   "referenced_type" : "type-1399",
+   "self_type" : "type-1398",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12039,8 +12066,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-1757",
-   "self_type" : "type-1756",
+   "referenced_type" : "type-1558",
+   "self_type" : "type-1557",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12048,8 +12075,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-1816",
-   "self_type" : "type-1815",
+   "referenced_type" : "type-1634",
+   "self_type" : "type-1633",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12057,8 +12084,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-1860",
-   "self_type" : "type-1859",
+   "referenced_type" : "type-1648",
+   "self_type" : "type-1647",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12066,8 +12093,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-1914",
-   "self_type" : "type-1913",
+   "referenced_type" : "type-1658",
+   "self_type" : "type-1657",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12075,8 +12102,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-1940",
-   "self_type" : "type-1939",
+   "referenced_type" : "type-1688",
+   "self_type" : "type-1687",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12084,8 +12111,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-1947",
-   "self_type" : "type-1946",
+   "referenced_type" : "type-1850",
+   "self_type" : "type-1849",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12093,8 +12120,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-1957",
-   "self_type" : "type-1956",
+   "referenced_type" : "type-1894",
+   "self_type" : "type-1893",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12102,8 +12129,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-1977",
-   "self_type" : "type-1976",
+   "referenced_type" : "type-1948",
+   "self_type" : "type-1947",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12111,8 +12138,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-2037",
-   "self_type" : "type-2036",
+   "referenced_type" : "type-2002",
+   "self_type" : "type-2001",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12120,8 +12147,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-2196",
-   "self_type" : "type-2195",
+   "referenced_type" : "type-2182",
+   "self_type" : "type-2181",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12129,8 +12156,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-2272",
-   "self_type" : "type-2271",
+   "referenced_type" : "type-2255",
+   "self_type" : "type-2254",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12138,8 +12165,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-2286",
-   "self_type" : "type-2285",
+   "referenced_type" : "type-2277",
+   "self_type" : "type-2276",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12147,8 +12174,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-2296",
-   "self_type" : "type-2295",
+   "referenced_type" : "type-2310",
+   "self_type" : "type-2309",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12156,8 +12183,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-2325",
-   "self_type" : "type-2324",
+   "referenced_type" : "type-2382",
+   "self_type" : "type-2381",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12165,8 +12192,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-2453",
-   "self_type" : "type-2452",
+   "referenced_type" : "type-2440",
+   "self_type" : "type-2439",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12174,8 +12201,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-2497",
-   "self_type" : "type-2496",
+   "referenced_type" : "type-2484",
+   "self_type" : "type-2483",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12183,8 +12210,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-2551",
-   "self_type" : "type-2550",
+   "referenced_type" : "type-2538",
+   "self_type" : "type-2537",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12192,8 +12219,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-2605",
-   "self_type" : "type-2604",
+   "referenced_type" : "type-2592",
+   "self_type" : "type-2591",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12201,8 +12228,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-2785",
-   "self_type" : "type-2784",
+   "referenced_type" : "type-2772",
+   "self_type" : "type-2771",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12210,8 +12237,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-2858",
-   "self_type" : "type-2857",
+   "referenced_type" : "type-2845",
+   "self_type" : "type-2844",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12219,8 +12246,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-2880",
-   "self_type" : "type-2879",
+   "referenced_type" : "type-2867",
+   "self_type" : "type-2866",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12228,8 +12255,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::ALooper::LooperThread *",
    "name" : "android::ALooper::LooperThread *",
-   "referenced_type" : "type-2913",
-   "self_type" : "type-2912",
+   "referenced_type" : "type-2900",
+   "self_type" : "type-2899",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12309,8 +12336,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AMessage *",
    "name" : "android::AMessage *",
-   "referenced_type" : "type-1750",
-   "self_type" : "type-1749",
+   "referenced_type" : "type-1797",
+   "self_type" : "type-1796",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12318,8 +12345,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AMessage *",
    "name" : "android::AMessage *",
-   "referenced_type" : "type-1755",
-   "self_type" : "type-1754",
+   "referenced_type" : "type-1802",
+   "self_type" : "type-1801",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12327,8 +12354,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AMessage *",
    "name" : "android::AMessage *",
-   "referenced_type" : "type-2401",
-   "self_type" : "type-2400",
+   "referenced_type" : "type-2978",
+   "self_type" : "type-2977",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12336,8 +12363,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::AMessage *",
    "name" : "android::AMessage *",
-   "referenced_type" : "type-2406",
-   "self_type" : "type-2405",
+   "referenced_type" : "type-2983",
+   "self_type" : "type-2982",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -12426,8 +12453,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::CMediaBuffer *",
    "name" : "android::CMediaBuffer *",
-   "referenced_type" : "type-1555",
-   "self_type" : "type-1554",
+   "referenced_type" : "type-1603",
+   "self_type" : "type-1602",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -12435,8 +12462,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::CMediaBuffer *",
    "name" : "android::CMediaBuffer *",
-   "referenced_type" : "type-1596",
-   "self_type" : "type-1595",
+   "referenced_type" : "type-1650",
+   "self_type" : "type-1649",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -12444,8 +12471,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::CMediaBuffer *",
    "name" : "android::CMediaBuffer *",
-   "referenced_type" : "type-1619",
-   "self_type" : "type-1618",
+   "referenced_type" : "type-1670",
+   "self_type" : "type-1669",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -12453,8 +12480,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::CMediaBuffer *",
    "name" : "android::CMediaBuffer *",
-   "referenced_type" : "type-2241",
-   "self_type" : "type-2240",
+   "referenced_type" : "type-2227",
+   "self_type" : "type-2226",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -12462,8 +12489,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::CMediaBuffer *",
    "name" : "android::CMediaBuffer *",
-   "referenced_type" : "type-2288",
-   "self_type" : "type-2287",
+   "referenced_type" : "type-2268",
+   "self_type" : "type-2267",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -12471,8 +12498,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::CMediaBuffer *",
    "name" : "android::CMediaBuffer *",
-   "referenced_type" : "type-2308",
-   "self_type" : "type-2307",
+   "referenced_type" : "type-2291",
+   "self_type" : "type-2290",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -12480,8 +12507,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::CMediaBuffer *",
    "name" : "android::CMediaBuffer *",
-   "referenced_type" : "type-2830",
-   "self_type" : "type-2829",
+   "referenced_type" : "type-2817",
+   "self_type" : "type-2816",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -12489,8 +12516,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::CMediaBuffer *",
    "name" : "android::CMediaBuffer *",
-   "referenced_type" : "type-2871",
-   "self_type" : "type-2870",
+   "referenced_type" : "type-2858",
+   "self_type" : "type-2857",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -12498,8 +12525,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::CMediaBuffer *",
    "name" : "android::CMediaBuffer *",
-   "referenced_type" : "type-2894",
-   "self_type" : "type-2893",
+   "referenced_type" : "type-2881",
+   "self_type" : "type-2880",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferBase.h"
   },
@@ -12516,8 +12543,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::CMediaBufferGroup *",
    "name" : "android::CMediaBufferGroup *",
-   "referenced_type" : "type-1630",
-   "self_type" : "type-1629",
+   "referenced_type" : "type-1679",
+   "self_type" : "type-1678",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferGroup.h"
   },
@@ -12525,8 +12552,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::CMediaBufferGroup *",
    "name" : "android::CMediaBufferGroup *",
-   "referenced_type" : "type-2316",
-   "self_type" : "type-2315",
+   "referenced_type" : "type-2301",
+   "self_type" : "type-2300",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferGroup.h"
   },
@@ -12534,8 +12561,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::CMediaBufferGroup *",
    "name" : "android::CMediaBufferGroup *",
-   "referenced_type" : "type-2904",
-   "self_type" : "type-2903",
+   "referenced_type" : "type-2891",
+   "self_type" : "type-2890",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferGroup.h"
   },
@@ -12678,8 +12705,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::KeyedVector<unsigned int, android::MetaDataBase::typed_data> *",
    "name" : "android::KeyedVector<unsigned int, android::MetaDataBase::typed_data> *",
-   "referenced_type" : "type-1697",
-   "self_type" : "type-1699",
+   "referenced_type" : "type-1746",
+   "self_type" : "type-1748",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/KeyedVector.h"
   },
@@ -12768,8 +12795,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-1340",
-   "self_type" : "type-1339",
+   "referenced_type" : "type-1295",
+   "self_type" : "type-1294",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12777,8 +12804,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-1508",
-   "self_type" : "type-1507",
+   "referenced_type" : "type-1307",
+   "self_type" : "type-1306",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12786,8 +12813,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-1550",
-   "self_type" : "type-1549",
+   "referenced_type" : "type-1334",
+   "self_type" : "type-1333",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12795,8 +12822,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-1594",
-   "self_type" : "type-1593",
+   "referenced_type" : "type-1408",
+   "self_type" : "type-1407",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12804,8 +12831,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-1615",
-   "self_type" : "type-1614",
+   "referenced_type" : "type-1556",
+   "self_type" : "type-1555",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12813,8 +12840,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-1694",
-   "self_type" : "type-1693",
+   "referenced_type" : "type-1595",
+   "self_type" : "type-1594",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12822,8 +12849,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-1808",
-   "self_type" : "type-1807",
+   "referenced_type" : "type-1598",
+   "self_type" : "type-1597",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12831,8 +12858,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-1907",
-   "self_type" : "type-1906",
+   "referenced_type" : "type-1646",
+   "self_type" : "type-1645",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12840,8 +12867,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-1933",
-   "self_type" : "type-1932",
+   "referenced_type" : "type-1668",
+   "self_type" : "type-1667",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12849,8 +12876,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-1945",
-   "self_type" : "type-1944",
+   "referenced_type" : "type-1842",
+   "self_type" : "type-1841",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12858,8 +12885,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-1972",
-   "self_type" : "type-1971",
+   "referenced_type" : "type-1941",
+   "self_type" : "type-1940",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12867,8 +12894,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-2046",
-   "self_type" : "type-2045",
+   "referenced_type" : "type-2012",
+   "self_type" : "type-2011",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12876,8 +12903,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-2194",
-   "self_type" : "type-2193",
+   "referenced_type" : "type-2180",
+   "self_type" : "type-2179",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12885,8 +12912,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-2233",
-   "self_type" : "type-2232",
+   "referenced_type" : "type-2222",
+   "self_type" : "type-2221",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12894,8 +12921,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-2236",
-   "self_type" : "type-2235",
+   "referenced_type" : "type-2266",
+   "self_type" : "type-2265",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12903,8 +12930,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-2284",
-   "self_type" : "type-2283",
+   "referenced_type" : "type-2287",
+   "self_type" : "type-2286",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12912,8 +12939,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-2306",
-   "self_type" : "type-2305",
+   "referenced_type" : "type-2357",
+   "self_type" : "type-2356",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12921,8 +12948,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-2445",
-   "self_type" : "type-2444",
+   "referenced_type" : "type-2432",
+   "self_type" : "type-2431",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12930,8 +12957,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-2544",
-   "self_type" : "type-2543",
+   "referenced_type" : "type-2531",
+   "self_type" : "type-2530",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12939,8 +12966,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-2615",
-   "self_type" : "type-2614",
+   "referenced_type" : "type-2602",
+   "self_type" : "type-2601",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12948,8 +12975,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-2783",
-   "self_type" : "type-2782",
+   "referenced_type" : "type-2770",
+   "self_type" : "type-2769",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12957,8 +12984,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-2825",
-   "self_type" : "type-2824",
+   "referenced_type" : "type-2812",
+   "self_type" : "type-2811",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12966,8 +12993,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-2869",
-   "self_type" : "type-2868",
+   "referenced_type" : "type-2856",
+   "self_type" : "type-2855",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12975,8 +13002,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-2890",
-   "self_type" : "type-2889",
+   "referenced_type" : "type-2877",
+   "self_type" : "type-2876",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -12984,8 +13011,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::List<Event>::_Node *",
    "name" : "android::List<Event>::_Node *",
-   "referenced_type" : "type-2960",
-   "self_type" : "type-2959",
+   "referenced_type" : "type-2947",
+   "self_type" : "type-2946",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/List.h"
   },
@@ -13084,7 +13111,7 @@
    "linker_set_key" : "android::MediaBufferBase **",
    "name" : "android::MediaBufferBase **",
    "referenced_type" : "type-802",
-   "self_type" : "type-1634",
+   "self_type" : "type-1683",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferGroup.h"
   },
@@ -13092,8 +13119,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MediaBufferGroup *",
    "name" : "android::MediaBufferGroup *",
-   "referenced_type" : "type-1628",
-   "self_type" : "type-1633",
+   "referenced_type" : "type-1677",
+   "self_type" : "type-1682",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferGroup.h"
   },
@@ -13101,8 +13128,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MediaBufferGroup::InternalData *",
    "name" : "android::MediaBufferGroup::InternalData *",
-   "referenced_type" : "type-1632",
-   "self_type" : "type-1631",
+   "referenced_type" : "type-1681",
+   "self_type" : "type-1680",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferGroup.h"
   },
@@ -13110,8 +13137,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MediaBufferGroup::InternalData *",
    "name" : "android::MediaBufferGroup::InternalData *",
-   "referenced_type" : "type-2318",
-   "self_type" : "type-2317",
+   "referenced_type" : "type-2303",
+   "self_type" : "type-2302",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferGroup.h"
   },
@@ -13119,8 +13146,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MediaBufferGroup::InternalData *",
    "name" : "android::MediaBufferGroup::InternalData *",
-   "referenced_type" : "type-2906",
-   "self_type" : "type-2905",
+   "referenced_type" : "type-2893",
+   "self_type" : "type-2892",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferGroup.h"
   },
@@ -13156,7 +13183,7 @@
    "linker_set_key" : "android::MetaData *",
    "name" : "android::MetaData *",
    "referenced_type" : "type-825",
-   "self_type" : "type-1657",
+   "self_type" : "type-1710",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -13164,8 +13191,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase *",
    "name" : "android::MetaDataBase *",
-   "referenced_type" : "type-1601",
-   "self_type" : "type-1600",
+   "referenced_type" : "type-1654",
+   "self_type" : "type-1653",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBuffer.h"
   },
@@ -13173,8 +13200,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase *",
    "name" : "android::MetaDataBase *",
-   "referenced_type" : "type-1626",
-   "self_type" : "type-1625",
+   "referenced_type" : "type-1676",
+   "self_type" : "type-1675",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBuffer.h"
   },
@@ -13182,8 +13209,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase *",
    "name" : "android::MetaDataBase *",
-   "referenced_type" : "type-2292",
-   "self_type" : "type-2291",
+   "referenced_type" : "type-2273",
+   "self_type" : "type-2272",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBuffer.h"
   },
@@ -13191,8 +13218,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase *",
    "name" : "android::MetaDataBase *",
-   "referenced_type" : "type-2314",
-   "self_type" : "type-2313",
+   "referenced_type" : "type-2298",
+   "self_type" : "type-2297",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBuffer.h"
   },
@@ -13200,8 +13227,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase *",
    "name" : "android::MetaDataBase *",
-   "referenced_type" : "type-2876",
-   "self_type" : "type-2875",
+   "referenced_type" : "type-2863",
+   "self_type" : "type-2862",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBuffer.h"
   },
@@ -13209,8 +13236,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase *",
    "name" : "android::MetaDataBase *",
-   "referenced_type" : "type-2901",
-   "self_type" : "type-2900",
+   "referenced_type" : "type-2888",
+   "self_type" : "type-2887",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBuffer.h"
   },
@@ -13227,8 +13254,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase::MetaDataInternal *",
    "name" : "android::MetaDataBase::MetaDataInternal *",
-   "referenced_type" : "type-1562",
-   "self_type" : "type-1561",
+   "referenced_type" : "type-1611",
+   "self_type" : "type-1610",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaDataBase.h"
   },
@@ -13236,8 +13263,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase::MetaDataInternal *",
    "name" : "android::MetaDataBase::MetaDataInternal *",
-   "referenced_type" : "type-1651",
-   "self_type" : "type-1650",
+   "referenced_type" : "type-1703",
+   "self_type" : "type-1702",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaDataBase.h"
   },
@@ -13245,8 +13272,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase::MetaDataInternal *",
    "name" : "android::MetaDataBase::MetaDataInternal *",
-   "referenced_type" : "type-1705",
-   "self_type" : "type-1704",
+   "referenced_type" : "type-1754",
+   "self_type" : "type-1753",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaDataBase.h"
   },
@@ -13254,8 +13281,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase::MetaDataInternal *",
    "name" : "android::MetaDataBase::MetaDataInternal *",
-   "referenced_type" : "type-1748",
-   "self_type" : "type-1747",
+   "referenced_type" : "type-1794",
+   "self_type" : "type-1793",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaDataBase.h"
   },
@@ -13263,8 +13290,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase::MetaDataInternal *",
    "name" : "android::MetaDataBase::MetaDataInternal *",
-   "referenced_type" : "type-2249",
-   "self_type" : "type-2248",
+   "referenced_type" : "type-2234",
+   "self_type" : "type-2233",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaDataBase.h"
   },
@@ -13272,8 +13299,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase::MetaDataInternal *",
    "name" : "android::MetaDataBase::MetaDataInternal *",
-   "referenced_type" : "type-2339",
-   "self_type" : "type-2338",
+   "referenced_type" : "type-2321",
+   "self_type" : "type-2320",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaDataBase.h"
   },
@@ -13281,8 +13308,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase::MetaDataInternal *",
    "name" : "android::MetaDataBase::MetaDataInternal *",
-   "referenced_type" : "type-2381",
-   "self_type" : "type-2380",
+   "referenced_type" : "type-2366",
+   "self_type" : "type-2365",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaDataBase.h"
   },
@@ -13290,8 +13317,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase::MetaDataInternal *",
    "name" : "android::MetaDataBase::MetaDataInternal *",
-   "referenced_type" : "type-2398",
-   "self_type" : "type-2397",
+   "referenced_type" : "type-2824",
+   "self_type" : "type-2823",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaDataBase.h"
   },
@@ -13299,8 +13326,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase::MetaDataInternal *",
    "name" : "android::MetaDataBase::MetaDataInternal *",
-   "referenced_type" : "type-2837",
-   "self_type" : "type-2836",
+   "referenced_type" : "type-2911",
+   "self_type" : "type-2910",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaDataBase.h"
   },
@@ -13308,8 +13335,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase::MetaDataInternal *",
    "name" : "android::MetaDataBase::MetaDataInternal *",
-   "referenced_type" : "type-2924",
-   "self_type" : "type-2923",
+   "referenced_type" : "type-2956",
+   "self_type" : "type-2955",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaDataBase.h"
   },
@@ -13317,8 +13344,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::MetaDataBase::MetaDataInternal *",
    "name" : "android::MetaDataBase::MetaDataInternal *",
-   "referenced_type" : "type-2969",
-   "self_type" : "type-2968",
+   "referenced_type" : "type-2976",
+   "self_type" : "type-2975",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaDataBase.h"
   },
@@ -13362,8 +13389,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::OpusHeader *",
    "name" : "android::OpusHeader *",
-   "referenced_type" : "type-1733",
-   "self_type" : "type-1735",
+   "referenced_type" : "type-1782",
+   "self_type" : "type-1784",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/OpusHeader.h"
   },
@@ -13479,8 +13506,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1342",
-   "self_type" : "type-1341",
+   "referenced_type" : "type-1285",
+   "self_type" : "type-1284",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13488,8 +13515,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1368",
-   "self_type" : "type-1367",
+   "referenced_type" : "type-1292",
+   "self_type" : "type-1291",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13497,8 +13524,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1404",
-   "self_type" : "type-1403",
+   "referenced_type" : "type-1311",
+   "self_type" : "type-1310",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13506,8 +13533,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1433",
-   "self_type" : "type-1432",
+   "referenced_type" : "type-1324",
+   "self_type" : "type-1323",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13515,8 +13542,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1535",
-   "self_type" : "type-1534",
+   "referenced_type" : "type-1331",
+   "self_type" : "type-1330",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13524,8 +13551,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1589",
-   "self_type" : "type-1588",
+   "referenced_type" : "type-1341",
+   "self_type" : "type-1340",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13533,8 +13560,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1609",
-   "self_type" : "type-1608",
+   "referenced_type" : "type-1410",
+   "self_type" : "type-1409",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13542,8 +13569,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1644",
-   "self_type" : "type-1643",
+   "referenced_type" : "type-1463",
+   "self_type" : "type-1462",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13551,8 +13578,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1683",
-   "self_type" : "type-1682",
+   "referenced_type" : "type-1483",
+   "self_type" : "type-1482",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13560,8 +13587,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1741",
-   "self_type" : "type-1740",
+   "referenced_type" : "type-1580",
+   "self_type" : "type-1579",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13569,8 +13596,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1752",
-   "self_type" : "type-1751",
+   "referenced_type" : "type-1641",
+   "self_type" : "type-1640",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13578,8 +13605,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1763",
-   "self_type" : "type-1762",
+   "referenced_type" : "type-1663",
+   "self_type" : "type-1662",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13587,8 +13614,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1818",
-   "self_type" : "type-1817",
+   "referenced_type" : "type-1693",
+   "self_type" : "type-1692",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13596,8 +13623,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1873",
-   "self_type" : "type-1872",
+   "referenced_type" : "type-1699",
+   "self_type" : "type-1698",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13605,8 +13632,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1917",
-   "self_type" : "type-1916",
+   "referenced_type" : "type-1734",
+   "self_type" : "type-1733",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13614,8 +13641,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1923",
-   "self_type" : "type-1922",
+   "referenced_type" : "type-1788",
+   "self_type" : "type-1787",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13623,8 +13650,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1930",
-   "self_type" : "type-1929",
+   "referenced_type" : "type-1799",
+   "self_type" : "type-1798",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13632,8 +13659,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1949",
-   "self_type" : "type-1948",
+   "referenced_type" : "type-1852",
+   "self_type" : "type-1851",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13641,8 +13668,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1962",
-   "self_type" : "type-1961",
+   "referenced_type" : "type-1907",
+   "self_type" : "type-1906",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13650,8 +13677,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1969",
-   "self_type" : "type-1968",
+   "referenced_type" : "type-1951",
+   "self_type" : "type-1950",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13659,8 +13686,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-1979",
-   "self_type" : "type-1978",
+   "referenced_type" : "type-2014",
+   "self_type" : "type-2013",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13668,8 +13695,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2048",
-   "self_type" : "type-2047",
+   "referenced_type" : "type-2040",
+   "self_type" : "type-2039",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13677,8 +13704,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2101",
-   "self_type" : "type-2100",
+   "referenced_type" : "type-2076",
+   "self_type" : "type-2075",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13686,8 +13713,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2121",
-   "self_type" : "type-2120",
+   "referenced_type" : "type-2105",
+   "self_type" : "type-2104",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13695,8 +13722,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2218",
-   "self_type" : "type-2217",
+   "referenced_type" : "type-2207",
+   "self_type" : "type-2206",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13704,8 +13731,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2279",
-   "self_type" : "type-2278",
+   "referenced_type" : "type-2261",
+   "self_type" : "type-2260",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13713,8 +13740,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2301",
-   "self_type" : "type-2300",
+   "referenced_type" : "type-2281",
+   "self_type" : "type-2280",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13722,8 +13749,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2329",
-   "self_type" : "type-2328",
+   "referenced_type" : "type-2314",
+   "self_type" : "type-2313",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13731,8 +13758,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2335",
-   "self_type" : "type-2334",
+   "referenced_type" : "type-2347",
+   "self_type" : "type-2346",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13740,8 +13767,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2364",
-   "self_type" : "type-2363",
+   "referenced_type" : "type-2387",
+   "self_type" : "type-2386",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13749,8 +13776,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2394",
-   "self_type" : "type-2393",
+   "referenced_type" : "type-2442",
+   "self_type" : "type-2441",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13758,8 +13785,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2403",
-   "self_type" : "type-2402",
+   "referenced_type" : "type-2497",
+   "self_type" : "type-2496",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13767,8 +13794,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2455",
-   "self_type" : "type-2454",
+   "referenced_type" : "type-2541",
+   "self_type" : "type-2540",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13776,8 +13803,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2510",
-   "self_type" : "type-2509",
+   "referenced_type" : "type-2604",
+   "self_type" : "type-2603",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13785,8 +13812,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2554",
-   "self_type" : "type-2553",
+   "referenced_type" : "type-2630",
+   "self_type" : "type-2629",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13794,8 +13821,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2617",
-   "self_type" : "type-2616",
+   "referenced_type" : "type-2666",
+   "self_type" : "type-2665",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13803,8 +13830,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2643",
-   "self_type" : "type-2642",
+   "referenced_type" : "type-2695",
+   "self_type" : "type-2694",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13812,8 +13839,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2679",
-   "self_type" : "type-2678",
+   "referenced_type" : "type-2797",
+   "self_type" : "type-2796",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13821,8 +13848,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2708",
-   "self_type" : "type-2707",
+   "referenced_type" : "type-2851",
+   "self_type" : "type-2850",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13830,8 +13857,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2810",
-   "self_type" : "type-2809",
+   "referenced_type" : "type-2871",
+   "self_type" : "type-2870",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13839,8 +13866,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2864",
-   "self_type" : "type-2863",
+   "referenced_type" : "type-2904",
+   "self_type" : "type-2903",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13848,8 +13875,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2884",
-   "self_type" : "type-2883",
+   "referenced_type" : "type-2937",
+   "self_type" : "type-2936",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13857,8 +13884,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2917",
-   "self_type" : "type-2916",
+   "referenced_type" : "type-2971",
+   "self_type" : "type-2970",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13866,8 +13893,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::RefBase::weakref_impl *",
    "name" : "android::RefBase::weakref_impl *",
-   "referenced_type" : "type-2950",
-   "self_type" : "type-2949",
+   "referenced_type" : "type-2980",
+   "self_type" : "type-2979",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -13983,8 +14010,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::SimpleBestFitAllocator *",
    "name" : "android::SimpleBestFitAllocator *",
-   "referenced_type" : "type-1544",
-   "self_type" : "type-1543",
+   "referenced_type" : "type-1591",
+   "self_type" : "type-1590",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/MemoryDealer.h"
   },
@@ -13992,8 +14019,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::SimpleBestFitAllocator *",
    "name" : "android::SimpleBestFitAllocator *",
-   "referenced_type" : "type-1592",
-   "self_type" : "type-1591",
+   "referenced_type" : "type-1644",
+   "self_type" : "type-1643",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/MemoryDealer.h"
   },
@@ -14001,8 +14028,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::SimpleBestFitAllocator *",
    "name" : "android::SimpleBestFitAllocator *",
-   "referenced_type" : "type-1612",
-   "self_type" : "type-1611",
+   "referenced_type" : "type-1666",
+   "self_type" : "type-1665",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/MemoryDealer.h"
   },
@@ -14010,8 +14037,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::SimpleBestFitAllocator *",
    "name" : "android::SimpleBestFitAllocator *",
-   "referenced_type" : "type-2229",
-   "self_type" : "type-2228",
+   "referenced_type" : "type-2216",
+   "self_type" : "type-2215",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/MemoryDealer.h"
   },
@@ -14019,8 +14046,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::SimpleBestFitAllocator *",
    "name" : "android::SimpleBestFitAllocator *",
-   "referenced_type" : "type-2282",
-   "self_type" : "type-2281",
+   "referenced_type" : "type-2264",
+   "self_type" : "type-2263",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/MemoryDealer.h"
   },
@@ -14028,8 +14055,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::SimpleBestFitAllocator *",
    "name" : "android::SimpleBestFitAllocator *",
-   "referenced_type" : "type-2304",
-   "self_type" : "type-2303",
+   "referenced_type" : "type-2284",
+   "self_type" : "type-2283",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/MemoryDealer.h"
   },
@@ -14037,8 +14064,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::SimpleBestFitAllocator *",
    "name" : "android::SimpleBestFitAllocator *",
-   "referenced_type" : "type-2819",
-   "self_type" : "type-2818",
+   "referenced_type" : "type-2806",
+   "self_type" : "type-2805",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/MemoryDealer.h"
   },
@@ -14046,8 +14073,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::SimpleBestFitAllocator *",
    "name" : "android::SimpleBestFitAllocator *",
-   "referenced_type" : "type-2867",
-   "self_type" : "type-2866",
+   "referenced_type" : "type-2854",
+   "self_type" : "type-2853",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/MemoryDealer.h"
   },
@@ -14055,8 +14082,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::SimpleBestFitAllocator *",
    "name" : "android::SimpleBestFitAllocator *",
-   "referenced_type" : "type-2887",
-   "self_type" : "type-2886",
+   "referenced_type" : "type-2874",
+   "self_type" : "type-2873",
    "size" : 4,
    "source_file" : "/frameworks/native/libs/binder/include/binder/MemoryDealer.h"
   },
@@ -14091,8 +14118,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::SortedVector<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> > *",
    "name" : "android::SortedVector<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> > *",
-   "referenced_type" : "type-1686",
-   "self_type" : "type-1688",
+   "referenced_type" : "type-1738",
+   "self_type" : "type-1739",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/SortedVector.h"
   },
@@ -14190,8 +14217,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> *",
    "name" : "android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> *",
-   "referenced_type" : "type-1665",
-   "self_type" : "type-1669",
+   "referenced_type" : "type-1718",
+   "self_type" : "type-1722",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h"
   },
@@ -14289,8 +14316,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::sp<android::MetaData> *",
    "name" : "android::sp<android::MetaData> *",
-   "referenced_type" : "type-1656",
-   "self_type" : "type-1658",
+   "referenced_type" : "type-1709",
+   "self_type" : "type-1711",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -14532,8 +14559,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::ALooper::LooperThread *",
    "name" : "const android::ALooper::LooperThread *",
-   "referenced_type" : "type-1866",
-   "self_type" : "type-1868",
+   "referenced_type" : "type-1320",
+   "self_type" : "type-1322",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -14541,8 +14568,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::ALooper::LooperThread *",
    "name" : "const android::ALooper::LooperThread *",
-   "referenced_type" : "type-1958",
-   "self_type" : "type-1960",
+   "referenced_type" : "type-1900",
+   "self_type" : "type-1902",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -14550,8 +14577,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::ALooper::LooperThread *",
    "name" : "const android::ALooper::LooperThread *",
-   "referenced_type" : "type-2503",
-   "self_type" : "type-2505",
+   "referenced_type" : "type-2490",
+   "self_type" : "type-2492",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -14658,8 +14685,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::KeyedVector<unsigned int, android::MetaDataBase::typed_data> *",
    "name" : "const android::KeyedVector<unsigned int, android::MetaDataBase::typed_data> *",
-   "referenced_type" : "type-1700",
-   "self_type" : "type-1701",
+   "referenced_type" : "type-1749",
+   "self_type" : "type-1750",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/KeyedVector.h"
   },
@@ -14757,8 +14784,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::MediaBufferGroup *",
    "name" : "const android::MediaBufferGroup *",
-   "referenced_type" : "type-1635",
-   "self_type" : "type-1636",
+   "referenced_type" : "type-1684",
+   "self_type" : "type-1685",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferGroup.h"
   },
@@ -14775,8 +14802,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::MetaDataBase *",
    "name" : "const android::MetaDataBase *",
-   "referenced_type" : "type-1654",
-   "self_type" : "type-1706",
+   "referenced_type" : "type-1707",
+   "self_type" : "type-1755",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaDataBase.h"
   },
@@ -14838,8 +14865,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::SortedVector<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> > *",
    "name" : "const android::SortedVector<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> > *",
-   "referenced_type" : "type-1690",
-   "self_type" : "type-1692",
+   "referenced_type" : "type-1741",
+   "self_type" : "type-1743",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/SortedVector.h"
   },
@@ -14928,8 +14955,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> *",
    "name" : "const android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> *",
-   "referenced_type" : "type-1664",
-   "self_type" : "type-1670",
+   "referenced_type" : "type-1717",
+   "self_type" : "type-1723",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h"
   },
@@ -15018,8 +15045,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::sp<android::MetaData> *",
    "name" : "const android::sp<android::MetaData> *",
-   "referenced_type" : "type-1660",
-   "self_type" : "type-1661",
+   "referenced_type" : "type-1713",
+   "self_type" : "type-1714",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -15082,7 +15109,7 @@
    "linker_set_key" : "const char **",
    "name" : "const char **",
    "referenced_type" : "type-114",
-   "self_type" : "type-1707",
+   "self_type" : "type-1756",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaDataBase.h"
   },
@@ -15118,7 +15145,7 @@
    "linker_set_key" : "const unsigned char **",
    "name" : "const unsigned char **",
    "referenced_type" : "type-458",
-   "self_type" : "type-1745",
+   "self_type" : "type-1791",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/avc_utils.h"
   },
@@ -15145,7 +15172,7 @@
    "linker_set_key" : "const void **",
    "name" : "const void **",
    "referenced_type" : "type-490",
-   "self_type" : "type-1709",
+   "self_type" : "type-1759",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaDataBase.h"
   },
@@ -15207,8 +15234,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_istream<char, std::char_traits<char> > *",
    "name" : "std::basic_istream<char, std::char_traits<char> > *",
-   "referenced_type" : "type-1425",
-   "self_type" : "type-1424",
+   "referenced_type" : "type-1479",
+   "self_type" : "type-1478",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AudioPresentationInfo.h"
   },
@@ -15216,8 +15243,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_istream<char, std::char_traits<char> > *",
    "name" : "std::basic_istream<char, std::char_traits<char> > *",
-   "referenced_type" : "type-2117",
-   "self_type" : "type-2116",
+   "referenced_type" : "type-2097",
+   "self_type" : "type-2096",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AudioPresentationInfo.h"
   },
@@ -15225,8 +15252,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_istream<char, std::char_traits<char> > *",
    "name" : "std::basic_istream<char, std::char_traits<char> > *",
-   "referenced_type" : "type-2700",
-   "self_type" : "type-2699",
+   "referenced_type" : "type-2687",
+   "self_type" : "type-2686",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AudioPresentationInfo.h"
   },
@@ -15243,8 +15270,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_ostream<char, std::char_traits<char> > *",
    "name" : "std::basic_ostream<char, std::char_traits<char> > *",
-   "referenced_type" : "type-1423",
-   "self_type" : "type-1422",
+   "referenced_type" : "type-1477",
+   "self_type" : "type-1476",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AudioPresentationInfo.h"
   },
@@ -15252,8 +15279,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_ostream<char, std::char_traits<char> > *",
    "name" : "std::basic_ostream<char, std::char_traits<char> > *",
-   "referenced_type" : "type-2115",
-   "self_type" : "type-2114",
+   "referenced_type" : "type-2095",
+   "self_type" : "type-2094",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AudioPresentationInfo.h"
   },
@@ -15261,8 +15288,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_ostream<char, std::char_traits<char> > *",
    "name" : "std::basic_ostream<char, std::char_traits<char> > *",
-   "referenced_type" : "type-2698",
-   "self_type" : "type-2697",
+   "referenced_type" : "type-2685",
+   "self_type" : "type-2684",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AudioPresentationInfo.h"
   },
@@ -15279,8 +15306,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs> *",
    "name" : "std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs> *",
-   "referenced_type" : "type-1457",
-   "self_type" : "type-1456",
+   "referenced_type" : "type-1505",
+   "self_type" : "type-1504",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ALookup.h"
   },
@@ -15288,8 +15315,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs> *",
    "name" : "std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs> *",
-   "referenced_type" : "type-2143",
-   "self_type" : "type-2142",
+   "referenced_type" : "type-2129",
+   "self_type" : "type-2128",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ALookup.h"
   },
@@ -15297,8 +15324,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs> *",
    "name" : "std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs> *",
-   "referenced_type" : "type-2732",
-   "self_type" : "type-2731",
+   "referenced_type" : "type-2719",
+   "self_type" : "type-2718",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ALookup.h"
   },
@@ -15315,8 +15342,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> > *",
    "name" : "std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> > *",
-   "referenced_type" : "type-1427",
-   "self_type" : "type-1426",
+   "referenced_type" : "type-1481",
+   "self_type" : "type-1480",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AudioPresentationInfo.h"
   },
@@ -15324,8 +15351,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> > *",
    "name" : "std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> > *",
-   "referenced_type" : "type-2119",
-   "self_type" : "type-2118",
+   "referenced_type" : "type-2099",
+   "self_type" : "type-2098",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AudioPresentationInfo.h"
   },
@@ -15333,8 +15360,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> > *",
    "name" : "std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> > *",
-   "referenced_type" : "type-2702",
-   "self_type" : "type-2701",
+   "referenced_type" : "type-2689",
+   "self_type" : "type-2688",
    "size" : 4,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AudioPresentationInfo.h"
   },
@@ -15449,8 +15476,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1341",
-   "self_type" : "type-1343",
+   "referenced_type" : "type-1284",
+   "self_type" : "type-1286",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15459,8 +15486,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1367",
-   "self_type" : "type-1366",
+   "referenced_type" : "type-1291",
+   "self_type" : "type-1293",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15469,8 +15496,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1403",
-   "self_type" : "type-1405",
+   "referenced_type" : "type-1310",
+   "self_type" : "type-1312",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15479,8 +15506,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1432",
-   "self_type" : "type-1434",
+   "referenced_type" : "type-1323",
+   "self_type" : "type-1326",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15489,8 +15516,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1534",
-   "self_type" : "type-1536",
+   "referenced_type" : "type-1330",
+   "self_type" : "type-1329",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15499,8 +15526,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1588",
-   "self_type" : "type-1590",
+   "referenced_type" : "type-1340",
+   "self_type" : "type-1342",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15509,8 +15536,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1608",
-   "self_type" : "type-1610",
+   "referenced_type" : "type-1409",
+   "self_type" : "type-1411",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15519,8 +15546,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1643",
-   "self_type" : "type-1645",
+   "referenced_type" : "type-1462",
+   "self_type" : "type-1464",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15529,8 +15556,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1682",
-   "self_type" : "type-1684",
+   "referenced_type" : "type-1482",
+   "self_type" : "type-1484",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15539,8 +15566,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1740",
-   "self_type" : "type-1742",
+   "referenced_type" : "type-1579",
+   "self_type" : "type-1581",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15549,8 +15576,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1751",
-   "self_type" : "type-1753",
+   "referenced_type" : "type-1640",
+   "self_type" : "type-1642",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15559,8 +15586,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1762",
-   "self_type" : "type-1764",
+   "referenced_type" : "type-1662",
+   "self_type" : "type-1664",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15569,8 +15596,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1817",
-   "self_type" : "type-1819",
+   "referenced_type" : "type-1692",
+   "self_type" : "type-1694",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15579,8 +15606,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1872",
-   "self_type" : "type-1874",
+   "referenced_type" : "type-1698",
+   "self_type" : "type-1704",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15589,8 +15616,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1916",
-   "self_type" : "type-1918",
+   "referenced_type" : "type-1733",
+   "self_type" : "type-1735",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15599,8 +15626,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1922",
-   "self_type" : "type-1924",
+   "referenced_type" : "type-1787",
+   "self_type" : "type-1789",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15609,8 +15636,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1929",
-   "self_type" : "type-1931",
+   "referenced_type" : "type-1798",
+   "self_type" : "type-1800",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15619,8 +15646,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1948",
-   "self_type" : "type-1950",
+   "referenced_type" : "type-1851",
+   "self_type" : "type-1853",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15629,8 +15656,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1961",
-   "self_type" : "type-1964",
+   "referenced_type" : "type-1906",
+   "self_type" : "type-1908",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15639,8 +15666,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1968",
-   "self_type" : "type-1967",
+   "referenced_type" : "type-1950",
+   "self_type" : "type-1952",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15649,8 +15676,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-1978",
-   "self_type" : "type-1980",
+   "referenced_type" : "type-2013",
+   "self_type" : "type-2015",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15659,8 +15686,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2047",
-   "self_type" : "type-2049",
+   "referenced_type" : "type-2039",
+   "self_type" : "type-2038",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15669,8 +15696,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2100",
-   "self_type" : "type-2102",
+   "referenced_type" : "type-2075",
+   "self_type" : "type-2077",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15679,8 +15706,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2120",
-   "self_type" : "type-2122",
+   "referenced_type" : "type-2104",
+   "self_type" : "type-2106",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15689,8 +15716,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2217",
-   "self_type" : "type-2219",
+   "referenced_type" : "type-2206",
+   "self_type" : "type-2208",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15699,8 +15726,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2278",
-   "self_type" : "type-2280",
+   "referenced_type" : "type-2260",
+   "self_type" : "type-2262",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15709,8 +15736,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2300",
-   "self_type" : "type-2302",
+   "referenced_type" : "type-2280",
+   "self_type" : "type-2282",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15719,8 +15746,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2328",
-   "self_type" : "type-2330",
+   "referenced_type" : "type-2313",
+   "self_type" : "type-2315",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15729,8 +15756,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2334",
-   "self_type" : "type-2340",
+   "referenced_type" : "type-2346",
+   "self_type" : "type-2348",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15739,8 +15766,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2363",
-   "self_type" : "type-2365",
+   "referenced_type" : "type-2386",
+   "self_type" : "type-2388",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15749,8 +15776,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2393",
-   "self_type" : "type-2395",
+   "referenced_type" : "type-2441",
+   "self_type" : "type-2443",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15759,8 +15786,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2402",
-   "self_type" : "type-2404",
+   "referenced_type" : "type-2496",
+   "self_type" : "type-2498",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15769,8 +15796,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2454",
-   "self_type" : "type-2456",
+   "referenced_type" : "type-2540",
+   "self_type" : "type-2542",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15779,8 +15806,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2509",
-   "self_type" : "type-2511",
+   "referenced_type" : "type-2603",
+   "self_type" : "type-2605",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15789,8 +15816,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2553",
-   "self_type" : "type-2555",
+   "referenced_type" : "type-2629",
+   "self_type" : "type-2628",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15799,8 +15826,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2616",
-   "self_type" : "type-2618",
+   "referenced_type" : "type-2665",
+   "self_type" : "type-2667",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15809,8 +15836,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2642",
-   "self_type" : "type-2641",
+   "referenced_type" : "type-2694",
+   "self_type" : "type-2696",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15819,8 +15846,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2678",
-   "self_type" : "type-2680",
+   "referenced_type" : "type-2796",
+   "self_type" : "type-2798",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15829,8 +15856,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2707",
-   "self_type" : "type-2709",
+   "referenced_type" : "type-2850",
+   "self_type" : "type-2852",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15839,8 +15866,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2809",
-   "self_type" : "type-2811",
+   "referenced_type" : "type-2870",
+   "self_type" : "type-2872",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15849,8 +15876,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2863",
-   "self_type" : "type-2865",
+   "referenced_type" : "type-2903",
+   "self_type" : "type-2905",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15859,8 +15886,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2883",
-   "self_type" : "type-2885",
+   "referenced_type" : "type-2936",
+   "self_type" : "type-2938",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15869,8 +15896,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2916",
-   "self_type" : "type-2918",
+   "referenced_type" : "type-2970",
+   "self_type" : "type-2972",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -15879,8 +15906,8 @@
    "is_const" : true,
    "linker_set_key" : "android::RefBase::weakref_impl *const",
    "name" : "android::RefBase::weakref_impl *const",
-   "referenced_type" : "type-2949",
-   "self_type" : "type-2951",
+   "referenced_type" : "type-2979",
+   "self_type" : "type-2981",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -16169,8 +16196,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::ALooper::LooperThread",
    "name" : "const android::ALooper::LooperThread",
-   "referenced_type" : "type-1867",
-   "self_type" : "type-1866",
+   "referenced_type" : "type-1321",
+   "self_type" : "type-1320",
    "size" : 52,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -16179,8 +16206,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::ALooper::LooperThread",
    "name" : "const android::ALooper::LooperThread",
-   "referenced_type" : "type-1959",
-   "self_type" : "type-1958",
+   "referenced_type" : "type-1901",
+   "self_type" : "type-1900",
    "size" : 52,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -16189,8 +16216,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::ALooper::LooperThread",
    "name" : "const android::ALooper::LooperThread",
-   "referenced_type" : "type-2504",
-   "self_type" : "type-2503",
+   "referenced_type" : "type-2491",
+   "self_type" : "type-2490",
    "size" : 52,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -16419,8 +16446,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::KeyedVector<unsigned int, android::MetaDataBase::typed_data>",
    "name" : "const android::KeyedVector<unsigned int, android::MetaDataBase::typed_data>",
-   "referenced_type" : "type-1697",
-   "self_type" : "type-1700",
+   "referenced_type" : "type-1746",
+   "self_type" : "type-1749",
    "size" : 20,
    "source_file" : "/system/core/libutils/include/utils/KeyedVector.h"
   },
@@ -16529,8 +16556,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::MediaBufferGroup",
    "name" : "const android::MediaBufferGroup",
-   "referenced_type" : "type-1628",
-   "self_type" : "type-1635",
+   "referenced_type" : "type-1677",
+   "self_type" : "type-1684",
    "size" : 12,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferGroup.h"
   },
@@ -16550,7 +16577,7 @@
    "linker_set_key" : "const android::MetaData",
    "name" : "const android::MetaData",
    "referenced_type" : "type-825",
-   "self_type" : "type-1652",
+   "self_type" : "type-1705",
    "size" : 16,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaData.h"
   },
@@ -16560,7 +16587,7 @@
    "linker_set_key" : "const android::MetaDataBase",
    "name" : "const android::MetaDataBase",
    "referenced_type" : "type-808",
-   "self_type" : "type-1654",
+   "self_type" : "type-1707",
    "size" : 8,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MetaData.h"
   },
@@ -16569,8 +16596,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::MetaDataBase::typed_data",
    "name" : "const android::MetaDataBase::typed_data",
-   "referenced_type" : "type-1675",
-   "self_type" : "type-1674",
+   "referenced_type" : "type-1728",
+   "self_type" : "type-1727",
    "size" : 12,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h"
   },
@@ -16579,8 +16606,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::MetaDataBase::typed_data",
    "name" : "const android::MetaDataBase::typed_data",
-   "referenced_type" : "type-2358",
-   "self_type" : "type-2357",
+   "referenced_type" : "type-2339",
+   "self_type" : "type-2338",
    "size" : 12,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h"
   },
@@ -16589,8 +16616,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::MetaDataBase::typed_data",
    "name" : "const android::MetaDataBase::typed_data",
-   "referenced_type" : "type-2942",
-   "self_type" : "type-2941",
+   "referenced_type" : "type-2929",
+   "self_type" : "type-2928",
    "size" : 12,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h"
   },
@@ -16609,8 +16636,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::OpusHeader",
    "name" : "const android::OpusHeader",
-   "referenced_type" : "type-1733",
-   "self_type" : "type-1736",
+   "referenced_type" : "type-1782",
+   "self_type" : "type-1785",
    "size" : 32,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/OpusHeader.h"
   },
@@ -16689,8 +16716,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::SortedVector<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
    "name" : "const android::SortedVector<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
-   "referenced_type" : "type-1686",
-   "self_type" : "type-1690",
+   "referenced_type" : "type-1738",
+   "self_type" : "type-1741",
    "size" : 20,
    "source_file" : "/system/core/libutils/include/utils/SortedVector.h"
   },
@@ -16789,8 +16816,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data>",
    "name" : "const android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data>",
-   "referenced_type" : "type-1665",
-   "self_type" : "type-1664",
+   "referenced_type" : "type-1718",
+   "self_type" : "type-1717",
    "size" : 16,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h"
   },
@@ -16899,8 +16926,8 @@
    "is_const" : true,
    "linker_set_key" : "const android::sp<android::MetaData>",
    "name" : "const android::sp<android::MetaData>",
-   "referenced_type" : "type-1656",
-   "self_type" : "type-1660",
+   "referenced_type" : "type-1709",
+   "self_type" : "type-1713",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -17079,8 +17106,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs>",
    "name" : "const std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs>",
-   "referenced_type" : "type-1459",
-   "self_type" : "type-1458",
+   "referenced_type" : "type-1507",
+   "self_type" : "type-1506",
    "size" : 8,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ALookup.h"
   },
@@ -17089,8 +17116,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs>",
    "name" : "const std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs>",
-   "referenced_type" : "type-2145",
-   "self_type" : "type-2144",
+   "referenced_type" : "type-2131",
+   "self_type" : "type-2130",
    "size" : 8,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ALookup.h"
   },
@@ -17099,8 +17126,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs>",
    "name" : "const std::pair<android::ColorAspects::Primaries, android::ColorAspects::MatrixCoeffs>",
-   "referenced_type" : "type-2734",
-   "self_type" : "type-2733",
+   "referenced_type" : "type-2721",
+   "self_type" : "type-2720",
    "size" : 8,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/ALookup.h"
   },
@@ -17119,8 +17146,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> >",
    "name" : "const std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> >",
-   "referenced_type" : "type-1420",
-   "self_type" : "type-1419",
+   "referenced_type" : "type-1474",
+   "self_type" : "type-1473",
    "size" : 12,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AudioPresentationInfo.h"
   },
@@ -17129,8 +17156,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> >",
    "name" : "const std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> >",
-   "referenced_type" : "type-2112",
-   "self_type" : "type-2111",
+   "referenced_type" : "type-2092",
+   "self_type" : "type-2091",
    "size" : 12,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AudioPresentationInfo.h"
   },
@@ -17139,8 +17166,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> >",
    "name" : "const std::vector<android::AudioPresentation, std::allocator<android::AudioPresentation> >",
-   "referenced_type" : "type-2695",
-   "self_type" : "type-2694",
+   "referenced_type" : "type-2682",
+   "self_type" : "type-2681",
    "size" : 12,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/AudioPresentationInfo.h"
   },
@@ -20284,17 +20311,17 @@
     {
      "access" : "private",
      "field_name" : "mVector",
-     "referenced_type" : "type-1686"
+     "referenced_type" : "type-1738"
     }
    ],
    "linker_set_key" : "android::KeyedVector<unsigned int, android::MetaDataBase::typed_data>",
    "name" : "android::KeyedVector<unsigned int, android::MetaDataBase::typed_data>",
    "record_kind" : "class",
-   "referenced_type" : "type-1697",
-   "self_type" : "type-1697",
+   "referenced_type" : "type-1746",
+   "self_type" : "type-1746",
    "size" : 20,
    "source_file" : "/system/core/libutils/include/utils/KeyedVector.h",
-   "template_args" : [ "type-4", "type-1698" ],
+   "template_args" : [ "type-4", "type-1747" ],
    "unique_id" : "_ZTSN7android11KeyedVectorIjNS_12MetaDataBase10typed_dataEEE"
   },
   {
@@ -20847,20 +20874,20 @@
      "access" : "private",
      "field_name" : "mWrapper",
      "field_offset" : 32,
-     "referenced_type" : "type-1629"
+     "referenced_type" : "type-1678"
     },
     {
      "access" : "private",
      "field_name" : "mInternal",
      "field_offset" : 64,
-     "referenced_type" : "type-1631"
+     "referenced_type" : "type-1680"
     }
    ],
    "linker_set_key" : "android::MediaBufferGroup",
    "name" : "android::MediaBufferGroup",
    "record_kind" : "class",
-   "referenced_type" : "type-1628",
-   "self_type" : "type-1628",
+   "referenced_type" : "type-1677",
+   "self_type" : "type-1677",
    "size" : 12,
    "source_file" : "/frameworks/av/media/libstagefright/include/media/stagefright/MediaBufferGroup.h",
    "unique_id" : "_ZTSN7android16MediaBufferGroupE",
@@ -21702,8 +21729,8 @@
    ],
    "linker_set_key" : "android::NALPosition",
    "name" : "android::NALPosition",
-   "referenced_type" : "type-1744",
-   "self_type" : "type-1744",
+   "referenced_type" : "type-1790",
+   "self_type" : "type-1790",
    "size" : 8,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/avc_utils.h",
    "unique_id" : "_ZTSN7android11NALPositionE"
@@ -21744,13 +21771,13 @@
     {
      "field_name" : "stream_map",
      "field_offset" : 192,
-     "referenced_type" : "type-1734"
+     "referenced_type" : "type-1783"
     }
    ],
    "linker_set_key" : "android::OpusHeader",
    "name" : "android::OpusHeader",
-   "referenced_type" : "type-1733",
-   "self_type" : "type-1733",
+   "referenced_type" : "type-1782",
+   "self_type" : "type-1782",
    "size" : 32,
    "source_file" : "/frameworks/av/media/libstagefright/foundation/include/media/stagefright/foundation/OpusHeader.h",
    "unique_id" : "_ZTSN7android10OpusHeaderE"
@@ -22305,11 +22332,11 @@
    "linker_set_key" : "android::SortedVector<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
    "name" : "android::SortedVector<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
    "record_kind" : "class",
-   "referenced_type" : "type-1686",
-   "self_type" : "type-1686",
+   "referenced_type" : "type-1738",
+   "self_type" : "type-1738",
    "size" : 20,
    "source_file" : "/system/core/libutils/include/utils/SortedVector.h",
-   "template_args" : [ "type-1665" ],
+   "template_args" : [ "type-1718" ],
    "unique_id" : "_ZTSN7android12SortedVectorINS_16key_value_pair_tIjNS_12MetaDataBase10typed_dataEEEEE",
    "vtable_components" :
    [
@@ -24541,11 +24568,11 @@
    "alignment" : 1,
    "linker_set_key" : "android::aggregate_traits<unsigned int, android::MetaDataBase::typed_data>",
    "name" : "android::aggregate_traits<unsigned int, android::MetaDataBase::typed_data>",
-   "referenced_type" : "type-1729",
-   "self_type" : "type-1729",
+   "referenced_type" : "type-1778",
+   "self_type" : "type-1778",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" : [ "type-4", "type-1730" ],
+   "template_args" : [ "type-4", "type-1779" ],
    "unique_id" : "_ZTSN7android16aggregate_traitsIjNS_12MetaDataBase10typed_dataEEE"
   },
   {
@@ -27645,16 +27672,16 @@
     {
      "field_name" : "value",
      "field_offset" : 32,
-     "referenced_type" : "type-1666"
+     "referenced_type" : "type-1719"
     }
    ],
    "linker_set_key" : "android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data>",
    "name" : "android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data>",
-   "referenced_type" : "type-1665",
-   "self_type" : "type-1665",
+   "referenced_type" : "type-1718",
+   "self_type" : "type-1718",
    "size" : 16,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" : [ "type-4", "type-1667" ],
+   "template_args" : [ "type-4", "type-1720" ],
    "unique_id" : "_ZTSN7android16key_value_pair_tIjNS_12MetaDataBase10typed_dataEEE"
   },
   {
@@ -27907,14 +27934,14 @@
     {
      "access" : "private",
      "field_name" : "m_ptr",
-     "referenced_type" : "type-1657"
+     "referenced_type" : "type-1710"
     }
    ],
    "linker_set_key" : "android::sp<android::MetaData>",
    "name" : "android::sp<android::MetaData>",
    "record_kind" : "class",
-   "referenced_type" : "type-1656",
-   "self_type" : "type-1656",
+   "referenced_type" : "type-1709",
+   "self_type" : "type-1709",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h",
    "template_args" : [ "type-825" ],
@@ -28026,11 +28053,11 @@
    "alignment" : 1,
    "linker_set_key" : "android::trait_pointer<android::MetaDataBase::typed_data>",
    "name" : "android::trait_pointer<android::MetaDataBase::typed_data>",
-   "referenced_type" : "type-1724",
-   "self_type" : "type-1724",
+   "referenced_type" : "type-1773",
+   "self_type" : "type-1773",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" : [ "type-1725" ],
+   "template_args" : [ "type-1774" ],
    "unique_id" : "_ZTSN7android13trait_pointerINS_12MetaDataBase10typed_dataEEE"
   },
   {
@@ -28070,11 +28097,11 @@
    "alignment" : 1,
    "linker_set_key" : "android::trait_pointer<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
    "name" : "android::trait_pointer<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
-   "referenced_type" : "type-1723",
-   "self_type" : "type-1723",
+   "referenced_type" : "type-1772",
+   "self_type" : "type-1772",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" : [ "type-1665" ],
+   "template_args" : [ "type-1718" ],
    "unique_id" : "_ZTSN7android13trait_pointerINS_16key_value_pair_tIjNS_12MetaDataBase10typed_dataEEEEE"
   },
   {
@@ -28147,11 +28174,11 @@
    "alignment" : 1,
    "linker_set_key" : "android::trait_trivial_copy<android::MetaDataBase::typed_data>",
    "name" : "android::trait_trivial_copy<android::MetaDataBase::typed_data>",
-   "referenced_type" : "type-1716",
-   "self_type" : "type-1716",
+   "referenced_type" : "type-1766",
+   "self_type" : "type-1766",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" : [ "type-1717" ],
+   "template_args" : [ "type-1767" ],
    "unique_id" : "_ZTSN7android18trait_trivial_copyINS_12MetaDataBase10typed_dataEEE"
   },
   {
@@ -28191,11 +28218,11 @@
    "alignment" : 1,
    "linker_set_key" : "android::trait_trivial_copy<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
    "name" : "android::trait_trivial_copy<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
-   "referenced_type" : "type-1719",
-   "self_type" : "type-1719",
+   "referenced_type" : "type-1768",
+   "self_type" : "type-1768",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" : [ "type-1665" ],
+   "template_args" : [ "type-1718" ],
    "unique_id" : "_ZTSN7android18trait_trivial_copyINS_16key_value_pair_tIjNS_12MetaDataBase10typed_dataEEEEE"
   },
   {
@@ -28400,11 +28427,11 @@
    "alignment" : 1,
    "linker_set_key" : "android::trait_trivial_ctor<android::MetaDataBase::typed_data>",
    "name" : "android::trait_trivial_ctor<android::MetaDataBase::typed_data>",
-   "referenced_type" : "type-1711",
-   "self_type" : "type-1711",
+   "referenced_type" : "type-1761",
+   "self_type" : "type-1761",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" : [ "type-1712" ],
+   "template_args" : [ "type-1762" ],
    "unique_id" : "_ZTSN7android18trait_trivial_ctorINS_12MetaDataBase10typed_dataEEE"
   },
   {
@@ -28444,11 +28471,11 @@
    "alignment" : 1,
    "linker_set_key" : "android::trait_trivial_ctor<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
    "name" : "android::trait_trivial_ctor<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
-   "referenced_type" : "type-1708",
-   "self_type" : "type-1708",
+   "referenced_type" : "type-1758",
+   "self_type" : "type-1758",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" : [ "type-1665" ],
+   "template_args" : [ "type-1718" ],
    "unique_id" : "_ZTSN7android18trait_trivial_ctorINS_16key_value_pair_tIjNS_12MetaDataBase10typed_dataEEEEE"
   },
   {
@@ -28653,11 +28680,11 @@
    "alignment" : 1,
    "linker_set_key" : "android::trait_trivial_dtor<android::MetaDataBase::typed_data>",
    "name" : "android::trait_trivial_dtor<android::MetaDataBase::typed_data>",
-   "referenced_type" : "type-1713",
-   "self_type" : "type-1713",
+   "referenced_type" : "type-1763",
+   "self_type" : "type-1763",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" : [ "type-1714" ],
+   "template_args" : [ "type-1764" ],
    "unique_id" : "_ZTSN7android18trait_trivial_dtorINS_12MetaDataBase10typed_dataEEE"
   },
   {
@@ -28697,11 +28724,11 @@
    "alignment" : 1,
    "linker_set_key" : "android::trait_trivial_dtor<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
    "name" : "android::trait_trivial_dtor<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
-   "referenced_type" : "type-1715",
-   "self_type" : "type-1715",
+   "referenced_type" : "type-1765",
+   "self_type" : "type-1765",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" : [ "type-1665" ],
+   "template_args" : [ "type-1718" ],
    "unique_id" : "_ZTSN7android18trait_trivial_dtorINS_16key_value_pair_tIjNS_12MetaDataBase10typed_dataEEEEE"
   },
   {
@@ -28906,11 +28933,11 @@
    "alignment" : 1,
    "linker_set_key" : "android::trait_trivial_move<android::MetaDataBase::typed_data>",
    "name" : "android::trait_trivial_move<android::MetaDataBase::typed_data>",
-   "referenced_type" : "type-1720",
-   "self_type" : "type-1720",
+   "referenced_type" : "type-1769",
+   "self_type" : "type-1769",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" : [ "type-1721" ],
+   "template_args" : [ "type-1770" ],
    "unique_id" : "_ZTSN7android18trait_trivial_moveINS_12MetaDataBase10typed_dataEEE"
   },
   {
@@ -28961,11 +28988,11 @@
    "alignment" : 1,
    "linker_set_key" : "android::trait_trivial_move<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
    "name" : "android::trait_trivial_move<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
-   "referenced_type" : "type-1722",
-   "self_type" : "type-1722",
+   "referenced_type" : "type-1771",
+   "self_type" : "type-1771",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" : [ "type-1665" ],
+   "template_args" : [ "type-1718" ],
    "unique_id" : "_ZTSN7android18trait_trivial_moveINS_16key_value_pair_tIjNS_12MetaDataBase10typed_dataEEEEE"
   },
   {
@@ -29170,11 +29197,11 @@
    "alignment" : 1,
    "linker_set_key" : "android::traits<android::MetaDataBase::typed_data>",
    "name" : "android::traits<android::MetaDataBase::typed_data>",
-   "referenced_type" : "type-1727",
-   "self_type" : "type-1727",
+   "referenced_type" : "type-1776",
+   "self_type" : "type-1776",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" : [ "type-1728" ],
+   "template_args" : [ "type-1777" ],
    "unique_id" : "_ZTSN7android6traitsINS_12MetaDataBase10typed_dataEEE"
   },
   {
@@ -29214,11 +29241,11 @@
    "alignment" : 1,
    "linker_set_key" : "android::traits<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
    "name" : "android::traits<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
-   "referenced_type" : "type-1726",
-   "self_type" : "type-1726",
+   "referenced_type" : "type-1775",
+   "self_type" : "type-1775",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" : [ "type-1665" ],
+   "template_args" : [ "type-1718" ],
    "unique_id" : "_ZTSN7android6traitsINS_16key_value_pair_tIjNS_12MetaDataBase10typed_dataEEEEE"
   },
   {
@@ -29354,16 +29381,16 @@
    "base_specifiers" :
    [
     {
-     "referenced_type" : "type-1672"
+     "referenced_type" : "type-1725"
     }
    ],
    "linker_set_key" : "android::use_trivial_move<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
    "name" : "android::use_trivial_move<android::key_value_pair_t<unsigned int, android::MetaDataBase::typed_data> >",
-   "referenced_type" : "type-1671",
-   "self_type" : "type-1671",
+   "referenced_type" : "type-1724",
+   "self_type" : "type-1724",
    "size" : 1,
    "source_file" : "/system/core/libutils/include/utils/TypeHelpers.h",
-   "template_args" : [ "type-1665" ],
+   "template_args" : [ "type-1718" ],
    "unique_id" : "_ZTSN7android16use_trivial_moveINS_16key_value_pair_tIjNS_12MetaDataBase10typed_dataEEEEE"
   },
   {
@@ -30096,8 +30123,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::sp<android::MetaData> &&",
    "name" : "android::sp<android::MetaData> &&",
-   "referenced_type" : "type-1656",
-   "self_type" : "type-1659",
+   "referenced_type" : "type-1709",
+   "self_type" : "type-1712",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
