@@ -6,7 +6,7 @@
    "alignment" : 1,
    "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "bool",
+   "linker_set_key" : "_ZTIb",
    "name" : "bool",
    "referenced_type" : "type-14",
    "self_type" : "type-14",
@@ -16,7 +16,7 @@
    "alignment" : 1,
    "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "char",
+   "linker_set_key" : "_ZTIc",
    "name" : "char",
    "referenced_type" : "type-25",
    "self_type" : "type-25",
@@ -24,61 +24,25 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "double",
+   "linker_set_key" : "_ZTId",
    "name" : "double",
    "referenced_type" : "type-4",
    "self_type" : "type-4",
    "size" : 8
   },
   {
-   "alignment" : 4,
-   "is_integral" : true,
-   "linker_set_key" : "int",
-   "name" : "int",
-   "referenced_type" : "type-3",
-   "self_type" : "type-3",
-   "size" : 4
-  },
-  {
-   "alignment" : 4,
-   "is_integral" : true,
-   "linker_set_key" : "long",
-   "name" : "long",
-   "referenced_type" : "type-13",
-   "self_type" : "type-13",
-   "size" : 4
-  },
-  {
    "alignment" : 8,
-   "linker_set_key" : "long double",
+   "linker_set_key" : "_ZTIe",
    "name" : "long double",
    "referenced_type" : "type-10",
    "self_type" : "type-10",
    "size" : 8
   },
   {
-   "alignment" : 8,
-   "is_integral" : true,
-   "linker_set_key" : "long long",
-   "name" : "long long",
-   "referenced_type" : "type-7",
-   "self_type" : "type-7",
-   "size" : 8
-  },
-  {
-   "alignment" : 2,
-   "is_integral" : true,
-   "linker_set_key" : "short",
-   "name" : "short",
-   "referenced_type" : "type-9",
-   "self_type" : "type-9",
-   "size" : 2
-  },
-  {
    "alignment" : 1,
    "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "unsigned char",
+   "linker_set_key" : "_ZTIh",
    "name" : "unsigned char",
    "referenced_type" : "type-5",
    "self_type" : "type-5",
@@ -87,8 +51,17 @@
   {
    "alignment" : 4,
    "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "referenced_type" : "type-3",
+   "self_type" : "type-3",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "unsigned int",
+   "linker_set_key" : "_ZTIj",
    "name" : "unsigned int",
    "referenced_type" : "type-1",
    "self_type" : "type-1",
@@ -97,38 +70,65 @@
   {
    "alignment" : 4,
    "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "referenced_type" : "type-13",
+   "self_type" : "type-13",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "unsigned long",
+   "linker_set_key" : "_ZTIm",
    "name" : "unsigned long",
    "referenced_type" : "type-8",
    "self_type" : "type-8",
    "size" : 4
   },
   {
-   "alignment" : 8,
+   "alignment" : 2,
    "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "unsigned long long",
-   "name" : "unsigned long long",
-   "referenced_type" : "type-15",
-   "self_type" : "type-15",
-   "size" : 8
+   "linker_set_key" : "_ZTIs",
+   "name" : "short",
+   "referenced_type" : "type-9",
+   "self_type" : "type-9",
+   "size" : 2
   },
   {
    "alignment" : 2,
    "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "unsigned short",
+   "linker_set_key" : "_ZTIt",
    "name" : "unsigned short",
    "referenced_type" : "type-6",
    "self_type" : "type-6",
    "size" : 2
   },
   {
-   "linker_set_key" : "void",
+   "linker_set_key" : "_ZTIv",
    "name" : "void",
    "referenced_type" : "type-2",
    "self_type" : "type-2"
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIx",
+   "name" : "long long",
+   "referenced_type" : "type-7",
+   "self_type" : "type-7",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIy",
+   "name" : "unsigned long long",
+   "referenced_type" : "type-15",
+   "self_type" : "type-15",
+   "size" : 8
   }
  ],
  "elf_functions" :
@@ -224,7 +224,7 @@
  [
   {
    "alignment" : 4,
-   "linker_set_key" : "const ACgroupController *",
+   "linker_set_key" : "_ZTIPK17ACgroupController",
    "name" : "const ACgroupController *",
    "referenced_type" : "type-11",
    "self_type" : "type-22",
@@ -233,7 +233,7 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "const ACgroupController *",
+   "linker_set_key" : "_ZTIPK17ACgroupController",
    "name" : "const ACgroupController *",
    "referenced_type" : "type-16",
    "self_type" : "type-18",
@@ -242,7 +242,7 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "const ACgroupController *",
+   "linker_set_key" : "_ZTIPK17ACgroupController",
    "name" : "const ACgroupController *",
    "referenced_type" : "type-20",
    "self_type" : "type-19",
@@ -251,7 +251,7 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "const ACgroupController *",
+   "linker_set_key" : "_ZTIPK17ACgroupController",
    "name" : "const ACgroupController *",
    "referenced_type" : "type-27",
    "self_type" : "type-26",
@@ -260,7 +260,7 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "const char *",
+   "linker_set_key" : "_ZTIPKc",
    "name" : "const char *",
    "referenced_type" : "type-24",
    "self_type" : "type-23",
@@ -273,7 +273,7 @@
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "const ACgroupController",
+   "linker_set_key" : "_ZTIK17ACgroupController",
    "name" : "const ACgroupController",
    "referenced_type" : "type-12",
    "self_type" : "type-11",
@@ -283,7 +283,7 @@
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "const ACgroupController",
+   "linker_set_key" : "_ZTIK17ACgroupController",
    "name" : "const ACgroupController",
    "referenced_type" : "type-17",
    "self_type" : "type-16",
@@ -293,7 +293,7 @@
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "const ACgroupController",
+   "linker_set_key" : "_ZTIK17ACgroupController",
    "name" : "const ACgroupController",
    "referenced_type" : "type-21",
    "self_type" : "type-20",
@@ -303,7 +303,7 @@
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "const ACgroupController",
+   "linker_set_key" : "_ZTIK17ACgroupController",
    "name" : "const ACgroupController",
    "referenced_type" : "type-28",
    "self_type" : "type-27",
@@ -313,7 +313,7 @@
   {
    "alignment" : 1,
    "is_const" : true,
-   "linker_set_key" : "const char",
+   "linker_set_key" : "_ZTIKc",
    "name" : "const char",
    "referenced_type" : "type-25",
    "self_type" : "type-24",
