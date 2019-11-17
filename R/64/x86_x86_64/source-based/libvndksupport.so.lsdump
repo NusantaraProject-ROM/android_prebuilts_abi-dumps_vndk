@@ -5,7 +5,7 @@
   {
    "alignment" : 1,
    "is_integral" : true,
-   "linker_set_key" : "char",
+   "linker_set_key" : "_ZTIc",
    "name" : "char",
    "referenced_type" : "type-5",
    "self_type" : "type-5",
@@ -14,14 +14,14 @@
   {
    "alignment" : 4,
    "is_integral" : true,
-   "linker_set_key" : "int",
+   "linker_set_key" : "_ZTIi",
    "name" : "int",
    "referenced_type" : "type-1",
    "self_type" : "type-1",
    "size" : 4
   },
   {
-   "linker_set_key" : "void",
+   "linker_set_key" : "_ZTIv",
    "name" : "void",
    "referenced_type" : "type-3",
    "self_type" : "type-3"
@@ -84,7 +84,7 @@
  [
   {
    "alignment" : 4,
-   "linker_set_key" : "const char *",
+   "linker_set_key" : "_ZTIPKc",
    "name" : "const char *",
    "referenced_type" : "type-4",
    "self_type" : "type-6",
@@ -93,7 +93,7 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "void *",
+   "linker_set_key" : "_ZTIPv",
    "name" : "void *",
    "referenced_type" : "type-3",
    "self_type" : "type-2",
@@ -106,7 +106,7 @@
   {
    "alignment" : 1,
    "is_const" : true,
-   "linker_set_key" : "const char",
+   "linker_set_key" : "_ZTIKc",
    "name" : "const char",
    "referenced_type" : "type-5",
    "self_type" : "type-4",

@@ -5,7 +5,7 @@
   {
    "alignment" : 1,
    "is_integral" : true,
-   "linker_set_key" : "char",
+   "linker_set_key" : "_ZTIc",
    "name" : "char",
    "referenced_type" : "type-9",
    "self_type" : "type-9",
@@ -15,7 +15,7 @@
    "alignment" : 4,
    "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "unsigned int",
+   "linker_set_key" : "_ZTIj",
    "name" : "unsigned int",
    "referenced_type" : "type-1",
    "self_type" : "type-1",
@@ -25,14 +25,14 @@
    "alignment" : 8,
    "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "unsigned long",
+   "linker_set_key" : "_ZTIm",
    "name" : "unsigned long",
    "referenced_type" : "type-2",
    "self_type" : "type-2",
    "size" : 8
   },
   {
-   "linker_set_key" : "void",
+   "linker_set_key" : "_ZTIv",
    "name" : "void",
    "referenced_type" : "type-3",
    "self_type" : "type-3"
@@ -131,7 +131,7 @@
  [
   {
    "alignment" : 8,
-   "linker_set_key" : "const ACgroupController *",
+   "linker_set_key" : "_ZTIPK17ACgroupController",
    "name" : "const ACgroupController *",
    "referenced_type" : "type-11",
    "self_type" : "type-10",
@@ -140,7 +140,7 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "const ACgroupController *",
+   "linker_set_key" : "_ZTIPK17ACgroupController",
    "name" : "const ACgroupController *",
    "referenced_type" : "type-4",
    "self_type" : "type-6",
@@ -149,7 +149,7 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "const char *",
+   "linker_set_key" : "_ZTIPKc",
    "name" : "const char *",
    "referenced_type" : "type-8",
    "self_type" : "type-7",
@@ -162,7 +162,7 @@
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "const ACgroupController",
+   "linker_set_key" : "_ZTIK17ACgroupController",
    "name" : "const ACgroupController",
    "referenced_type" : "type-12",
    "self_type" : "type-11",
@@ -172,7 +172,7 @@
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "const ACgroupController",
+   "linker_set_key" : "_ZTIK17ACgroupController",
    "name" : "const ACgroupController",
    "referenced_type" : "type-5",
    "self_type" : "type-4",
@@ -182,7 +182,7 @@
   {
    "alignment" : 1,
    "is_const" : true,
-   "linker_set_key" : "const char",
+   "linker_set_key" : "_ZTIKc",
    "name" : "const char",
    "referenced_type" : "type-9",
    "self_type" : "type-8",
