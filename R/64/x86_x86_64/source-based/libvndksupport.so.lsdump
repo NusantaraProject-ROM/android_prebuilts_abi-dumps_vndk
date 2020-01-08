@@ -7,8 +7,8 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIc",
    "name" : "char",
-   "referenced_type" : "type-5",
-   "self_type" : "type-5",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIc",
    "size" : 1
   },
   {
@@ -16,15 +16,15 @@
    "is_integral" : true,
    "linker_set_key" : "_ZTIi",
    "name" : "int",
-   "referenced_type" : "type-1",
-   "self_type" : "type-1",
+   "referenced_type" : "_ZTIi",
+   "self_type" : "_ZTIi",
    "size" : 4
   },
   {
    "linker_set_key" : "_ZTIv",
    "name" : "void",
-   "referenced_type" : "type-3",
-   "self_type" : "type-3"
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIv"
   }
  ],
  "elf_functions" :
@@ -47,7 +47,7 @@
   {
    "function_name" : "android_is_in_vendor_process",
    "linker_set_key" : "android_is_in_vendor_process",
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
   },
   {
@@ -56,13 +56,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "_ZTIPKc"
     },
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIi"
     }
    ],
-   "return_type" : "type-2",
+   "return_type" : "_ZTIPv",
    "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
   },
   {
@@ -71,10 +71,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-2"
+     "referenced_type" : "_ZTIPv"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIi",
    "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
   }
  ],
@@ -86,8 +86,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPKc",
    "name" : "const char *",
-   "referenced_type" : "type-4",
-   "self_type" : "type-6",
+   "referenced_type" : "_ZTIKc",
+   "self_type" : "_ZTIPKc",
    "size" : 4,
    "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
   },
@@ -95,8 +95,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPv",
    "name" : "void *",
-   "referenced_type" : "type-3",
-   "self_type" : "type-2",
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIPv",
    "size" : 4,
    "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
   }
@@ -108,8 +108,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKc",
    "name" : "const char",
-   "referenced_type" : "type-5",
-   "self_type" : "type-4",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIKc",
    "size" : 1,
    "source_file" : "/system/core/libvndksupport/include/vndksupport/linker.h"
   }

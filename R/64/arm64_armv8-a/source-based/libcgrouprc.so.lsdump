@@ -8,8 +8,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIc",
    "name" : "char",
-   "referenced_type" : "type-9",
-   "self_type" : "type-9",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIc",
    "size" : 1
   },
   {
@@ -18,8 +18,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIj",
    "name" : "unsigned int",
-   "referenced_type" : "type-1",
-   "self_type" : "type-1",
+   "referenced_type" : "_ZTIj",
+   "self_type" : "_ZTIj",
    "size" : 4
   },
   {
@@ -28,15 +28,15 @@
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIm",
    "name" : "unsigned long",
-   "referenced_type" : "type-2",
-   "self_type" : "type-2",
+   "referenced_type" : "_ZTIm",
+   "self_type" : "_ZTIm",
    "size" : 8
   },
   {
    "linker_set_key" : "_ZTIv",
    "name" : "void",
-   "referenced_type" : "type-3",
-   "self_type" : "type-3"
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIv"
   }
  ],
  "elf_functions" :
@@ -71,10 +71,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "_ZTIPK17ACgroupController"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "_ZTIPKc",
    "source_file" : "/system/core/libprocessgroup/cgrouprc/include/android/cgrouprc.h"
   },
   {
@@ -83,10 +83,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "_ZTIPK17ACgroupController"
     }
    ],
-   "return_type" : "type-7",
+   "return_type" : "_ZTIPKc",
    "source_file" : "/system/core/libprocessgroup/cgrouprc/include/android/cgrouprc.h"
   },
   {
@@ -95,10 +95,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-6"
+     "referenced_type" : "_ZTIPK17ACgroupController"
     }
    ],
-   "return_type" : "type-1",
+   "return_type" : "_ZTIj",
    "source_file" : "/system/core/libprocessgroup/cgrouprc/include/android/cgrouprc.h"
   },
   {
@@ -107,22 +107,22 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-1"
+     "referenced_type" : "_ZTIj"
     }
    ],
-   "return_type" : "type-10",
+   "return_type" : "_ZTIPK17ACgroupController#ODR:out/soong/.intermediates/system/core/libprocessgroup/cgrouprc/libcgrouprc/android_arm64_armv8-a_static/obj/system/core/libprocessgroup/cgrouprc/cgroup_file.sdump",
    "source_file" : "/system/core/libprocessgroup/cgrouprc/include/android/cgrouprc.h"
   },
   {
    "function_name" : "ACgroupFile_getControllerCount",
    "linker_set_key" : "ACgroupFile_getControllerCount",
-   "return_type" : "type-1",
+   "return_type" : "_ZTIj",
    "source_file" : "/system/core/libprocessgroup/cgrouprc/include/android/cgrouprc.h"
   },
   {
    "function_name" : "ACgroupFile_getVersion",
    "linker_set_key" : "ACgroupFile_getVersion",
-   "return_type" : "type-1",
+   "return_type" : "_ZTIj",
    "source_file" : "/system/core/libprocessgroup/cgrouprc/include/android/cgrouprc.h"
   }
  ],
@@ -134,8 +134,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPK17ACgroupController",
    "name" : "const ACgroupController *",
-   "referenced_type" : "type-11",
-   "self_type" : "type-10",
+   "referenced_type" : "_ZTIK17ACgroupController",
+   "self_type" : "_ZTIPK17ACgroupController",
    "size" : 8,
    "source_file" : "/system/core/libprocessgroup/cgrouprc/include/android/cgrouprc.h"
   },
@@ -143,8 +143,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPK17ACgroupController",
    "name" : "const ACgroupController *",
-   "referenced_type" : "type-4",
-   "self_type" : "type-6",
+   "referenced_type" : "_ZTIK17ACgroupController#ODR:out/soong/.intermediates/system/core/libprocessgroup/cgrouprc/libcgrouprc/android_arm64_armv8-a_static/obj/system/core/libprocessgroup/cgrouprc/cgroup_file.sdump",
+   "self_type" : "_ZTIPK17ACgroupController#ODR:out/soong/.intermediates/system/core/libprocessgroup/cgrouprc/libcgrouprc/android_arm64_armv8-a_static/obj/system/core/libprocessgroup/cgrouprc/cgroup_file.sdump",
    "size" : 8,
    "source_file" : "/system/core/libprocessgroup/cgrouprc/include/android/cgrouprc.h"
   },
@@ -152,8 +152,8 @@
    "alignment" : 8,
    "linker_set_key" : "_ZTIPKc",
    "name" : "const char *",
-   "referenced_type" : "type-8",
-   "self_type" : "type-7",
+   "referenced_type" : "_ZTIKc",
+   "self_type" : "_ZTIPKc",
    "size" : 8,
    "source_file" : "/system/core/libprocessgroup/cgrouprc/include/android/cgrouprc.h"
   }
@@ -165,18 +165,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIK17ACgroupController",
    "name" : "const ACgroupController",
-   "referenced_type" : "type-12",
-   "self_type" : "type-11",
-   "size" : 56,
-   "source_file" : "/system/core/libprocessgroup/cgrouprc/include/android/cgrouprc.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIK17ACgroupController",
-   "name" : "const ACgroupController",
-   "referenced_type" : "type-5",
-   "self_type" : "type-4",
+   "referenced_type" : "_ZTI17ACgroupController",
+   "self_type" : "_ZTIK17ACgroupController",
    "size" : 56,
    "source_file" : "/system/core/libprocessgroup/cgrouprc/include/android/cgrouprc.h"
   },
@@ -185,8 +175,8 @@
    "is_const" : true,
    "linker_set_key" : "_ZTIKc",
    "name" : "const char",
-   "referenced_type" : "type-9",
-   "self_type" : "type-8",
+   "referenced_type" : "_ZTIc",
+   "self_type" : "_ZTIKc",
    "size" : 1,
    "source_file" : "/system/core/libprocessgroup/cgrouprc/include/android/cgrouprc.h"
   }
