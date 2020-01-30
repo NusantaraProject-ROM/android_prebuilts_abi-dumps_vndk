@@ -6,56 +6,11 @@
    "alignment" : 1,
    "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "_ZTIb",
-   "name" : "bool",
-   "referenced_type" : "_ZTIb",
-   "self_type" : "_ZTIb",
-   "size" : 1
-  },
-  {
-   "alignment" : 1,
-   "is_integral" : true,
-   "is_unsigned" : true,
    "linker_set_key" : "_ZTIc",
    "name" : "char",
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIc",
    "size" : 1
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTId",
-   "name" : "double",
-   "referenced_type" : "_ZTId",
-   "self_type" : "_ZTId",
-   "size" : 8
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIe",
-   "name" : "long double",
-   "referenced_type" : "_ZTIe",
-   "self_type" : "_ZTIe",
-   "size" : 8
-  },
-  {
-   "alignment" : 1,
-   "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "_ZTIh",
-   "name" : "unsigned char",
-   "referenced_type" : "_ZTIh",
-   "self_type" : "_ZTIh",
-   "size" : 1
-  },
-  {
-   "alignment" : 4,
-   "is_integral" : true,
-   "linker_set_key" : "_ZTIi",
-   "name" : "int",
-   "referenced_type" : "_ZTIi",
-   "self_type" : "_ZTIi",
-   "size" : 4
   },
   {
    "alignment" : 4,
@@ -68,71 +23,18 @@
    "size" : 4
   },
   {
-   "alignment" : 4,
-   "is_integral" : true,
-   "linker_set_key" : "_ZTIl",
-   "name" : "long",
-   "referenced_type" : "_ZTIl",
-   "self_type" : "_ZTIl",
-   "size" : 4
-  },
-  {
-   "alignment" : 4,
-   "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "_ZTIm",
-   "name" : "unsigned long",
-   "referenced_type" : "_ZTIm",
-   "self_type" : "_ZTIm",
-   "size" : 4
-  },
-  {
-   "alignment" : 2,
-   "is_integral" : true,
-   "linker_set_key" : "_ZTIs",
-   "name" : "short",
-   "referenced_type" : "_ZTIs",
-   "self_type" : "_ZTIs",
-   "size" : 2
-  },
-  {
-   "alignment" : 2,
-   "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "_ZTIt",
-   "name" : "unsigned short",
-   "referenced_type" : "_ZTIt",
-   "self_type" : "_ZTIt",
-   "size" : 2
-  },
-  {
    "linker_set_key" : "_ZTIv",
    "name" : "void",
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIv"
-  },
-  {
-   "alignment" : 8,
-   "is_integral" : true,
-   "linker_set_key" : "_ZTIx",
-   "name" : "long long",
-   "referenced_type" : "_ZTIx",
-   "self_type" : "_ZTIx",
-   "size" : 8
-  },
-  {
-   "alignment" : 8,
-   "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "_ZTIy",
-   "name" : "unsigned long long",
-   "referenced_type" : "_ZTIy",
-   "self_type" : "_ZTIy",
-   "size" : 8
   }
  ],
  "elf_functions" :
  [
+  {
+   "binding" : "weak",
+   "name" : "ACgroupController_getFlags"
+  },
   {
    "name" : "ACgroupController_getName"
   },
@@ -157,6 +59,18 @@
  "function_types" : [],
  "functions" :
  [
+  {
+   "function_name" : "ACgroupController_getFlags",
+   "linker_set_key" : "ACgroupController_getFlags",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK17ACgroupController"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "/system/core/libprocessgroup/cgrouprc/include/android/cgrouprc.h"
+  },
   {
    "function_name" : "ACgroupController_getName",
    "linker_set_key" : "ACgroupController_getName",
@@ -228,15 +142,6 @@
    "name" : "const ACgroupController *",
    "referenced_type" : "_ZTIK17ACgroupController",
    "self_type" : "_ZTIPK17ACgroupController",
-   "size" : 4,
-   "source_file" : "/system/core/libprocessgroup/cgrouprc/include/android/cgrouprc.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIPK17ACgroupController",
-   "name" : "const ACgroupController *",
-   "referenced_type" : "_ZTIK17ACgroupController#ODR:out/soong/.intermediates/system/core/libprocessgroup/cgrouprc/libcgrouprc/android_arm_armv7-a-neon_static/obj/system/core/libprocessgroup/cgrouprc/cgroup_controller.sdump",
-   "self_type" : "_ZTIPK17ACgroupController#ODR:out/soong/.intermediates/system/core/libprocessgroup/cgrouprc/libcgrouprc/android_arm_armv7-a-neon_static/obj/system/core/libprocessgroup/cgrouprc/cgroup_controller.sdump",
    "size" : 4,
    "source_file" : "/system/core/libprocessgroup/cgrouprc/include/android/cgrouprc.h"
   },
