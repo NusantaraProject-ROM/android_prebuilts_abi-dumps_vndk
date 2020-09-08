@@ -875,6 +875,10 @@
    "name" : "_ZN7android14IPCThreadState4selfEv"
   },
   {
+   "binding" : "weak",
+   "name" : "_ZN7android14IPCThreadState6freezeEibj"
+  },
+  {
    "name" : "_ZN7android14IPCThreadState7processEv"
   },
   {
@@ -10885,6 +10889,24 @@
    "function_name" : "android::IPCThreadState::self",
    "linker_set_key" : "_ZN7android14IPCThreadState4selfEv",
    "return_type" : "_ZTIPN7android14IPCThreadStateE",
+   "source_file" : "/frameworks/native/libs/binder/include/binder/IPCThreadState.h"
+  },
+  {
+   "function_name" : "android::IPCThreadState::freeze",
+   "linker_set_key" : "_ZN7android14IPCThreadState6freezeEibj",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/binder/include/binder/IPCThreadState.h"
   },
   {
