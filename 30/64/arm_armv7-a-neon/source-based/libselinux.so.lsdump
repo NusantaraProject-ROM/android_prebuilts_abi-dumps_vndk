@@ -200,6 +200,9 @@
    "name" : "selinux_set_callback"
   },
   {
+   "name" : "selinux_status_getenforce"
+  },
+  {
    "name" : "selinux_status_open"
   },
   {
@@ -1001,6 +1004,12 @@
     }
    ],
    "return_type" : "_ZTIv",
+   "source_file" : "/external/selinux/libselinux/include/selinux/selinux.h"
+  },
+  {
+   "function_name" : "selinux_status_getenforce",
+   "linker_set_key" : "selinux_status_getenforce",
+   "return_type" : "_ZTIi",
    "source_file" : "/external/selinux/libselinux/include/selinux/selinux.h"
   },
   {

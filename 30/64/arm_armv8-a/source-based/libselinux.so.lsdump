@@ -18,7 +18,7 @@
    "is_integral" : true,
    "is_unsigned" : true,
    "linker_set_key" : "_ZTIb",
-   "name" : "bool",
+   "name" : "_Bool",
    "referenced_type" : "_ZTIb",
    "self_type" : "_ZTIb",
    "size" : 1
@@ -198,6 +198,9 @@
   },
   {
    "name" : "selinux_set_callback"
+  },
+  {
+   "name" : "selinux_status_getenforce"
   },
   {
    "name" : "selinux_status_open"
@@ -1004,6 +1007,12 @@
    "source_file" : "/external/selinux/libselinux/include/selinux/selinux.h"
   },
   {
+   "function_name" : "selinux_status_getenforce",
+   "linker_set_key" : "selinux_status_getenforce",
+   "return_type" : "_ZTIi",
+   "source_file" : "/external/selinux/libselinux/include/selinux/selinux.h"
+  },
+  {
    "function_name" : "selinux_status_open",
    "linker_set_key" : "selinux_status_open",
    "parameters" :
@@ -1201,7 +1210,7 @@
    "referenced_type" : "_ZTI14selabel_handle",
    "self_type" : "_ZTIP14selabel_handle",
    "size" : 4,
-   "source_file" : "/external/selinux/libselinux/include/selinux/android.h"
+   "source_file" : "/external/selinux/libselinux/include/selinux/label.h"
   },
   {
    "alignment" : 4,
